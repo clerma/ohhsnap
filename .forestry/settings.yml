@@ -1,7 +1,4 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: 
@@ -29,7 +26,7 @@ build:
   - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/node:16
+  preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
