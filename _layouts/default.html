@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+<script type="text/javascript">var jslang='EN';</script>
+<meta charset="utf-8" />
+<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/{{site.favicon}}" title="Ohh Snap! Lafayette Photo Booth Favicon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="robots" content="all" />
+<!-- Schema other -->
+{% seo %}
+
+<!-- Styles -->
+{% include head.html %}
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+</head>
+<body class="presentation-page">
+  
+<div class="modal fade"  id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  {% include gallerymodal.html %}
+</div>	
+  
+{% include nav.html %}
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
+			<div class="carousel slide" data-ride="carousel">
+			<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+						<div class="item active">
+						<div class="page-header header-filter" style="background-image: url('img/FavoritesWeb/10.jpg');background-position: 30% 60%;">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title" style="text-transform: uppercase;">Ohh Snap! Photo Booth</h1>
+										<h2> A modern version of the traditional photo booth.</h2>
+										<a href="contact-ohh-snap-photobooth.html" class="btn btn-primary btn-round">Book NOW</a>
+										
+									</div>
+								</div>
+							</div>
+
+				        </div>
+
+					</div>
+					<div class="item">
+						<div class="page-header header-filter" style="background-image: url('img/FavoritesWeb-large/FavoritesWeb02.JPG');">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title">Find Your Photos </h1>
+										<h4>Check out our <a href="http://facebook.com/ohhsnapbooth" title="Ohh Snap Facebook Account" target="_blank"> Facebook</a> page or our online<a href="http://gallery.ohhsnapbooth.com" title="Ohh Snap Online gallery" target="_blank"> gallery</a> to view and download photos from your event.</h4>
+										<br>
+										<div class="hidden-xs">
+											<h6 style="color: white !important;">Connect with us on:</h6>
+											<div class="buttons">
+												<a href="http://twitter.com/ohhsnapbooth" class="btn btn-just-icon btn-white btn-simple btn-lg">
+													<i class="fa fa-twitter"></i>
+												</a>
+												<a href="http://facebook.com/ohhsnapbooth" target="_blank" class="btn btn-just-icon btn-white btn-simple btn-lg">
+													<i class="fa fa-facebook-square"></i>
+												</a>
+												
+												<a href="http://instagram.com/ohhsnapbooth" class="btn btn-just-icon btn-white btn-simple btn-lg">
+													<i class="fa fa-instagram"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+				        </div>
+
+					</div>
+
+					<div class="item">
+						<div class="page-header header-filter" style="background-image: url('img/2.jpg');">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title">NEW mermaid backdrops</h1>
+										<h4>These are one of a kind mermaid backdrops with double sided sequins so you can create your own wording or design for your photo!</h4>
+										
+										
+									</div>
+								</div>
+							</div>
+
+				        </div>
+
+					</div>
+
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					<i class="material-icons">keyboard_arrow_left</i>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					<i class="material-icons">keyboard_arrow_right</i>
+				</a>
+			</div>
+		</div>
+
+	
+
+    <div class="main main-raised">
+		  {{ content }}
+	</div>
+	  
+	   {% include footer.html %}    
+	   {% include scripts.html %}         	
+					
+</body>
+</html>

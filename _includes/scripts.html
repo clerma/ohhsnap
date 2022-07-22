@@ -1,0 +1,86 @@
+	<!--   Core JS Files   -->
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<button class="material-scrolltop" type="button"></button>
+	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-505096ac5250633e"></script>
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<script src="assets/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-selectpicker.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-tagsinput.js"></script>
+	<script src="assets/js/jasny-bootstrap.min.js"></script>
+	
+	<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+	<script src="assets/js/jasny-bootstrap.min.js"></script>
+	<script src="assets/js/atv-img-animation.js" type="text/javascript"></script>
+	<script src="assets/js/material-scrolltop.js"></script>
+
+	<script src="assets/js/jquery.flexisel.js"></script>
+	<script src="assets/js/bca-login.js"></script>
+	<script src="assets/js/bca-pw-reset.js"></script>
+	
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+  
+  $(document).ready(function() {
+	$('.zoom-gallery').magnificPopup({
+	  delegate: 'a',
+	  type: 'image',
+	  closeOnContentClick: false,
+	  closeBtnInside: false,
+	  mainClass: 'mfp-with-zoom mfp-img-mobile',
+	  image: {
+		verticalFit: true,
+		titleSrc: function(item) {
+		  return item.el.attr('title');
+		}
+	  },
+	  gallery: {
+		enabled: true
+	  },
+	  zoom: {
+		enabled: true,
+		duration: 300, // don't foget to change the duration also in CSS
+		opener: function(element) {
+		  return element.find('img');
+		}
+	  }
+	  
+	});
+	
+	materialKit.initFormExtendedDatetimepickers();
+   
+		$("#flexiselDemo1").flexisel({
+			visibleItems: 4,
+			itemsToScroll: 1,
+			animationSpeed: 400,
+			enableResponsiveBreakpoints: true,
+			responsiveBreakpoints: {
+				portrait: {
+					changePoint:480,
+					visibleItems: 3
+				},
+				landscape: {
+					changePoint:640,
+					visibleItems: 3
+				},
+				tablet: {
+					changePoint:768,
+					visibleItems: 3
+				}
+			}
+		});
+	  });
+		</script>
+		  
+<script>
+	$('body').materialScrollTop();
+</script>
+
+  <script async defer data-pin-hover="true" data-pin-tall="true" data-pin-round="true" src="https://assets.pinterest.com/js/pinit.js"></script>				
