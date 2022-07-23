@@ -4,6 +4,23 @@
     {% include head.html %}
     <!-- Schema other -->
     {% seo %}
+<meta name="keywords" content="{{page.keywords}}">
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1675978205753441'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
   </head>
   <body>
   {% include gallerymodal.html %}
@@ -14,11 +31,42 @@
     <section class="hero">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg">
-      <source src="/assets/img/ohh-snap-small.mp4" type="video/mp4">
-      <img src="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg" title="Ohh Snap Booth Promo Video Backup">
+      <source src="{{ site.baseurl }}/assets/img/ohh-snap-small.mp4" type="video/mp4">
+      <img src="{{ site.baseurl }}/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg" title="Ohh Snap Booth Promo Video Backup">
     </video>
      {% when 'about' -%}
-     test
+     <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{ site.baseurl }}/assets/img/career/hero.jpg);">
+       <div class="py-10 py-md-12 bg-dark-50">
+         <div class="container-lg">
+           <div class="row justify-content-center">
+             <div class="col-md-10 col-lg-8 text-center text-white">
+     
+               <!-- Preheading -->
+               <h6 class="text-uppercase mb-5">
+                 About Ohh Snap! Photo Booth
+               </h6>
+     
+               <!-- Heading -->
+               <h1 class="display-3 mb-4">
+                Lafayette Photo Experience
+               </h1>
+     
+               <!-- Text -->
+               <p class="fs-lg">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
+               </p>
+     
+               <!-- Button -->
+               <a class="btn btn-primary" href="#!">
+                 View Open Roles
+               </a>
+     
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
     {% endcase %}
     <!-- The header content -->
     <div class="container h-100">

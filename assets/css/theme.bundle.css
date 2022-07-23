@@ -8221,7 +8221,7 @@ textarea.form-control-lg {
     color: #564caf!important
 }
 .text-primary-light {
-    color: #687ded!important
+    color: #27AAE1!important
 }
 .text-white {
     color: #fff!important
@@ -8335,7 +8335,7 @@ textarea.form-control-lg {
     background-color: transparent!important
 }
 .bg-dark-50 {
-    background-color: rgba(27, 22, 66, .5)!important
+    background-color: rgba(14, 48, 131, .5)!important
 }
 .bg-gray-900 {
     background-color: #0a235f!important
@@ -17583,7 +17583,7 @@ a.badge.bg-primary-light-soft:focus, a.badge.bg-primary-light-soft:hover {
     border-color: transparent!important
 }
 .btn-primary:focus, .btn-primary:hover {
-    background-color: #1C75BC
+    background-color: #0e3083
 }
 .btn-secondary:focus, .btn-secondary:hover {
     background-color: #4f516f
@@ -17607,10 +17607,10 @@ a.badge.bg-primary-light-soft:focus, a.badge.bg-primary-light-soft:hover {
     background-color: #151133
 }
 .btn-primary-dark:focus, .btn-primary-dark:hover {
-    background-color: #4f46a1
+    background-color: #0e3083
 }
 .btn-primary-light:focus, .btn-primary-light:hover {
-    background-color: #566deb
+    background-color: #27AAE1
 }
 .btn-white {
     box-shadow: 0 0 6px rgba(27, 22, 66, .03), 0 14px 24px rgba(27, 22, 66, .06);
