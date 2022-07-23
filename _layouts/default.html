@@ -9,14 +9,17 @@
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
     {% include nav.html %}
-   
+   {% case page.pagename -%}
+   {% when 'about' -%}
     <section class="hero">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg">
       <source src="/assets/img/ohh-snap-small.mp4" type="video/mp4">
       <img src="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg" title="Ohh Snap Booth Promo Video Backup">
     </video>
-    
+     {% when 'home' -%}
+     test
+    {% endcase %}
     <!-- The header content -->
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
