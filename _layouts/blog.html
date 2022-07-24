@@ -26,7 +26,8 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
 
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
-   {% include nav.html %}
+    {% capture pagenamevar %}{{page.pagename}}{% endcapture %}
+   {% include nav.html var=pagenamevar %}
    {% case page.pagename -%}
    {% when 'home' -%}
     <section class="hero">
@@ -35,16 +36,7 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
       <source src="{{ site.baseurl }}/assets/img/ohh-snap-small.mp4" type="video/mp4">
       <img src="{{ site.baseurl }}/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg" title="Ohh Snap Booth Promo Video Backup">
     </video>
-    <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100 text-white">
-          <h1 class="display-3 fw-bolder lh-base">Ohh Snap! Photo Booth</h1>
-          <h4 class="lead">{% if page.location %}{{page.location}}'s{% endif %} Modern versions of the traditional photo booth.</h4>
-        </div>
-      </div>
-    </div>
     </section>
-    
      {% when 'about' -%}
      <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{ site.baseurl }}/assets/img/career/hero.jpg);">
        <div class="py-10 py-md-12 bg-dark-50">
@@ -77,9 +69,9 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
          </div>
        </div>
      </section>
-    {% else %}
-    {% endcase %}
-  
+     {% else %}
+
+  {% endcase %}
     {{ content }}
    
     <!-- FOOTER -->
