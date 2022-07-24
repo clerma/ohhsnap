@@ -1,9 +1,9 @@
 <!-- begin post -->
 {% assign author = site.authors[post.author] %}
  <!-- Card -->
-<div class="card card-sm rounded-top-start rounded-bottom-end lift lift-lg mt-6">
+<div class="card card-sm rounded-top-start rounded-bottom-end lift lift-lg d-flex h-100">
   <!-- Image -->
- {% if post.image %}  <img class="card-img-top rounded-top-start" style=" max-height: 250px;object-fit: contain;object-fit: cover;object-position: top;" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ post.title }}">{% endif %}
+ {% if post.image %}  <img class="card-img-top bloglistimg rounded-top-start" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">{% endif %}
   <!-- Body -->
   <div class="card-body">
     <!-- Heading -->
@@ -14,20 +14,7 @@
     <p class="fs-sm mb-4">
       {{ post.excerpt | strip_html | truncatewords:15 }}
     </p>
-    <!-- Footer -->
-    <div class="d-flex align-items-center">
-      <!-- Body -->
-      {% if post.author %}
-      <div class="ms-4 text-start">
-        <!-- Title -->
-        <p class="small mb-0">
-         {% if post.author %}{{ author.display_name }}{% else %}{{ site.author }}{% endif %}
-        </p>
-        <!-- Position -->
-      </div>
-      {% endif %}
-    </div>
-    <!-- Link -->
+   
     <a class="stretched-link" href="{{ post.url | absolute_url }}"></a>
 
   </div>
