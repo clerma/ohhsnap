@@ -26,8 +26,7 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
 
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
-    {% capture pagenamevar %}{{page.pagename}}{% endcapture %}
-   {% include nav.html var=pagenamevar %}
+   {% include nav.html %}
    {% case page.pagename -%}
    {% when 'home' -%}
     <section class="hero">
