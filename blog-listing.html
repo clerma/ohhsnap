@@ -6,6 +6,7 @@ layout: default
 pagename: bloglist
 location: Lafayette
 ---
+   {% assign sortedCategories = page.categories | sort %}
     <!-- WELCOME -->
     <section class="pt-6 pt-md-11 bg-dark">
       <div class="container-lg">
@@ -55,7 +56,8 @@ location: Lafayette
       <div class="container-lg">
         <div class="row mt-n6">
           {% for post in site.posts limit:3 %}
-            {% if post.featured != true %}
+          {% assign sortedCategories = page.categories | sort %}
+            {% if page.categories  != true %}
               <div class="col-md-4">
           {% include postbox.html %}
           </div>
@@ -65,8 +67,8 @@ location: Lafayette
         </div>
       </div>
     </section>
-    {% for post in site.posts %}
-    {% if post.featured == true %}
+   
+    
     <!-- Featured Post -->
     <section class="pt-9 pt-md-11">
       <div class="container-lg">
@@ -156,8 +158,8 @@ location: Lafayette
         </div>
       </div>
     </section>
-    {% endif %}
-    {% endfor %}
+    
+    
     <!-- USER EXPERIENCE -->
     <section class="pt-9 pt-md-11">
       <div class="container-lg">

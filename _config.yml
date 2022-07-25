@@ -16,7 +16,7 @@ defaults:
     layout: post
     permalink: "/posts/:title/"
 - scope:
-    path: ''
+    path: 'uploads'
     type: pages
   values:
     layout: blog
