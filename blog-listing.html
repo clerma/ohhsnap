@@ -6,7 +6,7 @@ layout: default
 pagename: bloglist
 location: Lafayette
 ---
-   {% assign sortedCategories = page.categories | sort %}
+
     <!-- WELCOME -->
     <section class="pt-6 pt-md-11 bg-dark">
       <div class="container-lg">
@@ -55,13 +55,10 @@ location: Lafayette
     <section class="pt-10 pt-md-12">
       <div class="container-lg">
         <div class="row mt-n6">
-          {% for post in site.posts limit:3 %}
-          {% assign sortedCategories = page.categories | sort %}
-            {% if page.categories  != true %}
+          {% for post in site.posts limit:3 %}    
               <div class="col-md-4">
           {% include postbox.html %}
           </div>
-          {% endif %}
           {% endfor %}
          
         </div>
@@ -94,10 +91,10 @@ location: Lafayette
             <!-- Card -->
             <div class="card card-lg rounded-top-start rounded-bottom-end lift lift-lg">
               <div class="row gx-0">
-                <div class="col-md-6 bg-cover rounded-top-start my-n2" style="background-image: url(assets/img/blog/post-side-header-1.png); background-position: center right;">
+                <div class="col-md-6 bg-cover rounded-top-start my-n2" style="background-image: url({{ site.baseurl }}/assets/img/blog/post-side-header-1.png); background-position: center right;">
 
                   <!-- Image (placeholder) -->
-                  <img class="img-fluid invisible" src="assets/img/blog/post-side-header-1.png" alt="...">
+                  <img class="img-fluid" src="{{ site.baseurl }}/assets/img/blog/post-side-header-1.png" alt="...">
 
                 </div>
                 <div class="col-md-6">
@@ -120,31 +117,6 @@ location: Lafayette
                       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Unde omnis iste natus error sit voluptatem.
                     </p>
 
-                    <!-- Footer -->
-                    <div class="d-flex align-items-center">
-
-                      <!-- Avatar -->
-                      <div class="avatar avatar-xs">
-                        <img class="avatar-img rounded-circle" src="assets/img/avatars/avatar-1.jpg" alt="...">
-                      </div>
-
-                      <!-- Body -->
-                      <div class="ms-4 text-start">
-
-                        <!-- Title -->
-                        <p class="mb-0">
-                          Katie Williams
-                        </p>
-
-                        <!-- Position -->
-                        <p class="small text-muted mt-n1 mb-0">
-                          May 03, 2020
-                        </p>
-
-                      </div>
-
-                    </div>
-
                     <!-- Link -->
                     <a class="stretched-link" href="blog-post.html"></a>
 
@@ -164,12 +136,13 @@ location: Lafayette
     <section class="pt-9 pt-md-11">
       <div class="container-lg">
         <div class="row align-items-center mb-6">
-         {% for post in site.posts offset:3 %}
-           {% if post.featured != true %}
+         {% for post in site.posts limit: 3 offset: continue %}
+           
+           {{post.tags}}
              <div class="col-md-4">
              {% include postbox.html %}
          </div>
-         {% endif %}
+ 
          {% endfor %}
         </div>
        
