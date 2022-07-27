@@ -135,11 +135,11 @@ location: Lafayette
       <div class="container-lg">
         <div class="row align-items-center mb-6">
          {% for post in site.tags limit: 3 offset: continue %}
-            {% if site.tags != "featured" %}
+
              <div class="col-md-4">
              {% include postbox.html %}
               </div>
-          {% endif %}
+
          {% endfor %}
         </div>
        
