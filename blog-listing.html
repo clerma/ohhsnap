@@ -55,7 +55,7 @@ location: Lafayette
     <section class="pt-10 pt-md-12">
       <div class="container-lg">
         <div class="row mt-n6">
-          {% for post in site.tags limit:3 %} 
+          {% for post in site.posts limit:3 %} 
             
            
               <div class="col-md-4">
@@ -134,12 +134,12 @@ location: Lafayette
     <section class="pt-9 pt-md-11">
       <div class="container-lg">
         <div class="row align-items-center mb-6">
-         {% for post in site.tags limit: 3 offset: continue %}
-
+         {% for post in site.posts limit: 3 offset: continue %}
+          
              <div class="col-md-4">
              {% include postbox.html %}
               </div>
-
+         
          {% endfor %}
         </div>
        
