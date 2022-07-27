@@ -65,6 +65,7 @@ location: Lafayette
       </div>
     </section>
    
+{% for post in site.tags.featured %} 
 
     <!-- Featured Post -->
     <section class="pt-9 pt-md-11">
@@ -123,7 +124,8 @@ location: Lafayette
         </div>
       </div>
     </section>
- 
+
+    {% endfor %}
     
     <!-- USER EXPERIENCE -->
     <section class="pt-9 pt-md-11">
