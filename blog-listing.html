@@ -58,6 +58,7 @@ location: Lafayette
           {% for post in site.posts limit:3 %}  
           {% if site.tags.featured %}{% assign site.tags.featured = true %}{% endif %}
           {% if site.tags.featured != true %}
+          {{site.tags.featured}}
               <div class="col-md-4">
                  {% include postbox.html %}
               </div>
