@@ -55,10 +55,13 @@ location: Lafayette
     <section class="pt-10 pt-md-12">
       <div class="container-lg">
         <div class="row mt-n6">
-          {% for post in site.posts limit:3 %}    
+          {% for post in site.posts limit:3 %} 
+            {% if site.tags.featured %}
+            {% else %}
               <div class="col-md-4">
                  {% include postbox.html %}
               </div>
+              {% endif %}
           {% endfor %}
          
         </div>
@@ -133,11 +136,12 @@ location: Lafayette
         <div class="row align-items-center mb-6">
          {% for post in site.posts limit: 3 offset: continue %}
            
-           {{post.tags}}
+          {% if site.tags.featured %}
+            {% else %}
              <div class="col-md-4">
              {% include postbox.html %}
-         </div>
- 
+              </div>
+          {% endif %}
          {% endfor %}
         </div>
        
