@@ -74,9 +74,9 @@ location: Lafayette
           <div class="col-12">
 
             <!-- Heading -->
-            <h1 class="mb-0">
-              {{ post.title }}
-            </h1>
+            <h6 class="h1 mb-0">
+              Featured Post
+            </h6>
 
             <!-- Text -->
             <p class="text-gray-600">
@@ -95,7 +95,7 @@ location: Lafayette
                 <div class="col-md-6 bg-cover rounded-top-start my-n2" style="background-image: url({{ site.baseurl }}/assets/img/blog/post-side-header-1.png); background-position: center right;">
 
                   <!-- Image (placeholder) -->
-                  <img class="img-fluid" src="{{ site.baseurl }}/assets/img/blog/post-side-header-1.png" alt="...">
+                  <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt=" {{ post.title }}">
 
                 </div>
                 <div class="col-md-6">
@@ -110,16 +110,16 @@ location: Lafayette
 
                     <!-- Heading -->
                     <h2 class="display-4 mb-4">
-                      Designing for a simpler future.
+                      {{ post.title }}
                     </h2>
 
                     <!-- Text -->
                     <p class="mb-4">
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Unde omnis iste natus error sit voluptatem.
+                       {{ post.excerpt | strip_html | truncatewords:15 }}
                     </p>
 
                     <!-- Link -->
-                    <a class="stretched-link" href="blog-post.html"></a>
+                    <a class="stretched-link" href="{{ post.url | absolute_url }}"></a>
 
                   </div>
 
