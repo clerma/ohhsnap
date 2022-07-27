@@ -55,14 +55,10 @@ location: Lafayette
     <section class="pt-10 pt-md-12">
       <div class="container-lg">
         <div class="row mt-n6">
-          {% for post in site.posts limit:3 %}  
-          {% if site.tags.featured %}{% assign site.tags.featured = true %}{% endif %}
-          {% if site.tags.featured != true %}
-          {{site.tags.featured}}
+          {% for post in site.posts limit:3 %}    
               <div class="col-md-4">
                  {% include postbox.html %}
               </div>
-          {% endif %}
           {% endfor %}
          
         </div>
