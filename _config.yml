@@ -12,13 +12,13 @@ defaults:
 - scope:
     path: 'uploads'
     type: posts
-  values:
+    values:
     layout: post
     permalink: "/posts/:title/"
 - scope:
     path: 'uploads'
     type: pages
-  values:
+    values:
     layout: blog
 permalink: pretty
 plugins:
