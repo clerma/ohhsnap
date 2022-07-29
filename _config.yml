@@ -1,6 +1,19 @@
 ---
 title: Ohh Snap Photo Booth
 timezone: America/Chicago
+_collection_groups:
+  - heading: Content
+    collections:
+      - pages
+      - projects
+      - testimonials
+  - heading: Blogging
+    collections:
+      - posts
+      - drafts
+  - heading: Settings
+    collections:
+      - data
 permalink: pretty
 plugins:
 - jekyll-paginate
