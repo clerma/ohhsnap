@@ -47,6 +47,15 @@ section.hero .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+.menu-icons{
+  height: 3em;
+  width: 2em;
+}
+.dropdown-menu-body i {
+  font-size: 1.5em;
+  width: 1.25em;
+
+}
 .bloglistimg{height:250px;object-fit: cover;object-position: top}
 /* Media Query for devices withi coarse pointers and no hover functionality */
 

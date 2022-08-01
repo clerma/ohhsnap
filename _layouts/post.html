@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: bloglayout
 disqus: true
 archive: false
 post_class: post-template
@@ -23,7 +23,7 @@ pagename: blogpost
 
             <!-- Preheading -->
             <h6 class="font-sans-serif text-warning mb-5">
-              {% assign sortedCategories = page.categories %}{% for category in sortedCategories %}  <a href="{{ site.baseurl }}/categories#{{ category | slugify }}" class="text-warning">{{ category }}</a>  {% endfor %}
+              {% assign sortedCategories = page.categories %}{% for category in sortedCategories %}  <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="text-warning">{{ category }}</a>  {% endfor %}
             </h6>
 
             <!-- Heading -->
