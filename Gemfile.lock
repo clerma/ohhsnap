@@ -74,6 +74,8 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  http_parser.rb (~> 0.6.0)
+  jekyll (~> 4.2.2)
   jekyll-archives
   jekyll-feed
   jekyll-paginate
