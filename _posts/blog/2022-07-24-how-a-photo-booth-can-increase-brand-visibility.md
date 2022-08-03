@@ -13,7 +13,7 @@ categories:
   - featured
 tags: 
   - featured
-image: uploads/2017-4-28-69091.jpg
+image: /uploads/2017-4-28-69091.jpg
 ---
 Photo booths are more than just fun additions at weddings and parties, but can really make an impact for businesses when used right. Having a photo booth at a corporate party or event can greatly increase the brand’s visibility and help them market their brand to others since social media users share their photo booth photos with their friends and followers, thus helping spread the word on the brand.&nbsp;
 
