@@ -12,8 +12,8 @@ permalink: "/blog/"
     <section class="pt-6 pt-md-11 bg-dark">
       <div class="container-lg">
         <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8 text-center text-white">
-
+          <div class="col-md-10 col-lg-12 text-white">
+            <div class="text-center col-lg-8 mx-auto">
             <!-- Preheading -->
             <h6 class="text-uppercase text-warning mb-5">
               News from us
@@ -28,16 +28,9 @@ permalink: "/blog/"
             <p class="fs-lg">
              A collection of articles of past events and resources on how to maximize a photo booth for activations outside of the typical wedding or party. 
             </p>
-
+            </div>
             <!-- Form -->
-            <form class="mx-auto text-white" style="max-width: 462px;">
-              <div class="input-group">
-                <span class="input-group-text" id="search">
-                  <i class="fe fe-search"></i>
-                </span>
-                <input type="text" class="form-control" placeholder="Search for keyword or topic" aria-label="Search" aria-describedby="search">
-              </div>
-            </form>
+           {% include search-form.html %}
 
           </div>
         </div>
@@ -53,7 +46,7 @@ permalink: "/blog/"
     </div>
 
     <!-- POSTS -->
-    <section class="pt-10 pt-md-12">
+    <section class="pt-10 pt-md-12 posts">
       <div class="container-lg">
         <div class="row mt-n6">
             
@@ -73,7 +66,7 @@ permalink: "/blog/"
 {% for post in site.tags.featured %} 
 
     <!-- Featured Post -->
-    <section class="pt-9 pt-md-11">
+    <section class="pt-9 pt-md-11 posts">
       <div class="container-lg">
         <div class="row">
           <div class="col-12">
@@ -133,7 +126,7 @@ permalink: "/blog/"
     {% endfor %}
     
     <!-- USER EXPERIENCE -->
-    <section class="pt-9 pt-md-11">
+    <section class="pt-9 pt-md-11 posts">
       <div class="container-lg">
         <div class="row align-items-center mb-6">
          {% for post in site.posts limit: 3 offset: continue %}
