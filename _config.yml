@@ -12,7 +12,7 @@ collections:
 uploads:
   title: Uploads
   output: true
-  permalink: "uploads/:title" # replace "images" with the name of your choice
+  permalink: "img/uploads/:title" # replace "images" with the name of your choice
   
 defaults:
 -
@@ -53,7 +53,7 @@ defaults:
     type: pages
     path: _pages/index.html
   values:
-    permalink: /
+    permalink: 
 -
   scope:
     type: posts

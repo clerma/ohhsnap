@@ -8,8 +8,11 @@
 	<input type="text" id="search-input" class="form-control" placeholder="Search for keyword or topic" autofocus>
 	</div>
 </div>
+<div class="container-lg">
+
 <div class="row" id="results-container"></div>
 
+</div>
 <!-- Grab search-script.js -->
 <script src="../assets/js/search-script.js" type="text/javascript"></script>
 
@@ -19,6 +22,6 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '../search.json',
-  searchResultTemplate: '<div class="card mt-5 col-md-4 card-sm rounded-top-start rounded-bottom-end lift lift-lg d-flex h-100 text-dark text-left px-0 mx-4"><img class="card-img-top bloglistimg rounded-top-start" src="/{img}"><div class="card-body"><h2 class="mb-2">{title}</h2> <p class="fs-sm mb-4">{description}</p><a class="stretched-link" href="{url}"></a></div></div>'
+  searchResultTemplate: '<div class="col-md-4 mb-4"><div class="card mt-5 card-sm rounded-top-start rounded-bottom-end lift lift-lg d-flex h-100 text-dark text-left px-0  pb-2"><img class="card-img-top bloglistimg rounded-top-start" src="/{img}"><div class="card-body"><h2 class="mb-2">{title}</h2> <p class="fs-sm mb-4">{description}</p><a class="stretched-link" href="{url}"></a></div></div></div>'
 })
 </script>
