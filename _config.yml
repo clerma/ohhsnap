@@ -8,7 +8,12 @@ relative_permalinks: false
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
-
+collections:
+uploads:
+  title: Uploads
+  output: true
+  permalink: "uploads/:title" # replace "images" with the name of your choice
+  
 defaults:
 -
   scope:
@@ -17,9 +22,9 @@ defaults:
     layout: default
     _options:
       content: &content_defaults
-        uploads_dir: "/images/uploads/:title"
+        uploads_dir: "uploads/:title"
         format: p h1 h2 h3 h4 h5 h6 div
-        styles: /assets/cms-styles.css
+        styles: /assets/css/theme.bundle.css
         undo: true
         redo: true
         left: text-left
