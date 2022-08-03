@@ -8,12 +8,7 @@ relative_permalinks: false
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
-collections:
-uploads:
-  title: Uploads
-  output: true
-  permalink: "img/uploads/:title" # replace "images" with the name of your choice
-  
+
 defaults:
 -
   scope:
