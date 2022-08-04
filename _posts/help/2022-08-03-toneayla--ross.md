@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Help Article
+title: Toneayla & Ross
 description: Test description
 keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
-  - Help
+  - Blog
 tags: 
-  - faq
+  - Wedding
 image: /uploads/2017-11-4-72431b.jpg
 ---
 We had an amazing time celebrating with Toneayla and Ross at Le Pavillion in River Ranch this weekend\! Our gold-colored sequined photo booth backdrop added the perfect amount of sophistication to these photos. Not to mention, our custom peacock floral piece was a stunning, finishing touch
