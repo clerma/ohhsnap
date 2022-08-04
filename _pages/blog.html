@@ -129,7 +129,7 @@ permalink: "/blog/"
     <section class="pt-9 pt-md-11 posts">
       <div class="container-lg">
         <div class="row align-items-center mb-6">
-         {% for post in site.posts limit: 3 offset: continue %}
+         {% for post in site.posts offset: continue %}
             {% if post.categories contains 'Blog' %}
              <div class="col-md-4">
              {% include postbox.html %}
