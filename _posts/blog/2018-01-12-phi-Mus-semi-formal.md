@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Phi Mu's Semi Formal 2018"
+title:  "Phi Mu's Semi Formal"
 description: Test description
 keywords: photo booth rental, photo booth rental
 author: Ohh Snap
