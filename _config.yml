@@ -2,7 +2,7 @@
 title: Ohh Snap Photo Booth
 timezone: America/Chicago
 baseurl: 
-include: ['_pages', '_data']
+include: ['_pages', '_data', 'help', 'blog']
 relative_permalinks: false
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
