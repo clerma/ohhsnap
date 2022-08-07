@@ -84,8 +84,9 @@ permalink: help-center
           </div>
         </div>
         <div class="row mt-n6">
-            {% for post in site.posts %} 
-            {% if post.categories contains 'help' %}
+           {% for post in site.tags.helparticle %} 
+           
+           test
           <div class="col-12 col-md-4">
           
             <!-- Card -->
@@ -113,8 +114,8 @@ permalink: help-center
             </a>
 
           </div>
-          {% endif %}
           {% endfor %}
+          
           <div class="col-12 col-md-4">
 
             <!-- Card -->

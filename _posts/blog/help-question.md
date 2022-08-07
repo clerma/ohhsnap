@@ -7,7 +7,7 @@ author: Ohh Snap
 categories:
   - help
 tags:
-  - help-article
+  - help3article
 image: /uploads/2017-11-4-72431b.jpg
 ---
 We had an amazing time celebrating with Toneayla and Ross at Le Pavillion in River Ranch this weekend\! Our gold-colored sequined photo booth backdrop added the perfect amount of sophistication to these photos. Not to mention, our custom peacock floral piece was a stunning, finishing touch
