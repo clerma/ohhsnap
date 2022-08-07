@@ -84,8 +84,10 @@ permalink: help-center
           </div>
         </div>
         <div class="row mt-n6">
+            {% for post in site.posts %} 
+            {% if post.categories contains 'help' %}
           <div class="col-12 col-md-4">
-
+          
             <!-- Card -->
             <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#account" data-scroll>
               <div class="card-body bg-primary py-7">
@@ -99,7 +101,7 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  Account
+                  {{ post.title }}
                 </h4>
 
                 <!-- Text -->
@@ -111,6 +113,8 @@ permalink: help-center
             </a>
 
           </div>
+          {% endif %}
+          {% endfor %}
           <div class="col-12 col-md-4">
 
             <!-- Card -->
