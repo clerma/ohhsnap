@@ -84,9 +84,8 @@ permalink: help-center
           </div>
         </div>
         <div class="row mt-n6">
-           {% for post in site.tags.helparticle %} 
+           {% for post in site.tags.help %} 
            
-           test
           <div class="col-12 col-md-4">
           
             <!-- Card -->
@@ -102,12 +101,12 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  {{ post.title }}
+                  {{ post.categories }}  {{ post.helptype }}
                 </h4>
 
                 <!-- Text -->
                 <small class="text-muted">
-                  7 articles
+                  {{ forloop.length }} articles
                 </small>
 
               </div>
