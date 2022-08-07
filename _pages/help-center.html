@@ -84,7 +84,7 @@ permalink: help-center
           </div>
         </div>
         <div class="row mt-n6">
-           {% for post in site.tags.help %} 
+           {% for post in site.tags.help limit:1 %} 
             {% if post.categories contains "help" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
@@ -314,7 +314,7 @@ permalink: help-center
 
                 <!-- Heading -->
                 <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
-                  Can I use this theme for any project?
+                  {{ post.title}}
                 </a>
 
               </div>
