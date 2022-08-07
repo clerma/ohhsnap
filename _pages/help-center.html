@@ -85,6 +85,7 @@ permalink: help-center
         </div>
         <div class="row mt-n6">
            {% for post in site.tags.help %} 
+            {% if post.categories contains "help" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
             <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#{{ post.categories }} " data-scroll>
@@ -111,6 +112,7 @@ permalink: help-center
             </a>
 
           </div>
+          {% endif %}
           {% endfor %}
           
           <div class="col-12 col-md-4">
@@ -279,9 +281,11 @@ permalink: help-center
       </div>
     </section>
 
-    <!-- FAQ -->
+    <!-- Help Articles -->
     <section>
       <div class="container-lg">
+        {% for post in site.tags.help limit:1 %} 
+        {% if post.categories contains "help" %}
         <div class="row justify-content-between">
           <div class="col-md-4">
 
@@ -290,7 +294,7 @@ permalink: help-center
 
               <!-- Heading -->
               <h1 class="mb-4" id="account">
-                Account
+               {{ post.categories }} 
               </h1>
 
               <!-- Text -->
@@ -305,396 +309,24 @@ permalink: help-center
 
             <!-- List group -->
             <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
+            {% for post in site.tags.help %} 
               <div class="list-group-item">
 
                 <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
+                <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
                   Can I use this theme for any project?
                 </a>
 
               </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
+             {% endfor %}
+              
             </div>
 
           </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="features">
-                Features
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for any project?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="billing">
-                Billing
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for any project?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="security">
-                Security
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for any project?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="data">
-                Data
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for any project?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="communications">
-                Communications
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for any project?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-
-              <!-- Heading -->
-              <h1 class="mb-4" id="setup">
-                Setup
-              </h1>
-
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-
-            </div>
-
-          </div>
-          <div class="col-md-7">
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-0" id="faqAccount">
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use this theme for anything?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Do you give out student/military discounts?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Can I use the illustrations and icons?
-                </a>
-
-              </div>
-              <div class="list-group-item">
-
-                <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="help-center-article.html">
-                  Does this theme have technical support?
-                </a>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
+        {% endif %}
+        {% endfor %}
+        
       </div>
     </section>
 
