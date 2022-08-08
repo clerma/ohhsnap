@@ -5,7 +5,7 @@ description: Test description
 keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
-  - billing
+  - During Event
 tags:
   - help
 helptype: billing
