@@ -85,6 +85,7 @@ permalink: help-center
         </div>
         <div class="row mt-n6">
            {% for post in site.tags.help limit:1 %} 
+         {% for post in site.tags.help %}{% if post.categories contains "help" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
             {% if post.categories contains "help" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
@@ -105,7 +106,7 @@ permalink: help-center
 
                 <!-- Text -->
                 <small class="text-muted">
-                  {{ forloop.length }} articles
+                  {{ count }} articles
                 </small>
 
               </div>
@@ -169,114 +170,7 @@ permalink: help-center
             </a>
 
           </div>
-          <div class="col-12 col-md-3">
-
-            <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#security" data-scroll>
-              <div class="card-body bg-gray-900 py-7">
-
-                <!-- Icon -->
-                <div class="icon icon-lg text-center text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M4 4l7.631-1.43a2 2 0 01.738 0L20 4v9.283a8.51 8.51 0 01-4 7.217l-3.47 2.169a1 1 0 01-1.06 0L8 20.5a8.51 8.51 0 01-4-7.217V4z" fill="#335EEA" opacity=".3"/><path d="M12 11a2 2 0 110-4 2 2 0 010 4zM7 16.5c.216-2.983 2.368-4.5 4.99-4.5 2.66 0 4.846 1.433 5.009 4.5.006.122 0 .5-.418.5H7.404c-.14 0-.415-.338-.404-.5z" fill="#335EEA" opacity=".3"/></g></svg>                </div>
-
-              </div>
-              <div class="card-body py-5">
-
-                <!-- Heading -->
-                <h4 class="font-sans-serif mb-0">
-                  Security
-                </h4>
-
-                <!-- Text -->
-                <small class="text-muted">
-                  3 articles
-                </small>
-
-              </div>
-            </a>
-
-          </div>
-          <div class="col-12 col-md-3">
-
-            <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#data" data-scroll>
-              <div class="card-body bg-primary-dark py-7">
-
-                <!-- Icon -->
-                <div class="icon icon-lg text-center text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17 4H6c-1.209 0-2 .7-2 2v12c0 1.3.791 2 2 2h12c1.2 0 2-.7 2-2V7.207a.5.5 0 00-.146-.353L17 4zm0 7H7V4h10v7z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="12" y="4" width="3" height="5" rx=".5"/></g></svg>                </div>
-
-              </div>
-              <div class="card-body py-5">
-
-                <!-- Heading -->
-                <h4 class="font-sans-serif mb-0">
-                  Data
-                </h4>
-
-                <!-- Text -->
-                <small class="text-muted">
-                  7 articles
-                </small>
-
-              </div>
-            </a>
-
-          </div>
-          <div class="col-12 col-md-3">
-
-            <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#communications" data-scroll>
-              <div class="card-body bg-danger py-7">
-
-                <!-- Icon -->
-                <div class="icon icon-lg text-center text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M12.704 14l2.963-4h-2.223V6L9 12h2.222v2H6a1 1 0 01-1-1V3a1 1 0 011-1h12a1 1 0 011 1v10a1 1 0 01-1 1h-5.296z" fill="#335EEA" opacity=".3"/><path d="M9.804 10.914L9 12h2.222v4l4.445-6h-.205l4.745-3.427a.5.5 0 01.793.405V17a2 2 0 01-2 2H5a2 2 0 01-2-2V6.978a.5.5 0 01.793-.405l6.011 4.341z" fill="#335EEA"/></g></svg>                </div>
-
-              </div>
-              <div class="card-body py-5">
-
-                <!-- Heading -->
-                <h4 class="font-sans-serif mb-0">
-                  Communications
-                </h4>
-
-                <!-- Text -->
-                <small class="text-muted">
-                  4 articles
-                </small>
-
-              </div>
-            </a>
-
-          </div>
-          <div class="col-12 col-md-3">
-
-            <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#setup" data-scroll>
-              <div class="card-body py-7" style="background-color: #FFCCCC;">
-
-                <!-- Icon -->
-                <div class="icon icon-lg text-center text-white">
-                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
-
-              </div>
-              <div class="card-body py-5">
-
-                <!-- Heading -->
-                <h4 class="font-sans-serif mb-0">
-                  Setup
-                </h4>
-
-                <!-- Text -->
-                <small class="text-muted">
-                  6 articles
-                </small>
-
-              </div>
-            </a>
-
-          </div>
+          
         </div>
       </div>
     </section>
