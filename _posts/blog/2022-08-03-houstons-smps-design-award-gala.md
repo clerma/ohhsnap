@@ -6,6 +6,8 @@ keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
   - Blog
+tags:
+  - blog
 image: /uploads/2017-10-20-74095a.jpg
 ---
 This weekend we were honored to be a part of Houston’s Society for Marketing Professional Services Design Award Gala. SMPS is a group of marketing and business development professionals from architectural, engineering, planning, interior design, construction, and specialty consulting firms. SMPS’ mission is to advocate for, educate, and connect leaders in the building industry.

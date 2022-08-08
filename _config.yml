@@ -68,7 +68,7 @@ paginate_path: '/page:num/'
 # Permalinks
 permalink: "/:title/"
 plugins:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag

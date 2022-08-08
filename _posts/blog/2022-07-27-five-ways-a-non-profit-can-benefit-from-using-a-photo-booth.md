@@ -6,6 +6,8 @@ keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
   - Blog
+tags:
+  - blog
 image: /uploads/2018-2-24-61020.jpg
 ---
 Succeeding as a non-profit can be quite challenging. Getting yourself out there in the urban complex as a non-profit organization can feel like an enormous task to pull off. For a non-profit to make it in this modern-day era, a proper channel of good exposure is needed. Thanks to the mighty Internet, the world is now a global village and social media sites help bring us together from all corners of the world.

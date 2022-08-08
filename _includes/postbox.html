@@ -1,7 +1,7 @@
 <!-- begin post -->
 
  <!-- Card -->
-<div class="card card-sm rounded-top-start rounded-bottom-end lift lift-lg d-flex h-100">
+<div class="card card-sm rounded-top-start rounded-bottom-end lift lift-lg d-flex h-100 blog-post">
   <!-- Image -->
  {% if post.image %}  <img class="card-img-top bloglistimg rounded-top-start" src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
   <!-- Body -->
@@ -12,7 +12,7 @@
     </h2>
     <!-- Text -->
     <p class="fs-sm mb-4">
-      {{ post.excerpt | strip_html | truncatewords:15 }}
+      {{ post.excerpt | strip_html | truncatewords:10 }}
     </p>
    
     <a class="stretched-link" href="{{ post.url | absolute_url }}"></a>

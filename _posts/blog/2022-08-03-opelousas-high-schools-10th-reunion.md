@@ -6,6 +6,8 @@ keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
   - Blog
+tags:
+  - blog
 image: /uploads/2017-10-14-79080c.jpg
 ---
 &nbsp;

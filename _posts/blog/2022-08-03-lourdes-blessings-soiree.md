@@ -6,6 +6,8 @@ keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
   - Blog
+tags:
+  - blog
 image: /uploads/2017-10-26-71189a.jpg
 ---
 We were so thrilled to join Lourdes once again for their annual Lourdes Foundation Soiree. Lourdes Foundation raises money to help better serve those most in need in our community with health care, which makes this event extra special to us.

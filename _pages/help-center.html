@@ -6,7 +6,7 @@ permalink: help-center
 ---
 
     <!-- WELCOME -->
-    <section class="pt-6 pt-md-11 bg-dark">
+    <section class="pt-13 pt-md-12 bg-dark">
       <div class="container-lg">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-8 text-center text-white">
@@ -84,8 +84,8 @@ permalink: help-center
           </div>
         </div>
         <div class="row mt-n6">
-           {% for post in site.tags.help limit:1 %} 
-           {% for post in site.tags.help %}{% if post.categories contains "Before Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+           {% for post in site.tags.Before-Event limit:1 %} 
+           {% for post in site.tags.Before-Event %}{% if post.categories contains "Before Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
            {% if post.categories contains "Before Event" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
@@ -115,8 +115,8 @@ permalink: help-center
           </div>
           {% endif %}
           {% endfor %}
-          {% for post in site.tags.help limit:1 %} 
-             {% for post in site.tags.help %}{% if post.categories contains "During Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+          {% for post in site.tags.During-Event limit:1 %} 
+             {% for post in site.tags.During-Event %}{% if post.categories contains "During Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
              {% if post.categories contains "During Event" %}
           <div class="col-12 col-md-4">
 
@@ -147,10 +147,13 @@ permalink: help-center
           </div>
           {% endif %}
           {% endfor %}
+          {% for post in site.tags.After-Event limit:1 %} 
+           {% for post in site.tags.After-Event %}{% if post.categories contains "After Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+           {% if post.categories contains "After Event" %}
           <div class="col-12 col-md-4">
 
             <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#billing" data-scroll>
+            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}" data-scroll>
               <div class="card-body bg-success py-7">
 
                 <!-- Icon -->
@@ -162,19 +165,20 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  Billing
+                  {{ post.categories }} 
                 </h4>
 
                 <!-- Text -->
                 <small class="text-muted">
-                  5 articles
+                 {{ count }} articles
                 </small>
 
               </div>
             </a>
 
           </div>
-          
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -182,7 +186,7 @@ permalink: help-center
     <!-- Help Articles -->
     <section>
       <div class="container-lg">
-        {% for post in site.tags.help limit:1 %} 
+        {% for post in site.tags.Before-Event limit:1 | uniq %} 
         {% if post.categories contains "Before Event" %}
         <div class="row justify-content-between">
           <div class="col-md-4">
@@ -207,7 +211,7 @@ permalink: help-center
 
             <!-- List group -->
             <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-            {% for post in site.tags.help %} 
+            {% for post in site.tags.Before-Event | uniq %} 
             {% if post.categories contains "Before Event" %}
               <div class="list-group-item">
 
@@ -229,56 +233,104 @@ permalink: help-center
         
       </div>
     </section>
-    <section>
-      <div class="container-lg">
-        {% for post in site.tags.help limit:1 %} 
-        {% if post.categories contains "During Event" %}
-        <div class="row justify-content-between">
-          <div class="col-md-4">
-    
-            <!-- Header -->
-            <div class="position-sticky mb-8" style="top: 2rem;">
-    
-              <!-- Heading -->
-              <h1 class="mb-4" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
-               {{ post.categories }} 
-              </h1>
-    
-              <!-- Text -->
-              <p class="mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-              </p>
-    
-            </div>
-    
-          </div>
-          <div class="col-md-7">
-    
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-            {% for post in site.tags.help %} 
-            {% if post.categories contains "During Event" %}
-              <div class="list-group-item">
-    
+   <section>
+     <div class="container-lg">
+       {% for post in site.tags.During-Event limit:1 | uniq %} 
+       {% if post.categories contains "During Event" %}
+       <div class="row justify-content-between">
+         <div class="col-md-4">
+   
+           <!-- Header -->
+           <div class="position-sticky mb-8" style="top: 2rem;">
+   
+             <!-- Heading -->
+             <h1 class="mb-4" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+              {{ post.categories }} 
+             </h1>
+   
+             <!-- Text -->
+             <p class="mb-0">
+               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+             </p>
+   
+           </div>
+   
+         </div>
+         <div class="col-md-7">
+   
+           <!-- List group -->
+           <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
+           {% for post in site.tags.During-Event %} 
+           {% if post.categories contains "During Event" %}
+             <div class="list-group-item">
+   
+               <!-- Heading -->
+               <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
+                 {{ post.title}}
+               </a>
+   
+             </div>
+             {% endif %}
+            {% endfor %}
+             
+           </div>
+   
+         </div>
+       </div>
+       {% endif %}
+       {% endfor %}
+       
+     </div>
+   </section>
+   <section>
+        <div class="container-lg">
+          {% for post in site.tags.After-Event limit:1 | uniq %} 
+          {% if post.categories contains "After Event" %}
+          <div class="row justify-content-between">
+            <div class="col-md-4">
+      
+              <!-- Header -->
+              <div class="position-sticky mb-8" style="top: 2rem;">
+      
                 <!-- Heading -->
-                <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
-                  {{ post.title}}
-                </a>
-    
+                <h1 class="mb-4" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+                 {{ post.categories }} 
+                </h1>
+      
+                <!-- Text -->
+                <p class="mb-0">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                </p>
+      
               </div>
-              {% endif %}
-             {% endfor %}
-              
+      
             </div>
-    
+            <div class="col-md-7">
+      
+              <!-- List group -->
+              <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
+              {% for post in site.tags.After-Event %} 
+              {% if post.categories contains "After Event" %}
+                <div class="list-group-item">
+      
+                  <!-- Heading -->
+                  <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
+                    {{ post.title}}
+                  </a>
+      
+                </div>
+                {% endif %}
+               {% endfor %}
+                
+              </div>
+      
+            </div>
           </div>
+          {% endif %}
+          {% endfor %}
+          
         </div>
-        {% endif %}
-        {% endfor %}
-        
-      </div>
-    </section>
-
+      </section>
     <!-- OPTIONS -->
     <section class="py-10 py-md-12">
       <div class="container-lg">

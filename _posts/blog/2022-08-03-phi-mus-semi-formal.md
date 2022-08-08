@@ -8,6 +8,8 @@ keywords: >-
 author: Ohh Snap
 categories:
   - Blog
+tags:
+  - blog
 image: /uploads/2017-11-11-69354a.jpg
 ---
 What better way to spend our Saturday night than with an energetic group like the Phi Mus’\!
