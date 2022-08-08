@@ -11,6 +11,6 @@ tags:
 helptype: billing
 image: /uploads/2017-11-4-72431b.jpg
 ---
-We had an amazing time celebrating with Toneayla and Ross at Le Pavillion in River Ranch this weekend\! Our gold-colored sequined photo booth backdrop added the perfect amount of sophistication to these photos. Not to mention, our custom peacock floral piece was a stunning, finishing touch
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel arcu quis diam dictum tincidunt ut a neque. Morbi a leo justo. Aenean quis leo a elit bibendum fringilla at eget dolor. Maecenas eu eleifend ante. Nunc auctor, erat nec vulputate condimentum, sapien magna semper quam, nec consequat neque eros et mi. Curabitur sit amet luctus est. Cras lacinia lectus sit amet ullamcorper rhoncus.
 
-An open-air photo booth is an awesome way to capture the fun at any kind of wedding, and we had a blast at this one\! Congratulations Toneayla and Ross\!
+Suspendisse ac rutrum libero, id luctus nisl. Duis at euismod lacus. Morbi efficitur efficitur elit non pharetra. Nulla at justo fringilla eros egestas laoreet in eu est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nunc, vulputate ut imperdiet sit amet, mollis et nunc. Morbi ultricies pellentesque scelerisque. Fusce eleifend libero lectus, ac volutpat mi ultricies nec. Curabitur placerat non augue et facilisis. Fusce sodales tortor vel erat facilisis, eget eleifend purus sagittis. Aliquam elementum id libero nec tempus. Integer blandit non mauris in finibus. Phasellus faucibus a odio ut eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies leo ac ante cursus, et vulputate nisi finibus. Cras quis ultrices odio.
