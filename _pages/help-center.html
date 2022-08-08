@@ -85,11 +85,11 @@ permalink: help-center
         </div>
         <div class="row mt-n6">
            {% for post in site.tags.help limit:1 %} 
-         {% for post in site.tags.help %}{% if post.categories contains "help" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
-            {% if post.categories contains "help" %}
+           {% for post in site.tags.help %}{% if post.categories contains "Before Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+           {% if post.categories contains "Before Event" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#{{ post.categories }} " data-scroll>
+            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }} " data-scroll>
               <div class="card-body bg-primary py-7">
                 <!-- Icon -->
               <div class="icon icon-lg text-center text-white">
@@ -115,11 +115,13 @@ permalink: help-center
           </div>
           {% endif %}
           {% endfor %}
-          
+          {% for post in site.tags.help limit:1 %} 
+             {% for post in site.tags.help %}{% if post.categories contains "During Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+             {% if post.categories contains "During Event" %}
           <div class="col-12 col-md-4">
 
             <!-- Card -->
-            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#features" data-scroll>
+            <a class="card card-sm lift lift-lg rounded-top-start rounded-bottom-end overflow-hidden text-reset mt-6" href="#{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}" data-scroll>
               <div class="card-body bg-warning py-7">
 
                 <!-- Icon -->
@@ -131,18 +133,20 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  Features
+                  {{ post.categories }} 
                 </h4>
 
                 <!-- Text -->
                 <small class="text-muted">
-                  4 articles
+                  {{ count }} articles
                 </small>
 
               </div>
             </a>
 
           </div>
+          {% endif %}
+          {% endfor %}
           <div class="col-12 col-md-4">
 
             <!-- Card -->
@@ -179,7 +183,7 @@ permalink: help-center
     <section>
       <div class="container-lg">
         {% for post in site.tags.help limit:1 %} 
-        {% if post.categories contains "help" %}
+        {% if post.categories contains "Before Event" %}
         <div class="row justify-content-between">
           <div class="col-md-4">
 
@@ -187,7 +191,7 @@ permalink: help-center
             <div class="position-sticky mb-8" style="top: 2rem;">
 
               <!-- Heading -->
-              <h1 class="mb-4" id="account">
+              <h1 class="mb-4" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
                {{ post.categories }} 
               </h1>
 
@@ -204,6 +208,7 @@ permalink: help-center
             <!-- List group -->
             <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
             {% for post in site.tags.help %} 
+            {% if post.categories contains "Before Event" %}
               <div class="list-group-item">
 
                 <!-- Heading -->
@@ -212,10 +217,60 @@ permalink: help-center
                 </a>
 
               </div>
+              {% endif %}
              {% endfor %}
               
             </div>
 
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+      </div>
+    </section>
+    <section>
+      <div class="container-lg">
+        {% for post in site.tags.help limit:1 %} 
+        {% if post.categories contains "During Event" %}
+        <div class="row justify-content-between">
+          <div class="col-md-4">
+    
+            <!-- Header -->
+            <div class="position-sticky mb-8" style="top: 2rem;">
+    
+              <!-- Heading -->
+              <h1 class="mb-4" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+               {{ post.categories }} 
+              </h1>
+    
+              <!-- Text -->
+              <p class="mb-0">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              </p>
+    
+            </div>
+    
+          </div>
+          <div class="col-md-7">
+    
+            <!-- List group -->
+            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
+            {% for post in site.tags.help %} 
+            {% if post.categories contains "During Event" %}
+              <div class="list-group-item">
+    
+                <!-- Heading -->
+                <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
+                  {{ post.title}}
+                </a>
+    
+              </div>
+              {% endif %}
+             {% endfor %}
+              
+            </div>
+    
           </div>
         </div>
         {% endif %}
