@@ -1,0 +1,11 @@
+- boothname: "Legacy"
+  image: /assets/img/backdrops/Bubbly-Mermaid.jpg
+  
+- boothname: "360"
+  image: /assets/img/backdrops/Black-Sequins.jpg
+  
+- boothname: "SocialBooth"
+  image: /assets/img/backdrops/Black-Sequins.jpg
+
+- boothname: "VirtualBooth"
+  image: /assets/img/backdrops/Black-Sequins.jpg
