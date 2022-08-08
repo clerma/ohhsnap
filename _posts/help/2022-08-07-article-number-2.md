@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Article  Number 2
+title: 'Before Event Article '
 description: Test description
 keywords: photo booth rental, photo booth rental
 author: Ohh Snap
@@ -9,5 +9,5 @@ categories:
 tags:
   - help
 helptype: technical
-image: /uploads/2017-11-4-72431b.jpg
+image: /uploads/2017-11-25-72923a.jpg
 ---
