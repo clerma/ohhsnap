@@ -84,3 +84,10 @@ ul#results-container {
 span.post-meta {
   font-size: 1rem;
 }
+.logout {
+  display: none;
+}
+
+.authenticated .logout {
+  display: block;
+}
