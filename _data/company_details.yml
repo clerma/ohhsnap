@@ -6,13 +6,13 @@ social:
     icon: fa-instagram
   - name: facebook
     link: https://facebook.com/ohhsnapbooth
-    icon: fa-square-facebook
+    icon: fa-facebook
   - name: twitter
     link: https://twitter.com/ohhsnapbooth
-    icon: fa-square-twitter
+    icon: fa-twitter
   - name: pinterest
     link: https://pinterest.com/ohhsnapbooth
-    icon: fa-square-pinterest
+    icon: fa--pinterest
   - name: tiktok
     link: https://tiktok.com/ohhsnapbooth
-    icon: fa-square-tiktok
+    icon: fa--tiktok
