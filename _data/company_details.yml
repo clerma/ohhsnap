@@ -1,9 +1,7 @@
 email: chat@ohhsnapbooth.com
 logo_image: assets/img/ohhsnap.svg
 social:
-  - {instagram: "https://instagram.com/ohhsnapbooth"
-     icon: fa-square-facebook
-	}
+  - {instagram: "https://instagram.com/ohhsnapbooth", icon: fa-square-facebook}
   - {facebook: "https://facebook.com/ohhsnapbooth"}
   - {twitter: "https://twitter.com/ohhsnapbooth"}
   - {pinterest: "https://pinterest.com/ohhsnapbooth"}
