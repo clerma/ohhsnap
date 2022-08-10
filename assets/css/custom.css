@@ -57,7 +57,13 @@ section.hero .overlay {
 
 }
 .bloglistimg{height:250px;object-fit: cover;object-position: top}
-
+.bloghomeimg{
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .crt-logo.crt-tag{display: none !important;color: transparent;visibility: hidden !important}
 /* Media Query for devices withi coarse pointers and no hover functionality */
 

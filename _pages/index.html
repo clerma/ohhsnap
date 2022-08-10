@@ -376,12 +376,12 @@ permalink: "/"
 
             <!-- Preheading -->
             <h6 class="text-uppercase text-warning mb-5">
-              Selling on the go
+             Need some inspiration
             </h6>
 
             <!-- Heading -->
             <h2 class="display-4 text-white mb-9">
-              Your site is more than a landing so we built <span class="text-underline-primary-light">supporting pages</span>.
+             check out some of our most recent photo booth <span class="text-underline-primary-light">articles</span>.
             </h2>
 
           </div>
@@ -390,237 +390,32 @@ permalink: "/"
 
       <!-- Slider -->
       <div class="flickity-buttons-responsive flickity-items-fade" data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
+       {% for post in site.tags.blog limit:6 %} 
         <div style="width: calc(100% - 2rem); max-width: 920px;">
 
           <!-- Image -->
-          <a href="./blog-post.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-blog-article.jpg" alt="...">
+          <a href="{{ post.url }}">
+            <img class="img-fluid rounded bloghomeimg" src="{{ post.image }}" alt="{{ post.title }}">
           </a>
 
           <!-- Body -->
           <div class="flickity-hidden py-6 text-center">
 
             <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Blog Article
+            <h6 class="text-uppercase text-white fw-bold fs-3">
+             {{ post.title }}
             </h6>
 
             <!-- Text -->
             <p class="fs-sm text-center text-white-80 mb-0">
-              Featured image with beautiful type and galleries.
+              {{ post.excerpt | strip_html | truncatewords:25 }}
             </p>
 
           </div>
 
         </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./contact.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-contact.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Contact Us
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Multiple communication options and contact form.
-            </p>
-
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./pricing.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-pricing.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Pricing
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              3-tier options with grid of features, testimonial, and faq.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./career-benefits.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-benefits.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Career Benefits
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Image header, benefits and values, galleries, and team list
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./career-listing.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-careers.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Career Listing
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Simple listing of careers with search and filters.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./pricing-feature-list.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-pricing-table.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Pricing Table
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Two-tiered pricing with a large feature comparison table.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./faq.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-faq.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              FAQ
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Multi-section FAQ with sticky headers and collapsing questions.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./blog-listing.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-blog.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Blog Listing
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Flexible grid based cards for easy, beautiful blog layouts.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./blog-post-cover.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-blog-article-cover.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Blog Article (Cover)
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              Minimal blog layout with organize typography and images.
-            </p>
-
-          </div>
-
-        </div>
-        <div style="width: calc(100% - 2rem); max-width: 920px;">
-
-          <!-- Image -->
-          <a href="./terms.html">
-            <img class="img-fluid rounded" src="assets/img/screenshots/desktop/page-terms.jpg" alt="...">
-          </a>
-
-          <!-- Body -->
-          <div class="flickity-hidden py-6 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white">
-              Terms of Service
-            </h6>
-
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-              A versatile simple text page for any legal mumbo jumbo.
-            </p>
-
-          </div>
-
-        </div>
+       {% endfor %}
+       
       </div>
 
     </section>
@@ -996,88 +791,8 @@ permalink: "/"
     </div>
 
     <!-- FAQ -->
-    <section class="py-10 py-md-12 bg-dark">
-      <div class="container-lg">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-xl-7">
-
-            <!-- Heading -->
-            <h2 class="display-4 text-center text-white mb-4">
-              Frequently asked questions.
-            </h2>
-
-            <!-- Text -->
-            <p class="text-center text-white-80 mb-9">
-              You can always refer to the Bootstrap Themes <a class="text-white-80" href="https://themes.zendesk.com/hc/en-us">Help Center</a>, but here are a few answers to common questions.
-            </p>
-
-            <!-- List group -->
-            <div class="list-group list-group-lg list-group-flush my-n7" id="faq">
-              <div class="list-group-item border-gray-900">
-
-                <!-- Heading -->
-                <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faqOne" role="button" aria-expanded="true" aria-controls="faqOne">
-                  Will this theme work with Rails? React? Plain HTML?
-                </a>
-
-                <!-- Collapse -->
-                <div class="collapse show" id="faqOne" data-bs-parent="#faq">
-                  <p class="text-white-80 mt-2 mb-0">
-                    Yup! We're working on writing an intergration guide, but the bottom line is we provide basic HTML, CSS, and JS that you can use in basically any framework. If you want to integrate our markup, SCSS, and JS compilation into your app instead of using our provided build tools, that's also possible, though it requires some effort.
-                  </p>
-                </div>
-
-              </div>
-              <div class="list-group-item border-gray-900">
-
-                <!-- Heading -->
-                <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faqTwo" role="button" aria-expanded="false" aria-controls="faqTwo">
-                  Can I use the icons, images and illustrations?
-                </a>
-
-                <!-- Collapse -->
-                <div class="collapse" id="faqTwo" data-bs-parent="#faq">
-                  <p class="text-white-80 mt-2 mb-0">
-                    Yup! All the assets have been properly licensed so you can use them in your personal or commerical projects!
-                  </p>
-                </div>
-
-              </div>
-              <div class="list-group-item border-gray-900">
-
-                <!-- Heading -->
-                <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faqThree" role="button" aria-expanded="false" aria-controls="faqThree">
-                  Is this theme easy to use for new coders?
-                </a>
-
-                <!-- Collapse -->
-                <div class="collapse" id="faqThree" data-bs-parent="#faq">
-                  <p class="text-white-80 mt-2 mb-0">
-                    Yup! If you're just learning to work with CSS and HTML, you'll have to learn a few new setup steps, but we keep our tools and code simple, well documented and clean as a good example for all!
-                  </p>
-                </div>
-
-              </div>
-              <div class="list-group-item border-gray-900">
-
-                <!-- Heading -->
-                <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faqFour" role="button" aria-expanded="false" aria-controls="faqFour">
-                  Does this theme have technical support?
-                </a>
-
-                <!-- Collapse -->
-                <div class="collapse" id="faqFour" data-bs-parent="#faq">
-                  <p class="text-white-80 mt-2 mb-0">
-                    Yup! You can reach us once you purchase your theme via the Bootstrap Themes dashboard or via the email distributed with your theme after your purchase.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
+    <section class="py-8 py-md-10 bg-dark">
+      
     </section>
 <section class="position-relative bg-light">
     <div class="row justify-content-center py-9">
