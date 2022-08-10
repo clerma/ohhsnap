@@ -97,3 +97,14 @@ span.post-meta {
 .authenticated .logout {
   display: block;
 }
+@media only screen and (max-width: 735px)
+.phone {
+    color: #000;
+    pointer-events: auto;
+    text-decoration: none;
+}
+.phone {
+    color: inherit;
+    pointer-events: none;
+    text-decoration: none;
+}
