@@ -80,11 +80,12 @@
               <div class="col">
         
                 <!-- Social -->
-                <ul class="list-inline list-unstyled text-gray-600 mb-0"> {% site.data.company_details.social %}
-                  {% for item in site.data.company_details.social.items %} 
+                <ul class="list-inline list-unstyled text-gray-600 mb-0"> 
+                    {% for item in site.data.company_details.social %}
+                
                   <li class="list-inline-item">
                       <a class="icon icon-sm text-reset" href="{{ item.link }}" title="Ohh Snap {{ item.name }} link">
-                        <i class="fa-brands fa{{ item.icon }}"/>
+                        <i class="fab {{ item.icon }}"/></i>
                       </a>
                     </li>
                   {% endfor %}
