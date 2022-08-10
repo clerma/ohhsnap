@@ -81,6 +81,13 @@
         
                 <!-- Social -->
                 <ul class="list-inline list-unstyled text-gray-600 mb-0">
+                  {% for social in site.data.company_details.social %} 
+                  <li class="list-inline-item">
+                      <a class="icon icon-sm text-reset" href="{{social.link}}" title="Ohh Snap {{social.name}} link">
+                        <i class="fa-brands fa{{ social.icon}}"/>
+                      </a>
+                    </li>
+                  {% endfor %}
                   <li class="list-inline-item">
                     <a class="icon icon-sm text-reset" href="#!">
                       <svg viewBox="0 0 24 24" class="text-white" fill="white" xmlns="http://www.w3.org/2000/svg">

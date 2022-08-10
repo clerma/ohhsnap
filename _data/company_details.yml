@@ -1,8 +1,8 @@
 email: chat@ohhsnapbooth.com
 logo_image: assets/img/ohhsnap.svg
 social:
-  - {instagram: "https://instagram.com/ohhsnapbooth", icon: fa-square-facebook}
-  - {facebook: "https://facebook.com/ohhsnapbooth"}
-  - {twitter: "https://twitter.com/ohhsnapbooth"}
-  - {pinterest: "https://pinterest.com/ohhsnapbooth"}
-  - {tiktok: "https://tiktok.com/ohhsnapbooth"}
+  - {name: instagram, link: "https://instagram.com/ohhsnapbooth", icon: fa-square-instagram}
+  - {name: facebook, link: "https://facebook.com/ohhsnapbooth", icon: fa-square-facebook}
+  - {name: twitter, link: "https://twitter.com/ohhsnapbooth", icon: fa-square-twitter}
+  - {name: pinterest, link: "https://pinterest.com/ohhsnapbooth", icon: fa-square-pinterest}
+  - {name: tiktok, link: "https://tiktok.com/ohhsnapbooth", icon: fa-square-tiktok}
