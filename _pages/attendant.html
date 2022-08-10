@@ -109,7 +109,7 @@ permalink: "/attendant/"
            If you see the correct template, you&rsquo;re all set.<br />
            If not, Select &ldquo;Background Image&rdquo; &rarr; Select Event Template &rarr; &ldquo;Open&rdquo;<br />
            You should now see the correct template<br />
-           For events without prints select "#{{globals.site.dateNow | date:'yyyy'}}DEFAULT.JPG" template<br />
+           For events without prints select "# globals.site.dateNow | date:'yyyy' EFAULT.JPG" template<br />
            <h6><strong>&ldquo;Printing&rdquo; tab</strong></h6>
            For events with prints, select &ldquo;Auto-Print&rdquo;
            For events without prints, un-check &ldquo;Auto-Print&rdquo;
@@ -192,25 +192,25 @@ permalink: "/attendant/"
            <h3>FAQ</h3>
            <hr />
            </div>
-           {module_faq filter="classified" itemId="833286" collection="faq" template=""}
+           
            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-           {% for item in faq.items -%}
+           
            <div class="panel panel-default">
-           <div class="panel-heading" role="tab" id="heading{{item.counter}}">
-           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{item.counter}}" aria-expanded="false" aria-controls="collapse{{item.counter}}">
+           <div class="panel-heading" role="tab" id="heading{item.counter}">
+           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{item.counter}" aria-expanded="false" aria-controls="collapse{item.counter}">
            <h4 class="panel-title">
-           {{item.question}}
+           {item.question}
            <em class="material-icons">keyboard_arrow_down</em>
            </h4>
            </a>
            </div>
-           <div id="collapse{{item.counter}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{item.counter}}">
+           <div id="collapse{item.counter}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{item.counter}">
            <div class="panel-body">
-           {{item.answer}}
+           {item.answer}
            </div>
            </div>
            </div>
-           {% endfor -%}
+           
            </div>
            </div>
            <div class="tab-pane" id="video-1">
