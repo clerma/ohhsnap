@@ -46,7 +46,7 @@ permalink: "/attendant/"
              <div class="tab-content justify-content-center mx-auto col-md-8" id="pills-tabContent">
                <div class="tab-pane fade show active justify-content-center mx-auto text-center pt-8" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab">
                  <p> Time is displayed with (1hr) of setup and run time</p>
-                  <div id="calendar"></div>
+                  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=0&showNav=1&showTabs=1&showPrint=0&showCalendars=0&src=Y2hhdEBvaGhzbmFwYm9vdGguY29t&src=ZXV0YWY5bTMycmVocjBlZGZwamNsYjBpMjZvZ3RhbDZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%23009688" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-Setup" role="tabpanel" aria-labelledby="pills-Setup-tab">
@@ -169,43 +169,49 @@ permalink: "/attendant/"
                  </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-FAQ" role="tabpanel" aria-labelledby="pills-FAQ-tab">
-                 <div class="pt-8">
+                 
                    
-                   <div class="col-lg-10 col-xl-7">
+                   <div class="col-lg-12 pt-8 justify-content-center mx-auto">
                    
                      <!-- Heading -->
-                     <h2 class="display-4 text-center text-white mb-4">
+                     <h2 class="display-4 text-center mb-4">
                        Frequently asked questions.
                      </h2>
                    
                      <!-- Text -->
-                     <p class="text-center text-white-80 mb-9">
+                     <p class="text-muted text-center mb-9">
                        You can always refer to some of the points above or shoot us a text. But here are a few answers to common questions.
                      </p>
+                   <div class="card rounded-top-start-3 rounded-bottom-end-3" style="z-index: 1;">
+                     <div class="card-body">
                    
-                     <!-- List group -->
-                     <div class="list-group list-group-lg list-group-flush my-n7" id="faq">
-                       {% for item in site.data.attendant-faq %}
-                       <div class="list-group-item border-gray-900">
-                         <!-- Heading -->
-                         <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faq{{forloop.counter}}" role="button" aria-expanded="true" aria-controls="faq{{forloop.counter}}">
-                          {{item.question}}
-                         </a>
+                       <!-- List group -->
+                       <div class="list-group list-group-lg list-group-flush my-n7" id="faq">
+                        {% for item in site.data.attendant-faq %}
+                         <div class="list-group-item">
+                           <!-- Heading -->
+                           <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-reset" data-bs-toggle="collapse" href="#faq{{forloop.index}}" role="button" aria-expanded="true" aria-controls="faq{{forloop.index}}">
+                             {{item.question}}
+                           </a>
                    
-                         <!-- Collapse -->
-                         <div class="collapse show" id="faq{{forloop.counter}}" data-bs-parent="#faq">
-                           <p class="text-white-80 mt-2 mb-0">
-                            {{item.answer}}
-                           </p>
+                           <!-- Collapse -->
+                           <div class="collapse" id="faq{{forloop.index}}" data-bs-parent="#faq">
+                             <p class="mt-2 mb-0">
+                               {{item.answer}}
+                             </p>
+                           </div>
+                   
                          </div>
-                   
+                         {% endfor %}
+                         
                        </div>
-                       {% endfor %}
-                     </div>
                    
+                     </div>
+                   </div>
+                  
                    </div>
                    
-                 </div>
+               
                  </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-Videos" role="tabpanel" aria-labelledby="pills-Videos-tab">
