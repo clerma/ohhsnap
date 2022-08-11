@@ -1,8 +1,9 @@
-- name: Bubbly Mermaid
-  image: /assets/img/backdrops/Bubbly-Mermaid.jpg
-- name: Black Sequins
-  image: /assets/img/backdrops/Black-Sequins.jpg
-- name: Carat Mermaid
-  image: /assets/img/backdrops/Carat Mermaid.jpg
-- name: BLACK HEXAGONS
-  image: /assets/img/backdrops/Black-Hexagons.jpg
+- question: "question 1"
+  answer: "answer 1"
+  weight: 1
+- question: "question 2"
+  answer: "answer 2"
+  weight: 3
+- question: "question 3"
+  answer: "answer 3"
+  weight: 2
