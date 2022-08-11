@@ -1,0 +1,37 @@
+---
+title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
+description: About Test description
+keywords: photo booth rental, photo booth rental
+layout: default
+pagename: login
+permalink: "/login/"
+---
+<style>
+      .incorrect-login-message {
+        display: none;
+      }
+
+      .has-incorrect-login .incorrect-login-message {
+        display: block;
+      }
+    </style>
+    <section class="pt-13 pt-md-12 pb-8 pb-md-9">
+<div class="container-lg pt-13 pt-md-12">
+  <div class="row">
+    <div class="col-md-12">
+      <form action="" method="post" class="{% raw %}{{messageClasses}}{% endraw %}">
+      <div class="incorrect-login-message">
+        Incorrect password.
+      </div>
+
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" autofocus>
+
+      <input type="hidden" name="username" value="user">
+
+      <input type="submit" value="Log in">
+    </form>
+    </div>
+  </div>
+</div>
+</section>

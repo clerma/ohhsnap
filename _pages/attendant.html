@@ -44,13 +44,13 @@ permalink: "/attendant/"
                  </li>
              </ul>
              <div class="tab-content justify-content-center mx-auto col-md-8" id="pills-tabContent">
-               <div class="tab-pane fade show active justify-content-center mx-auto" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab">
+               <div class="tab-pane fade show active justify-content-center mx-auto text-center pt-8" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab">
                  <p> Time is displayed with (1hr) of setup and run time</p>
                   <div id="calendar"></div>
                 </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-Setup" role="tabpanel" aria-labelledby="pills-Setup-tab">
-                 <div class="col-md-12 text-center">
+                 <div class="col-md-12 text-center pt-8">
                   <h3>SET UP GUIDE</h3>
                   <hr />
                   </div>
@@ -102,7 +102,7 @@ permalink: "/attendant/"
                  </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-Troubleshoot" role="tabpanel" aria-labelledby="pills-Troubleshoot-tab">
-                 <div class="col-md-12 text-center">
+                 <div class="col-md-12 text-center pt-8">
                   <h3>TROUBLESHOOTING</h3>
                   <h7><strong>FIRST LINE OF DEFENSE: RESTART THE SYSTEM</strong></h7>
                   <hr />
@@ -168,13 +168,51 @@ permalink: "/attendant/"
                   </div>
                  </div>
                
-               <div class="tab-pane fade justify-content-center mx-auto" id="pills-FAQ" role="tabpanel" aria-labelledby="pills-FAQ-tab">4Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               <div class="tab-pane fade justify-content-center mx-auto" id="pills-FAQ" role="tabpanel" aria-labelledby="pills-FAQ-tab">
+                 <div class="pt-8">
+                   
+                   <div class="col-lg-10 col-xl-7">
+                   
+                     <!-- Heading -->
+                     <h2 class="display-4 text-center text-white mb-4">
+                       Frequently asked questions.
+                     </h2>
+                   
+                     <!-- Text -->
+                     <p class="text-center text-white-80 mb-9">
+                       You can always refer to some of the points above or shoot us a text. But here are a few answers to common questions.
+                     </p>
+                   
+                     <!-- List group -->
+                     <div class="list-group list-group-lg list-group-flush my-n7" id="faq">
+                       {% for item in site.data.attendant-faq %}
+                       <div class="list-group-item border-gray-900">
+                         <!-- Heading -->
+                         <a class="collapse-toggle fs-lg fw-bold text-decoration-none text-white" data-bs-toggle="collapse" href="#faq{{forloop.counter}}" role="button" aria-expanded="true" aria-controls="faq{{forloop.counter}}">
+                          {{item.question}}
+                         </a>
+                   
+                         <!-- Collapse -->
+                         <div class="collapse show" id="faq{{forloop.counter}}" data-bs-parent="#faq">
+                           <p class="text-white-80 mt-2 mb-0">
+                            {{item.answer}}
+                           </p>
+                         </div>
+                   
+                       </div>
+                       {% endfor %}
+                     </div>
+                   
+                   </div>
+                   
+                 </div>
+                 </div>
                
                <div class="tab-pane fade justify-content-center mx-auto" id="pills-Videos" role="tabpanel" aria-labelledby="pills-Videos-tab">
-                 <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/161992682" width="640" height="352" frameborder="0"></iframe></div>
-                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/162077815" width="640" height="352" frameborder="0"></iframe></div>
-                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605576" width="640" height="360" frameborder="0"></iframe></div>
-                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605391" width="640" height="400" frameborder="0"></iframe></div>
+                 <div class="col-md-12 pt-8 text-center">
+                   test
+                 </div>
+                
                   </div>
                  </div>
              </div>
