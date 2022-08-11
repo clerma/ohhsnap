@@ -10,13 +10,13 @@ permalink: "/attendant/"
   <div class="row">
    
           
-           <div class="col-md-12 text-right">
+           <div class="col-md-12 text-right d-none">
            <a href="/Logout" class="btn btn-primary btn-round">Logout </a>
            </div>
           
            
              
-           <div class="col-md-8 col-md-offset-2 text-center">
+           <div class="col-md-8 mx-auto text-center">
            <h1 class="title"> OHH SNAP BOOTH ATTENDANT HANDBOOK</h1>
            <hr />
            <h3>CONTACT INFORMATION</h3>
@@ -25,203 +25,163 @@ permalink: "/attendant/"
            Ashley's CELL: 337-281-4804</p>
            <hr />
            </div>
+           <div class="col-md-12 mx-auto justify-content-center">
+             <ul class="nav nav-pills mb-3 mx-auto justify-content-center" id="pills-tab" role="tablist">
+               <li class="nav-item" role="presentation">
+                 <button class="nav-link active" id="pills-schedule-tab" data-bs-toggle="pill" data-bs-target="#pills-schedule" type="button" role="tab" aria-controls="pills-schedule" aria-selected="true">schedule</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                 <button class="nav-link" id="pills-Setup-tab" data-bs-toggle="pill" data-bs-target="#pills-Setup" type="button" role="tab" aria-controls="pills-Setup" aria-selected="false">Setup</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                 <button class="nav-link" id="pills-Troubleshoot-tab" data-bs-toggle="pill" data-bs-target="#pills-Troubleshoot" type="button" role="tab" aria-controls="pills-Troubleshoot" aria-selected="false">Contact</button>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-FAQ-tab" data-bs-toggle="pill" data-bs-target="#pills-FAQ" type="button" role="tab" aria-controls="pills-FAQ" aria-selected="false">FAQ</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                   <button class="nav-link" id="pills-Videos-tab" data-bs-toggle="pill" data-bs-target="#pills-Videos" type="button" role="tab" aria-controls="pills-Videos" aria-selected="false">Videos</button>
+                 </li>
+             </ul>
+             <div class="tab-content justify-content-center mx-auto col-md-8" id="pills-tabContent">
+               <div class="tab-pane fade show active justify-content-center mx-auto" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab">
+                 <p> Time is displayed with (1hr) of setup and run time</p>
+                  <div id="calendar"></div>
+                </div>
+               
+               <div class="tab-pane fade justify-content-center mx-auto" id="pills-Setup" role="tabpanel" aria-labelledby="pills-Setup-tab">
+                 <div class="col-md-12 text-center">
+                  <h3>SET UP GUIDE</h3>
+                  <hr />
+                  </div>
+                  <div class="col-md-12">
+                  <h4>Hardware Tips:</h4>
+                  <ul>
+                      <li>Before you start, confirm there is a power outlet within reach</li>
+                      <li>Set up Ohh Snap Booth roughly 6-7 feet from the backdrop</li>
+                      <li>Angle flash at about 35 degrees </li>
+                      <li>Set flash between ⅛ - &frac14; - adjust as necessary</li>
+                      <li>Keep the hex-key in your pocket</li>
+                      <li>Gaffer tape extension cords to the floor </li>
+                  </ul>
+                  <h4>Getting Powered Up</h4>
+                  <ul>
+                      <li>Power Button - top right corner of the Surface3</li>
+                      <li>Password = photo</li>
+                      <li>Open &ldquo;Social Booth Software&rdquo; from desktop</li>
+                  </ul>
+                  <h4>Software Settings:</h4>
+                  <h6><strong>"General&rdquo; tab</strong></h6>
+                  <p>DSLR = Connected (if not connected when you open, restart program)
+                  Under &ldquo;Camera Setup&rdquo;, Open &ldquo;Configure&rdquo; and check settings:</p>
+                  <ul>
+                      <li>TV - 1/200</li>
+                      <li>AV 9.0</li>
+                      <li>ISO - 400</li>
+                      <li>AF Mode - 1 Shot AF</li>
+                      <li>Change &ldquo;Event Name&rdquo; to event date format: 4.11.{globals.site.dateNow | date:'yyyy'}</li>
+                      <li>Slide keyboard out from right hidden panel</li>
+                      <li>&ldquo;X&rdquo; out of keyboard when complete - do not press &ldquo;enter&rdquo;</li>
+                      <li>Make sure &ldquo;Save Photos to Card&rdquo; is checked</li>
+                  </ul>
+                  <h6><strong>&ldquo;Templates&rdquo; tab</strong></h6>
+                  If you see the correct template, you&rsquo;re all set.<br />
+                  If not, Select &ldquo;Background Image&rdquo; &rarr; Select Event Template &rarr; &ldquo;Open&rdquo;<br />
+                  You should now see the correct template<br />
+                  For events without prints select "# globals.site.dateNow | date:'yyyy' EFAULT.JPG" template<br />
+                  <h6><strong>&ldquo;Printing&rdquo; tab</strong></h6>
+                  For events with prints, select &ldquo;Auto-Print&rdquo;
+                  For events without prints, un-check &ldquo;Auto-Print&rdquo;
+                  <h6><strong>Entering Photo Booth Mode:</strong></h6>
+                  Green &ldquo;Save and Start Button&rdquo;
+                  <h6><strong>Exiting Photo Booth Mode:</strong></h6>
+                  Hot-spot in top left corner
+                  <h6><strong>Exiting Program:</strong></h6>
+                  &ldquo;Quit&rdquo; from settings screen
+                  </div>
+                 </div>
+               
+               <div class="tab-pane fade justify-content-center mx-auto" id="pills-Troubleshoot" role="tabpanel" aria-labelledby="pills-Troubleshoot-tab">
+                 <div class="col-md-12 text-center">
+                  <h3>TROUBLESHOOTING</h3>
+                  <h7><strong>FIRST LINE OF DEFENSE: RESTART THE SYSTEM</strong></h7>
+                  <hr />
+                  </div>
+                  <div class="col-md-12">
+                  <p><strong>GREEN LIGHT IS ON, PRINTER IS NOT PRINTING, </strong></p>
+                  <p><em>FIRST TRY:</em> Restart the Tablet</p>
+                  <p><em>EASY FIX:</em> Unplug power, restart. </p>
+                  <p>
+                  1. Turn Camera, Flash, and DS40 Printer Off<br />
+                  2. Unplug the power cord from the wall for 30 seconds<br />
+                  3. Plug the power cord back into the wall<br />
+                  4. Turn Camera, Flash, and DS40 Printer On<br />
+                  5.  Open "Devices &amp; Printers" shortcut on desktop<br />
+                  6. You should now see the DS40 icon reappear with a green check</p>
+                  <p><em>NORMAL FIX:  Remove Device, Restart Tablet</em></p>
+                  <p>
+                  1. Open "Devices &amp; Printers" shortcut on desktop<br />
+                  2. Remove DS40 Printer - highlight the printer icon and select "Remove Device" at the top of the window<br />
+                  3. Turn the DS40 Printer off<br />
+                  4. Restart the Surface Tablet<br />
+                  5. Turn the DS40 Printer on<br />
+                  6. You should now see the DS40 icon reappear with a green check</p>
+                  <p><em>EXTREME FIX:</em>  Remove Device, Uninstall Drivers, Reinstall Drivers, Restart Tablet</p>
+                  <p>
+                  1. Open "Devices &amp; Printers" shortcut on desktop<br />
+                  2. Remove DS40 Printer - highlight the printer icon and select "Remove Device" at the top of the window<br />
+                  3. Turn the DS40 Printer off<br />
+                  4. Open "Uninstall a Program" shortcut on desktop<br />
+                  5. Locate DS40 Driver and Uninstall It (Windows Driver Package - Dai Nippon Printing DS40)<br />
+                  6. Open "DS40 Drivers" folder on the desktop<br />
+                  7.  Double-click "DriverInstall" which will run an install<br />
+                  8. Restart the Surface Tablet<br />
+                  9. Turn the DS40 Printer on<br />
+                  10.  Open "Devices &amp; Printers" shortcut on desktop<br />
+                  11. You should now see the DS40 icon reappear with a green check</p>
+                  <p><em>OTHER REASONS:</em></p>
+                  <p>CORD IS LOOSE: Make sure printer USB cord is securely plugged into the "PRINTER" port of the Hub</p>
+                  <p>PRINTING DISABLED ON SOCIAL BOOTH: Under the "Printing" tab, ensure auto-print" setting is checked</p>
+                  <p>DS40 AS DEFAULT PRINTER:  If you accidentally plug the Printer USB cord in any of the other ports of the hub, extra versions of the printer will appear in the software within the "Printers &amp; Devices" folder. To remedy this:</p>
+                  <p>
+                  1. Plug the USB back into the "Printer" port of the hub<br />
+                  2. Open "Devices &amp; Printers" shortcut on desktop<br />
+                  3. Select original version of DS40 Printer, hold down the icon, select "Set as Default"</p>
+                  <p>THERE IS A PAPER JAM</p>
+                  <p>SOLUTION: Open the paper drawer and firmly pull the paper out of the feed. The paper will be all crinkled and messed up. Switch to a new roll. Do not throw away the jammed role.</p>
+                  <p>CAMERA IS HAVING A HARD TIME FOCUSING</p>
+                  <p>SOLUTION: On the Alien Bee flash, press "TRACK" button. The flash should get brighter. </p>
+                  <p>PRINTER IS PRINTING OUT PAST EVENT'S IMAGES</p>
+                  <p>SOLUTION: Access the control panel -&gt; devices and printers -&gt; right click (hold down) &ldquo;DS40&rdquo; -&gt; see what&rsquo;s printing -&gt; file -&gt; cancel all documents. Afterwards give the computer some time to reset.</p>
+                  <p>FLASH IS NOT FIRING</p>
+                  <p>SOLUTION: Make sure the sync cord (curly cord one) is plugged into both the top of the camera and the the flash. Double check and see if the strobe is on and working by hitting the red "TEST" button.  If you're having trouble screwing the sync cord into the camera, unscrew and slide off the hot-shoe adapter (black square that the sync cord is plugging into on top of the camera), reconnect the sync cord to the adapter and then reattach the adapter with the secured sync cord and feed the sync cord back out through the top hole of the brain. </p>
+                  <p>PHOTOS NOT SYNCING BETWEEN PHOTO BOOTH AND SOCIAL KIOSK</p>
+                  <p>SOLUTION: Make sure both the photo booth and the social kiosk are connected to a reliable wifi connection. Check that the photo booth is syncing to dropbox by viewing the "dropbox" icon in the bottom right corner of the surface tablet. </p>
+                  <p>PHOTOS ARE TAKING A LONG TIME TO LOAD IN LIVE BOOTH (SOCIAL)</p>
+                  <p>SOLUTION: Clear the cache in LiveBooth settings. However, this most likely means the wifi connection is weak. </p>
+                  <p>IN CAMERA SETTINGS - "TV" SETTING APPEARS SET TO "AUTO"</p>
+                  <p>SOLUTION: On the top right side of the camera, there is a dial. spin the dial until you see "1/160" on the back of the camera. Exit the "configure" screen on Social Booth and then re-enter "configure", you should now see TV set to "1/160"</p>
+                  <p>THERES AN OVERLAY I DON'T RECOGNIZE/FROM A DIFFERENT EVENT ON THE PRINT TEMPLATE</p>
+                  <p>SOLUTION: On the "templates" tab, select "Add Overlay". This will open the same folder as the print templates. Select "#BLANKOVERLAY.JPG". This should clear the overlay to normal (no overlay). </p>
+                  <p>PRINTS ARE COMING OUT MIS-ALIGNED</p>
+                  <p>SOLUTION: Open the paper drawer and remove the paper and plungers together. Bang the plungers against the floor (if it's clean) or photo booth case to re-align the paper. </p>
+                  </div>
+                 </div>
+               
+               <div class="tab-pane fade justify-content-center mx-auto" id="pills-FAQ" role="tabpanel" aria-labelledby="pills-FAQ-tab">4Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+               
+               <div class="tab-pane fade justify-content-center mx-auto" id="pills-Videos" role="tabpanel" aria-labelledby="pills-Videos-tab">
+                 <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/161992682" width="640" height="352" frameborder="0"></iframe></div>
+                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/162077815" width="640" height="352" frameborder="0"></iframe></div>
+                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605576" width="640" height="360" frameborder="0"></iframe></div>
+                  <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605391" width="640" height="400" frameborder="0"></iframe></div>
+                  </div>
+                 </div>
+             </div>
+           </div>
           
-           <br />
-           <div class="col-md-12">
-           <ul class="nav nav-pills nav-pills-icons text-center" role="tablist">
-               <!--
-                       color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
-                                 -->
-               <li class="active attendant">
-               <a href="#schedule-1" role="tab" data-toggle="tab" aria-expanded="false">
-               <em class="material-icons">schedule</em>
-               Schedule
-               </a>
-               </li>
-               <li class="attendant">
-               <a href="#dashboard-1" role="tab" data-toggle="tab" aria-expanded="true">
-               <em class="material-icons">dashboard</em>
-               Setup
-               </a>
-               </li>
-               <li class="attendant">
-               <a href="#tasks-1" role="tab" data-toggle="tab" aria-expanded="false">
-               <em class="material-icons">chrome_reader_mode</em>
-               Troubleshoot
-               </a>
-               </li>
-               <li class="attendant">
-               <a href="#FAQ-1" role="tab" data-toggle="tab" aria-expanded="false">
-               <em class="material-icons">list</em>
-               FAQ
-               </a>
-               </li>
-               <li class="attendant">
-               <a href="#video-1" role="tab" data-toggle="tab" aria-expanded="false">
-               <em class="material-icons">play_arrow</em>
-               Videos
-               </a>
-               </li>
-           </ul>
-           <div class="tab-content tab-space”>
-           <hr />
-           <div class="tab-pane active" id="schedule-1">
-           <p> Time is displayed with (1hr) of setup and run time</p>
-           <div id="calendar"></div>
+          
            
-           </div>
-           <div class="tab-pane" id="dashboard-1">
-           <div class="col-md-12 text-center">
-           <h3>SET UP GUIDE</h3>
-           <hr />
-           </div>
-           <div class="col-md-12">
-           <h4>Hardware Tips:</h4>
-           <ul>
-               <li>Before you start, confirm there is a power outlet within reach</li>
-               <li>Set up Ohh Snap Booth roughly 6-7 feet from the backdrop</li>
-               <li>Angle flash at about 35 degrees </li>
-               <li>Set flash between ⅛ - &frac14; - adjust as necessary</li>
-               <li>Keep the hex-key in your pocket</li>
-               <li>Gaffer tape extension cords to the floor </li>
-           </ul>
-           <h4>Getting Powered Up</h4>
-           <ul>
-               <li>Power Button - top right corner of the Surface3</li>
-               <li>Password = photo</li>
-               <li>Open &ldquo;Social Booth Software&rdquo; from desktop</li>
-           </ul>
-           <h4>Software Settings:</h4>
-           <h6><strong>"General&rdquo; tab</strong></h6>
-           <p>DSLR = Connected (if not connected when you open, restart program)
-           Under &ldquo;Camera Setup&rdquo;, Open &ldquo;Configure&rdquo; and check settings:</p>
-           <ul>
-               <li>TV - 1/200</li>
-               <li>AV 9.0</li>
-               <li>ISO - 400</li>
-               <li>AF Mode - 1 Shot AF</li>
-               <li>Change &ldquo;Event Name&rdquo; to event date format: 4.11.{globals.site.dateNow | date:'yyyy'}</li>
-               <li>Slide keyboard out from right hidden panel</li>
-               <li>&ldquo;X&rdquo; out of keyboard when complete - do not press &ldquo;enter&rdquo;</li>
-               <li>Make sure &ldquo;Save Photos to Card&rdquo; is checked</li>
-           </ul>
-           <h6><strong>&ldquo;Templates&rdquo; tab</strong></h6>
-           If you see the correct template, you&rsquo;re all set.<br />
-           If not, Select &ldquo;Background Image&rdquo; &rarr; Select Event Template &rarr; &ldquo;Open&rdquo;<br />
-           You should now see the correct template<br />
-           For events without prints select "# globals.site.dateNow | date:'yyyy' EFAULT.JPG" template<br />
-           <h6><strong>&ldquo;Printing&rdquo; tab</strong></h6>
-           For events with prints, select &ldquo;Auto-Print&rdquo;
-           For events without prints, un-check &ldquo;Auto-Print&rdquo;
-           <h6><strong>Entering Photo Booth Mode:</strong></h6>
-           Green &ldquo;Save and Start Button&rdquo;
-           <h6><strong>Exiting Photo Booth Mode:</strong></h6>
-           Hot-spot in top left corner
-           <h6><strong>Exiting Program:</strong></h6>
-           &ldquo;Quit&rdquo; from settings screen
-           </div>
-           </div>
-           <div class="tab-pane" id="tasks-1">
-           <div class="col-md-12 text-center">
-           <h3>TROUBLESHOOTING</h3>
-           <h7><strong>FIRST LINE OF DEFENSE: RESTART THE SYSTEM</strong></h7>
-           <hr />
-           </div>
-           <div class="col-md-12">
-           <p><strong>GREEN LIGHT IS ON, PRINTER IS NOT PRINTING, </strong></p>
-           <p><em>FIRST TRY:</em> Restart the Tablet</p>
-           <p><em>EASY FIX:</em> Unplug power, restart. </p>
-           <p>
-           1. Turn Camera, Flash, and DS40 Printer Off<br />
-           2. Unplug the power cord from the wall for 30 seconds<br />
-           3. Plug the power cord back into the wall<br />
-           4. Turn Camera, Flash, and DS40 Printer On<br />
-           5.  Open "Devices &amp; Printers" shortcut on desktop<br />
-           6. You should now see the DS40 icon reappear with a green check</p>
-           <p><em>NORMAL FIX:  Remove Device, Restart Tablet</em></p>
-           <p>
-           1. Open "Devices &amp; Printers" shortcut on desktop<br />
-           2. Remove DS40 Printer - highlight the printer icon and select "Remove Device" at the top of the window<br />
-           3. Turn the DS40 Printer off<br />
-           4. Restart the Surface Tablet<br />
-           5. Turn the DS40 Printer on<br />
-           6. You should now see the DS40 icon reappear with a green check</p>
-           <p><em>EXTREME FIX:</em>  Remove Device, Uninstall Drivers, Reinstall Drivers, Restart Tablet</p>
-           <p>
-           1. Open "Devices &amp; Printers" shortcut on desktop<br />
-           2. Remove DS40 Printer - highlight the printer icon and select "Remove Device" at the top of the window<br />
-           3. Turn the DS40 Printer off<br />
-           4. Open "Uninstall a Program" shortcut on desktop<br />
-           5. Locate DS40 Driver and Uninstall It (Windows Driver Package - Dai Nippon Printing DS40)<br />
-           6. Open "DS40 Drivers" folder on the desktop<br />
-           7.  Double-click "DriverInstall" which will run an install<br />
-           8. Restart the Surface Tablet<br />
-           9. Turn the DS40 Printer on<br />
-           10.  Open "Devices &amp; Printers" shortcut on desktop<br />
-           11. You should now see the DS40 icon reappear with a green check</p>
-           <p><em>OTHER REASONS:</em></p>
-           <p>CORD IS LOOSE: Make sure printer USB cord is securely plugged into the "PRINTER" port of the Hub</p>
-           <p>PRINTING DISABLED ON SOCIAL BOOTH: Under the "Printing" tab, ensure auto-print" setting is checked</p>
-           <p>DS40 AS DEFAULT PRINTER:  If you accidentally plug the Printer USB cord in any of the other ports of the hub, extra versions of the printer will appear in the software within the "Printers &amp; Devices" folder. To remedy this:</p>
-           <p>
-           1. Plug the USB back into the "Printer" port of the hub<br />
-           2. Open "Devices &amp; Printers" shortcut on desktop<br />
-           3. Select original version of DS40 Printer, hold down the icon, select "Set as Default"</p>
-           <p>THERE IS A PAPER JAM</p>
-           <p>SOLUTION: Open the paper drawer and firmly pull the paper out of the feed. The paper will be all crinkled and messed up. Switch to a new roll. Do not throw away the jammed role.</p>
-           <p>CAMERA IS HAVING A HARD TIME FOCUSING</p>
-           <p>SOLUTION: On the Alien Bee flash, press "TRACK" button. The flash should get brighter. </p>
-           <p>PRINTER IS PRINTING OUT PAST EVENT'S IMAGES</p>
-           <p>SOLUTION: Access the control panel -&gt; devices and printers -&gt; right click (hold down) &ldquo;DS40&rdquo; -&gt; see what&rsquo;s printing -&gt; file -&gt; cancel all documents. Afterwards give the computer some time to reset.</p>
-           <p>FLASH IS NOT FIRING</p>
-           <p>SOLUTION: Make sure the sync cord (curly cord one) is plugged into both the top of the camera and the the flash. Double check and see if the strobe is on and working by hitting the red "TEST" button.  If you're having trouble screwing the sync cord into the camera, unscrew and slide off the hot-shoe adapter (black square that the sync cord is plugging into on top of the camera), reconnect the sync cord to the adapter and then reattach the adapter with the secured sync cord and feed the sync cord back out through the top hole of the brain. </p>
-           <p>PHOTOS NOT SYNCING BETWEEN PHOTO BOOTH AND SOCIAL KIOSK</p>
-           <p>SOLUTION: Make sure both the photo booth and the social kiosk are connected to a reliable wifi connection. Check that the photo booth is syncing to dropbox by viewing the "dropbox" icon in the bottom right corner of the surface tablet. </p>
-           <p>PHOTOS ARE TAKING A LONG TIME TO LOAD IN LIVE BOOTH (SOCIAL)</p>
-           <p>SOLUTION: Clear the cache in LiveBooth settings. However, this most likely means the wifi connection is weak. </p>
-           <p>IN CAMERA SETTINGS - "TV" SETTING APPEARS SET TO "AUTO"</p>
-           <p>SOLUTION: On the top right side of the camera, there is a dial. spin the dial until you see "1/160" on the back of the camera. Exit the "configure" screen on Social Booth and then re-enter "configure", you should now see TV set to "1/160"</p>
-           <p>THERES AN OVERLAY I DON'T RECOGNIZE/FROM A DIFFERENT EVENT ON THE PRINT TEMPLATE</p>
-           <p>SOLUTION: On the "templates" tab, select "Add Overlay". This will open the same folder as the print templates. Select "#BLANKOVERLAY.JPG". This should clear the overlay to normal (no overlay). </p>
-           <p>PRINTS ARE COMING OUT MIS-ALIGNED</p>
-           <p>SOLUTION: Open the paper drawer and remove the paper and plungers together. Bang the plungers against the floor (if it's clean) or photo booth case to re-align the paper. </p>
-           </div>
-           </div>
-           <div class="tab-pane" id="FAQ-1">
-           <div class="col-md-12 text-center">
-           <h3>FAQ</h3>
-           <hr />
-           </div>
-           
-           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-           
-           <div class="panel panel-default">
-           <div class="panel-heading" role="tab" id="heading{item.counter}">
-           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{item.counter}" aria-expanded="false" aria-controls="collapse{item.counter}">
-           <h4 class="panel-title">
-           {item.question}
-           <em class="material-icons">keyboard_arrow_down</em>
-           </h4>
-           </a>
-           </div>
-           <div id="collapse{item.counter}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{item.counter}">
-           <div class="panel-body">
-           {item.answer}
-           </div>
-           </div>
-           </div>
-           
-           </div>
-           </div>
-           <div class="tab-pane" id="video-1">
-           <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/161992682" width="640" height="352" frameborder="0"></iframe></div>
-           <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/162077815" width="640" height="352" frameborder="0"></iframe></div>
-           <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605576" width="640" height="360" frameborder="0"></iframe></div>
-           <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605391" width="640" height="400" frameborder="0"></iframe></div>
-           </div>
-           </div>
-           </div>
-           </div>
-       
+  </div>
 </div>
 </section>
