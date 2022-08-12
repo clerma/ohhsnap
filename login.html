@@ -32,11 +32,14 @@ permalink: login
   
       <!-- Form -->
       <form action="" method="post" class="mb-6 {% raw %}{{messageClasses}}{% endraw %}">
-  
+      <div class="incorrect-login-message">
+        Incorrect password.
+      </div>
         <!-- Password -->
         <div class="form-group">
           <div class="input-group inpit-group-merge">
             <input class="form-control" id="password" type="password" name="password" autofocus placeholder="Your password" aria-label="Your password" aria-describedby="authPasswordCaption">
+              <input type="hidden" name="username" value="user">
           </div>
         </div>
         <input class="btn w-100 btn-primary" type="submit" value="Log in">
