@@ -2,7 +2,7 @@
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Test description
 keywords: photo booth rental, photo booth rental
-permalink: faq
+permalink: templates
 ---
     <!-- WELCOME -->
     <section class="pt-13 pt-md-12">
@@ -11,7 +11,12 @@ permalink: faq
           
           {% for image in site.static_files %}
                {% if image.path contains '/assets/img/templates' %}
-                     <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+               <div class="col-md-4 card p-4">
+                 <a data-bigpicture='{"imgSrc": "{{ site.baseurl }}{{ image.path }}"}' href="#" class="d-block mb-3 mb-md-0">
+                   <img src="{{ site.baseurl }}{{ image.path }}" class="img-fluid" alt="...">
+                 </a>
+                    
+               </div>
                {% endif %}
           {% endfor %}
           <div class="col-md-10 col-lg-9 text-center">
