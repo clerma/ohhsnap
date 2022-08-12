@@ -108,3 +108,24 @@ span.post-meta {
     pointer-events: none;
     text-decoration: none;
 }
+/* Cal Color Settings */
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active {
+    color: #fff;
+    color: var(--fc-button-text-color, #fff);
+    background-color: #2b3990 !important;
+    background-color: #2b3990 !important;
+    border-color: #2b3990 !important;
+    border-color: #2b3990 !important;
+}
+.fc .fc-button-primary {
+color: #fff;
+color: var(--fc-button-text-color, #fff);
+background-color: #2b3990 !important;
+background-color: #2b3990 !important;
+border-color: #2b3990 !important;
+border-color: #2b3990 !important;
+}
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgba(245, 245, 245, 0.911);
+    background-color: #f5f5f5 !important;
+}
