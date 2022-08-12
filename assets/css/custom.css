@@ -129,3 +129,9 @@ border-color: #2b3990 !important;
     background-color: rgba(245, 245, 245, 0.911);
     background-color: #f5f5f5 !important;
 }
+.bottomright {
+  position: absolute;
+ bottom: 1em;
+ right: 1.5em;
+  font-size: 18px;
+}

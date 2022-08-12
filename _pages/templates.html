@@ -8,17 +8,46 @@ permalink: templates
     <section class="pt-13 pt-md-12">
       <div class="container-lg">
         <div class="row justify-content-center">
-          
+          <div class="col-md-12">
+            <h2>4x6</h2>
+          </div>
+          {% assign i = 0 %}
           {% for image in site.static_files %}
                {% if image.path contains '/assets/img/templates' %}
-               <div class="col-md-4 card p-4">
+               {% unless image.path contains 'Strip' or image.path contains 'R'  %}
+               {% assign i = i | plus:1 %}
+               <div class="col-md-3 card bg-transparent lift lift-lg border-0 shadow-none p-4">
                  <a data-bigpicture='{"imgSrc": "{{ site.baseurl }}{{ image.path }}"}' href="#" class="d-block mb-3 mb-md-0">
                    <img src="{{ site.baseurl }}{{ image.path }}" class="img-fluid" alt="...">
+                   <div class="bottomright">{{i}}</div>
                  </a>
-                    
                </div>
+               {% endunless %}
                {% endif %}
           {% endfor %}
+          <div class="col-md-12">
+            <h2>Strips</h2>
+          </div>
+          {% assign i = 0 %}
+          {% for image in site.static_files %}
+               {% if image.path contains '/assets/img/templates' %}
+               {% if image.path contains 'Strip' or image.path contains 'R'  %}
+               {% assign i = i | plus:1 %}
+               <div class="col-md-3 card bg-transparent lift lift-lg border-0 shadow-none p-4">
+                 <a data-bigpicture='{"imgSrc": "{{ site.baseurl }}{{ image.path }}"}' href="#" class="d-block mb-3 mb-md-0">
+                   <img src="{{ site.baseurl }}{{ image.path }}" class="img-fluid" alt="...">
+                   <div class="bottomright">{{i}}</div>
+                 </a>
+               </div>
+               {% endif %}
+               {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    <section class="pt-13 pt-md-12">
+    <div class="container-lg">
+      <div class="row justify-content-center">
           <div class="col-md-10 col-lg-9 text-center">
 
             <!-- Preheading -->
