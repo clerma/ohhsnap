@@ -1,28 +1,35 @@
-- name: "Weddings"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  url: "/"
-  image: "/assets/img/screenshots/ui-elements/landing-robo-investor.jpg"
-  icon: "fas fa-rings-wedding fa-3x"
-
-- name: "Corporate Events"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-  url: "/"
-  image: "/assets/img/screenshots/ui-elements/landing-analytics.jpg"
-  icon: "fas fa-building fa-3x"
-  
-- name: "School Functions"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-  url: "/"
-  image: "/assets/img/screenshots/ui-elements/landing-analytics.jpg"
-  icon: "fas fa-school fa-3x"
-- name: "Non-Profit"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-  url: "/"
-  image: "/assets/img/screenshots/ui-elements/landing-analytics.jpg"
-  icon: "fas fa-calendar fa-3x"
-  
-- name: "Brand Experiences"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-  url: "/"
-  image: "/assets/img/screenshots/ui-elements/landing-analytics.jpg"
-  icon: ""
+- name: Weddings
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+  url: /
+  image: /assets/img/Ohh Snap Images/10.jpg
+  icon: fas fa-rings-wedding fa-3x
+- name: Corporate Events
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+  url: /
+  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
+  icon: fas fa-building fa-3x
+- name: School Functions
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+  url: /
+  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
+  icon: fas fa-school fa-3x
+- name: Non-Profit
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+  url: /
+  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
+  icon: fas fa-calendar fa-3x
+- name: Brand Experiences
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+  url: /
+  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
+  icon:
