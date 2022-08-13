@@ -2,34 +2,34 @@
   description: >-
     Are you ready to give your guest a memorable experience? Give them the
     keepsake they will cherish forever. Give them the gift of a photo. 
-  url: "/"
+  url: /wedding-photo-booth
   image: /assets/img/Ohh Snap Images/10.jpg
   icon: fas fa-rings-wedding fa-3x
 - name: Corporate Events
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: "/"
+  url: /
   image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
   icon: fas fa-building fa-3x
 - name: School Functions
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: "/"
+  url: /
   image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
   icon: fas fa-school fa-3x
 - name: Non-Profit
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: "/"
+  url: /
   image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
   icon: fas fa-calendar fa-3x
 - name: Brand Experiences
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: "/"
+  url: /
   image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
   icon:
