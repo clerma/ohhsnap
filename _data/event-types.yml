@@ -7,25 +7,18 @@
   icon: fas fa-rings-wedding fa-3x
 - name: Corporate Events
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: /
-  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
+    Are you ready to have people engage with your brand in a way they never have
+    before? We create memorable experiences through photos!
+  url: /corporate-photo-booth
+  image: /assets/img/Ohh Snap Images/3.jpg
   icon: fas fa-building fa-3x
-- name: School Functions
+- name: School Functions & Non-Profits
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: /
+  url: /fundraiser-and-school-photo-booth
   image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
   icon: fas fa-school fa-3x
-- name: Non-Profit
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  url: /
-  image: /assets/img/screenshots/ui-elements/landing-analytics.jpg
-  icon: fas fa-calendar fa-3x
 - name: Brand Experiences
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
