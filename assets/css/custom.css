@@ -135,3 +135,7 @@ border-color: #2b3990 !important;
  right: 1.5em;
   font-size: 18px;
 }
+.images-cards{
+  height: 70vh;
+  object-fit: cover;
+}
