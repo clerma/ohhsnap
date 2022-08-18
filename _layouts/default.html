@@ -3,9 +3,13 @@
   <head>
     {% include head.html %}
     <!-- Schema other -->
-    {% seo %}
-<meta name="keywords" content="{{page.keywords}}">
-<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+ {% capture seo %}
+ {% seo %}
+ <meta name="keywords" content="{{page.keywords}}">
+ <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+ {% endcapture %}
+ {{seo | remove: "Jekyll"}}
+
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -21,12 +25,12 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
 /></noscript>
 <!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
-  </head>
-  <body>
-
+</head>
+<body>
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
    {% include nav.html %}
+   <!-- Hero -->
    {% case page.pagename -%}
    {% when 'home' -%}
     <section class="d-inline-flex hero mt-11">

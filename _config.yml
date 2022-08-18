@@ -1,5 +1,4 @@
 ---
-title: Ohh Snap Photo Booth
 timezone: America/Chicago
 baseurl: 
 include: ['_pages', '_data','login.html','login']
@@ -85,3 +84,4 @@ plugins:
   #   - vendor/cache/
   #   - vendor/gems/
   #   - vendor/ruby/
+  #   - _site
