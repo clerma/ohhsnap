@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Southern University High School Day
-description: Test description
-keywords: photo booth rental, photo booth rental
+description: >-
+  Brands and universities use photo booths for marketing efforts to put the best
+  foot forward for potential new students.
+keywords: >-
+  PhotoBooth, Open Booth,Lafayette,LA Photo Booth Rentals, Party Booth,
+  Professional Photography, Event,Lafayette Photo Booth
+  Rental,Brand,Marketing,Events,custom,Southern University,Custom Wrap,Vinyl
+  Wrap,
 author: Ohh Snap
 categories:
   - Blog
