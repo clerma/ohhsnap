@@ -1,8 +1,18 @@
 ---
 layout: post
 title: Susan G. Komen Race for the Cure
-description: Test description
-keywords: photo booth rental, photo booth rental
+description: >-
+  Ohh Snap! Photo booth was honored to be aid in the success of this year’s
+  Susan G. Komen Race for the Cure! Susan G. Komen is the only organization that
+  addresses breast cancer on multiple fronts such as research, community health,
+  global outreach and public policy initiatives in order to make the biggest
+  impact against Breast Cancer.
+keywords: >-
+  PhotoBooth, Open Booth,Lafayette,LA Photo Booth Rentals, Party Booth,
+  Professional Photography, Event,Lafayette Photo Booth
+  Rental,Brand,Marketing,Social Sharing,Events,Corporate Event,Keepsake,5k,Photo
+  Booth,Susan G. Komen,Race for the Cure,Breast Cancer
+  Awareness,Non-profit,Exposure,
 author: Ohh Snap
 categories:
   - Blog
