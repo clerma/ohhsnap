@@ -2082,7 +2082,7 @@ progress {
     font-size: 88%;
     margin-top: .25rem
 }
-.form-control, .custom-form input {
+.form-control {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
