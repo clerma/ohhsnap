@@ -10,8 +10,6 @@ google_analytics: UA-5620270-51
 snipcart_key: "NjI1NTk4YjQtNjBjNy00NTJjLTgzOWMtNmU5OWYzYWM0NDk0NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
-  staff_members:
-    output: false
   products:
     output: true
 
