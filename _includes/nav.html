@@ -1,14 +1,13 @@
  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white d-inline-flex">
       <div class="container-lg">
-    
         <!-- Brand -->
         <a class="navbar-brand d-lg-none me-0 col-8" href="/"><img class="w-50" src="{{ site.baseurl }}/{{ site.data.company_details.logo_image }}"/></a>
-        
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
+     
+       <input id="menu__toggle" class="navbar-toggler" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" />
+       <label class="menu__btn" for="menu__toggle">
+         <span></span>
+       </label>
+     
         <!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
     
@@ -16,7 +15,7 @@
           <ul class="navbar-nav justify-content-end w-100">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="landingsDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                Photo Booth Rental
+                Photo Booths
               </a>
               <div class="dropdown-positioner">
                 <div class="dropdown-menu dropdown-menu-xl dropdown-menu-flush" aria-labelledby="landingsDropdown">
@@ -28,7 +27,6 @@
                         <h6 class="dropdown-header text-uppercase text-primary-light pt-4 pt-md-0 d-lg-block">
                           Rental Types
                         </h6>
-                
                         <!-- Links -->
                         <a class="d-flex text-decoration-none" href="{{ site.baseurl }}/wedding-photo-booth">
                 
@@ -48,7 +46,6 @@
                             <span class="text-gray-500">
                               Minimal, image-focused content
                             </span>
-                
                           </div>
                 
                         </a>

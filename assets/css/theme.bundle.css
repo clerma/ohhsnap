@@ -3808,7 +3808,8 @@ textarea.form-control-lg {
 .navbar-collapse {
     align-items: center;
     flex-basis: 100%;
-    flex-grow: 1
+    flex-grow: 1;
+    
 }
 .navbar-toggler {
     background-color: transparent;
@@ -3817,7 +3818,8 @@ textarea.form-control-lg {
     font-size: 1.25rem;
     line-height: 1;
     padding: .25rem .75rem;
-    transition: box-shadow .15s ease-in-out
+    transition: box-shadow .15s ease-in-out;
+    
 }
 @media (prefers-reduced-motion:reduce) {
     .navbar-toggler {
@@ -3965,7 +3967,7 @@ textarea.form-control-lg {
         display: flex!important;
         flex-basis: auto
     }
-    .navbar-expand-lg .navbar-toggler, .navbar-expand-lg .offcanvas-header {
+    .navbar-expand-lg .navbar-toggler, .navbar-expand-lg .offcanvas-header,.menu__btn {
         display: none
     }
     .navbar-expand-lg .offcanvas {
