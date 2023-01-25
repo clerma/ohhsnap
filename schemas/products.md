@@ -1,17 +1,8 @@
 ---
 name:
-garment_type: top
 price:
+identifier:
 sku:
 description:
-sizes:
-  - XS
-  - Small
-  - Medium
-  - Large
-  - XL
-styles:
-  - name:
-    color:
-    image:
+guid:
 ---
