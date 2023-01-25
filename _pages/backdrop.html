@@ -4,8 +4,9 @@
  keywords: photo booth rental, photo booth rental
  layout: default
  pagename: backdrops
- permalink: "/backdrop-rentals/"
+ permalink: "/lafayette-backdrop-rentals/"
 ---
+
   <!-- ABOUT -->
 <section class="pt-13 pt-md-12">
   <div class="container-lg">
@@ -14,53 +15,20 @@
 
 		<!-- Image grid -->
 		<div class="img-grid img-grid-1 mb-8 mb-md-0">
+			{% for backdrops in site.data.backdrops limit:1 %}
 		  <div class="img-grid-item">
-			  {% for backdrops in site.data.backdrops %}
-		  	<!-- Image -->
-			  <a data-bigpicture='{"imgSrc": "{{ backdrops.image }}"}' href="#" class="d-block mb-3 mb-md-0">
-				<img src="{{  backdrops.image }}" class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" alt="{{ backdrops.name }}">
-			  </a>
-			  {% endfor %}
 			<!-- Image -->
-			<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="/assets/img/avatars/avatar-jumbo-1.jpg" alt="...">
-
+			<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="{{backdrops.image}}" alt="...">
 		  </div>
-		  <div class="img-grid-item">
-
+		  {% endfor %}
+		  {% for backdrops in site.data.backdrops limit:5 offset:1 %}
+		  {% capture thecycle %} {% cycle "45", "50", "20", "15", "-50" %}{% endcapture %}
+		  <div class="img-grid-item ">
 			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-85" src="/assets/img/avatars/avatar-2.jpg" alt="...">
-
+			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="{{thecycle}}" src="{{backdrops.image}}" alt="{{backdrops.name}}">
 		  </div>
-		  <div class="img-grid-item">
-
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-45" src="/assets/img/avatars/avatar-8.jpg" alt="...">
-
-		  </div>
-		  <div class="img-grid-item">
-
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-50" src="/assets/img/avatars/avatar-10.jpg" alt="...">
-
-		  </div>
-		  <div class="img-grid-item">
-
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-20" src="/assets/img/avatars/avatar-6.jpg" alt="...">
-
-		  </div>
-		  <div class="img-grid-item">
-
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-15" src="/assets/img/avatars/avatar-4.jpg" alt="...">
-
-		  </div>
-		  <div class="img-grid-item">
-
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="-10" src="/assets/img/avatars/avatar-3.jpg" alt="...">
-
-		  </div>
+		  {% endfor %}
+		 
 		</div>
 
 	  </div>

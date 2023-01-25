@@ -1,0 +1,20 @@
+
+ <div class="col-6 col-md-3 founders investors">
+	<!-- Card -->
+	<div class="card card-sm bg-transparent mt-5">
+	  <!-- Image -->
+	  <img class="card-img-top rounded-top-start rounded-bottom-end" src="{{ product.image }}" alt="{{ product.name }}">
+	  <!-- Body -->
+	  <div class="card-body px-0 text-center">
+		<!-- Heading -->
+		<h5 class="font-sans-serif text-white mb-0">
+		 {{ product.name }}
+		</h5>
+		<!-- Text -->
+		<small class="text-muted">
+		  {{ product.content }}
+		</small>
+		<p>	{% include product-definition.html %}</p>
+	  </div>
+	</div>
+  </div>

@@ -182,3 +182,6 @@ border-color: #2b3990 !important;
   content: '';
   top: 8px;
 }
+.snipcart-modal__container{
+  padding-top: 10em !important;
+}
