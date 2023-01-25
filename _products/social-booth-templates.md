@@ -1,10 +1,12 @@
 ---
 _schema: default
 name: Social Booth Templates
-description: >-
 price: '50.00'
 identifier: social-booth-templates
-image: /assets/img/layouts.jpg
 sku: social-booth-templates
+description: >-
+  These are photoshop files of every single template in social booth, sized to
+  match the exact coordinates of where a photo will be placed. Use these to
+  design your templates for proofing or for your event with accuracy.
 guid: 67f803d2-b7ee-4196-9ff4-208a16183180
 ---
