@@ -1,8 +1,5 @@
 _select_data:
-  garment_types:
-    - hat
-    - top
-
+  
 _inputs:
   map:
     comment: "Update the map location and display settings."
@@ -21,7 +18,7 @@ _inputs:
   new_window:
     comment: "Open link in new window"
   description:
-    comment: "This is used for facebook shares of the page and google indexing"
+    comment: ""
 
 collections_config:
   staff_members:
