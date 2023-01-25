@@ -23,7 +23,7 @@ defaults:
       content: &content_defaults
         uploads_dir: "uploads/:title"
         format: p h1 h2 h3 h4 h5 h6 div
-        styles: /assets/css/theme.bundle.css
+        styles: /assets/css/theme.css
         undo: true
         redo: true
         left: text-left
