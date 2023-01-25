@@ -7,7 +7,7 @@ relative_permalinks: false
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
-snipcart_key: "NjI1NTk4YjQtNjBjNy00NTJjLTgzOWMtNmU5OWYzYWM0NDk0NjM3OTM4NzI1MTg4MjA1MjY4"
+snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
   products:
