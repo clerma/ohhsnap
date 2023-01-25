@@ -1,8 +1,7 @@
 ---
 _schema: default
 name: Social Booth Templates
-description_markdown: >-
-  These are photoshop files of every single template in social booth, sized to match the exact coordinates of where a photo will be placed. Use these to design your templates for proofing or for your event with accuracy.
+description: >-
 price: '50.00'
 identifier: social-booth-templates
 image: /assets/img/layouts.jpg
