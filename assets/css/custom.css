@@ -185,3 +185,8 @@ border-color: #2b3990 !important;
 .snipcart-modal__container{
   padding-top: 10em !important;
 }
+.snipcart-button-primary{ background-color: #27aae1 !important;
+  border-radius: 0.5rem 0 0.5rem 0 !important;
+  font-size: .875rem !important;
+  font-family: inherit !!important;
+}
