@@ -2,6 +2,7 @@
 timezone: America/Chicago
 baseurl: 
 include: ['_pages', '_data','login.html','login']
+name: Ohh Snap! Photo Booth
 relative_permalinks: false
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 

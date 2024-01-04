@@ -2773,7 +2773,7 @@ textarea.form-control-lg {
 .btn {
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 2rem;
+    border-radius: .5rem 0 .5rem 0;
     color: #0e3083;
     cursor: pointer;
     display: inline-block;

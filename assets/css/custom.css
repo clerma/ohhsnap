@@ -8,6 +8,15 @@
 .ohhsnap{
 	font-family: "Roboto Slab", serif !important;
 }
+.blog-cards{
+  width: calc(100% - 2rem); max-width: 920px;
+}
+.pattern-1{
+  background-image: url(/assets/img/patterns/pattern-1.svg);
+}
+.zindex-1{
+  z-index: 1 !important;
+}
 section.hero {
   position: relative;
   background-color: black;
@@ -136,7 +145,7 @@ border-color: #2b3990 !important;
   font-size: 18px;
 }
 .images-cards{
-  height: 75vh;
+  height: 81vh;
   object-fit: cover;
 }
 #menu__toggle {
