@@ -24,7 +24,7 @@ permalink: ":title/"
 
             <!-- Preheading -->
             <h6 class="font-sans-serif text-warning mb-5">
-              {% assign sortedCategories = page.categories %}{% for category in sortedCategories %}  <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="text-warning">{{ category }}</a>  {% endfor %}
+              {% assign sortedCategories = page.categories %}{% for category in sortedCategories %}  <a href="categories/#{{ category | slugify }}" class="text-warning">{{ category }}</a>  {% endfor %}
             </h6>
 
             <!-- Heading -->

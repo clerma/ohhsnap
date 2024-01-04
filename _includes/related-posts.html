@@ -24,7 +24,7 @@
                 {% if page.tags.size >= 1 %}
                 {% for tag in page.tags %}
                   {% if forloop.index == 1 %}
-                    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="section__link related-tag">See all<span> {{ tag }}</span> <i class="ion ion-md-arrow-forward"></i></a>
+                    <a href="tags#{{ tag }}" class="section__link related-tag">See all<span> {{ tag }}</span> <i class="ion ion-md-arrow-forward"></i></a>
                   {% endif %}
                 {% endfor %}
               {% endif %}

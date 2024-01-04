@@ -65,8 +65,6 @@ defaults:
   values:
     layout: bloglayout
 
-
-
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -83,6 +81,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-paginate
 
 exclude:
     - .jekyll-cache/

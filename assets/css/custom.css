@@ -190,3 +190,9 @@ border-color: #2b3990 !important;
   font-size: .875rem !important;
   font-family: inherit !!important;
 }
+.snipcart-items-count{
+  position: relative;
+  right: 4px !important;
+  bottom: 10px;
+  font-size: 14px;
+}
