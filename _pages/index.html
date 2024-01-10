@@ -8,7 +8,7 @@ location: Lafayette
 permalink: "/"
 ---
 <!-- WELCOME -->
-<section class="pt-13 pt-md-8 pb-8 pb-md-9">
+<section class="pt-13 pt-md-8 pb-5">
     <div class="container-lg">
         <div class="row justify-content-center">
             <div class="col-md-12 col-xl-10 text-center">
@@ -27,13 +27,6 @@ permalink: "/"
                 <p class="lead text-muted">
                     Event Photography is essential to any type of event. Long gone is the bulky box or the make shift tripod setup. Our modern day photo booth is built to be a beautiful and elegant solution to any event. Scroll down to find your type of event.
                 </p>
-
-                <!-- Buttons -->
-                <a class="btn btn-primary lift" href="" target="_blank">
-                    Get a Quote
-                </a>
-
-
             </div>
         </div>
     </div>
@@ -50,9 +43,8 @@ permalink: "/"
         </div>
     </div>
 </div>
-
 <!-- TASKS -->
-<section class="pt-10 pt-md-12 bg-dark">
+<section class="bg-dark">
     <div class="container-lg">
         <div class="row">
             <div class="col-12">
@@ -374,36 +366,26 @@ permalink: "/"
                                         Ohh Snap was so helpful with the creative process, set up installation, and more! Everyone at our wedding loved it! There was never a time it was empty! One of our guests loved it so much they booked Ohh Snap for their wedding as well! Thanks again! So much fun. xoxo The Fabachers
                                     </q>
                                 </blockquote>
-
                                 <!-- Heading -->
                                 <h4 class="font-sans-serif mb-0">Taryn Fabacher</h4>
-
                                 <!-- Position -->
                                 <p class="fs-sm text-muted mt-n1 mb-0">Wedding Customer</p>
-
                             </div>
                             <div class="card-body w-100 pb-9 text-center">
-
                                 <!-- Blockquote -->
                                 <blockquote class="mb-5">
                                     <q class="fs-lg">
                                         We loved Oh Snap!! We had them come to our wedding in early January and they truly made the night a blast. Our guests absolutely loved it, I am pretty sure there was a line of people for it the entire night! Definitely a very effective way to make your wedding fun and memorable!
                                     </q>
                                 </blockquote>
-
                                 <!-- Heading -->
                                 <h4 class="font-sans-serif mb-0">Alea de Valle</h4>
-
                                 <!-- Position -->
                                 <p class="fs-sm text-muted mt-n1 mb-0">Wedding customer</p>
-
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
             <div class="col-md-6 text-center text-md-start">
                 <!-- Heading -->
@@ -420,7 +402,6 @@ permalink: "/"
         </div>
     </div>
 </section>
-
 <!-- ABOUT -->
 <section class="bg-light pt-10 pt-md-12 pb-9 pb-md-11">
     <div class="container-lg">
@@ -540,7 +521,6 @@ permalink: "/"
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 order-md-0">
-
                 <!-- Heading -->
                 <h2 class="display-4 mb-4">
                     Custom Designed Templates
@@ -689,38 +669,33 @@ permalink: "/"
             </div>
         </div>
     </div>
+    <!-- Slider -->
+    <div class="flickity-buttons-responsive flickity-items-fade" data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
+        {% for post in site.tags.blog limit:6 %}
+        <div class="blog-cards">
+            <!-- Image -->
+            <a href="{{ post.url }}">
+                <img class="img-fluid rounded bloghomeimg" src="{{ post.image }}" alt="{{ post.title }}">
+            </a>
+            <!-- Body -->
+            <div class="flickity-hidden py-6 text-center">
+                <!-- Heading -->
+                <h6 class="text-uppercase text-white fw-bold fs-3">
+                    {{ post.title }}
+                </h6>
+                <!-- Text -->
+                <p class="fs-sm text-center text-white-80 mb-0">
+                    {{ post.excerpt | strip_html | truncatewords:25 }}
+                </p>
 
-<!-- Slider -->
-<div class="flickity-buttons-responsive flickity-items-fade" data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
-    {% for post in site.tags.blog limit:6 %}
-    <div class="blog-cards">
-        <!-- Image -->
-        <a href="{{ post.url }}">
-            <img class="img-fluid rounded bloghomeimg" src="{{ post.image }}" alt="{{ post.title }}">
-        </a>
-        <!-- Body -->
-        <div class="flickity-hidden py-6 text-center">
-            <!-- Heading -->
-            <h6 class="text-uppercase text-white fw-bold fs-3">
-                {{ post.title }}
-            </h6>
-            <!-- Text -->
-            <p class="fs-sm text-center text-white-80 mb-0">
-                {{ post.excerpt | strip_html | truncatewords:25 }}
-            </p>
+            </div>
 
         </div>
-
+        {% endfor %}
     </div>
-    {% endfor %}
-
-</div>
-
 </section>
-
 <!-- SHAPE -->
 <div class="position-relative">
-
     <!-- Shape -->
     <div class="shape shape-fluid-x shape-top text-white">
         <div class="shape-img pb-9 pb-md-15">
@@ -793,10 +768,8 @@ permalink: "/"
     </div>
 
 </div>
-
 <!-- GROUP -->
 <div class="bg-gradient-light">
-
     <!-- PRICING -->
     <section class="pt-5 pt-md-12">
         <div class="container-lg position-relative zindex-1">
@@ -968,7 +941,6 @@ permalink: "/"
             <p>
                 Providing inspiration for the best photo booth experiences
             </p>
-
         </div>
     </div>
     <!-- Place <div> tag where you want the feed to appear -->

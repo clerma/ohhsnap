@@ -176,34 +176,16 @@ permalink: lafayette-photo-booth-rental
 	</section>
 	<!-- Gallery -->
 	<div class="pt-5 mt-5" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
-		{% for item in site.data.gallery %}
-		  {% if item.booth == 'portrait' %}
+		{% for item in site.static_files %}
+		  {% if item.path contains '/assets/img/gallery/portrait' %}
   				<div class="col-lg-4 col-10 mx-2">
 				  	<!-- Image -->
-					<a data-bigpicture='{"imgSrc": "{{item.image}}"}' href="#" class="d-block mb-3 mb-md-0" >
-					<img class="img-fluid" src="{{item.image}}" alt="Ohh Snap {{item.booth}} Booth" data-aos="wipe-left">
+					<a data-bigpicture='{"imgSrc": "{{item.path}}"}' href="#" class="d-block mb-3 mb-md-0" >
+					<img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Portrait Booth" data-aos="wipe-left">
 					</a>
   				</div>
 	  	{% endif %}
 	  {% endfor %}
-	  <div class="col-lg-4 col-10 mx-2">
-		<!-- Image -->
-	<a data-bigpicture='{"imgSrc": "../assets/img/screenshots/desktop/page-blog.jpg"}' href="#" class="d-block mb-3 mb-md-0" >
-		<img class="img-fluid" src="../assets/img/screenshots/desktop/page-blog.jpg" alt="..." data-aos="wipe-left">
-	</a>	
-	  </div>
-	  <div class="col-lg-4 col-10 mx-2">
-		<!-- Image -->
-	<a data-bigpicture='{"imgSrc": "../assets/img/screenshots/desktop/page-blog-article.jpg"}' href="#" class="d-block mb-3 mb-md-0" >
-		<img class="img-fluid" src="../assets/img/screenshots/desktop/page-blog-article.jpg" alt="..." data-aos="wipe-left">
-	</a>
-	  </div>
-	  <div class="col-lg-4 col-10 mx-2">
-		<!-- Image -->
-	<a data-bigpicture='{"imgSrc": "../assets/img/screenshots/desktop/page-blog-article-cover.jpg"}' href="#" class="d-block mb-3 mb-md-0" >
-		<img class="img-fluid" src="../assets/img/screenshots/desktop/page-blog-article-cover.jpg" alt="..." data-aos="wipe-left">
-	</a>
-	  </div>
 	</div>
 	<!-- SHAPE -->
 	<div class="position-relative">
