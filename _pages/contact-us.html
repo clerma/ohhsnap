@@ -7,7 +7,7 @@ pagename: contact
 permalink: "/contact-ohh-snap-photobooth/"
 ---
     <!-- CONTENT -->
-    <section class="pt-13 pt-md-12 pb-8 pb-md-9">
+    <section class="pt-14">
       <div class="container-lg">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-8 text-center">
@@ -23,12 +23,12 @@ permalink: "/contact-ohh-snap-photobooth/"
             </h1>
 
             <!-- Text -->
-            <p class="fs-lg text-muted mb-9">
+            <p class="fs-lg text-muted mb-6">
              Don't hesitate, contact us today and let us assist you!
             </p>
 
             <!-- Items -->
-            <div class="row mb-9">
+            <div class="row">
               <div class="col-md py-md-4 mb-6 mb-md-0">
 
                 <!-- Chat -->
@@ -98,48 +98,7 @@ permalink: "/contact-ohh-snap-photobooth/"
             </div>
 
             <!-- Form -->
-            <form method="post" id="contact-us" action="/success">
-              <div class="row">
-                <div class="col-md-6">
-
-                  <!-- Name -->
-                  <div class="form-group">
-                    <label class="visually-hidden" for="name">
-                      Your name
-                    </label>
-                    <input class="form-control" id="name" name="name" type="text" placeholder="Your name">
-                  </div>
-
-                </div>
-                <div class="col-md-6">
-
-                  <!-- Email -->
-                  <div class="form-group">
-                    <label class="visually-hidden" for="email">
-                      Your email
-                    </label>
-                    <input class="form-control" id="email" type="email" name="email" placeholder="Your email">
-                  </div>
-
-                </div>
-                <div class="col-12">
-
-                  <!-- Message -->
-                  <div class="form-group">
-                    <label class="visually-hidden" for="message">
-                      Your message
-                    </label>
-                    <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="7"></textarea>
-                  </div>
-
-                </div>
-              </div>
-              <input type="hidden" name="inbox_key" value="contact-us">
-              <input type="hidden" name="_to" value="carlos@ohhsnapbooth.com">
-              <input type="text" name="_gotcha" style="display: none;">
-              <input class="btn w-100 btn-primary" type="submit" value="Send Message">
-              
-            </form>
+           {% include contact.html %}
 
           </div>
         </div>
