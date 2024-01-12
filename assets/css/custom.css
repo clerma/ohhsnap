@@ -205,3 +205,6 @@ border-color: #2b3990 !important;
   bottom: 10px;
   font-size: 14px;
 }
+.z1{
+  z-index: 1 !important;
+}
