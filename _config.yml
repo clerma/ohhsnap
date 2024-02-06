@@ -8,6 +8,18 @@ relative_permalinks: false
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
+social:
+  name: Ohh Snap Photo booth
+  links:
+    - https://twitter.com/ohhsnapbooth
+    - https://www.facebook.com/ohhsnapbooth
+    - https://www.pinterest.com/ohhsnapbooth
+    - https://instagram.com/ohhsnapbooth
+    - https://maps.app.goo.gl/HFYo8vHsEqHiMQfX8
+    - https://www.yelp.com/biz/ohh-snap-photo-booth-lafayette-2
+    - https://www.theknot.com/marketplace/ohh-snap-photo-booth-lafayette-la-1089431
+    - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
+logo: /assets/img/logo/ohh-snap-logo.png
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
