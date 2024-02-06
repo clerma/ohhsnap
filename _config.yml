@@ -4,6 +4,7 @@ baseurl:
 include: ['_pages', '_data','login.html','login']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
+favicon: /assets/favicon/favicon.ico
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -20,6 +21,7 @@ social:
     - https://www.theknot.com/marketplace/ohh-snap-photo-booth-lafayette-la-1089431
     - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
 logo: /assets/img/logo/ohh-snap-logo.png
+locale: en_us
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
