@@ -4,7 +4,8 @@
 {% include head.html %}
 {% capture seo %}
  {% seo %}
- {% for item in site.social.links %}<meta property="og:see_also" content="{{item}}" />{% endfor %}
+ {% for item in site.social.links %}<meta property="og:see_also" content="{{item}}" />
+ {% endfor %}
  <meta name="keywords" content="{{page.keywords}}">
  <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
  {% endcapture %}
