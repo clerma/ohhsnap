@@ -36,681 +36,96 @@
 
 		<!-- Heading -->
 		<h2 class="display-4 mb-4">
-		  Your entire network is already online.
+		  Create the perfect photo booth experience
 		</h2>
 
 		<!-- Text -->
 		<p class="text-muted mb-4">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
+		  When carefully orchestrated, a photo booth has the power to leave a lasting impression on any event. Your choice of backdrop becomes the backdrop of cherished memories for years to come. At Ohh Snap Photo Booth, we take pride in offering a diverse range of backdrops, ensuring you find the perfect match for your special occasion.
 		</p>
-		<p class="text-muted mb-0">
-		  In hac habitasse platea dictumst. Proin sit amet convallis enim. Sed auctor lorem id tortor dignissim, in sollicitudin odio porta.
-		</p>
-
 	  </div>
 	</div>
   </div>
 </section>
-
-<!-- ABOUT -->
+ <!-- TEAM -->
 <section class="py-10 py-md-12">
-  <div class="container-lg">
-	<div class="row align-items-center justify-content-between">
-	  <div class="col-md-6 order-md-1">
-
-		<!-- Image -->
-		<img class="img-fluid mb-6 mb-md-0" src="/assets/img/screenshots/ui-elements/chat.png" alt="...">
-
-	  </div>
-	  <div class="col-md-6 col-xl-5 order-md-0 text-center text-md-start">
+  <div class="container-lg position-relative" style="z-index: 1;">
+	<div class="row align-items-center mb-9 justify-content-between">
+	  <div class="col-7">
 
 		<!-- Heading -->
-		<h2 class="display-4 mb-6">
-		  Simple, accessible messaging for all.
+		<h2 class="display-4 text-primary mb-0">
+		  Our Backdrops
 		</h2>
 
-		<!-- Item -->
-		<div class="row">
-		  <div class="col-12 col-md-auto">
+		<!-- Text -->
+		<p class="text-gray-500 mb-md-0">
+		 We proudly offer a variety of custom and standard backdrops sourced from both our own collection and our trusted vendors. With Ohh Snap Photo Booth, you'll find the perfect backdrop to elevate your event.
+		</p>
 
-			<!-- Icon -->
-			<div class="icon text-primary-light mb-2">
-			  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M6 9v6a3 3 0 003 3h6v.818C15 20.232 14.232 21 12.818 21H5.182C3.768 21 3 20.232 3 18.818v-7.636C3 9.768 3.768 9 5.182 9H6z" fill="#335EEA"/><path d="M10.182 4h7.636C19.232 4 20 4.768 20 6.182v7.636C20 15.232 19.232 16 17.818 16h-7.636C8.768 16 8 15.232 8 13.818V6.182C8 4.768 8.768 4 10.182 4z" fill="#335EEA" opacity=".3"/></g></svg>                </div>
+	  </div>
+	  <div class="col-5">
 
-		  </div>
-		  <div class="col">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold mb-2">
-			  Beautiful Interfaces
-			</p>
-
-			<!-- Text -->
-			<p class="text-muted mb-5">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor.
-			</p>
-
-		  </div>
-		</div>
-
-		<!-- Item -->
-		<div class="row">
-		  <div class="col-12 col-md-auto">
-
-			<!-- Icon -->
-			<div class="icon text-primary-light mb-2">
-			  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M4 4l7.631-1.43a2 2 0 01.738 0L20 4v9.283a8.51 8.51 0 01-4 7.217l-3.47 2.169a1 1 0 01-1.06 0L8 20.5a8.51 8.51 0 01-4-7.217V4z" fill="#335EEA" opacity=".3"/><path d="M11.175 14.75a.946.946 0 01-.67-.287l-1.917-1.917a.926.926 0 010-1.342c.383-.383 1.006-.383 1.341 0l1.246 1.246 3.163-3.162a.926.926 0 011.341 0 .926.926 0 010 1.341l-3.833 3.834a.946.946 0 01-.671.287z" fill="#335EEA"/></g></svg>                </div>
-
-		  </div>
-		  <div class="col">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold mb-2">
-			  Enterprise Security
-			</p>
-
-			<!-- Text -->
-			<p class="text-muted mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor.
-			</p>
-
-		  </div>
-		</div>
+		<!-- Nav -->
+		<ul class="nav nav-tabs nav-dark nav-overflow mb-0" id="teamTab" role="tablist">
+		  <li class="nav-item" role="presentation">
+			<a class="nav-link active" data-bs-toggle="tab" data-filter=".founders" data-target="#team" href="#">
+			  Founders
+			</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+			<a class="nav-link" data-bs-toggle="tab" data-filter=".board" data-target="#team" href="#">
+			  Board
+			</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+			<a class="nav-link" data-bs-toggle="tab" data-filter=".investors" data-target="#team" href="#">
+			  Investors
+			</a>
+		  </li>
+		</ul>
 
 	  </div>
 	</div>
-  </div>
-</section>
+	<div class="row mt-n5" id="team" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
+	{% for backdrops in site.data.backdrops %}
+	  <div class="col-6 col-md-3 founders investors">
 
-<!-- VIDEO -->
-<section>
-  <div class="container-lg position-relative" style="z-index: 1;">
-	<div class="row align-items-center">
-	  <div class="col-12">
+		<!-- Card -->
+		<div class="card card-sm bg-white mt-5">
 
-		<!-- Decoration -->
-		<div class="position-absolute bottom-end text-gray-800 mb-n10 me-n8">
-		  <svg width="207" height="207" viewBox="0 0 207 207" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 12.938A6.469 6.469 0 106.469 0a6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM33.487 6.47l4.811-4.811L37.155.514l-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM7.612 32.344l4.811-4.811-1.143-1.144L6.469 31.2l-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/><g clip-path="url(#decoration4clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 12.938a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip1)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 64.688a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM7.612 84.094l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip2)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 64.688a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip3)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 12.938a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM85.237 6.47l4.811-4.811L88.905.514l-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip4)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 12.938a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip5)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 64.688a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip6)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 64.688a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip7)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 116.438a6.47 6.47 0 10-.001-12.939 6.47 6.47 0 000 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip8)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 116.438a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip9)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 168.188a6.47 6.47 0 10-.001-12.939 6.47 6.47 0 000 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip10)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 168.188a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip11)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 116.438a6.47 6.47 0 10-.002-12.939 6.47 6.47 0 00.002 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip12)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 116.438a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip13)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 168.188a6.47 6.47 0 10-.002-12.939 6.47 6.47 0 00.002 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip14)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 168.188a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><defs><clipPath id="decoration4clip7"><path fill="#fff" d="M0 103.5h51.75v51.75H0z"/></clipPath><clipPath id="decoration4clip0"><path fill="#fff" d="M103.5 0h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip2"><path fill="#fff" d="M103.5 51.75h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip3"><path fill="#fff" d="M51.75 0h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip4"><path fill="#fff" d="M155.25 0H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip5"><path fill="#fff" d="M51.75 51.75h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip6"><path fill="#fff" d="M155.25 51.75H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip1"><path fill="#fff" d="M0 51.75h51.75v51.75H0z"/></clipPath><clipPath id="decoration4clip8"><path fill="#fff" d="M103.5 103.5h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip9"><path fill="#fff" d="M0 155.25h51.75V207H0z"/></clipPath><clipPath id="decoration4clip10"><path fill="#fff" d="M103.5 155.25h51.75V207H103.5z"/></clipPath><clipPath id="decoration4clip11"><path fill="#fff" d="M51.75 103.5h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip12"><path fill="#fff" d="M155.25 103.5H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip13"><path fill="#fff" d="M51.75 155.25h51.75V207H51.75z"/></clipPath><clipPath id="decoration4clip14"><path fill="#fff" d="M155.25 155.25H207V207h-51.75z"/></clipPath></defs></svg>            </div>
+		  <!-- Image -->
+		  <img class="card-img-top rounded-top-start rounded-bottom-end" src="{{backdrops.image}}" alt="Lafayette Backdrop Rental | {{backdrops.name}}">
 
-		<!-- Image -->
-		<img class="position-relative img-fluid rounded" src="/assets/img/mobile-chat-app/video-thumb.jpg" alt="...">
+		  <!-- Body -->
+		  <div class="card-body px-0 text-center">
+
+			<!-- Heading -->
+			<h5 class="font-sans-serif text-primary mb-0">
+			 {{backdrops.name}}
+			</h5>
+
+			<!-- Text -->
+			<small class="text-muted">
+			  Chief Design Officer
+			</small>
+
+		  </div>
+
+		</div>
 
 	  </div>
-	  <div class="col-12 offset-n12 text-center">
-
-		<!-- Button -->
-		<a class="btn btn-primary-light lift" data-bigpicture='{"ytSrc": "9I-Y6VQ6tyI"}' href="#">
-		  <span class="d-inline-block small align-top me-3"><svg width="0.727em" height="1em" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 9.63V1.19C0 .683.567.38.988.664l6.455 4.334A.634.634 0 017.43 6.06L.975 10.166A.635.635 0 010 9.631z" fill="currentColor"/></svg></span> Watch Preview
-		</a>
-
-	  </div>
+	  {% endfor %}
+	  
 	</div>
   </div>
 </section>
-
 <!-- SHAPE -->
 <div class="position-relative">
   <div class="shape shape-fluid-x shape-top text-dark pb-8 pb-md-12">
 	<div class="shape-img pb-9 pb-md-15">
-	  <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg>        </div>
+	  <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg></div>
   </div>
 </div>
 
-<!-- FEATURES -->
-<section class="pt-10 pt-md-12 bg-dark">
-  <div class="container-lg">
-	<div class="row justify-content-center">
-	  <div class="col-md-10 col-lg-8">
 
-		<!-- Heading -->
-		<h2 class="display-4 text-center text-white mb-9 mb-md-10">
-		  Explore our services to find the right match for you.
-		</h2>
-
-	  </div>
-	</div>
-	<div class="row mt-n8 mt-md-n9" data-aos="fade-up">
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-8 mt-md-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M4 4l7.631-1.43a2 2 0 01.738 0L20 4v9.283a8.51 8.51 0 01-4 7.217l-3.47 2.169a1 1 0 01-1.06 0L8 20.5a8.51 8.51 0 01-4-7.217V4z" fill="#335EEA" opacity=".3"/><path d="M11.175 14.75a.946.946 0 01-.67-.287l-1.917-1.917a.926.926 0 010-1.342c.383-.383 1.006-.383 1.341 0l1.246 1.246 3.163-3.162a.926.926 0 011.341 0 .926.926 0 010 1.341l-3.833 3.834a.946.946 0 01-.671.287z" fill="#335EEA"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  Secure
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-8 mt-md-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M22 15.01l.025-.01v4.586a1 1 0 01-1.707.707L18.025 18H5a3 3 0 01-3-3V6a3 3 0 013-3h14a3 3 0 013 3v9.01zM6.168 10.555C7.678 12.819 9.646 14 12 14c2.354 0 4.322-1.18 5.832-3.445a1 1 0 10-1.664-1.11C15.01 11.181 13.646 12 12 12c-1.646 0-3.01-.82-4.168-2.555a1 1 0 00-1.664 1.11z" fill="#335EEA"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  Cross-platform
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M14.293 16.707a1 1 0 011.414-1.414l4 4a1 1 0 01-1.414 1.414l-4-4z" fill="#335EEA" opacity=".3"/><path d="M11 16a5 5 0 100-10 5 5 0 000 10zm0 2a7 7 0 110-14 7 7 0 010 14z" fill="#335EEA"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  Searchable
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-8 mt-md-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 11h8a2 2 0 002-2V8h2v1a4 4 0 01-4 4H7v2a1 1 0 01-2 0V9a1 1 0 112 0v2z" fill="#335EEA" opacity=".3"/><path d="M6 21a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM18 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM6 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8z" fill="#335EEA"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  Document History
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-8 mt-md-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z" fill="#335EEA" opacity=".3"/><path d="M18.5 11h-13A1.5 1.5 0 004 12.5v.5h4.586a1 1 0 01.707.293l1 1a2.414 2.414 0 003.414 0l1-1a1 1 0 01.707-.293H20v-.5a1.5 1.5 0 00-1.5-1.5zM5.5 6A1.5 1.5 0 004 7.5V8h16v-.5A1.5 1.5 0 0018.5 6h-13z" fill="#335EEA"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  100% Free
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-4">
-
-		<!-- Item -->
-		<div class="d-flex mt-8 mt-md-9">
-
-		  <!-- Icon -->
-		  <div class="icon text-primary-light">
-			<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M16.374 19.939l5.849-8.773A.75.75 0 0021.599 10H17V4.477a.75.75 0 00-1.374-.416l-5.849 8.773A.75.75 0 0010.401 14H15v5.523a.75.75 0 001.374.416z" fill="#335EEA"/><path d="M4.5 5h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm0 12h5a1.5 1.5 0 010 3h-5a1.5 1.5 0 010-3zm-2-6h4a1.5 1.5 0 010 3h-4a1.5 1.5 0 010-3z" fill="#335EEA" opacity=".3"/></g></svg>              </div>
-
-		  <!-- Body -->
-		  <div class="ms-5">
-
-			<!-- Title -->
-			<p class="fs-lg fw-bold text-white mb-1">
-			  Group Sync
-			</p>
-
-			<!-- Text -->
-			<p class="fs-sm text-white-60 mb-0">
-			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst.
-			</p>
-
-		  </div>
-
-		</div>
-
-	  </div>
-	</div>
-  </div>
-</section>
-
-<!-- CASES -->
-<section class="pt-10 pt-md-12 bg-dark">
-
-  <!-- Content -->
-  <div class="container-lg">
-	<div class="row justify-content-center">
-	  <div class="col-md-10 col-lg-8 text-center">
-
-		<!-- Divider -->
-		<hr class="hr-sm bg-warning mx-auto mb-10 mb-md-12">
-
-		<!-- Preheading -->
-		<h6 class="text-uppercase text-warning mb-5">
-		  Communication Anywhere
-		</h6>
-
-		<!-- Heading -->
-		<h2 class="display-4 text-white mb-9">
-		  Our mobile app makes it dead simple to <span class="text-underline-primary-light">run your business</span>.
-		</h2>
-
-	  </div>
-	</div>
-  </div>
-
-  <!-- Slider -->
-  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-1.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Account Management
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-2.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Customer Communication
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  In urna lectus, mattis non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-4.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Appointment Scheduling
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-5.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Calendar Sharing
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  In urna lectus, mattis non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-6.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Project Management
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-7.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Automatic Scheduling
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  In urna lectus, mattis non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-1.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Account Management
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-2.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Customer Communication
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  In urna lectus, mattis non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-4.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Appointment Scheduling
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-5.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Calendar Sharing
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  In urna lectus, mattis non accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-
-	  </div>
-
-	</div>
-	<div style="width: calc(100% - 2rem); max-width: 380px;">
-
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="/assets/img/screenshots/mobile/screenshot-6.jpg" alt="...">
-
-	  <!-- Body -->
-	  <div class="flickity-hidden py-6 text-center">
-
-		<!-- Heading -->
-		<h6 class="text-uppercase text-white">
-		  Project Management
-		</h6>
-
-		<!-- Text -->
-		<p class="fs-sm text-center text-white-80 mb-0">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan.
-		</p>
-
-	  </div>
-
-	</div>
-  </div>
-
-</section>
-
-<!-- PRICING -->
-<section class="py-10 py-md-12 bg-dark">
-  <div class="container-lg">
-	<div class="row justify-content-center">
-	  <div class="col-md-10 col-lg-7 col-xl-6 text-center">
-
-		<!-- Divider -->
-		<hr class="hr-sm bg-warning mx-auto mb-10 mb-md-12">
-
-		<!-- Preheading -->
-		<h6 class="text-uppercase text-primary-light mb-5">
-		  Chat anywhere
-		</h6>
-
-		<!-- Heading -->
-		<h2 class="display-4 text-white mb-4">
-		  Start today.
-		</h2>
-
-		<!-- Text -->
-		<p class="text-white-80 mb-9">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
-		</p>
-
-	  </div>
-	</div>
-	<div class="row justify-content-center">
-	  <div class="col-md-6 col-lg-5 col-xl-4">
-
-		<!-- Card -->
-		<div class="card rounded-top-start-3 rounded-bottom-end-3 mb-6">
-		  <div class="card-body text-center">
-
-			<!-- Preheading -->
-			<h6 class="text-uppercase text-warning">
-			  Starter
-			</h6>
-
-			<!-- Price -->
-			<p class="display-4 fw-bold">
-			  <span class="fs-3 align-middle">$</span>
-			  <span class="mx-n2">19</span>
-			  <span class="fs-2 align-middle">/mo </span>
-			</p>
-
-			<!-- List -->
-			<ul class="list-checked list-checked-warning">
-			  <li>
-				50 user seats
-			  </li>
-			  <li>
-				30 day history
-			  </li>
-			  <li>
-				Limited API access
-			  </li>
-			</ul>
-
-			<!-- Button -->
-			<a class="btn w-100 btn-gray-300 shadow-none lift" href="#!">
-			  Get Started
-			</a>
-
-		  </div>
-		</div>
-
-	  </div>
-	  <div class="col-md-6 col-lg-5 col-xl-4">
-
-		<!-- Card -->
-		<div class="card rounded-top-start-3 rounded-bottom-end-3">
-		  <div class="card-body text-center">
-
-			<!-- Preheading -->
-			<h6 class="text-uppercase text-warning">
-			  Standard
-			</h6>
-
-			<!-- Price -->
-			<p class="display-4 fw-bold">
-			  <span class="fs-3 align-middle">$</span>
-			  <span class="mx-n2">49</span>
-			  <span class="fs-2 align-middle">/mo </span>
-			</p>
-
-			<!-- List -->
-			<ul class="list-checked list-checked-warning">
-			  <li>
-				500 user seats
-			  </li>
-			  <li>
-				5 year history
-			  </li>
-			  <li>
-				AES-256 encryption
-			  </li>
-			  <li>
-				24/7 direct support
-			  </li>
-			  <li>
-				Unlimited API access
-			  </li>
-			</ul>
-
-			<!-- Button -->
-			<a class="btn w-100 btn-primary lift" href="#!">
-			  Get Started
-			</a>
-
-		  </div>
-		</div>
-
-	  </div>
-	</div>
-  </div>
-</section>
