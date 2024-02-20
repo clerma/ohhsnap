@@ -1,131 +1,123 @@
 ---
- title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
- description: About Test description
- keywords: photo booth rental, photo booth rental
- layout: default
- pagename: backdrops
- permalink: "/lafayette-backdrop-rentals/"
+layout: default
+title: Lafayette Backdrop Rentals | Ohh Snap Photo Booth
+description: Backdrop rental for the very best in unique and custom pieces for your wedding or event
+keywords: photo booth rental, photo booth rental
+image: /assets/img/backdrops/custom-lafayette-box-wood.jpg
+pagename: backdrops
+permalink: "/lafayette-backdrop-rentals/"
 ---
-
-  <!-- ABOUT -->
+<!-- ABOUT -->
 <section class="pt-13 pt-md-12">
-  <div class="container-lg">
-	<div class="row align-items-center justify-content-between">
-	  <div class="col-md-5">
+	<div class="container-lg">
+		<div class="row align-items-center justify-content-between">
+			<div class="col-md-5">
 
-		<!-- Image grid -->
-		<div class="img-grid img-grid-1 mb-8 mb-md-0">
-			{% for backdrops in site.data.backdrops limit:1 %}
-		  <div class="img-grid-item">
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="{{backdrops.image}}" alt="...">
-		  </div>
-		  {% endfor %}
-		  {% for backdrops in site.data.backdrops limit:5 offset:1 %}
-		  {% capture thecycle %} {% cycle "45", "50", "20", "15", "-50" %}{% endcapture %}
-		  <div class="img-grid-item ">
-			<!-- Image -->
-			<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="{{thecycle}}" src="{{backdrops.image}}" alt="{{backdrops.name}}">
-		  </div>
-		  {% endfor %}
-		 
+				<!-- Image grid -->
+				<div class="img-grid img-grid-1 mb-8 mb-md-0">
+					{% for backdrops in site.data.backdrops limit:1 %}
+					<div class="img-grid-item">
+						<!-- Image -->
+						<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="{{backdrops.image}}" alt="...">
+					</div>
+					{% endfor %}
+					{% for backdrops in site.data.backdrops limit:5 offset:1 %}
+					{% capture thecycle %} {% cycle "45", "50", "20", "15", "-50" %}{% endcapture %}
+					<div class="img-grid-item ">
+						<!-- Image -->
+						<img class="img-fluid rounded-top-start rounded-bottom-end shadow-lg" data-jarallax-element="{{thecycle}}" src="{{backdrops.image}}" alt="{{backdrops.name}}">
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-5 text-center text-md-start">
+
+				<!-- Heading -->
+				<h2 class="display-4 mb-4">
+					Create the perfect photo booth experience
+				</h2>
+
+				<!-- Text -->
+				<p class="text-muted mb-4">
+					When carefully orchestrated, a photo booth has the power to leave a lasting impression on any event. Your choice of backdrop becomes the backdrop of cherished memories for years to come. At Ohh Snap Photo Booth, we take pride in offering a diverse range of backdrops, ensuring you find the perfect match for your special occasion.
+				</p>
+			</div>
 		</div>
-
-	  </div>
-	  <div class="col-md-6 col-xl-5 text-center text-md-start">
-
-		<!-- Heading -->
-		<h2 class="display-4 mb-4">
-		  Create the perfect photo booth experience
-		</h2>
-
-		<!-- Text -->
-		<p class="text-muted mb-4">
-		  When carefully orchestrated, a photo booth has the power to leave a lasting impression on any event. Your choice of backdrop becomes the backdrop of cherished memories for years to come. At Ohh Snap Photo Booth, we take pride in offering a diverse range of backdrops, ensuring you find the perfect match for your special occasion.
-		</p>
-	  </div>
 	</div>
-  </div>
 </section>
- <!-- TEAM -->
+<!-- TEAM -->
 <section class="py-10 py-md-12">
-  <div class="container-lg position-relative" style="z-index: 1;">
-	<div class="row align-items-center mb-9 justify-content-between">
-	  <div class="col-7">
+	<div class="container-lg position-relative" style="z-index: 1;">
+		<div class="row align-items-center mb-9">
+			<div class="col-8 col-md">
 
-		<!-- Heading -->
-		<h2 class="display-4 text-primary mb-0">
-		  Our Backdrops
-		</h2>
+				<!-- Heading -->
+				<h2 class="display-4 text-primary mb-0">
+					Our Backdrops
+				</h2>
 
-		<!-- Text -->
-		<p class="text-gray-500 mb-md-0">
-		 We proudly offer a variety of custom and standard backdrops sourced from both our own collection and our trusted vendors. With Ohh Snap Photo Booth, you'll find the perfect backdrop to elevate your event.
-		</p>
+				<!-- Text -->
+				<p class="text-gray-500 mb-md-0 w-75">
+					Proudly offering custom and standard backdrops sourced from both our own collection and trusted vendors
+				</p>
 
-	  </div>
-	  <div class="col-5">
+			</div>
+			<div class="col-12 col-md-auto">
 
-		<!-- Nav -->
-		<ul class="nav nav-tabs nav-dark nav-overflow mb-0" id="teamTab" role="tablist">
-		  <li class="nav-item" role="presentation">
-			<a class="nav-link active" data-bs-toggle="tab" data-filter=".founders" data-target="#team" href="#">
-			  Founders
-			</a>
-		  </li>
-		  <li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="tab" data-filter=".board" data-target="#team" href="#">
-			  Board
-			</a>
-		  </li>
-		  <li class="nav-item" role="presentation">
-			<a class="nav-link" data-bs-toggle="tab" data-filter=".investors" data-target="#team" href="#">
-			  Investors
-			</a>
-		  </li>
-		</ul>
+				<!-- Nav -->
+				<ul class="nav nav-tabs nav-overflow mb-0" id="teamTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<a class="nav-link text-primary" data-bs-toggle="tab" data-filter=".all" data-target="#backdrops" href="#">
+							All 
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".standard" data-target="#backdrops" href="#">
+							Standard
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".custom" data-target="#backdrops" href="#">
+							Custom 
+						</a>
+					</li>
+				</ul>
 
-	  </div>
-	</div>
-	<div class="row mt-n5" id="team" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
-	{% for backdrops in site.data.backdrops %}
-	  <div class="col-6 col-md-3 founders investors">
-
-		<!-- Card -->
-		<div class="card card-sm bg-white mt-5">
-
-		  <!-- Image -->
-		  <img class="card-img-top rounded-top-start rounded-bottom-end" src="{{backdrops.image}}" alt="Lafayette Backdrop Rental | {{backdrops.name}}">
-
-		  <!-- Body -->
-		  <div class="card-body px-0 text-center">
-
-			<!-- Heading -->
-			<h5 class="font-sans-serif text-primary mb-0">
-			 {{backdrops.name}}
-			</h5>
-
-			<!-- Text -->
-			<small class="text-muted">
-			  Chief Design Officer
-			</small>
-
-		  </div>
-
+			</div>
 		</div>
-
-	  </div>
-	  {% endfor %}
-	  
+		<div class="row mt-n5" id="backdrops" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
+			{% for backdrops in site.data.backdrops %}
+			<div class="col-6 col-md-3 all {{backdrops.type}}">
+				<!-- Card -->
+				<a data-bigpicture='{"imgSrc": "{{backdrops.image}}"}' href="#" class="d-block mb-3 mb-md-0">
+				<div class="card card-sm bg-white mt-5">
+					<!-- Image -->
+					<img class="card-img-top rounded-top-start rounded-bottom-end" src="{{backdrops.image}}" alt="Lafayette Backdrop Rental | {{backdrops.name}}">
+					<!-- Body -->
+					<div class="card-body px-0 text-center">
+						<!-- Heading -->
+						<h5 class="font-sans-serif text-primary mb-0">
+							{{backdrops.name}}
+						</h5>
+						<!-- Text -->
+						<small class="text-muted fs-6">
+							{{backdrops.type}} Backdrop
+						</small>
+					</div>
+				</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
-  </div>
 </section>
 <!-- SHAPE -->
 <div class="position-relative">
-  <div class="shape shape-fluid-x shape-top text-dark pb-8 pb-md-12">
-	<div class="shape-img pb-9 pb-md-15">
-	  <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg></div>
-  </div>
+	<div class="shape shape-fluid-x shape-top text-dark pb-8 pb-md-12">
+		<div class="shape-img pb-9 pb-md-15">
+			<svg viewBox="0 0 100 50" preserveAspectRatio="none">
+				<path d="M0 25h25L75 0h25v50H0z" fill="currentColor" />
+			</svg>
+		</div>
+	</div>
 </div>
-
-

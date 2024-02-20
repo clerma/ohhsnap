@@ -2,8 +2,13 @@
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: About Test description
 keywords: photo booth rental, photo booth rental
+image: /assets/img/about/go-red-photo-booth.JPG
 layout: default
 pagename: about
+image_rotator:
+ - image: /assets/img/about/hero-slider-1.jpg
+ - image: /assets/img/about/hero-slider-2.jpg
+ - image: /assets/img/about/hero-slider-3.jpg
 permalink: "/about-ohh-snap-photo-booth/"
 ---
     <!-- SLIDER -->
@@ -17,31 +22,18 @@ permalink: "/about-ohh-snap-photo-booth/"
 
             <!-- Slider -->
             <div class="flickity-buttons-overlap border border-7 border-white shadow-lg" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+                {% for item in page.image_rotator %}
               <div class="w-100">
-
                 <!-- Image -->
-                <img class="img-fluid" src="/assets/img/about/hero-slider-1.jpg" alt="...">
-
+                <img class="img-fluid" src="{{item.image}}">
               </div>
-              <div class="w-100">
-
-                <!-- Image -->
-                <img class="img-fluid" src="/assets/img/about/hero-slider-2.jpg" alt="...">
-
-              </div>
-              <div class="w-100">
-
-                <!-- Image -->
-                <img class="img-fluid" src="/assets/img/about/hero-slider-3.jpg" alt="...">
-
-              </div>
+              {% endfor %}
             </div>
 
           </div>
         </div>
       </div>
     </section>
-
     <!-- SHAPE -->
     <div class="position-relative">
       <div class="shape shape-fluid-x shape-top text-dark pb-10 pb-md-16 pb-lg-18">
@@ -50,8 +42,6 @@ permalink: "/about-ohh-snap-photo-booth/"
         </div>
       </div>
     </div>
-
-   
     <!-- FEATURES -->
     <section class="py-8 py-md-10 bg-dark">
       <div class="container-lg">
@@ -87,7 +77,7 @@ permalink: "/about-ohh-snap-photo-booth/"
           <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 0h100v50H75L25 25H0z" fill="currentColor"/></svg>        </div>
       </div>
     </div>
-    <section class="bg-light">
+    <section class="bg-white my-10">
       <div class="container-lg">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-5 order-md-1 pt-11 pt-md-0 pb-md-12">
