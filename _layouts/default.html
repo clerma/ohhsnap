@@ -164,6 +164,30 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
       </div>
     </section>
     {% else %}
+    <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{page.image}});">
+       <div class="py-13 bg-dark-50">
+         <div class="container-lg">
+           <div class="row justify-content-center">
+             <div class="col-md-10 col-lg-8 text-center text-white pt-5">
+     
+              
+     
+               <!-- Heading -->
+               <h1 class="display-3 my-7 py-7">
+              {{page.title}}
+               </h1>
+     
+               <!-- Text -->
+               <p class="fs-lg">
+                {{page.description}}
+               </p>
+     
+     
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
     {% endcase %}
   
     {{ content }}
