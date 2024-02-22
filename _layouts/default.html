@@ -31,164 +31,59 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
     <!-- NAVBAR -->
    {% include nav.html %}
    <!-- Hero -->
-   {% case page.pagename -%}
-   {% when 'home' -%}
-    <section class="d-inline-flex hero mt-11">
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg">
-      <source src="assets/img/ohh-snap-small.mp4" type="video/mp4">
-      <img src="assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg" title="Ohh Snap Booth Promo Video Backup">
-    </video>
-    <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100 text-white">
-          <h1 class="display-3 fw-bolder lh-base">Ohh Snap! Photo Booth</h1>
-          <h4 class="lead">{% if page.location %}{{page.location}}'s{% endif %} Modern versions of the traditional photo booth.</h4>
-        </div>
-      </div>
-    </div>
-    </section>
-    {% when 'about' -%}
-     <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url(/assets/img/about/new-years-photo-booth.jpg);">
-       <div class="py-13 bg-dark-50">
-         <div class="container-lg">
-           <div class="row justify-content-center">
-             <div class="col-md-10 col-lg-8 text-center text-white">
-     
-               <!-- Preheading -->
-               <h6 class="text-uppercase mb-5">
-                 About Ohh Snap! Photo Booth
-               </h6>
-     
-               <!-- Heading -->
-               <h1 class="display-3 mb-4">
-                Lafayette Photo Booth Company
-               </h1>
-     
-               <!-- Text -->
-               <p class="fs-lg">
-                 Creating unique photo and video experiences for weddings and events!
-               </p>
-     
-             </div>
+   {% if page.banner %}
+      {% if page.banner.video %}
+       <section class="d-inline-flex hero mt-11">
+       <div class="overlay"></div>
+       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg">
+         <source src="{{page.banner.video}}" type="video/mp4">
+         <img src="{{page.banner.image}}" title="Ohh Snap Booth Promo Video Backup">
+       </video>
+       <div class="container h-100">
+         <div class="d-flex h-100 text-center align-items-center">
+           <div class="w-100 text-white">
+             <h1 class="display-3 fw-bolder lh-base">{{page.banner.title}}</h1>
+             <h4 class="lead">{{page.banner.subtext}}</h4>
            </div>
          </div>
        </div>
-     </section>
-     {% when 'attendant' -%}
-      <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url(/assets/img/career/hero.jpg);">
-        <div class="py-13 bg-dark-50">
-          <div class="container-lg">
-            <div class="row justify-content-center">
-              <div class="col-md-10 col-lg-8 text-center text-white">
-      
-                <!-- Preheading -->
-                <h6 class="text-uppercase mb-5">
-                  About Ohh Snap! Photo Booth
-                </h6>
-      
-                <!-- Heading -->
-                <h1 class="display-3 mb-4">
-                 Lafayette Photo Experience
-                </h1>
-      
-                <!-- Text -->
-                <p class="fs-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
-                </p>
-      
-                <!-- Button -->
-                <a class="btn btn-primary" href="#!">
-                  View Open Roles
-                </a>
-      
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    {% when 'backdrops' -%}
-    <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url(/assets/img/backdrops/custom-lafayette-box-wood.jpg/);">
-     <div class="py-13 bg-dark-50">
-       <div class="container-lg">
-         <div class="row justify-content-center">
+       </section>
+      {% else %}
+      <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{page.banner.image}});">
+         <div class="py-13 bg-dark-50">
+         <div class="container-lg">
+           <div class="row justify-content-center">
            <div class="col-md-10 col-lg-8 text-center text-white">
-   
+           {% if page.banner.preheading %}
              <!-- Preheading -->
-             <h6 class="text-uppercase my-5">
-                Your event is unique, so should your backdrop
+             <h6 class="text-uppercase mb-5">
+             {{page.banner.preheading}}
              </h6>
-   
+           {% endif %}
              <!-- Heading -->
-             <h1 class="display-3 my-7">
-             Photo Booth Backdrops
+             <h1 class="display-3 mb-4">
+            {{page.banner.title}}
              </h1>
-   
              <!-- Text -->
              <p class="fs-lg">
-               We have a wide range of photo booth backdrops that 
-               are available for your event. 
+             {{page.banner.subtext}}
              </p>
-   
-   
+             {% if page.banner.cta_link  %}
+             <!-- Button -->
+             <a class="btn btn-primary" href="{{page.banner.cta_link}}">
+              {{page.banner.cta_text}}
+             </a>
+             {% else %}
+             {% endif %}
+       
+           </div>
            </div>
          </div>
-       </div>
-     </div>
-   </section>
-   {% when 'resources' -%}
-     <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url(/assets/img/backdrops/custom-lafayette-box-wood.jpg/);">
-      <div class="py-13 bg-dark-50">
-        <div class="container-lg">
-          <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8 text-center text-white">
-    
-              <!-- Preheading -->
-              <h6 class="text-uppercase mb-5">
-                Tools for Photo Booth Companies
-              </h6>
-    
-              <!-- Heading -->
-              <h1 class="display-3 mb-4">
-             Photo Booth Resources
-              </h1>
-    
-              <!-- Text -->
-              <p class="fs-lg">
-                We have a wide range of photo booth backdrops that 
-                are available for your event. 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {% else %}
-    <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{page.image}});">
-       <div class="py-13 bg-dark-50">
-         <div class="container-lg">
-           <div class="row justify-content-center">
-             <div class="col-md-10 col-lg-8 text-center text-white pt-5">
-     
-              
-     
-               <!-- Heading -->
-               <h1 class="display-3 my-7 py-7">
-              {{page.title}}
-               </h1>
-     
-               <!-- Text -->
-               <p class="fs-lg">
-                {{page.description}}
-               </p>
-     
-     
-             </div>
-           </div>
          </div>
-       </div>
-     </section>
-    {% endcase %}
+       </section>
+      {% endif %}
+   {% endif %}
+ 
   
     {{ content }}
    
