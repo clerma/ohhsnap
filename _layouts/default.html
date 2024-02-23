@@ -33,25 +33,35 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
    <!-- Hero -->
    {% if page.banner %}
       {% if page.banner.video %}
-       <section class="d-inline-flex hero mt-11">
-       <div class="overlay"></div>
-       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg">
-         <source src="{{page.banner.video}}" type="video/mp4">
-         <img src="{{page.banner.image}}" title="Ohh Snap Booth Promo Video Backup">
-       </video>
-       <div class="container h-100">
+      <section class="bg-cover jarallax hero mt-11" data-jarallax data-speed=".8" data-video-src="{{page.banner.video}}">
+        <div class="bg-dark-50 pb-md-11 pb-12 pt-8 h-100">
+          <div class="container h-100 py-10">
          <div class="d-flex h-100 text-center align-items-center">
            <div class="w-100 text-white">
-             <h1 class="display-3 fw-bolder lh-base">{{page.banner.title}}</h1>
-             <h4 class="lead">{{page.banner.subtext}}</h4>
+             {% if page.banner.preheading %}
+                <!-- Preheading -->
+                <h6 class="text-uppercase mb-5">
+                {{page.banner.preheading}}
+                </h6>
+              {% endif %}
+             <h1 class="display-3 mb-4">{{page.banner.title}}</h1>
+            <p class="fs-lg">{{page.banner.subtext}}</p>
+             {% if page.banner.cta_link %}
+                <!-- Button -->
+                <a class="btn btn-primary" href="{{page.banner.cta_link}}">
+                  {{page.banner.cta_text}}
+                </a>
+              {% else %}
+              {% endif %}
            </div>
          </div>
        </div>
+        </div>
        </section>
       {% else %}
       <section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url({{page.banner.image}});">
-         <div class="py-13 bg-dark-50">
-         <div class="container-lg">
+         <div class="pt-13 pb-8 bg-dark-50 h-100">
+         <div class="container-lg my-10">
            <div class="row justify-content-center">
            <div class="col-md-10 col-lg-8 text-center text-white">
            {% if page.banner.preheading %}
@@ -68,14 +78,14 @@ src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscrip
              <p class="fs-lg">
              {{page.banner.subtext}}
              </p>
-             {% if page.banner.cta_link  %}
-             <!-- Button -->
-             <a class="btn btn-primary" href="{{page.banner.cta_link}}">
-              {{page.banner.cta_text}}
-             </a>
+             
+             {% if page.banner.cta_link %}
+               <!-- Button -->
+               <a class="btn btn-primary" href="{{page.banner.cta_link}}">
+                 {{page.banner.cta_text}}
+               </a>
              {% else %}
              {% endif %}
-       
            </div>
            </div>
          </div>
