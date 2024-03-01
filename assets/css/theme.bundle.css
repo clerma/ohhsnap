@@ -19248,7 +19248,7 @@ a.text-white-60:hover {
     position: absolute
 }
 .shape-img {
-    overflow: hidden;
+    overflow: inherit;
     position: inherit
 }
 .shape-img>svg {

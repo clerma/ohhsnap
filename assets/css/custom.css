@@ -106,16 +106,27 @@ span.post-meta {
 .authenticated .logout {
   display: block;
 }
-@media only screen and (max-width: 735px)
-.phone {
-    color: #000;
-    pointer-events: auto;
-    text-decoration: none;
+@media only screen and (max-width:735px) {
+  .phone {
+      color: #000;
+      pointer-events: auto;
+      text-decoration: none;
+  }
+  .phone {
+      color: inherit;
+      pointer-events: none;
+      text-decoration: none;
+  }
 }
-.phone {
-    color: inherit;
-    pointer-events: none;
-    text-decoration: none;
+@media (max-width: 767.98px) {
+  section.hero {
+    height: 40vh;
+    min-height: 15rem;
+  }
+  .images-cards {
+      height: 40vh !important;
+      object-fit: cover !important;
+  }
 }
 /* Cal Color Settings */
 .fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active {
