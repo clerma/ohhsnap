@@ -45,9 +45,9 @@ var big_image;
      //removed class label and label-color from tag span and replaced with data-color
      var tagClass = $('.tagsinput').data('color');
 
-     $('.tagsinput').tagsinput({
-         tagClass: ' tag-'+ tagClass +' '
-     });
+     // $('.tagsinput').tagsinput({
+     //     tagClass: ' tag-'+ tagClass +' '
+     // });
 
      if($('.navbar-color-on-scroll').length != 0){
          $(window).on('scroll', materialKit.checkScrollForTransparentNavbar)
@@ -67,8 +67,8 @@ var big_image;
      //initialise colored shadow
      materialKit.initColoredShadows();
 
-     //initialise animation effect on images
-     materialKit.initAtvImg();
+     // //initialise animation effect on images
+     // materialKit.initAtvImg();
  });
 
  $(document).on('click', '.card-rotate .btn-rotate', function(){
@@ -137,21 +137,21 @@ var big_image;
          isWindow: document.documentMode || /Edge/.test(navigator.userAgent)
      },
 
-     initAtvImg: function(){
-        $('.card-atv').each(function(){
-            var $atv_div = $(this).find('.atvImg');
-            var $atv_img = $atv_div.find('img');
-
-            var img_src = $atv_img.attr('src');
-            var atv_image_layer = '<div class="atvImg-layer" data-img="' + img_src + '"/>';
-
-            $atv_div.css('height',$atv_img.height() + 'px');
-            $atv_div.append(atv_image_layer);
-
-        });
-
-        atvImg();
-    },
+//      initAtvImg: function(){
+//         $('.card-atv').each(function(){
+//             var $atv_div = $(this).find('.atvImg');
+//             var $atv_img = $atv_div.find('img');
+//
+//             var img_src = $atv_img.attr('src');
+//             var atv_image_layer = '<div class="atvImg-layer" data-img="' + img_src + '"/>';
+//
+//             $atv_div.css('height',$atv_img.height() + 'px');
+//             $atv_div.append(atv_image_layer);
+//
+//         });
+//
+//         atvImg();
+//     },
 
     initColoredShadows: function(){
         if(materialKit.misc.colored_shadows == true){
@@ -229,56 +229,56 @@ var big_image;
              }
      }, 17),
 
-     initFormExtendedDatetimepickers: function(){
-         $('.datetimepicker').datetimepicker({
-             icons: {
-                 time: "fa fa-clock-o",
-                 date: "fa fa-calendar",
-                 up: "fa fa-chevron-up",
-                 down: "fa fa-chevron-down",
-                 previous: 'fa fa-chevron-left',
-                 next: 'fa fa-chevron-right',
-                 today: 'fa fa-screenshot',
-                 clear: 'fa fa-trash',
-                 close: 'fa fa-remove',
-                 inline: true
-             }
-          });
-
-          $('.datepicker').datetimepicker({
-             format: 'MM/DD/YYYY',
-             icons: {
-                 time: "fa fa-clock-o",
-                 date: "fa fa-calendar",
-                 up: "fa fa-chevron-up",
-                 down: "fa fa-chevron-down",
-                 previous: 'fa fa-chevron-left',
-                 next: 'fa fa-chevron-right',
-                 today: 'fa fa-screenshot',
-                 clear: 'fa fa-trash',
-                 close: 'fa fa-remove',
-                 inline: true
-             }
-          });
-
-          $('.timepicker').datetimepicker({
- //          format: 'H:mm',    // use this format if you want the 24hours timepicker
-             format: 'h:mm A',    //use this format if you want the 12hours timpiecker with AM/PM toggle
-             icons: {
-                 time: "fa fa-clock-o",
-                 date: "fa fa-calendar",
-                 up: "fa fa-chevron-up",
-                 down: "fa fa-chevron-down",
-                 previous: 'fa fa-chevron-left',
-                 next: 'fa fa-chevron-right',
-                 today: 'fa fa-screenshot',
-                 clear: 'fa fa-trash',
-                 close: 'fa fa-remove',
-                 inline: true
-
-             }
-          });
-     },
+//      initFormExtendedDatetimepickers: function(){
+//          $('.datetimepicker').datetimepicker({
+//              icons: {
+//                  time: "fa fa-clock-o",
+//                  date: "fa fa-calendar",
+//                  up: "fa fa-chevron-up",
+//                  down: "fa fa-chevron-down",
+//                  previous: 'fa fa-chevron-left',
+//                  next: 'fa fa-chevron-right',
+//                  today: 'fa fa-screenshot',
+//                  clear: 'fa fa-trash',
+//                  close: 'fa fa-remove',
+//                  inline: true
+//              }
+//           });
+//
+//           $('.datepicker').datetimepicker({
+//              format: 'MM/DD/YYYY',
+//              icons: {
+//                  time: "fa fa-clock-o",
+//                  date: "fa fa-calendar",
+//                  up: "fa fa-chevron-up",
+//                  down: "fa fa-chevron-down",
+//                  previous: 'fa fa-chevron-left',
+//                  next: 'fa fa-chevron-right',
+//                  today: 'fa fa-screenshot',
+//                  clear: 'fa fa-trash',
+//                  close: 'fa fa-remove',
+//                  inline: true
+//              }
+//           });
+//
+//           $('.timepicker').datetimepicker({
+//  //          format: 'H:mm',    // use this format if you want the 24hours timepicker
+//              format: 'h:mm A',    //use this format if you want the 12hours timpiecker with AM/PM toggle
+//              icons: {
+//                  time: "fa fa-clock-o",
+//                  date: "fa fa-calendar",
+//                  up: "fa fa-chevron-up",
+//                  down: "fa fa-chevron-down",
+//                  previous: 'fa fa-chevron-left',
+//                  next: 'fa fa-chevron-right',
+//                  today: 'fa fa-screenshot',
+//                  clear: 'fa fa-trash',
+//                  close: 'fa fa-remove',
+//                  inline: true
+//
+//              }
+//           });
+//      },
 
      initSliders: function(){
          // Sliders for demo purpose
@@ -397,7 +397,7 @@ $('.multi-item-carousel .item').each(function(){
     next = $(this).siblings(':first');
   }
   next.children(':first-child').clone().appendTo($(this));
-  
+
   if (next.next().length>0) {
     next.next().children(':first-child').clone().appendTo($(this));
   }
