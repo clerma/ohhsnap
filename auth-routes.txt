@@ -1,3 +1,0 @@
-/attendant.html
-/attendant
-/staff/*

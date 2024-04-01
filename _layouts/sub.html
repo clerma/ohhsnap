@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
-{% seo %}
-<!-- Styles -->
-{% include head.html %}
-<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+  <script type="text/javascript">
+    var jslang = 'EN';
+  </script>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/{{site.favicon}}" title="Ohh Snap! Lafayette Photo Booth Favicon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="all" />
+  <!-- Schema other -->
+  {% capture seo %}{% seo %}
+  {% for item in site.social.links %}<meta property="og:see_also" content="{{item}}" />{% endfor %}
+  <meta name="keywords" content="{{page.keywords}}">
+  <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+  {% endcapture %}
+  {{seo | replace: "Jekyll" , "Ohh Snap"}}
+  <!-- Styles -->
+  {% include head.html %}
+  <meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
 </head>
 <body class="presentation-page">
-  
-<div class="modal fade"  id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-  {% include gallerymodal.html %}
-</div>	
-  
-{% include nav.html %}
+  <div class="modal fade d-none" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    {% include gallerymodal.html %}
+  </div>
+  {% include nav.html %}
+  {% if page.video %}
+  <div class="header-1">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000">
+      <div class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="page-header header-filter" style="height: 70vh;">
+              <video autoplay loop muted poster="{{page.image}}" id="background">
+                <source src="{{page.video}}" type="video/mp4">
+              </video>
+              <div class="container">
 
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1 class="title">{{page.banner.title}}</h1>
+                    <h2 class="h4">{{page.banner.sub_title}} </h2>
+                    <a href="/get-a-quote" class="btn btn-primary btn-round ">Book NOW</a>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="header-1">
+      <div class="page-header header-filter {{ page.type }}" style="background-image: url('{{page.image}}');">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h1 class="title">{{page.banner.title}}</h1>
+              <h4>{{page.banner.sub_title}}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
     <div class="main main-raised">
-		  {{ content }}
-	</div>
-	  
-	   {% include footer.html %}    
-	   {% include scripts.html %}         	
-					
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
 </body>
 </html>

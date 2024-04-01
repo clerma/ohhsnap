@@ -1,294 +1,99 @@
- <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white d-inline-flex">
-        <div class="container-lg">
-               <!-- Brand -->
-               <a class="navbar-brand d-lg-none me-0 col-8" href="/"><img class="w-50" src="/{{ site.data.company_details.logo_image }}" alt="{{site.name}} logo" /></a>
-               <input id="menu__toggle" class="navbar-toggler" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" />
-               <label class="menu__btn" for="menu__toggle">
-                      <span></span>
-               </label>
-               <!-- Collapse -->
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <!-- Navigation -->
-                      <ul class="navbar-nav justify-content-end w-100">
-                             <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="landingsDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                           Photo Booths
-                                    </a>
-                                    <div class="dropdown-positioner">
-                                           <div class="dropdown-menu dropdown-menu-xl dropdown-menu-flush" aria-labelledby="landingsDropdown">
-                                                  <div class="row align-items-center gx-0">
-                                                         <div class="col-md-6 order-1 dropdown-menu-col rounded-top-start-0 bg-gray-900">
-                                                                <div class="dropdown-menu-body">
+<nav class="navbar navbar-default  navbar-fixed-top " id="sectionsNav">
+	<div class="container">
+		<div class="navbar-header h-60px">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar bar1"></span>
+				<span class="icon-bar bar2"></span>
+				<span class="icon-bar bar3"></span>
+			</button>
+			<a class="navbar-brand" href="/"><img alt="Ohh Snap Logo | Trademarked" src="../img/ohhsnap.svg" width="125px" data-pin-nopin="true"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="navigation-example">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="/" title="Ohh Snap Photo Booth Home Page">
+						<i class="material-icons">home</i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}/about-ohh-snap-photo-booth" title="About Ohh Snap">
+						<i class="material-icons">info</i>
+						About
+					</a>
+				</li>
+				{% comment %}
+				<li>
+					<a href="/photo-booth-packages">
+						<i class="material-icons">view_carousel</i> Packages
+					</a>
+				</li>
+				{% endcomment %}
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown" title="Photo Booth Packages">
+						<i class="material-icons">view_carousel</i>
+						Packages
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu dropdown-with-icons">
+						<li>
+							<a href="{{ site.baseurl }}/photo-booth-packages" title="Portrait Photo Booth Rental">
+								<i class="material-icons">camera_alt</i>
+								Photo Booth Rental
+							</a>
+						</li>
+						<li>
+							<a href="{{ site.baseurl }}/lafayette-360-booth" title="360 Photo Booth Rental">
+								<i class="material-icons">360</i> 360 Booth Rental
+							</a>
+						</li>
+						<li>
+							<a href="{{ site.baseurl }}/social-photo-booth" title="Digital Photo Booth Rental">
+								<i class="material-icons">thumb_up_alt</i> Social Booth Rental
+							</a>
+						</li>
+						<li>
+							<a href="{{ site.baseurl }}/head-shots" title="Corprate Head Shots">
+								<i class="material-icons">person</i>
+								Head Shots
+							</a>
+						</li>
+						<li>
+							<a href="https://www.carlosandashleyphoto.com/lafayette_event_photography/" title="Event Photogreaphy" target="_blank">
+								<i class="material-icons">center_focus_weak</i>
+								Roaming Photography
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}/photo-booth-and-photography-backdrops" title="Lafayette Backdrops">
+						<i class="material-icons">dashboard</i>
+						Backdrops
+					</a>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}/ohh-snap-blog" title="Photo Booth Ideas and Examples">
+						<i class="material-icons">chrome_reader_mode</i>
+						Blog
+					</a>
+				</li>
 
-                                                                       <!-- Heading -->
-                                                                       <h6 class="dropdown-header text-uppercase text-primary-light pt-4 pt-md-0 d-lg-block">
-                                                                              Rental Types
-                                                                       </h6>
-                                                                       <!-- Links -->
-                                                                       <a class="d-flex text-decoration-none" href="/wedding-photo-booth">
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <i class="fas fa-rings-wedding"></i>
-                                                                              </div>
+				<li>
+					<a href="{{ site.baseurl }}/contact-ohh-snap-photobooth" title="Contact Photo Booth Near you">
+						<i class="material-icons">perm_phone_msg</i>
+						Contact Us
 
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold text-white mb-0">
-                                                                                            Wedding Photo Booths
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-gray-500">
-                                                                                            Minimal, image-focused content
-                                                                                     </span>
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none mt-4" href="/corporate-photo-booth">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <i class="fas fa-building"></i>
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold text-white mb-0">
-                                                                                            Corporate Photo Booths
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-gray-500">
-                                                                                            A hiring service platform
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none mt-4" href="/event-photo-booth">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <i class="fas fa-calendar"></i>
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold text-white mb-0">
-                                                                                            Event Photo Booths
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-gray-500">
-                                                                                            React programming course
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none mt-4" href="/fundraiser-and-school-photo-booth">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <i class="fas fa-school"></i>
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold text-white mb-0">
-                                                                                            Fundraiser/School Photo Booths
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-gray-500">
-                                                                                            Digital integration software
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-
-                                                                </div>
-                                                         </div>
-                                                         <div class="col-md-6 order-0 dropdown-menu-col">
-                                                                <div class="dropdown-menu-body">
-
-                                                                       <!-- Heading -->
-                                                                       <h6 class="dropdown-header text-uppercase  d-lg-block">
-                                                                              Our Booths
-                                                                       </h6>
-
-                                                                       <!-- Links -->
-                                                                       <a class="d-flex text-decoration-none text-reset" href="/lafayette-photo-booth-rental">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <img src="/assets/img/icons/legacy.svg" class="menu-icons" />
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold mb-0">
-                                                                                            Portrait Booth
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-muted">
-                                                                                            A modern day photo booth
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none text-reset mt-4" href="/digital-social-booth">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <img src="/assets/img/icons/social-booth.svg" class="menu-icons" />
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold mb-0">
-                                                                                            Digital Booth
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-muted">
-                                                                                            Selfie Station
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none text-reset mt-4" href="/lafayette-360-booth-rental" title="360 Photo Booth Rental">
-
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <img src="/assets/img/icons/360booth.svg" class="menu-icons" title="Ohh Snap 360 Photo Booth Icon" />
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold mb-0">
-                                                                                            360 Photo Booth
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-muted">
-                                                                                            360 video Slo-Mo Experience
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-                                                                       <a class="d-flex text-decoration-none text-reset mt-4" href="/romaing-event-photographer" title="Event Photographer">
-                                                                              <!-- Icon -->
-                                                                              <div class="icon icon-sm text-primary-light">
-                                                                                     <img src="/assets/img/icons/roaming-photographer.svg" title="Lafayette Event Photography" class="menu-icons" />
-                                                                              </div>
-
-                                                                              <div class="ms-3">
-
-                                                                                     <!-- Heading -->
-                                                                                     <p class="fw-bold mb-0">
-                                                                                            Roaming Photographer
-                                                                                     </p>
-
-                                                                                     <!-- Text -->
-                                                                                     <span class="text-muted">
-                                                                                            Event Photographer
-                                                                                     </span>
-
-                                                                              </div>
-
-                                                                       </a>
-
-                                                                </div>
-
-                                                         </div>
-                                                  </div>
-                                           </div>
-                                    </div>
-                             </li>
-                             <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                           Information
-                                    </a>
-                                    <div class="dropdown-positioner">
-                                           <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="pagesDropdown">
-                                                  <div class="row gx-0">
-                                                         <div class="col">
-                                                                <!-- Heading -->
-                                                                <h6 class="dropdown-header text-uppercase mb-3">
-                                                                       Company
-                                                                </h6>
-                                                                <!-- Links -->
-                                                                <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth">
-                                                                       About
-                                                                </a>
-                                                                <a class="dropdown-item" href="/lafayette-backdrop-rentals" title="Lafayette Event Backdrop Rentals">
-                                                                       Backdrops
-                                                                </a>
-                                                                <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company">
-                                                                       Careers
-                                                                </a>
-
-                                                         </div>
-                                                         <div class="col">
-                                                                <!-- Heading -->
-                                                                <h6 class="dropdown-header text-uppercase mb-3">
-                                                                       Blog
-                                                                </h6>
-                                                                <!-- Links -->
-                                                                <a class="dropdown-item" href="/blog" title="Event and Wedding insperation Articles">
-                                                                       Articles
-                                                                </a>
-                                                                <!-- Heading -->
-                                                                <h6 class="dropdown-header text-uppercase mb-3">
-                                                                       Help Center
-                                                                </h6>
-                                                                <!-- Links -->
-                                                                <a class="dropdown-item" href="/help-center" title="Get all your event photo booth rental questions answered">
-                                                                       Resources
-                                                                </a>
-                                                         </div>
-                                                  </div>
-                                           </div>
-                                    </div>
-                             </li>
-                      </ul>
-                      <!-- Brand -->
-                      <a class="navbar-brand d-none d-lg-block px-lg-6 w-35" href="/"><img src="/{{ site.data.company_details.logo_image }}" alt="{{site.name}} logo" /></a>
-                      <!-- Navigation -->
-                      <ul class="navbar-nav justify-content-start w-100">
-                             <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalSale">
-                                           Event Photos
-                                    </a>
-                             </li>
-                             <li class="nav-item dropdown">
-                                    <a href="/contact-ohh-snap-photobooth" title="Contact your local Photo Booth Company" class="btn btn-primary btn-sm mt-5 mt-md-0">
-                                           Contact Us
-                                    </a>
-                             </li>
-                             <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2 d-none">
-                                    <a href="#" class="snipcart-checkout" style="text-decoration: none;">
-                                           <div class="snipcart-summary">
-                                                  <i class="fal fa-shopping-bag"></i>
-                                                  <span class="snipcart-items-count"></span>
-                                           </div>
-                                    </a>
-                             </li>
-
-                      </ul>
-               </div>
-        </div>
- </nav>
+					</a>
+				</li>
+				<li>
+					<button data-toggle="modal" data-target="#noticeModal" class="btn btn-primary btn-round" title="Gallery Photos for Ohh Snap">
+						<i class="material-icons">photo_library</i>
+						Find Your Photos
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

@@ -1,12 +1,13 @@
 ---
 timezone: America/Chicago
-baseurl: 
+baseurl:
 include: ['_pages', '_data','login.html','login']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
-favicon: /assets/favicon/favicon.ico
+favicon: assets/img/favicon.ico
+author: Ohh Snap! Photo Booth
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: 
+disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
 social:
@@ -73,7 +74,7 @@ defaults:
     type: pages
     path: _pages/index.html
   values:
-    permalink: 
+    permalink:
 -
   scope:
     type: posts

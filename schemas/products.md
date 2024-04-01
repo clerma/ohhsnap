@@ -1,9 +1,0 @@
----
-name:
-price:
-identifier:
-sku:
-image:
-description:
-guid:
----

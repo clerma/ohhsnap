@@ -1,0 +1,19 @@
+
+<div class="col-md-12">
+	<div class="card card-raised card-background blog-card" style="background-image: url('{{ post.image }}');" >
+		<div class="card-content blog-content">
+			<div>
+				<h2 class="card-title">{{ post.title }}</h2>
+				<p class="card-description">
+					{{ post.excerpt | strip_html | truncatewords:10 }}
+				</p>
+			</div>
+			<div>
+				<a href="{{ post.url | absolute_url }}" title="{{ post.title }}" class="btn btn-primary btn-round">
+					<i class="material-icons">format_align_left</i> Read
+				</a>
+			</div>
+
+		</div>
+	</div>
+</div>
