@@ -5,6 +5,7 @@ include: ['_pages', '_data','login.html','login']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
 favicon: assets/img/favicon.ico
+lang: en
 author: Ohh Snap! Photo Booth
 # Your disqus shortname, entering this will enable commenting on posts
 disqus:
