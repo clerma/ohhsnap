@@ -1,0 +1,75 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    output: true
+    icon: notes
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+collections_config_override: true
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+_select_data:
+  social:
+    name: Ohh Snap Photo booth
+    links:
+      - https://twitter.com/ohhsnapbooth
+      - https://www.facebook.com/ohhsnapbooth
+      - https://www.pinterest.com/ohhsnapbooth
+      - https://instagram.com/ohhsnapbooth
+      - https://maps.app.goo.gl/HFYo8vHsEqHiMQfX8
+      - https://www.yelp.com/biz/ohh-snap-photo-booth-lafayette-2
+      - >-
+        https://www.theknot.com/marketplace/ohh-snap-photo-booth-lafayette-la-1089431
+      - >-
+        https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
+  jekyll-archives:
+    layout: archive
+    enabled: []
+    permalinks:
+      year: /:year/
+      month: /:year/:month/
+      day: /:year/:month/:day/
+      tag: /tag/:name/
+      category: /category/:name/
+  archives: []
+data_config: {}
+timezone: America/Chicago
