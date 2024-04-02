@@ -93,13 +93,10 @@ paginate_path: '/page:num/'
 # Permalinks
 permalink: "/:title/"
 plugins:
-  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-paginate
-
 exclude:
     - .jekyll-cache/
     - gemfiles/
