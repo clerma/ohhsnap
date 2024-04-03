@@ -1,12 +1,7 @@
-#jivosite-iframe-chat #jivosite-adword {
-  display: none !important;
-  visibility: hidden !important;
+.logo{
+  width: 125px;
+  height: auto;
 }
-
-#widget .jivosite-adword-en_US {
-  display: none !important;
-}
-
 .mw-450 {
   max-width: 450px !important;
 }
