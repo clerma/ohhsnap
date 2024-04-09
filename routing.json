@@ -1,0 +1,9 @@
+{
+  "routes": [
+	{
+	  "from": "/gallery/kVWJd/",
+	  "to": "https://gallery.ohhsnapbooth.com",
+	  "status": 301
+	},
+  ]
+}
