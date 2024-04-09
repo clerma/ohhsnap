@@ -2,7 +2,7 @@
   "routes": [
 	{
 	  "from": "/gallery/kVWJd/",
-	  "to": "https://gallery.ohhsnapbooth.com",
+	  "to": "/",
 	  "status": 301
 	},
   ]
