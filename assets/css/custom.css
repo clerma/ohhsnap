@@ -2,8 +2,11 @@
   width: 125px;
   height: auto;
 }
-.mw-450 {
+/* .mw-450 {
   max-width: 450px !important;
+} */
+.w35{
+  width: 35em;
 }
 .home-gallery{
   height: 175px; width: 100%;object-fit: cover;object-position: center
