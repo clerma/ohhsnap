@@ -1,1 +1,4 @@
-User-agent:
+User-Agent: *
+Disallow:
+
+Sitemap: https://ohhsnapbooth.com/sitemap.xml

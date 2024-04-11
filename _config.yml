@@ -27,30 +27,13 @@ locale: en_us
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 assets:
-  source_maps: true
-  compression: false
-  gzip: false
-  defaults:
-    integrity:
-      {css,img,js}: false
-  caching:
-    enabled: true
-    path: ".jekyll-cache/assets"
-    type: file
-  precompile: []
-  raw_precompile: []
   cdn:
-    baseurl: false
-    destination: false
+    baseurl: true
     url: https://0c123gkb.tinifycdn.com
-  sources:
-    - _assets/custom
-  plugins:
-    css: { autoprefixer: {}}
-    img: { optim: {}}
 collections:
   products:
     output: true
+
 defaults:
 -
   scope:
