@@ -8,7 +8,7 @@ categories:
   - Blog
 tags:
   - blog
-image: /2017-10-14-79080c.jpg
+image: https://0c123gkb.tinifycdn.com/2017-10-14-79080c.jpg
 ---
 &nbsp;
 

@@ -10,6 +10,6 @@ categories:
   - Blog
 tags:
   - blog
-image: /2017-11-4-36918a.jpg
+image: https://0c123gkb.tinifycdn.com/2017-11-4-36918a.jpg
 ---
 A day filled with pups is always a day well spent\! Ohh Snap had a blast taking photos of everyone with their adorable, furry friends at Bark in the Park at Grand Central Park. We did a simple woodgrain backdrop with a bunch of pet-friendly props. Our favorite guests were a 5-year-old little girl with her giant, Great -Dane bestie\! An open-air photo booth is an awesome way to capture the fun at any kind of event, and this one was no exception\!

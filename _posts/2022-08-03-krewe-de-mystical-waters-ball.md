@@ -8,7 +8,7 @@ categories:
   - Blog
 tags:
   - blog
-image: /2018-1-27-76483a.jpg
+image: https://0c123gkb.tinifycdn.com/2018-1-27-76483a.jpg
 ---
 It’s the second most wonderful time of the year, Mardi Gras\! This weekend we got to party with the Joker\! We had so much fun at Krewe de Mystical Water’s Mardi Gras Ball. This krewe kept it fun with a Super Hero’s theme and we had plenty of super hero custom props thanks to, Prop Box\! Ohh Snap’s red sequin photo booth backdrop also fit seamlessly with the theme of the night.
 
