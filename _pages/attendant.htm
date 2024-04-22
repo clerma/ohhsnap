@@ -37,12 +37,14 @@ permalink: /attendant
             <!--
 	    							color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
 	                            -->
+                                {% comment %}
             <li class="active attendant">
             <a href="#schedule-1" role="tab" data-toggle="tab" aria-expanded="false">
             <em class="material-icons">schedule</em>
             Schedule
             </a>
             </li>
+            {% endcomment %}
             <li class="attendant">
             <a href="#dashboard-1" role="tab" data-toggle="tab" aria-expanded="true">
             <em class="material-icons">dashboard</em>
@@ -70,12 +72,12 @@ permalink: /attendant
         </ul>
         <div class="tab-content tab-space">
         <hr />
-        <div class="tab-pane active" id="schedule-1">
+        <div class="tab-pane " id="schedule-1">
         <p> Time is displayed with (1hr) of setup and run time</p>
         <div id="calendar"></div>
 
         </div>
-        <div class="tab-pane" id="dashboard-1">
+        <div class="tab-pane active" id="dashboard-1">
         <div class="col-md-12 text-center">
         <h3>SET UP GUIDE</h3>
         <hr />
@@ -197,7 +199,6 @@ permalink: /attendant
         <h3>FAQ</h3>
         <hr />
         </div>
-        {module_faq filter="classified" itemId="833286" collection="faq" template=""}
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         {% for item in faq.items -%}
         <div class="panel panel-default">
@@ -223,6 +224,10 @@ permalink: /attendant
         <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/162077815" width="640" height="352" frameborder="0"></iframe></div>
         <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605576" width="640" height="360" frameborder="0"></iframe></div>
         <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/216605391" width="640" height="400" frameborder="0"></iframe></div>
+        <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/372897510" width="640" height="400" frameborder="0"></iframe></div>
+        <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/779988073" width="640" height="400" frameborder="0"></iframe></div>
+        <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/759321597" width="640" height="400" frameborder="0"></iframe></div>
+        <div class="videoWrapper"><iframe src="https://player.vimeo.com/video/388718009" width="640" height="400" frameborder="0"></iframe></div>
         </div>
         </div>
         </div>
