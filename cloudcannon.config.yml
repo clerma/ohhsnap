@@ -1,9 +1,9 @@
 source:
 paths:
   uploads: uploads
-  dam_uploads: ''
-  static: ''
-  dam_static: ''
+  dam_uploads: 'https://res.cloudinary.com/dnjtguzip/'
+  static: '/assets'
+  dam_static: 'https://res.cloudinary.com/dnjtguzip/current-site/'
   collections: ''
   data: _data
   layouts: _layouts
