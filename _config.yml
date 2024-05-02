@@ -1,10 +1,9 @@
 ---
 timezone: America/Chicago
-baseurl:
 include: ['_pages', '_data','login.html','login', '_plugins']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
-favicon: assets/img/favicon.ico
+favicon: /assets/img/favicon.ico
 lang: en
 author: Ohh Snap! Photo Booth
 # Your disqus shortname, entering this will enable commenting on posts
