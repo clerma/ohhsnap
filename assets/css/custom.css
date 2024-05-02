@@ -14,7 +14,9 @@
 .subpage {
   height: 70vh !important;
 }
-
+.nav-icon {
+  font-size: 1.35em;
+}
 .subpage .container {
   padding-top: 25vh !important;
 }
