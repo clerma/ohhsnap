@@ -1,8 +1,8 @@
 ---
 timezone: America/Chicago
-baseurl:
+url: https://ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login', '_plugins']
-name: Ohh Snap! Photo Booth
+sitename: Ohh Snap! Photo Booth
 relative_permalinks: false
 favicon: assets/img/favicon.ico
 lang: en
