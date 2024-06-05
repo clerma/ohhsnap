@@ -6,14 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.…" name="viewport">
 	<meta name="robots" content="all" />
+	<link href="{{page.url}}" rel="canonical"/>
+	<meta property="og:url" content="{{page.url}}">
 	<!-- Schema other -->
 	{% capture seo %}{% seo %}
 	{% for item in site.social.links %}
 	<meta property="og:see_also" content="{{item}}" />{% endfor %}
 	<meta name="keywords" content="{{page.keywords}}">
 	<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
-	{% endcapture %}
-	{{seo | replace: "Jekyll" , "Ohh Snap"}}
+	{% endcapture %}{{seo | replace: "Jekyll" , "Ohh Snap"}}
 	<!-- Styles -->
 	{% include head.html %}
 	<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
