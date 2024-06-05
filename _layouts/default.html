@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/x-icon" href="{{site.favicon}}" title="Ohh Snap! {{site.location}} Photo Booth Favicon">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.…" name="viewport">
-	<meta name="robots" content="all" />
-	<!-- Schema other -->
-	{% capture seo %}{% seo %}
-	{% for item in site.social.links %}
-	<meta property="og:see_also" content="{{item}}" />{% endfor %}
-	<meta name="keywords" content="{{page.keywords}}">
-	<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
-	{% endcapture %}
-	{{seo | replace: "Jekyll" , "Ohh Snap"}}
-	<!-- Styles -->
-	{% include head.html %}
-	<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+<meta charset="utf-8" />
+<link rel="icon" type="image/x-icon" href="https://0c123gkb.tinifycdn.com/{{site.favicon}}" title="Ohh Snap! {{site.location}} Photo Booth Favicon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+<meta name="robots" content="all" />
+<link href="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}" rel="canonical"/>
+<meta property="og:url" content="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}">
+<!-- Schema other -->
+{% capture seo %}{% seo %}<meta property="og:image:width" content="1500"/>
+<meta property="og:image:height" content="1000"/>
+<meta itemprop="name" content="{{site.name}}"/>
+<meta itemprop="url" content="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}"/>
+<meta itemprop="description" content="{{page.description}}"/>
+<meta itemprop="thumbnailUrl" content="{{page.image}}"/>
+<link rel="image_src" href="{{page.image}}" />
+<meta itemprop="image" content="{{page.image}}"/>
+<meta name="keywords" content="{{page.keywords}}">
+{% for item in site.social.links %}
+<meta property="og:see_also" content="{{item}}" />{% endfor %}
+
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+{% endcapture %}{{seo | replace: "Jekyll" , "Ohh Snap" | remove: "<!-- End Ohh Snap SEO tag -->"}}<!-- End Ohh Snap SEO tag -->
+<!-- Styles -->
+{% include head.html %}
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
 </head>
 <body class="presentation-page">
 	<div class="modal fade" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

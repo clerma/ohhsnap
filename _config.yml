@@ -2,6 +2,7 @@
 timezone: America/Chicago
 include: ['_pages', '_data','login.html','login', '_plugins']
 name: Ohh Snap! Photo Booth
+url: https://lakecharlesphotobooth.com
 relative_permalinks: false
 favicon: /assets/img/favicon.ico
 lang: en
