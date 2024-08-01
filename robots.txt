@@ -1,4 +1,7 @@
 User-Agent: *
 Disallow:
 
+User-agent: *
+Allow: http://gallery.ohhsnapbooth.com
+
 Sitemap: https://ohhsnapbooth.com/sitemap.xml
