@@ -1,6 +1,6 @@
 ---
 layout: blogs
-title: Can You Successfully Plan a Wedding Under $10,000? Absolutely! Here’s How
+title: Can You Plan a Wedding Under $10,000? Absolutely! Here’s How
 description: >-
   Discover how to plan a stunning wedding on a budget of $10,000 with these
   practical tips and ideas. From creative venue options to affordable catering
