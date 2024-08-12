@@ -8,7 +8,7 @@ categories:
   - Blog
 tags:
   - blog
-image: https://0c123gkb.tinifycdn.com/2018-1-21-58849a.jpg
+image: https://0c123gkb.tinifycdn.com/img/2018-1-21-58849a.jpg
 ---
 **1\. Yes, this will be the best day of your life, but chaos and stress come with the good.&nbsp;**Bridal shows are the perfect way to lift a load off you from digging around the internet and asking Facebook for suggestions and opinions. You can go to a show and have a wide variety of options right at your fingertips and also form your own opinions and get a taste for yourself.
 
