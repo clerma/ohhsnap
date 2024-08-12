@@ -10,8 +10,8 @@ categories:
   - Blog
 tags:
   - blog
-image: https://0c123gkb.tinifycdn.com/2017-11-11-69354a.jpg
+image: /img/ohhsnap/2017-11-11-69354A.jpg
 ---
-What better way to spend our Saturday night than with an energetic group like the Phi Mus’\!
+What better way to spend our Saturday night than with an energetic group like the Phi Mus’!
 
-Phi Mu’s Semi formal was held at the Jefferson Street Pub downtown, Lafayette. This venue set the perfect tone for the formal. Phi Mu chose our silver- sequin photo booth backdrop along with a bunch of our silly props. This Sorority sure knew how to have a good time and we had a blast capturing these moments\! Until next time, Phi Mu\!
+Phi Mu’s Semi formal was held at the Jefferson Street Pub downtown, Lafayette. This venue set the perfect tone for the formal. Phi Mu chose our silver- sequin photo booth backdrop along with a bunch of our silly props. This Sorority sure knew how to have a good time and we had a blast capturing these moments! Until next time, Phi Mu!
