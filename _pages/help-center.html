@@ -1,7 +1,7 @@
 ---
 title: Photo Booth help center | Resources for your rental
 description: We have built a photo booth help center with our most popular questions. Sectioned out by the timeline of your rental process.
-keywords: photo booth rental, photo booth rental, photo booth resources, help center, faq, 
+keywords: photo booth rental, photo booth rental, photo booth resources, help center, faq,
 pagename: help-center
 permalink: help-center
 ---
@@ -60,14 +60,14 @@ permalink: help-center
 
             <!-- Text -->
             <p class="mb-md-0 text-white">
-              We've organized our help by timeline in our rental process. 
+              We've organized our help by timeline in our rental process.
             </p>
 
           </div>
-        
+
         </div>
         <div class="row mt-n6">
-           {% for post in site.tags.Before-Event limit:1 %} 
+           {% for post in site.tags.Before-Event limit:1 %}
            {% for post in site.tags.Before-Event %}{% if post.categories contains "Before Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
            {% if post.categories contains "Before Event" %}
           <div class="col-12 col-md-4">
@@ -77,14 +77,14 @@ permalink: help-center
                 <!-- Icon -->
               <div class="icon icon-lg text-center text-white">
                   <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M18 14a3 3 0 110-6 3 3 0 010 6zm-9-3a4 4 0 110-8 4 4 0 010 8z" fill="#335EEA" opacity=".3"/><path d="M17.601 15c3.407.038 6.188 1.76 6.397 5.4.009.147 0 .6-.542.6H19.6c0-2.25-.744-4.328-1.999-6zm-17.6 5.2C.388 15.426 4.26 13 8.983 13c4.788 0 8.722 2.293 9.015 7.2.012.195 0 .8-.751.8H.727c-.25 0-.747-.54-.726-.8z" fill="#335EEA"/></g>
-                  </svg>               
+                  </svg>
               </div>
               </div>
               <div class="card-body py-5">
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  {{ post.categories }} 
+                  {{ post.categories }}
                 </h4>
 
                 <!-- Text -->
@@ -98,9 +98,9 @@ permalink: help-center
           </div>
           {% endif %}
           {% endfor %}
-          {% for post in site.tags.During-Event limit:1 %} 
-             {% for post in site.tags.During-Event %}{% if post.categories contains "During Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
-             {% if post.categories contains "During Event" %}
+          {% for post in site.tags.day-of-event limit:1 %}
+             {% for post in site.tags.day-of-event %}{% if post.categories contains "Day of Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
+             {% if post.categories contains "Day of Event" %}
           <div class="col-12 col-md-4">
 
             <!-- Card -->
@@ -116,7 +116,7 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  {{ post.categories }} 
+                  {{ post.categories }}
                 </h4>
 
                 <!-- Text -->
@@ -130,7 +130,7 @@ permalink: help-center
           </div>
           {% endif %}
           {% endfor %}
-          {% for post in site.tags.After-Event limit:1 %} 
+          {% for post in site.tags.After-Event limit:1 %}
            {% for post in site.tags.After-Event %}{% if post.categories contains "After Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
            {% if post.categories contains "After Event" %}
           <div class="col-12 col-md-4">
@@ -148,7 +148,7 @@ permalink: help-center
 
                 <!-- Heading -->
                 <h4 class="font-sans-serif mb-0">
-                  {{ post.categories }} 
+                  {{ post.categories }}
                 </h4>
 
                 <!-- Text -->
@@ -169,7 +169,7 @@ permalink: help-center
     <!-- Help Articles -->
     <section>
       <div class="container-lg">
-        {% for post in site.tags.Before-Event limit:1 | uniq %} 
+        {% for post in site.tags.Before-Event limit:1  %}
         {% if post.categories contains "Before Event" %}
         <div class="row justify-content-between">
           <div class="col-md-4">
@@ -179,7 +179,7 @@ permalink: help-center
 
               <!-- Heading -->
               <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
-               {{ post.categories }} 
+               {{ post.categories }}
               </h1>
 
               <!-- Text -->
@@ -194,7 +194,7 @@ permalink: help-center
 
             <!-- List group -->
             <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-            {% for post in site.tags.Before-Event | uniq %} 
+            {% for post in site.tags.Before-Event  %}
             {% if post.categories contains "Before Event" %}
               <div class="list-group-item">
 
@@ -206,112 +206,111 @@ permalink: help-center
               </div>
               {% endif %}
              {% endfor %}
-              
+
             </div>
 
           </div>
         </div>
         {% endif %}
         {% endfor %}
-        
+
       </div>
     </section>
    <section>
      <div class="container-lg">
-       {% for post in site.tags.During-Event limit:1 | uniq %} 
-       {% if post.categories contains "During Event" %}
+       {% for post in site.tags.day-of-event limit:1  %}
+       {% if post.categories contains "Day of Event" %}
        <div class="row justify-content-between">
          <div class="col-md-4">
-   
+
            <!-- Header -->
            <div class="position-sticky mb-8" style="top: 2rem;">
-   
+
              <!-- Heading -->
              <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
-              {{ post.categories }} 
+              {{ post.categories }}
              </h1>
-   
+
              <!-- Text -->
              <p class="mb-0 fs-6"">
                What to expect day of your event
              </p>
-   
+
            </div>
-   
+
          </div>
          <div class="col-md-7">
-   
+
            <!-- List group -->
            <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-           {% for post in site.tags.During-Event %} 
-           {% if post.categories contains "During Event" %}
+           {% for post in site.tags.day-of-event %}
+           {% if post.categories contains "Day of Event" %}
              <div class="list-group-item">
-   
+
                <!-- Heading -->
                <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
                  {{ post.title}}
                </a>
-   
+
              </div>
              {% endif %}
             {% endfor %}
-             
+
            </div>
-   
+
          </div>
        </div>
        {% endif %}
        {% endfor %}
-       
+
      </div>
    </section>
    <section>
         <div class="container-lg">
-          {% for post in site.tags.After-Event limit:1 | uniq %} 
+          {% for post in site.tags.After-Event limit:1  %}
           {% if post.categories contains "After Event" %}
           <div class="row justify-content-between">
             <div class="col-md-4">
-      
+
               <!-- Header -->
               <div class="position-sticky mb-8" style="top: 2rem;">
-      
+
                 <!-- Heading -->
                 <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
-                 {{ post.categories }} 
+                 {{ post.categories }}
                 </h1>
-      
+
                 <!-- Text -->
                 <p class="mb-0 fs-6">
                   Everything is finished, now what?
                 </p>
-      
+
               </div>
-      
+
             </div>
             <div class="col-md-7">
-      
+
               <!-- List group -->
               <div class="list-group list-group-lg list-group-flush mt-n7 mb-9">
-              {% for post in site.tags.After-Event %} 
+              {% for post in site.tags.After-Event %}
               {% if post.categories contains "After Event" %}
                 <div class="list-group-item">
-      
+
                   <!-- Heading -->
                   <a class="fs-lg fw-bold text-decoration-none text-reset" href="{{ post.url }}">
                     {{ post.title}}
                   </a>
-      
+
                 </div>
                 {% endif %}
                {% endfor %}
-                
+
               </div>
-      
+
             </div>
           </div>
           {% endif %}
           {% endfor %}
-          
+
         </div>
       </section>
-    

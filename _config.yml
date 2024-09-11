@@ -1,12 +1,12 @@
 ---
 timezone: America/Chicago
-baseurl: 
+baseurl:
 include: ['_pages', '_data','login.html','login']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: 
+disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-5620270-51
 social:
@@ -27,7 +27,10 @@ snipcart_currency: "usd"
 collections:
   products:
     output: true
-
+  booths:
+    output: true
+  event_type:
+    output: true
 defaults:
 -
   scope:
@@ -73,7 +76,7 @@ defaults:
     type: pages
     path: _pages/index.html
   values:
-    permalink: 
+    permalink:
 -
   scope:
     type: posts
@@ -85,8 +88,8 @@ defaults:
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 # http://jekyllrb.com/docs/pagination/
-paginate: 3
-paginate_path: '/page:num/'
+# paginate: 3
+# paginate_path: '/page:num/'
 
 # Permalinks
 permalink: "/:title/"
@@ -96,7 +99,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-paginate
+
 
 exclude:
     - .jekyll-cache/

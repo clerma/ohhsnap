@@ -1,5 +1,5 @@
 ---
-_schema: default
+layout: default
 name: Social Booth Templates
 price: '50.00'
 identifier: social-booth-templates
