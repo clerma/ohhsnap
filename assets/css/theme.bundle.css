@@ -66,6 +66,9 @@
 *, :after, :before {
     box-sizing: border-box
 }
+html{
+    overflow-x: hidden !important;
+}
 body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(27, 22, 66, 0);
@@ -77,7 +80,6 @@ body {
     line-height: var(--bs-body-line-height);
     margin: 0;
     text-align: var(--bs-body-text-align);
-    overflow-x: hidden !important;
 }
 hr {
     background-color: currentColor;
