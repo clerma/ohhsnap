@@ -7,34 +7,169 @@ booth:
   name: Portrait Booth
   subtext: A modern day photo booth
   icon: /assets/img/icons/legacy.svg
+banner:
+  image: /assets/img/ohhsnap/10.jpg
+  video: https://vimeo.com/1009205814
+  preheading: Ohh Snap
+  title: Portrait Photo Booth
+  subtext: Experience real connections with our portrait event photo booths, featuring instant printing for instant memories.
+  cta_link: /contact-ohh-snap-photobooth
+  cta_text: Contact Us
 permalink: lafayette-photo-booth-rental
 ---
-<section data-jarallax data-speed=".8" class="bg-cover jarallax" style="background-image: url(assets/img/ohhsnap/10.jpg);">
-	<div class="py-13 py-md-15 bg-dark-50">
-		<div class="container-lg">
-			<div class="row justify-content-center">
-				<div class="col-md-10 col-lg-8 text-center text-white">
-					<h2 class="h6 text-uppercase mb-5">
-						Ohh Snap
-					</h2>
+ <!-- VIDEO -->
+<section>
+  <div class="container-lg position-relative" style="z-index: 1;">
+	<div class="row align-items-center">
+	  <div class="col-12 text-center">
+		<!-- Decoration -->
+		<div class="position-absolute bottom-end text-gray-800 mb-n10 me-n8">
+		  <svg width="207" height="207" viewBox="0 0 207 207" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 12.938A6.469 6.469 0 106.469 0a6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM33.487 6.47l4.811-4.811L37.155.514l-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM7.612 32.344l4.811-4.811-1.143-1.144L6.469 31.2l-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/><g clip-path="url(#decoration4clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 12.938a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip1)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 64.688a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM7.612 84.094l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip2)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 64.688a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip3)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 12.938a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zM85.237 6.47l4.811-4.811L88.905.514l-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip4)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 12.938a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip5)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 64.688a6.469 6.469 0 100-12.938 6.469 6.469 0 000 12.938zm0-1.618a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.938zm0-1.617a4.852 4.852 0 100-9.703 4.852 4.852 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.81 4.812 1.143 1.143 4.81-4.81 4.812 4.81 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip6)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 64.688a6.47 6.47 0 100-12.94 6.47 6.47 0 000 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811zm-1.143 32.343a6.469 6.469 0 10-.001-12.937 6.469 6.469 0 00.001 12.938zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.81-1.144 1.143 4.811 4.81-4.811 4.812 1.144 1.143 4.811-4.81 4.811 4.81 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip7)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 116.438a6.47 6.47 0 10-.001-12.939 6.47 6.47 0 000 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip8)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 116.438a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip9)"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.469 168.188a6.47 6.47 0 10-.001-12.939 6.47 6.47 0 000 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip10)"><path fill-rule="evenodd" clip-rule="evenodd" d="M109.969 168.188a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip11)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 116.438a6.47 6.47 0 10-.002-12.939 6.47 6.47 0 00.002 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip12)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 116.438a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip13)"><path fill-rule="evenodd" clip-rule="evenodd" d="M58.219 168.188a6.47 6.47 0 10-.002-12.939 6.47 6.47 0 00.002 12.939zm0-1.618a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811zm-1.143 32.343a6.469 6.469 0 100-12.937 6.469 6.469 0 000 12.937zm0-1.617a4.851 4.851 0 100-9.703 4.851 4.851 0 000 9.703zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.81 4.811 1.143 1.143 4.81-4.811 4.812 4.811 1.143-1.143-4.81-4.811z" fill="currentColor"/></g><g clip-path="url(#decoration4clip14)"><path fill-rule="evenodd" clip-rule="evenodd" d="M161.719 168.188a6.47 6.47 0 10-.002-12.94 6.47 6.47 0 00.002 12.94zm0-1.618a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm27.018-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811zm-1.143 32.343a6.468 6.468 0 100-12.936 6.468 6.468 0 000 12.936zm0-1.617a4.851 4.851 0 100-9.702 4.851 4.851 0 000 9.702zm-24.732-4.851l4.811-4.811-1.143-1.144-4.811 4.811-4.811-4.811-1.144 1.144 4.811 4.811-4.811 4.811 1.144 1.143 4.811-4.811 4.811 4.811 1.143-1.143-4.811-4.811z" fill="currentColor"/></g><defs><clipPath id="decoration4clip7"><path fill="#fff" d="M0 103.5h51.75v51.75H0z"/></clipPath><clipPath id="decoration4clip0"><path fill="#fff" d="M103.5 0h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip2"><path fill="#fff" d="M103.5 51.75h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip3"><path fill="#fff" d="M51.75 0h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip4"><path fill="#fff" d="M155.25 0H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip5"><path fill="#fff" d="M51.75 51.75h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip6"><path fill="#fff" d="M155.25 51.75H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip1"><path fill="#fff" d="M0 51.75h51.75v51.75H0z"/></clipPath><clipPath id="decoration4clip8"><path fill="#fff" d="M103.5 103.5h51.75v51.75H103.5z"/></clipPath><clipPath id="decoration4clip9"><path fill="#fff" d="M0 155.25h51.75V207H0z"/></clipPath><clipPath id="decoration4clip10"><path fill="#fff" d="M103.5 155.25h51.75V207H103.5z"/></clipPath><clipPath id="decoration4clip11"><path fill="#fff" d="M51.75 103.5h51.75v51.75H51.75z"/></clipPath><clipPath id="decoration4clip12"><path fill="#fff" d="M155.25 103.5H207v51.75h-51.75z"/></clipPath><clipPath id="decoration4clip13"><path fill="#fff" d="M51.75 155.25h51.75V207H51.75z"/></clipPath><clipPath id="decoration4clip14"><path fill="#fff" d="M155.25 155.25H207V207h-51.75z"/></clipPath></defs></svg>            </div>
+		<!-- Image -->
+		<img class="position-relative img-fluid rounded mx-auto col-9" src="assets/img/portrait-booth/IMG_0838.jpeg" alt="...">
+	  </div>
+	</div>
+  </div>
+</section>
 
-					<!-- Heading -->
-					<h1 class="display-3 mb-4">
-						Portrait Photo Booth
-					</h1>
-					<!-- Text -->
-					<p class="fs-lg">
-						Experience real connections with our portrait event photo booths, featuring instant printing for instant memories.
+<!-- SHAPE -->
+<div class="position-relative">
+  <div class="shape shape-fluid-x shape-top text-dark pb-8 pb-md-12">
+	<div class="shape-img pb-9 pb-md-15">
+	  <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg>        </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section class="pt-10 pt-md-12 bg-dark">
+  <div class="container-lg">
+	<div class="row py-8" data-aos="fade-up">
+		<div class="col-md-4">
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-duotone fa-solid fa-copyright fa-3x"></i> </div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					  Brand-able
 					</p>
-					<!-- Button -->
-					<a class="btn btn-primary" href="/contact-ohh-snap-photobooth" title="Contact Ohh Snap Photo Booth">
-						Contact Us
-					</a>
-
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
+					</p>
+				  </div>
 				</div>
-			</div>
+			  </div>
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-duotone fa-solid fa-mobile fa-3x"></i> </div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					  Instant Sharing
+					</p>
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 Give your guest instant gratification with the ability to text or email a copy instantly.
+					</p>
+				  </div>
+				</div>
+			  </div>
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-duotone fa-solid fa-image fa-3x"></i>            </div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					  High Resolution Photos
+					</p>
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 We use professional photography equipment to ensure the highest quality image for you event.
+					</p>
+				  </div>
+				</div>
+			  </div>
+		</div>
+		<div class="col-md-4">
+			<div class="col-md-12">
+				<img src="assets/img/portrait-booth/ohhsnap-portrait-booth.png" class="img-fluid images-cards"/>
+			  </div>
+		</div>
+		<div class="col-md-4">
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-duotone fa-solid fa-print fa-3x"></i>  </div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					  Print Options
+					</p>
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 Prints can vary in size from 2x6 to 6x8 photos. We also offer a variety of other print media to meet your goals.
+					</p>
+				  </div>
+				</div>
+			  </div>
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-duotone fa-solid fa-chart-simple fa-3x"></i>           </div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					 Analytics
+					</p>
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
+					</p>
+				  </div>
+				</div>
+			  </div>
+			<div class="col-md-12">
+				<!-- Item -->
+				<div class="d-flex mt-8 mt-md-9">
+				  <!-- Icon -->
+				  <div class="icon text-primary-light">
+					<i class="fa-solid fa-objects-column fa-3x"></i>
+				</div>
+				  <!-- Body -->
+				  <div class="ms-5">
+					<!-- Title -->
+					<p class="fs-lg fw-bold text-white mb-1">
+					 Custom Layout
+					</p>
+					<!-- Text -->
+					<p class="fs-sm text-white-60 mb-0">
+					 In house Graphic Designers to to create the most personalized image frames to match the theme and feel of your wedding.
+					</p>
+				  </div>
+				</div>
+			  </div>
 		</div>
 	</div>
+  </div>
 </section>
 <!-- SHAPE -->
 <div class="position-relative">
@@ -46,228 +181,8 @@ permalink: lafayette-photo-booth-rental
 		</div>
 	</div>
 </div>
-<section class="py-8 py-md-9">
-	<div class="container-lg">
-		<div class="row align-items-center justify-content-between">
-			<div class="col-md-5">
-				<!-- Slider -->
-				<div class="position-relative mb-md-0 d-none d-md-block">
-					<!-- Decoration -->
-					<div class="position-absolute top-center top-md-start text-warning mt-n8 ms-md-n8">
-						<svg width="278" height="278" viewBox="0 0 278 278" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path fill="currentColor" d="M3 0h2v8H3z" />
-							<path fill="currentColor" d="M0 3h8v2H0zM33 0h2v8h-2z" />
-							<path fill="currentColor" d="M30 3h8v2h-8zM63 0h2v8h-2z" />
-							<path fill="currentColor" d="M60 3h8v2h-8zM93 0h2v8h-2z" />
-							<path fill="currentColor" d="M90 3h8v2h-8zM123 0h2v8h-2z" />
-							<path fill="currentColor" d="M120 3h8v2h-8zM153 0h2v8h-2z" />
-							<path fill="currentColor" d="M150 3h8v2h-8zM183 0h2v8h-2z" />
-							<path fill="currentColor" d="M180 3h8v2h-8zM213 0h2v8h-2z" />
-							<path fill="currentColor" d="M210 3h8v2h-8zM243 0h2v8h-2z" />
-							<path fill="currentColor" d="M240 3h8v2h-8zM273 0h2v8h-2z" />
-							<path fill="currentColor" d="M270 3h8v2h-8zM3 30h2v8H3z" />
-							<path fill="currentColor" d="M0 33h8v2H0zM33 30h2v8h-2z" />
-							<path fill="currentColor" d="M30 33h8v2h-8zM63 30h2v8h-2z" />
-							<path fill="currentColor" d="M60 33h8v2h-8zM93 30h2v8h-2z" />
-							<path fill="currentColor" d="M90 33h8v2h-8zM123 30h2v8h-2z" />
-							<path fill="currentColor" d="M120 33h8v2h-8zM153 30h2v8h-2z" />
-							<path fill="currentColor" d="M150 33h8v2h-8zM183 30h2v8h-2z" />
-							<path fill="currentColor" d="M180 33h8v2h-8zM213 30h2v8h-2z" />
-							<path fill="currentColor" d="M210 33h8v2h-8zM243 30h2v8h-2z" />
-							<path fill="currentColor" d="M240 33h8v2h-8zM273 30h2v8h-2z" />
-							<path fill="currentColor" d="M270 33h8v2h-8zM3 60h2v8H3z" />
-							<path fill="currentColor" d="M0 63h8v2H0zM33 60h2v8h-2z" />
-							<path fill="currentColor" d="M30 63h8v2h-8zM63 60h2v8h-2z" />
-							<path fill="currentColor" d="M60 63h8v2h-8zM93 60h2v8h-2z" />
-							<path fill="currentColor" d="M90 63h8v2h-8zM123 60h2v8h-2z" />
-							<path fill="currentColor" d="M120 63h8v2h-8zM153 60h2v8h-2z" />
-							<path fill="currentColor" d="M150 63h8v2h-8zM183 60h2v8h-2z" />
-							<path fill="currentColor" d="M180 63h8v2h-8zM213 60h2v8h-2z" />
-							<path fill="currentColor" d="M210 63h8v2h-8zM243 60h2v8h-2z" />
-							<path fill="currentColor" d="M240 63h8v2h-8zM273 60h2v8h-2z" />
-							<path fill="currentColor" d="M270 63h8v2h-8zM3 90h2v8H3z" />
-							<path fill="currentColor" d="M0 93h8v2H0zM33 90h2v8h-2z" />
-							<path fill="currentColor" d="M30 93h8v2h-8zM63 90h2v8h-2z" />
-							<path fill="currentColor" d="M60 93h8v2h-8zM93 90h2v8h-2z" />
-							<path fill="currentColor" d="M90 93h8v2h-8zM123 90h2v8h-2z" />
-							<path fill="currentColor" d="M120 93h8v2h-8zM153 90h2v8h-2z" />
-							<path fill="currentColor" d="M150 93h8v2h-8zM183 90h2v8h-2z" />
-							<path fill="currentColor" d="M180 93h8v2h-8zM213 90h2v8h-2z" />
-							<path fill="currentColor" d="M210 93h8v2h-8zM243 90h2v8h-2z" />
-							<path fill="currentColor" d="M240 93h8v2h-8zM273 90h2v8h-2z" />
-							<path fill="currentColor" d="M270 93h8v2h-8zM3 120h2v8H3z" />
-							<path fill="currentColor" d="M0 123h8v2H0zM33 120h2v8h-2z" />
-							<path fill="currentColor" d="M30 123h8v2h-8zM63 120h2v8h-2z" />
-							<path fill="currentColor" d="M60 123h8v2h-8zM93 120h2v8h-2z" />
-							<path fill="currentColor" d="M90 123h8v2h-8zM123 120h2v8h-2z" />
-							<path fill="currentColor" d="M120 123h8v2h-8zM153 120h2v8h-2z" />
-							<path fill="currentColor" d="M150 123h8v2h-8zM183 120h2v8h-2z" />
-							<path fill="currentColor" d="M180 123h8v2h-8zM213 120h2v8h-2z" />
-							<path fill="currentColor" d="M210 123h8v2h-8zM243 120h2v8h-2z" />
-							<path fill="currentColor" d="M240 123h8v2h-8zM273 120h2v8h-2z" />
-							<path fill="currentColor" d="M270 123h8v2h-8zM3 150h2v8H3z" />
-							<path fill="currentColor" d="M0 153h8v2H0zM33 150h2v8h-2z" />
-							<path fill="currentColor" d="M30 153h8v2h-8zM63 150h2v8h-2z" />
-							<path fill="currentColor" d="M60 153h8v2h-8zM93 150h2v8h-2z" />
-							<path fill="currentColor" d="M90 153h8v2h-8zM123 150h2v8h-2z" />
-							<path fill="currentColor" d="M120 153h8v2h-8zM153 150h2v8h-2z" />
-							<path fill="currentColor" d="M150 153h8v2h-8zM183 150h2v8h-2z" />
-							<path fill="currentColor" d="M180 153h8v2h-8zM213 150h2v8h-2z" />
-							<path fill="currentColor" d="M210 153h8v2h-8zM243 150h2v8h-2z" />
-							<path fill="currentColor" d="M240 153h8v2h-8zM273 150h2v8h-2z" />
-							<path fill="currentColor" d="M270 153h8v2h-8zM3 180h2v8H3z" />
-							<path fill="currentColor" d="M0 183h8v2H0zM33 180h2v8h-2z" />
-							<path fill="currentColor" d="M30 183h8v2h-8zM63 180h2v8h-2z" />
-							<path fill="currentColor" d="M60 183h8v2h-8zM93 180h2v8h-2z" />
-							<path fill="currentColor" d="M90 183h8v2h-8zM123 180h2v8h-2z" />
-							<path fill="currentColor" d="M120 183h8v2h-8zM153 180h2v8h-2z" />
-							<path fill="currentColor" d="M150 183h8v2h-8zM183 180h2v8h-2z" />
-							<path fill="currentColor" d="M180 183h8v2h-8zM213 180h2v8h-2z" />
-							<path fill="currentColor" d="M210 183h8v2h-8zM243 180h2v8h-2z" />
-							<path fill="currentColor" d="M240 183h8v2h-8zM273 180h2v8h-2z" />
-							<path fill="currentColor" d="M270 183h8v2h-8zM3 210h2v8H3z" />
-							<path fill="currentColor" d="M0 213h8v2H0zM33 210h2v8h-2z" />
-							<path fill="currentColor" d="M30 213h8v2h-8zM63 210h2v8h-2z" />
-							<path fill="currentColor" d="M60 213h8v2h-8zM93 210h2v8h-2z" />
-							<path fill="currentColor" d="M90 213h8v2h-8zM123 210h2v8h-2z" />
-							<path fill="currentColor" d="M120 213h8v2h-8zM153 210h2v8h-2z" />
-							<path fill="currentColor" d="M150 213h8v2h-8zM183 210h2v8h-2z" />
-							<path fill="currentColor" d="M180 213h8v2h-8zM213 210h2v8h-2z" />
-							<path fill="currentColor" d="M210 213h8v2h-8zM243 210h2v8h-2z" />
-							<path fill="currentColor" d="M240 213h8v2h-8zM273 210h2v8h-2z" />
-							<path fill="currentColor" d="M270 213h8v2h-8zM3 240h2v8H3z" />
-							<path fill="currentColor" d="M0 243h8v2H0zM33 240h2v8h-2z" />
-							<path fill="currentColor" d="M30 243h8v2h-8zM63 240h2v8h-2z" />
-							<path fill="currentColor" d="M60 243h8v2h-8zM93 240h2v8h-2z" />
-							<path fill="currentColor" d="M90 243h8v2h-8zM123 240h2v8h-2z" />
-							<path fill="currentColor" d="M120 243h8v2h-8zM153 240h2v8h-2z" />
-							<path fill="currentColor" d="M150 243h8v2h-8zM183 240h2v8h-2z" />
-							<path fill="currentColor" d="M180 243h8v2h-8zM213 240h2v8h-2z" />
-							<path fill="currentColor" d="M210 243h8v2h-8zM243 240h2v8h-2z" />
-							<path fill="currentColor" d="M240 243h8v2h-8zM273 240h2v8h-2z" />
-							<path fill="currentColor" d="M270 243h8v2h-8zM3 270h2v8H3z" />
-							<path fill="currentColor" d="M0 273h8v2H0zM33 270h2v8h-2z" />
-							<path fill="currentColor" d="M30 273h8v2h-8zM63 270h2v8h-2z" />
-							<path fill="currentColor" d="M60 273h8v2h-8zM93 270h2v8h-2z" />
-							<path fill="currentColor" d="M90 273h8v2h-8zM123 270h2v8h-2z" />
-							<path fill="currentColor" d="M120 273h8v2h-8zM153 270h2v8h-2z" />
-							<path fill="currentColor" d="M150 273h8v2h-8zM183 270h2v8h-2z" />
-							<path fill="currentColor" d="M180 273h8v2h-8zM213 270h2v8h-2z" />
-							<path fill="currentColor" d="M210 273h8v2h-8zM243 270h2v8h-2z" />
-							<path fill="currentColor" d="M240 273h8v2h-8zM273 270h2v8h-2z" />
-							<path fill="currentColor" d="M270 273h8v2h-8z" />
-						</svg>
-					</div>
-					<!-- Slider -->
-					<div class="bg-white" data-flickity='{"draggable": false, "fade": true, "imagesLoaded": true, "prevNextButtons": false, "pageDots": false}' id="coworkingOptions">
-						<div class="w-100">
-							<!-- Image -->
-							<img class="img-fluid" src="assets/img/ohhsnap/booth.png" alt="Ohh Snap Brand Activations" data-aos="wipe-right">
-						</div>
-						<div class="w-100">
-							<!-- Image -->
-							<img class="img-fluid" src="assets/img/portrait-booth/portrait-booth-instant-sharing.jpg" alt="Ohh Snap Digital Photo Sharing">
-						</div>
-						<div class="w-100">
-							<!-- Image -->
-							<img class="img-fluid" src="assets/img/coworking/seat-type-office.jpg" alt="...">
-						</div>
-					</div>
-				</div>
-				<!-- Shape -->
-				<div class="position-relative">
-					<div class="shape shape-fluid-x shape-top text-white">
-						<div class="shape-img pb-5">
-							<svg viewBox="0 0 100 50" preserveAspectRatio="none">
-								<path d="M0 25h25L75 0h25v50H0z" fill="currentColor" />
-							</svg>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-5" data-aos="fade-up">
-				<!-- Heading -->
-				<h2 class="display-4 mb-4">
-					A photo booth packed with amazing features
-				</h2>
-				<!-- Text -->
-				<p class="text-muted">
-					Regardless if its a wedding, part or cooperate event. We have some amazing features that are guaranteed to make you and your guest feel special.
-				</p>
-				<!-- List group -->
-				<div class="list-group list-group-flush list-group-hover">
-					<a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="0" href="#!">
-						<!-- Body -->
-						<div class="me-auto">
-						<!-- Heading -->
-							<p class="fs-lg fw-bold mb-0">
-								Brand-able
-							</p>
-							<!-- Text -->
-							<p class="fs-xs text-muted mt-n1 mb-0">
-								Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
-							</p>
-						</div>
-					</a>
-					<a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="1" href="#!">
-						<!-- Body -->
-						<div class="me-auto">
-							<!-- Heading -->
-							<p class="fs-lg fw-bold mb-0">
-								Instant Sharing
-							</p>
-							<!-- Text -->
-							<p class="fs-xs text-muted mt-n1 mb-0">
-								Give your guest instant gratification with the ability to text or email a copy instantly.
-							</p>
-						</div>
-					</a>
-					<a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="2" href="#!">
-						<!-- Body -->
-						<div class="me-auto">
-							<!-- Heading -->
-							<p class="fs-lg fw-bold mb-0">
-								High Resolution Photos
-							</p>
-							<!-- Text -->
-							<p class="fs-xs text-muted mt-n1 mb-0">
-								We use professional photography equipment to ensure the highest quality image for you event.
-							</p>
-						</div>
-					</a>
-					<a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="2" href="#!">
-						<!-- Body -->
-						<div class="me-auto">
-							<!-- Heading -->
-							<p class="fs-lg fw-bold mb-0">
-								Print Options
-							</p>
-							<!-- Text -->
-							<p class="fs-xs text-muted mt-n1 mb-0">
-								Prints can vary in size from 2x6 to 6x8 photos. We also offer a variety of other print media to meet your goals.
-							</p>
-						</div>
-					</a>
-					<a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="2" href="#!">
-						<!-- Body -->
-						<div class="me-auto">
-							<!-- Heading -->
-							<p class="fs-lg fw-bold mb-0">
-								Analytics
-							</p>
-							<!-- Text -->
-							<p class="fs-xs text-muted mt-n1 mb-0">
-								Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
-							</p>
-						</div>
-					</a>
-				</div>
 
-			</div>
-		</div>
-	</div>
-</section>
-<section class="container py-5">
+<section class="container py-10">
 	<div class="row mx-auto justify-content-center">
 		<div class="col-md-10 text-center">
 			<!-- Heading -->
@@ -535,7 +450,7 @@ permalink: lafayette-photo-booth-rental
 		</div>
 	</div>
 	<!-- Decoration -->
-	<div class="position-absolute top-end text-primary-dark mt-n12">
+	<div class="position-absolute top-end text-secondary mt-n12">
 		<svg width="129" height="208" viewBox="0 0 129 208" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g clip-path="url(#decoration5clip0)">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M142.812 201.281a6.47 6.47 0 1112.94.002 6.47 6.47 0 01-12.94-.002zm1.618 0a4.851 4.851 0 119.702 0 4.851 4.851 0 01-9.702 0zm4.851-27.018l4.811-4.811 1.144 1.143-4.811 4.811 4.811 4.811-1.144 1.144-4.811-4.811-4.811 4.811-1.143-1.144 4.811-4.811-4.811-4.811 1.143-1.143 4.811 4.811zm-32.343 1.143a6.468 6.468 0 1112.936 0 6.468 6.468 0 01-12.936 0zm1.617 0a4.851 4.851 0 119.702 0 4.851 4.851 0 01-9.702 0zm4.851 24.732l4.811-4.811 1.144 1.143-4.811 4.811 4.811 4.811-1.144 1.144-4.811-4.811-4.811 4.811-1.143-1.144 4.811-4.811-4.811-4.811 1.143-1.143 4.811 4.811z" fill="currentColor" />
@@ -685,7 +600,7 @@ permalink: lafayette-photo-booth-rental
 				<hr class="hr-sm bg-grey mx-auto mb-5">
 				<!-- Heading -->
 				<h2 class="display-3 text-center mb-4">
-					Ready To Book Your <span class="text-underline-primary-light">Event?</span>
+					Excited to reserve your <span class="text-underline-primary-light">Event?</span>
 				</h2>
 				<!-- Text -->
 				<p class="text-center text-muted my-9">

@@ -15,6 +15,17 @@ banner:
   subtext: Capture every angle with our 360 video booths, offering instant sharing for an unforgettable event experience.
   cta_link: /contact-ohh-snap-photobooth
   cta_text: Contact Us
+gallery:
+  - link: https://player.vimeo.com/video/1008844438
+  - link: https://player.vimeo.com/video/1008844528
+  - link: https://player.vimeo.com/video/1008844501
+  - link: https://player.vimeo.com/video/1008844470
+  - link: https://player.vimeo.com/video/1008844409
+  - link: https://player.vimeo.com/video/1008844374
+  - link: https://player.vimeo.com/video/1008844337
+  - link: https://player.vimeo.com/video/1008844265
+  - link: https://player.vimeo.com/video/1008844201
+  - link: https://player.vimeo.com/video/1008844299
 permalink: lafayette-360-booth-rental
 ---
 <!-- WELCOME -->
@@ -73,200 +84,100 @@ permalink: lafayette-360-booth-rental
      </div>
    </div>
  </div>
- <section class="py-8 py-md-9">
+ <!-- FEATURES -->
+ <section class="bg-dark">
    <div class="container-lg">
-     <div class="row align-items-center justify-content-between">
-       <div class="col-md-5">
-         <!-- Slider -->
-         <div class="position-relative mb-md-0 d-none d-md-block">
-           <!-- Decoration -->
-           <div class="position-absolute top-center top-md-start text-warning mt-n8 ms-md-n8">
-             <svg width="278" height="278" viewBox="0 0 278 278" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path fill="currentColor" d="M3 0h2v8H3z" />
-               <path fill="currentColor" d="M0 3h8v2H0zM33 0h2v8h-2z" />
-               <path fill="currentColor" d="M30 3h8v2h-8zM63 0h2v8h-2z" />
-               <path fill="currentColor" d="M60 3h8v2h-8zM93 0h2v8h-2z" />
-               <path fill="currentColor" d="M90 3h8v2h-8zM123 0h2v8h-2z" />
-               <path fill="currentColor" d="M120 3h8v2h-8zM153 0h2v8h-2z" />
-               <path fill="currentColor" d="M150 3h8v2h-8zM183 0h2v8h-2z" />
-               <path fill="currentColor" d="M180 3h8v2h-8zM213 0h2v8h-2z" />
-               <path fill="currentColor" d="M210 3h8v2h-8zM243 0h2v8h-2z" />
-               <path fill="currentColor" d="M240 3h8v2h-8zM273 0h2v8h-2z" />
-               <path fill="currentColor" d="M270 3h8v2h-8zM3 30h2v8H3z" />
-               <path fill="currentColor" d="M0 33h8v2H0zM33 30h2v8h-2z" />
-               <path fill="currentColor" d="M30 33h8v2h-8zM63 30h2v8h-2z" />
-               <path fill="currentColor" d="M60 33h8v2h-8zM93 30h2v8h-2z" />
-               <path fill="currentColor" d="M90 33h8v2h-8zM123 30h2v8h-2z" />
-               <path fill="currentColor" d="M120 33h8v2h-8zM153 30h2v8h-2z" />
-               <path fill="currentColor" d="M150 33h8v2h-8zM183 30h2v8h-2z" />
-               <path fill="currentColor" d="M180 33h8v2h-8zM213 30h2v8h-2z" />
-               <path fill="currentColor" d="M210 33h8v2h-8zM243 30h2v8h-2z" />
-               <path fill="currentColor" d="M240 33h8v2h-8zM273 30h2v8h-2z" />
-               <path fill="currentColor" d="M270 33h8v2h-8zM3 60h2v8H3z" />
-               <path fill="currentColor" d="M0 63h8v2H0zM33 60h2v8h-2z" />
-               <path fill="currentColor" d="M30 63h8v2h-8zM63 60h2v8h-2z" />
-               <path fill="currentColor" d="M60 63h8v2h-8zM93 60h2v8h-2z" />
-               <path fill="currentColor" d="M90 63h8v2h-8zM123 60h2v8h-2z" />
-               <path fill="currentColor" d="M120 63h8v2h-8zM153 60h2v8h-2z" />
-               <path fill="currentColor" d="M150 63h8v2h-8zM183 60h2v8h-2z" />
-               <path fill="currentColor" d="M180 63h8v2h-8zM213 60h2v8h-2z" />
-               <path fill="currentColor" d="M210 63h8v2h-8zM243 60h2v8h-2z" />
-               <path fill="currentColor" d="M240 63h8v2h-8zM273 60h2v8h-2z" />
-               <path fill="currentColor" d="M270 63h8v2h-8zM3 90h2v8H3z" />
-               <path fill="currentColor" d="M0 93h8v2H0zM33 90h2v8h-2z" />
-               <path fill="currentColor" d="M30 93h8v2h-8zM63 90h2v8h-2z" />
-               <path fill="currentColor" d="M60 93h8v2h-8zM93 90h2v8h-2z" />
-               <path fill="currentColor" d="M90 93h8v2h-8zM123 90h2v8h-2z" />
-               <path fill="currentColor" d="M120 93h8v2h-8zM153 90h2v8h-2z" />
-               <path fill="currentColor" d="M150 93h8v2h-8zM183 90h2v8h-2z" />
-               <path fill="currentColor" d="M180 93h8v2h-8zM213 90h2v8h-2z" />
-               <path fill="currentColor" d="M210 93h8v2h-8zM243 90h2v8h-2z" />
-               <path fill="currentColor" d="M240 93h8v2h-8zM273 90h2v8h-2z" />
-               <path fill="currentColor" d="M270 93h8v2h-8zM3 120h2v8H3z" />
-               <path fill="currentColor" d="M0 123h8v2H0zM33 120h2v8h-2z" />
-               <path fill="currentColor" d="M30 123h8v2h-8zM63 120h2v8h-2z" />
-               <path fill="currentColor" d="M60 123h8v2h-8zM93 120h2v8h-2z" />
-               <path fill="currentColor" d="M90 123h8v2h-8zM123 120h2v8h-2z" />
-               <path fill="currentColor" d="M120 123h8v2h-8zM153 120h2v8h-2z" />
-               <path fill="currentColor" d="M150 123h8v2h-8zM183 120h2v8h-2z" />
-               <path fill="currentColor" d="M180 123h8v2h-8zM213 120h2v8h-2z" />
-               <path fill="currentColor" d="M210 123h8v2h-8zM243 120h2v8h-2z" />
-               <path fill="currentColor" d="M240 123h8v2h-8zM273 120h2v8h-2z" />
-               <path fill="currentColor" d="M270 123h8v2h-8zM3 150h2v8H3z" />
-               <path fill="currentColor" d="M0 153h8v2H0zM33 150h2v8h-2z" />
-               <path fill="currentColor" d="M30 153h8v2h-8zM63 150h2v8h-2z" />
-               <path fill="currentColor" d="M60 153h8v2h-8zM93 150h2v8h-2z" />
-               <path fill="currentColor" d="M90 153h8v2h-8zM123 150h2v8h-2z" />
-               <path fill="currentColor" d="M120 153h8v2h-8zM153 150h2v8h-2z" />
-               <path fill="currentColor" d="M150 153h8v2h-8zM183 150h2v8h-2z" />
-               <path fill="currentColor" d="M180 153h8v2h-8zM213 150h2v8h-2z" />
-               <path fill="currentColor" d="M210 153h8v2h-8zM243 150h2v8h-2z" />
-               <path fill="currentColor" d="M240 153h8v2h-8zM273 150h2v8h-2z" />
-               <path fill="currentColor" d="M270 153h8v2h-8zM3 180h2v8H3z" />
-               <path fill="currentColor" d="M0 183h8v2H0zM33 180h2v8h-2z" />
-               <path fill="currentColor" d="M30 183h8v2h-8zM63 180h2v8h-2z" />
-               <path fill="currentColor" d="M60 183h8v2h-8zM93 180h2v8h-2z" />
-               <path fill="currentColor" d="M90 183h8v2h-8zM123 180h2v8h-2z" />
-               <path fill="currentColor" d="M120 183h8v2h-8zM153 180h2v8h-2z" />
-               <path fill="currentColor" d="M150 183h8v2h-8zM183 180h2v8h-2z" />
-               <path fill="currentColor" d="M180 183h8v2h-8zM213 180h2v8h-2z" />
-               <path fill="currentColor" d="M210 183h8v2h-8zM243 180h2v8h-2z" />
-               <path fill="currentColor" d="M240 183h8v2h-8zM273 180h2v8h-2z" />
-               <path fill="currentColor" d="M270 183h8v2h-8zM3 210h2v8H3z" />
-               <path fill="currentColor" d="M0 213h8v2H0zM33 210h2v8h-2z" />
-               <path fill="currentColor" d="M30 213h8v2h-8zM63 210h2v8h-2z" />
-               <path fill="currentColor" d="M60 213h8v2h-8zM93 210h2v8h-2z" />
-               <path fill="currentColor" d="M90 213h8v2h-8zM123 210h2v8h-2z" />
-               <path fill="currentColor" d="M120 213h8v2h-8zM153 210h2v8h-2z" />
-               <path fill="currentColor" d="M150 213h8v2h-8zM183 210h2v8h-2z" />
-               <path fill="currentColor" d="M180 213h8v2h-8zM213 210h2v8h-2z" />
-               <path fill="currentColor" d="M210 213h8v2h-8zM243 210h2v8h-2z" />
-               <path fill="currentColor" d="M240 213h8v2h-8zM273 210h2v8h-2z" />
-               <path fill="currentColor" d="M270 213h8v2h-8zM3 240h2v8H3z" />
-               <path fill="currentColor" d="M0 243h8v2H0zM33 240h2v8h-2z" />
-               <path fill="currentColor" d="M30 243h8v2h-8zM63 240h2v8h-2z" />
-               <path fill="currentColor" d="M60 243h8v2h-8zM93 240h2v8h-2z" />
-               <path fill="currentColor" d="M90 243h8v2h-8zM123 240h2v8h-2z" />
-               <path fill="currentColor" d="M120 243h8v2h-8zM153 240h2v8h-2z" />
-               <path fill="currentColor" d="M150 243h8v2h-8zM183 240h2v8h-2z" />
-               <path fill="currentColor" d="M180 243h8v2h-8zM213 240h2v8h-2z" />
-               <path fill="currentColor" d="M210 243h8v2h-8zM243 240h2v8h-2z" />
-               <path fill="currentColor" d="M240 243h8v2h-8zM273 240h2v8h-2z" />
-               <path fill="currentColor" d="M270 243h8v2h-8zM3 270h2v8H3z" />
-               <path fill="currentColor" d="M0 273h8v2H0zM33 270h2v8h-2z" />
-               <path fill="currentColor" d="M30 273h8v2h-8zM63 270h2v8h-2z" />
-               <path fill="currentColor" d="M60 273h8v2h-8zM93 270h2v8h-2z" />
-               <path fill="currentColor" d="M90 273h8v2h-8zM123 270h2v8h-2z" />
-               <path fill="currentColor" d="M120 273h8v2h-8zM153 270h2v8h-2z" />
-               <path fill="currentColor" d="M150 273h8v2h-8zM183 270h2v8h-2z" />
-               <path fill="currentColor" d="M180 273h8v2h-8zM213 270h2v8h-2z" />
-               <path fill="currentColor" d="M210 273h8v2h-8zM243 270h2v8h-2z" />
-               <path fill="currentColor" d="M240 273h8v2h-8zM273 270h2v8h-2z" />
-               <path fill="currentColor" d="M270 273h8v2h-8z" />
-             </svg>
-           </div>
-           <!-- Slider -->
-           <div class="bg-white" data-flickity='{"draggable": false, "fade": true, "imagesLoaded": true, "prevNextButtons": false, "pageDots": false}' id="coworkingOptions">
-             <div class="w-100">
-               <!-- Image -->
-               <img class="img-fluid" src="assets/img/social-booth/social-booth-ULPhotobooth.jpg" alt="Custom Photo Booth Wrap for the University Of Louisiana" data-aos="wipe-right">
-             </div>
-             <div class="w-100">
-               <!-- Image -->
-               <img class="img-fluid" src="assets/img/social-booth/snap-social-gallery.jpeg" alt="Social Booth Event Gallery">
-             </div>
-             <div class="w-100">
-               <!-- Image -->
-               <img class="img-fluid" src="assets/img/social-booth/analytics.jpg" alt="Snap Social Analytics & Reporting">
-             </div>
+   <div class="row py-10" data-aos="fade-up">
+     <div class="col-md-4">
+       <div class="col-md-12">
+         <!-- Item -->
+         <div class="d-flex mt-8 mt-md-9">
+           <!-- Icon -->
+           <div class="icon text-primary-light">
+           <i class="fa-duotone fa-solid fa-copyright fa-3x"></i> </div>
+           <!-- Body -->
+           <div class="ms-5">
+           <!-- Title -->
+           <p class="fs-lg fw-bold text-white mb-1">
+             Brand-able
+           </p>
+           <!-- Text -->
+           <p class="fs-sm text-white-60 mb-0">
+            Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
+           </p>
            </div>
          </div>
-         <!-- Shape -->
-         <div class="position-relative">
-           <div class="shape shape-fluid-x shape-top text-white">
-             <div class="shape-img pb-5">
-               <svg viewBox="0 0 100 50" preserveAspectRatio="none">
-                 <path d="M0 25h25L75 0h25v50H0z" fill="currentColor" />
-               </svg>
-             </div>
+         </div>
+       <div class="col-md-12">
+         <!-- Item -->
+         <div class="d-flex mt-8 mt-md-9">
+           <!-- Icon -->
+           <div class="icon text-primary-light">
+           <i class="fa-duotone fa-solid fa-mobile fa-3x"></i> </div>
+           <!-- Body -->
+           <div class="ms-5">
+           <!-- Title -->
+           <p class="fs-lg fw-bold text-white mb-1">
+             Instant Sharing
+           </p>
+           <!-- Text -->
+           <p class="fs-sm text-white-60 mb-0">
+            Give your guest instant gratification with the ability to text or email a copy instantly.
+           </p>
            </div>
          </div>
-       </div>
-       <div class="col-md-6 col-lg-5" data-aos="fade-up">
-         <!-- Heading -->
-         <h2 class="display-4 mb-4">
-           A photo booth packed with amazing features
-         </h2>
-         <!-- Text -->
-         <p class="text-muted">
-           Regardless if its a wedding, part or cooperate event. We have some amazing features that are guaranteed to make you and your guest feel special.
-         </p>
-         <!-- List group -->
-         <div class="list-group list-group-flush list-group-hover">
-           <a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="0" href="#!">
-             <!-- Body -->
-             <div class="me-auto">
-               <!-- Heading -->
-               <p class="fs-lg fw-bold mb-0">
-                 Brand-able
-               </p>
-               <!-- Text -->
-               <p class="fs-xs text-muted mt-n1 mb-0">
-                 Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
-               </p>
-             </div>
-           </a>
-           <a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="1" href="#!">
-             <!-- Body -->
-             <div class="me-auto">
-               <!-- Heading -->
-               <p class="fs-lg fw-bold mb-0">
-                 Instant Sharing
-               </p>
-               <!-- Text -->
-               <p class="fs-xs text-muted mt-n1 mb-0">
-                 Give your guest instant gratification with the ability to text or email a copy instantly.
-               </p>
-             </div>
-           </a>
-           <a class="list-group-item d-flex align-items-center text-reset text-decoration-none" data-toggle="flickity" data-target="#coworkingOptions" data-slide="2" href="#!">
-             <!-- Body -->
-             <div class="me-auto">
-               <!-- Heading -->
-               <p class="fs-lg fw-bold mb-0">
-                 Analytics
-               </p>
-               <!-- Text -->
-               <p class="fs-xs text-muted mt-n1 mb-0">
-                 Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
-               </p>
-             </div>
-           </a>
          </div>
-       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="col-md-12">
+         <img src="assets/img/360/ohhsnap-360-booth.png" class="img-fluid images-cards" style="height:53vh"/>
+         </div>
+     </div>
+     <div class="col-md-4">
+       <div class="col-md-12">
+         <!-- Item -->
+         <div class="d-flex mt-8 mt-md-9">
+           <!-- Icon -->
+           <div class="icon text-primary-light">
+           <i class="fa-duotone fa-solid fa-chart-simple fa-3x"></i>           </div>
+           <!-- Body -->
+           <div class="ms-5">
+           <!-- Title -->
+           <p class="fs-lg fw-bold text-white mb-1">
+            Analytics
+           </p>
+           <!-- Text -->
+           <p class="fs-sm text-white-60 mb-0">
+            Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
+           </p>
+           </div>
+         </div>
+         </div>
+       <div class="col-md-12">
+         <!-- Item -->
+         <div class="d-flex mt-8 mt-md-9">
+           <!-- Icon -->
+           <div class="icon text-primary-light">
+           <i class="fa-solid fa-objects-column fa-3x"></i>
+         </div>
+           <!-- Body -->
+           <div class="ms-5">
+           <!-- Title -->
+           <p class="fs-lg fw-bold text-white mb-1">
+            Custom Layout
+           </p>
+           <!-- Text -->
+           <p class="fs-sm text-white-60 mb-0">
+            In house Graphic Designers to to create the most personalized image frames to match the theme and feel of your wedding.
+           </p>
+           </div>
+         </div>
+         </div>
      </div>
    </div>
+   </div>
  </section>
+
  <section class="container py-5">
    <div class="row mx-auto justify-content-center">
      <div class="col-md-10 text-center">
@@ -283,15 +194,12 @@ permalink: lafayette-360-booth-rental
  </section>
  <!-- Gallery -->
  <div class="pt-5 mt-5" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
-   {% for item in site.static_files %}
-   {% if item.path contains '/assets/img/gallery/social/stills' %}
+   {% for item in page.gallery %}
    <div class="col-lg-4 col-10 mx-2">
-     <!-- Image -->
-     <a data-bigpicture='{"imgSrc": "{{item.path}}"}' href="#" class="d-block mb-3 mb-md-0">
-       <img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Social Booth" data-aos="wipe-left">
-     </a>
+     <div class="iframe-container">
+    <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+     </div>
    </div>
-   {% endif %}
    {% endfor %}
  </div>
  <!-- SHAPE -->
@@ -331,7 +239,7 @@ permalink: lafayette-360-booth-rental
      <div class="row align-items-center justify-content-between">
        <div class="col-md-6">
          <!-- Image -->
-         <img class="img-fluid mb-8 mb-md-0" src="assets/img/portrait-booth/tension.jpeg" alt="...">
+         <img class="img-fluid mb-8 mb-md-0" src="assets/img/360/360-wrap.png" alt="...">
        </div>
        <div class="col-md-6 col-lg-5">
          <!-- Heading -->
@@ -464,7 +372,7 @@ permalink: lafayette-360-booth-rental
              </svg>
            </div>
            <!-- Image -->
-           <img class="img-fluid position-relative border border-7 border-white shadow-lg" src="assets/img/props.jpg" alt="...">
+           <img class="img-fluid position-relative border border-7 border-white shadow-lg" src="assets/img/360/IMG_4667.JPG" alt="...">
          </div>
        </div>
        <div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
@@ -496,9 +404,8 @@ permalink: lafayette-360-booth-rental
    </div>
  </div>
 
- <!-- CASES -->
+ <!-- Images -->
  <section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
-
    <!-- Content -->
    <div class="container-lg">
      <div class="row justify-content-center">
@@ -518,7 +425,7 @@ permalink: lafayette-360-booth-rental
    <!-- Slider -->
    <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
      {% for item in site.static_files %}
-     {% if item.path contains '/assets/img/gallery/social/gif' %}
+     {% if item.path contains '/assets/img/360/stills/' %}
      <div style="width: calc(100% - 2rem); max-width: 680px;">
        <!-- Image -->
        <img class="img-fluid rounded" src="{{item.path}}" alt="...">
@@ -541,7 +448,7 @@ permalink: lafayette-360-booth-rental
    </div>
 
    <!-- Decoration -->
-   <div class="position-absolute top-end text-primary-dark mt-n12">
+   <div class="position-absolute top-end text-secondary mt-n12">
      <svg width="129" height="208" viewBox="0 0 129 208" fill="none" xmlns="http://www.w3.org/2000/svg">
        <g clip-path="url(#decoration5clip0)">
          <path fill-rule="evenodd" clip-rule="evenodd" d="M142.812 201.281a6.47 6.47 0 1112.94.002 6.47 6.47 0 01-12.94-.002zm1.618 0a4.851 4.851 0 119.702 0 4.851 4.851 0 01-9.702 0zm4.851-27.018l4.811-4.811 1.144 1.143-4.811 4.811 4.811 4.811-1.144 1.144-4.811-4.811-4.811 4.811-1.143-1.144 4.811-4.811-4.811-4.811 1.143-1.143 4.811 4.811zm-32.343 1.143a6.468 6.468 0 1112.936 0 6.468 6.468 0 01-12.936 0zm1.617 0a4.851 4.851 0 119.702 0 4.851 4.851 0 01-9.702 0zm4.851 24.732l4.811-4.811 1.144 1.143-4.811 4.811 4.811 4.811-1.144 1.144-4.811-4.811-4.811 4.811-1.143-1.144 4.811-4.811-4.811-4.811 1.143-1.143 4.811 4.811z" fill="currentColor" />
@@ -631,52 +538,6 @@ permalink: lafayette-360-booth-rental
              </blockquote>
            </div>
            {% endfor %}
-           <div class="col-12 px-4">
-             <!-- Blockquote -->
-             <blockquote>
-               <!-- Text -->
-               <p class="h1 text-center mb-8">
-                 “Goodkit's offices are insanely beautiful. They are a perfect balance of minimal, but still cozy and functional."
-               </p>
-               <!-- Footer -->
-               <div class="d-flex align-items-center justify-content-center">
-                 <!-- Body -->
-                 <div class="ms-4 text-center">
-                   <!-- Title -->
-                   <p class="fw-bold mb-0">
-                     Tiffany Fyfe
-                   </p>
-                   <!-- Position -->
-                   <p class="small text-muted mt-n1 mb-0">
-                     Ops at Dribbble
-                   </p>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
-           <div class="col-12 px-4">
-             <!-- Blockquote -->
-             <blockquote>
-               <!-- Text -->
-               <p class="h1 text-center mb-8">
-                 “Finding the perfect office can burn up valuable hours. Make the simple choice and just join Goodkit's coworking."
-               </p>
-               <!-- Footer -->
-               <div class="d-flex align-items-center justify-content-center">
-                 <!-- Body -->
-                 <div class="ms-4 text-center">
-                   <!-- Title -->
-                   <p class="fw-bold mb-0">
-                     Danielle Pilker
-                   </p>
-                   <!-- Position -->
-                   <p class="small text-muted mt-n1 mb-0">
-                     CTO of Netflix
-                   </p>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
          </div>
        </div>
      </div>

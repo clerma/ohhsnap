@@ -30,7 +30,7 @@
     --bs-gray-800: #342e6c;
     --bs-gray-900: #0a235f;
     --bs-primary: #27AAE1;
-    --bs-secondary: #575a7b;
+    --bs-secondary: #1b73b9;
     --bs-success: #2cd4a2;
     --bs-info: #0dcaf0;
     --bs-warning: #f5c070;
@@ -40,7 +40,7 @@
     --bs-primary-dark: #564caf;
     --bs-primary-light: #687ded;
     --bs-primary-rgb: 102, 88, 234;
-    --bs-secondary-rgb: 87, 90, 123;
+    --bs-secondary-rgb: 27, 115, 185;
     --bs-success-rgb: 44, 212, 162;
     --bs-info-rgb: 13, 202, 240;
     --bs-warning-rgb: 245, 192, 112;
@@ -2840,30 +2840,30 @@ textarea.form-control-lg {
     color: #fff
 }
 .btn-secondary {
-    background-color: #575a7b;
-    border-color: #575a7b;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     box-shadow: 0 0 6px rgba(27, 22, 66, .03), 0 14px 24px rgba(27, 22, 66, .06);
     color: #fff
 }
 .btn-check:focus+.btn-secondary, .btn-secondary:focus, .btn-secondary:hover {
-    background-color: #4a4d69;
-    border-color: #464862;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     color: #fff
 }
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
     box-shadow: 0 0 6px rgba(27, 22, 66, .03), 0 14px 24px rgba(27, 22, 66, .06), 0 0 0 0 rgba(112, 115, 143, .5)
 }
 .btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
-    background-color: #464862;
-    border-color: #41445c;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     color: #fff
 }
 .btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
     box-shadow: 0 0 6px rgba(27, 22, 66, .03), 0 14px 24px rgba(27, 22, 66, .06), 0 0 0 0 rgba(112, 115, 143, .5)
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
-    background-color: #575a7b;
-    border-color: #575a7b;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     color: #fff
 }
 .btn-success {
@@ -3113,20 +3113,20 @@ textarea.form-control-lg {
     color: #27AAE1
 }
 .btn-outline-secondary {
-    border-color: #575a7b;
-    color: #575a7b
+    border-color: #1b73b9;
+    color: #1b73b9
 }
 .btn-outline-secondary:hover {
-    background-color: #575a7b;
-    border-color: #575a7b;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     color: #fff
 }
 .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
     box-shadow: 0 0 0 0 rgba(87, 90, 123, .5)
 }
 .btn-check:active+.btn-outline-secondary, .btn-check:checked+.btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active {
-    background-color: #575a7b;
-    border-color: #575a7b;
+    background-color: #1b73b9;
+    border-color: #1b73b9;
     color: #fff
 }
 .btn-check:active+.btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus {
@@ -5948,10 +5948,10 @@ textarea.form-control-lg {
     color: #5246bb
 }
 .link-secondary {
-    color: #575a7b
+    color: #1b73b9
 }
 .link-secondary:focus, .link-secondary:hover {
-    color: #464862
+    color: #1b73b9
 }
 .link-success {
     color: #2cd4a2
@@ -6389,7 +6389,7 @@ textarea.form-control-lg {
     border-color: #27AAE1!important
 }
 .border-secondary {
-    border-color: #575a7b!important
+    border-color: #1b73b9!important
 }
 .border-success {
     border-color: #2cd4a2!important
@@ -8202,7 +8202,7 @@ textarea.form-control-lg {
     color: #27AAE1!important
 }
 .text-secondary {
-    color: #575a7b!important
+    color: #1b73b9 !important
 }
 .text-success {
     color: #2cd4a2!important
@@ -8307,7 +8307,7 @@ textarea.form-control-lg {
     background-color: #27AAE1!important
 }
 .bg-secondary {
-    background-color: #575a7b!important
+    background-color: #1b73b9!important
 }
 .bg-success {
     background-color: #27e17b!important
@@ -17820,6 +17820,31 @@ a.badge.bg-primary-light-soft:focus, a.badge.bg-primary-light-soft:hover {
         height: inherit
     }
 }
+@media (max-width:768px) {
+    .card-img-slider {
+        height: 100%;
+        width: 100%
+    }
+    .card-img-slider * {
+        height: inherit!important;
+        width: inherit!important
+    }
+    .card-stack {
+        display: block;
+    }
+    .card-stack-item {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 140px
+    }
+    .card-stack-item>.card {
+        height: 100%;
+        transform-origin: top center
+    }
+    .card-stack-item>.card>.row {
+        height: inherit
+    }
+}
 .collapse-toggle {
     display: flex
 }
@@ -18577,11 +18602,11 @@ a.badge.bg-primary-light-soft:focus, a.badge.bg-primary-light-soft:hover {
 html {
     overflow-x: hidden
 }
-@media (hover:none) {
+/* @media (hover:none) {
     body {
         overflow-x: hidden
     }
-}
+} */
 .table-flush tbody td:first-child, .table-flush tbody th:first-child, .table-flush tfoot td:first-child, .table-flush thead th:first-child {
     padding-left: 0
 }
