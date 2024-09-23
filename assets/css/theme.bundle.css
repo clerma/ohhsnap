@@ -76,8 +76,7 @@ body {
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
     margin: 0;
-    text-align: var(--bs-body-text-align);
-
+    text-align: var(--bs-body-text-align)
 }
 hr {
     background-color: currentColor;

@@ -8,6 +8,11 @@
 .ohhsnap{
 	font-family: "Roboto Slab", serif !important;
 }
+.stack-cards__item {
+  position: sticky;
+  top: var(--space-sm);
+  transform-origin: center top;
+}
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 */
