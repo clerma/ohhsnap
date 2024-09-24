@@ -24,6 +24,7 @@
                                                                                         Rental Types
                                                                                 </h6>
                                                                                 {% for item in site.event_type %}
+                                                                                {% if item.type.featured == "enabled" %}
                                                                                 <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
@@ -40,6 +41,7 @@
                                                                                                 </span>
                                                                                         </div>
                                                                                 </a>
+                                                                                {% endif %}
                                                                                 {% endfor %}
                                                                                 <!-- Links -->
                                                                         </div>

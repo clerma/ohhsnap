@@ -162,7 +162,8 @@ permalink: "/"
 
                 <!-- Stack -->
                 <div class="card-stack">
-                    {% for event in site.data.event-types %}
+                    {% for event in site.event_type %}
+                    {% if event.type.featured == "enabled" %}
                     <!-- Card -->
                     <div class="card-stack-item mb-9">
                         <div class="card card-lg rounded overflow-hidden">
@@ -182,11 +183,11 @@ permalink: "/"
                                         </div>
                                         <!-- Heading -->
                                         <h2 class="font-serif h1 mb-4 mt-auto fw-bold">
-                                            {{ event.name }}
+                                            {{ event.type.name }}
                                         </h2>
                                         <!-- Text -->
                                         <p>
-                                            {{ event.description }}
+                                            {{ event.type.description }}
                                         </p>
                                         <!-- Link -->
                                         <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ event.url }}">
@@ -197,6 +198,7 @@ permalink: "/"
                             </div>
                         </div>
                     </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>

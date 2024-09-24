@@ -4,13 +4,13 @@ description: Test description
 keywords: photo booth rental, photo booth rental
 image: /assets/img/ohhsnap/2017-10-14-79080C.jpg
 type:
-  name: Non-profit Photo Booths
+  name: Glam Booth
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-  subtext: Create Lasting Impressions
+  subtext: Classic Black and White memories
   icon: '<i class="fa-sharp fa-solid fa-place-of-worship"></i>'
-  featured: enabled
+  featured: disabled
 banner:
   image: /assets/img/ohhsnap/10.jpg
   video: https://vimeo.com/1009205814
@@ -19,7 +19,7 @@ banner:
   subtext: Experience real connections with our portrait event photo booths, featuring instant printing for instant memories.
   cta_link: /contact-ohh-snap-photobooth
   cta_text: Contact Us
-permalink: /non-profit-photobooth-rental
+permalink: /glam-booth
 ---
  <!-- VIDEO -->
 <section>
