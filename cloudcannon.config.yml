@@ -1,5 +1,5 @@
 _select_data:
-  
+
 _inputs:
   map:
     comment: "Update the map location and display settings."
@@ -28,6 +28,10 @@ collections_config:
     schemas:
       default:
         path: schemas/staff_members.md
+  coordinators:
+    _enabled_editors:
+      - data
+    icon: account_circle
   products:
     _enabled_editors:
       - data

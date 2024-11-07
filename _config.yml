@@ -1,7 +1,7 @@
 ---
 timezone: America/Chicago
 baseurl:
-include: ['_pages', '_data','login.html','login']
+include: ['_pages', '_data','login.html','login','_coordinators']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
@@ -27,6 +27,9 @@ snipcart_currency: "usd"
 collections:
   products:
     output: true
+  coordinators:
+    output: true
+    permalink: /:title
   booths:
     output: true
   event_type:
@@ -66,11 +69,11 @@ defaults:
         link: true
         embed: true
 -
-          scope:
-            path: ""
-            type: "products"
-          values:
-            layout: "product"
+  scope:
+    path: ""
+    type: "products"
+  values:
+    layout: "product"
 -
   scope:
     type: pages

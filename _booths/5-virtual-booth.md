@@ -235,7 +235,7 @@ permalink: /remote-photo-booth-rental
      </div>
      <div class="col-md-4">
        <div class="col-md-12">
-         <img src="assets/img/virtual-booth/ohhsnap-virtual-booth.png" class="img-fluid images-cards" style="height:53vh">
+         <img src="/assets/img/virtual-booth/ohhsnap-virtual-booth.png" class="img-fluid images-cards" style="height:53vh">
          </div>
      </div>
      <div class="col-md-4">
@@ -270,7 +270,7 @@ permalink: /remote-photo-booth-rental
            <div class="ms-5">
            <!-- Title -->
            <p class="fs-lg fw-bold text-white mb-1">
-           Embedable
+           Embeddable
            </p>
            <!-- Text -->
            <p class="fs-sm text-white-60 mb-0">
@@ -356,7 +356,6 @@ permalink: /remote-photo-booth-rental
     </div>
   </div>
 </section>
-
  <section class="pt-12 py-md-10 pb-11 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
    <!-- Content -->
    <div class="container-lg">
@@ -402,19 +401,19 @@ permalink: /remote-photo-booth-rental
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6">
           <!-- Image -->
-          <img class="img-fluid mb-8 mb-md-0" src="assets/img/360/360-wrap.png" alt="...">
+          <img class="img-fluid mb-8 mb-md-0" src="assets/img/portrait-booth/tension.jpeg" alt="Lafayette Backdrop Rentals">
         </div>
         <div class="col-md-6 col-lg-5">
           <!-- Heading -->
           <h2 class="display-4 mb-4">
-            Custom Backdrops
+            Backdrops
           </h2>
           <!-- Text -->
           <p class="text-muted">
-            Make a statement with your backdrop, which makes up 75% of every photo! Tailor the experience for your guests with our custom printed backdrops, fully customizable and yours to keep. We also offer a wide range partners as well as in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals"> backdrop rental</a> page for more information.
+            Make a statement with a custom backdrop or choose from our selection! A backdrop accounts for 75% of every photo, making it essential for creating the perfect atmosphere. Tailor the experience for your guests with our fully customizable printed backdrops, which are yours to keep. We also offer a wide range of partner and in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals"> backdrop rental</a> page for more information.
           </p>
           <!-- Link -->
-          <a class="h6 text-uppercase text-decoration-none" href="/contact-ohh-snap-photobooth">
+          <a class="h6 text-uppercase text-decoration-none" href="/contact-ohh-snap-photobooth" title="Lafayette DIY Photo Booth">
             Contact Us <i class="fe fe-arrow-right ms-2"></i>
           </a>
         </div>
@@ -579,28 +578,24 @@ permalink: /remote-photo-booth-rental
               <!-- List group -->
               <ul class="list-group list-group-flush mt-n5">
                 <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto">3 Hours</span>
+                  <span class="text-end mx-auto">Host events any place, any time.</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Unlimited Sessions</span>
+                  <span class="text-end mx-auto">Unlimited Captures (Video, Gif, Boomerage & Video)</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                <!-- Text -->
+                <span class="text-end mx-auto">Easy Share Link</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Customized Overlay</span>
+                  <span class="text-end mx-auto">Custom Centralized Gallery</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Photo Booth Attendant</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto">Online Gallery</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto">Instant Sharing</span>
+                  <span class="text-end mx-auto">Brandable Elements (custom backgrounds, buttons, and overlays)
+                  </span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Title -->
@@ -618,8 +613,8 @@ permalink: /remote-photo-booth-rental
                   <!-- Price -->
                   <div class="display-4 fw-bolder text-center text-lg-start mb-4 mb-lg-0">
                     <span class="fs-3 align-middle">$</span>
-                    <span class="mx-n2">1000</span>
-                    <span class="fs-5 fw-light align-middle">/Starting at</span>
+                    <span class="mx-n2">100</span>
+                    <span class="fs-5 fw-light align-middle">/Hour</span>
                   </div>
                 </div>
                 <div class="col-12 col-lg-auto">
