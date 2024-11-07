@@ -1,16 +1,16 @@
----
 timezone: America/Chicago
 include: ['_pages', '_data','login.html','login', '_plugins']
 name: Ohh Snap! Photo Booth
-url: https://batonrougephotobooth.rentals
+url: "https://alexandriaphotobooth.com"
+baseurl:
 relative_permalinks: false
-favicon: /assets/img/favicon.ico
+favicon: https://0c123gkb.tinifycdn.com/assets/img/favicon.ico
 lang: en
 author: Ohh Snap! Photo Booth
 # Your disqus shortname, entering this will enable commenting on posts
 disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-NT2M22QX2Z
+google_analytics: G-WBTR9WGDD4
 social:
   name: Ohh Snap Photo booth
   links:
@@ -24,19 +24,13 @@ social:
     - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
-location: Baton Rouge
-local_keywords: Prairieville,Denham Springs,Port Allen,Zachary,Baker,
+location: Alexandria
+local_keywords: Pineville, Tioga, Ball, Marksville, Mansura, Jena, Woodworth, Cotile, Lecompte, and Natchez
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
-assets:
-  cdn:
-    baseurl: true
-    url: https://0c123gkb.tinifycdn.com
-  digest: true
 collections:
   products:
     output: true
-
 defaults:
 -
   scope:
