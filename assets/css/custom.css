@@ -143,7 +143,7 @@ span.post-meta {
 @media (max-width: 767.98px) {
   section.hero {
     height: 40vh;
-    min-height: 15rem;
+    min-height: 24rem;
   }
   .images-cards {
       height: 40vh !important;
