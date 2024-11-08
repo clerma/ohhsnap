@@ -3,12 +3,14 @@ layout: default
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Lafayette, LA photo booth rentals. Ohh Snap Photo Booth price options for your event, wedding or party.
 keywords: Ohh Snap Packages, Ohh Snap social, Custom Quote, Custom Logos, custom prints,Photo Booth Rentals, Photo Booth Packages, Event Photography,Wedding Photo Booth, Lafayette,Carencro,Youngsville,Opelousas, LA
+image: /assets/img/portrait-booth/NTUQ-7X9POP0T60KWQFVU.jpeg
 booth:
   name: Portrait Booth
   subtext: A modern day photo booth
   icon: /assets/img/icons/legacy.svg
+  description: Experience real connections with our portrait event photo booths, featuring instant printing for instant memories.
 banner:
-  image: /assets/img/ohhsnap/10.jpg
+  image: /assets/img/portrait-booth/NTUQ-7X9POP0T60KWQFVU.jpeg
   video: https://vimeo.com/1009205814
   preheading: Ohh Snap
   title: Portrait Photo Booth

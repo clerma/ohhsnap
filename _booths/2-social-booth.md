@@ -3,12 +3,14 @@ layout: default
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Test description
 keywords: photo booth rental, photo booth rental
+image: /assets/img/social-booth/instant-photo-booth-sharing.jpg
 booth:
   name: Digital Booth
   subtext: Selfie Station
   icon: /assets/img/icons/social-booth.svg
+  description: The ultimate digital photo booth. Simple to use and packed with features.
 banner:
-  image: /assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
+  image: /assets/img/social-booth/instant-photo-booth-sharing.jpg
   video: https://vimeo.com/915974302
   preheading: About Ohh Snap! Photo Booth
   title: Social Booth

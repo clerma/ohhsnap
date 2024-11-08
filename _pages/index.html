@@ -162,8 +162,7 @@ permalink: "/"
 
                 <!-- Stack -->
                 <div class="card-stack">
-                    {% for event in site.event_type %}
-                    {% if event.type.featured == "enabled" %}
+                    {% for booth in site.booths %}
                     <!-- Card -->
                     <div class="card-stack-item mb-9">
                         <div class="card card-lg rounded overflow-hidden">
@@ -171,8 +170,8 @@ permalink: "/"
                                 <div class="col-md order-md-1 d-flex d-sm-block align-items-end bg-primary">
 
                                     <!-- Image -->
-                                    <a href="{{ event.url }}">
-                                        <img class="card-img-top images-cards" src="{{ event.image }}" alt="Ohh Snap | {{ event.name }} Photo Booth Rental">
+                                    <a href="{{ booth.url }}">
+                                        <img class="card-img-top images-cards" src="{{ booth.image }}" alt="Ohh Snap | {{ event.name }} Photo Booth Rental">
                                     </a>
                                 </div>
                                 <div class="col-md-5 order-md-0 d-flex align-items-center bg-white">
@@ -183,14 +182,14 @@ permalink: "/"
                                         </div>
                                         <!-- Heading -->
                                         <h2 class="font-serif h1 mb-4 mt-auto fw-bold">
-                                            {{ event.type.name }}
+                                            {{ booth.booth.name }}
                                         </h2>
                                         <!-- Text -->
                                         <p>
-                                            {{ event.type.description }}
+                                            {{ booth.booth.description }}
                                         </p>
                                         <!-- Link -->
-                                        <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ event.url }}">
+                                        <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}">
                                             Learn More <i class="fe fe-arrow-right"></i>
                                         </a>
                                     </div>
@@ -198,7 +197,6 @@ permalink: "/"
                             </div>
                         </div>
                     </div>
-                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -655,7 +653,7 @@ permalink: "/"
         </svg>
     </div>
 </div>
-<!-- CASES -->
+<!-- articles -->
 <section class="pt-11 pt-md-13 pb-11 pb-md-16 bg-gray-900 pattern-1">
     <!-- Content -->
     <div class="container-lg">
@@ -768,7 +766,7 @@ permalink: "/"
     </div>
 
 </div>
-<!-- GROUP -->
+<!-- Pricing -->
 <div class="bg-gradient-light">
     <!-- PRICING -->
     <section class="pt-5 pt-md-12">

@@ -11,6 +11,39 @@
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-end w-100">
                                 <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                Our Booths
+                                        </a>
+                                        <div class="dropdown-positioner">
+                                                <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="pagesDropdown">
+                                                        <div class="row gx-0">
+                                                                <div class="col">
+                                                                       {% for item in site.booths %}
+                                                                       <!-- Links -->
+                                                                       <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Lafayette, LA {{item.booth.name}} Rental">
+                                                                               <!-- Icon -->
+                                                                               <div class="icon icon-sm text-primary-light">
+                                                                                       <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
+                                                                               </div>
+                                                                               <div class="ms-3">
+                                                                                       <!-- Heading -->
+                                                                                       <p class="fw-bold mb-0">
+                                                                                               {{item.booth.name}}
+                                                                                       </p>
+                                                                                       <!-- Text -->
+                                                                                       <span class="text-muted">
+                                                                                               {{item.booth.subtext}}
+                                                                                       </span>
+                                                                               </div>
+                                                                       </a>
+                                                                       {% endfor %}
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </li>
+                                {% comment %}
+                                <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" id="landingsDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                 Photo Booths
                                         </a>
@@ -78,6 +111,7 @@
                                                 </div>
                                         </div>
                                 </li>
+                                {% endcomment %}
                                 <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                 Information

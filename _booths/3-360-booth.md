@@ -7,6 +7,7 @@ booth:
   name: 360 Photo Booth
   subtext: 360 video Slo-Mo Experience
   icon: /assets/img/icons/360booth.svg
+  description: Capture every angle with our 360 video booths, offering instant sharing for an unforgettable event experience.
 banner:
   image: /assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
   video: https://vimeo.com/1007837624

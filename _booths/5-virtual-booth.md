@@ -2,13 +2,14 @@
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Test description
 keywords: photo booth rental, photo booth rental
-image:
+image: /assets/img/virtual-booth/VirtualBoothPromoStill10.jpg
 booth:
   name: Virtual Photo Booth
   subtext: Real-Time Memories
   icon: '/assets/img/icons/portrait.svg'
+  description: Bring your event to life with our interactive virtual photo booth, allowing guests to create and share fun moments from anywhere!
 banner:
-  image: /assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
+  image: /assets/img/virtual-booth/VirtualBoothPromoStill10.jpg
   video: https://vimeo.com/1011364126
   preheading: Unleash the Fun with Our Virtual Photo Booth
   title: Capture Memories, No Matter the Distance

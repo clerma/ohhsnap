@@ -2,13 +2,14 @@
 title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Test description
 keywords: photo booth rental, photo booth rental
-image: /assets/img/360/lafayette-360-photo.webp
+image: /assets/img/roaming/IMG_0329.JPG
 booth:
-  name: Roaming Photographer
+  name: Roaming Photo Booth
   subtext: Event Photographer
   icon: /assets/img/icons/roaming-photographer.svg
+  description: Capture spontaneous moments and interactions with our seamless roaming photography service, perfect for any event.
 banner:
-  image: /assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
+  image: /assets/img/roaming/IMG_0329.JPG
   video: https://vimeo.com/1008164447
   preheading: Capturing Candid Moments On-the-Go
   title: Elevate Your Event with Roaming Photography
@@ -144,7 +145,7 @@ permalink: romaing-event-photographer
                     <div class="flickity-buttons-adjacent flickity-buttons-bottom-start w-xl-125" data-flickity='{"imagesLoaded": true, "prevNextButtons": true, "pageDots": false, "wrapAround": true}'>
                         <div class="w-100">
                             <!-- Image -->
-                            <img class="img-fluid" src="assets/img/roaming/ohh-snap-roaming-1.jpg" alt="..." data-aos="wipe-right" data-aos-delay="100">
+                            <img class="img-fluid" src="assets/img/roaming/CA1_0786.jpg" alt="..." data-aos="wipe-right" data-aos-delay="100">
                         </div>
                         <div class="w-100">
                             <!-- Image -->
