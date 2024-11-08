@@ -488,13 +488,16 @@ permalink: digital-social-booth
        <div class="col-md-12 pb-md-8">
          <!-- Slider -->
          <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true,"adaptiveHeight": true}'>
-           {% for item in site.data.testimonial %}
+         {% assign time_based_index = 'now' | date: "%s" | modulo: site.data.testimonial.size %}
+         {% assign randomized_testimonials = site.data.testimonial | sort: 'name' %}
+         {% assign randomized_testimonials = randomized_testimonials | slice: time_based_index, randomized_testimonials.size %}
+         {% for testimonial in randomized_testimonials %}
            <div class="col-12 px-4" data-aos="fade-up">
              <!-- Blockquote -->
-             <blockquote>
+             <blockquote class="px-9">
                <!-- Text -->
                <p class="h1 text-center mb-8">
-                 {{item.testimony}}
+                 {{testimonial.testimony}}
                </p>
                <!-- Footer -->
                <div class="d-flex align-items-center justify-content-center">
@@ -502,59 +505,13 @@ permalink: digital-social-booth
                  <div class="ms-4 text-center">
                    <!-- Title -->
                    <p class="fw-bold mb-0">
-                     {{item.name}}
+                     {{testimonial.name}}
                    </p>
                  </div>
                </div>
              </blockquote>
            </div>
            {% endfor %}
-           <div class="col-12 px-4">
-             <!-- Blockquote -->
-             <blockquote>
-               <!-- Text -->
-               <p class="h1 text-center mb-8">
-                 “Goodkit's offices are insanely beautiful. They are a perfect balance of minimal, but still cozy and functional.”
-               </p>
-               <!-- Footer -->
-               <div class="d-flex align-items-center justify-content-center">
-                 <!-- Body -->
-                 <div class="ms-4 text-center">
-                   <!-- Title -->
-                   <p class="fw-bold mb-0">
-                     Tiffany Fyfe
-                   </p>
-                   <!-- Position -->
-                   <p class="small text-muted mt-n1 mb-0">
-                     Ops at Dribbble
-                   </p>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
-           <div class="col-12 px-4">
-             <!-- Blockquote -->
-             <blockquote>
-               <!-- Text -->
-               <p class="h1 text-center mb-8">
-                 “Finding the perfect office can burn up valuable hours. Make the simple choice and just join Goodkit's coworking.”
-               </p>
-               <!-- Footer -->
-               <div class="d-flex align-items-center justify-content-center">
-                 <!-- Body -->
-                 <div class="ms-4 text-center">
-                   <!-- Title -->
-                   <p class="fw-bold mb-0">
-                     Danielle Pilker
-                   </p>
-                   <!-- Position -->
-                   <p class="small text-muted mt-n1 mb-0">
-                     CTO of Netflix
-                   </p>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
          </div>
        </div>
      </div>

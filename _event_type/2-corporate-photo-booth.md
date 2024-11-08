@@ -526,7 +526,7 @@ permalink: corporate-photo-booth
           {% for item in site.data.testimonial %}
           <div class="col-12 px-4" data-aos="fade-up">
             <!-- Blockquote -->
-            <blockquote>
+            <blockquote class="px-9">
               <!-- Text -->
               <p class="h1 text-center mb-8">
                 {{item.testimony}}
@@ -546,7 +546,7 @@ permalink: corporate-photo-booth
           {% endfor %}
           <div class="col-12 px-4">
             <!-- Blockquote -->
-            <blockquote>
+            <blockquote class="px-9">
               <!-- Text -->
               <p class="h1 text-center mb-8">
                 “Goodkit's offices are insanely beautiful. They are a perfect balance of minimal, but still cozy and functional.”
@@ -569,7 +569,7 @@ permalink: corporate-photo-booth
           </div>
           <div class="col-12 px-4">
             <!-- Blockquote -->
-            <blockquote>
+            <blockquote class="px-9">
               <!-- Text -->
               <p class="h1 text-center mb-8">
                 “Finding the perfect office can burn up valuable hours. Make the simple choice and just join Goodkit's coworking.”

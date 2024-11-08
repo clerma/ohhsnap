@@ -517,13 +517,16 @@ permalink: lafayette-360-booth-rental
        <div class="col-md-12 pb-md-8">
          <!-- Slider -->
          <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true,"adaptiveHeight": true}'>
-           {% for item in site.data.testimonial %}
+           {% assign time_based_index = 'now' | date: "%s" | modulo: site.data.testimonial.size %}
+           {% assign randomized_testimonials = site.data.testimonial | sort: 'name' %}
+           {% assign randomized_testimonials = randomized_testimonials | slice: time_based_index, randomized_testimonials.size %}
+           {% for testimonial in randomized_testimonials %}
            <div class="col-12 px-4" data-aos="fade-up">
              <!-- Blockquote -->
-             <blockquote>
+             <blockquote class="px-9">
                <!-- Text -->
                <p class="h1 text-center mb-8">
-                 {{item.testimony}}
+                 {{testimonial.testimony}}
                </p>
                <!-- Footer -->
                <div class="d-flex align-items-center justify-content-center">
@@ -531,7 +534,7 @@ permalink: lafayette-360-booth-rental
                  <div class="ms-4 text-center">
                    <!-- Title -->
                    <p class="fw-bold mb-0">
-                     {{item.name}}
+                     {{testimonial.name}}
                    </p>
                  </div>
                </div>

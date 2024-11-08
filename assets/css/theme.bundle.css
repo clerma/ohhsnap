@@ -76,8 +76,6 @@ body {
     line-height: var(--bs-body-line-height);
     margin: 0;
     text-align: var(--bs-body-text-align);
-    width: 100%;
-    overflow-x: hidden;
 }
 hr {
     background-color: currentColor;

@@ -12,7 +12,7 @@
 {{seo | replace: "Jekyll" , "Ohh Snap"}}
 
 </head>
-<body>
+<body class="{% if page.url == '/' %}{% else %}overflow-hidden{% endif %}">
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
    {% include nav.html %}
