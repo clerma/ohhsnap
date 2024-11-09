@@ -354,7 +354,7 @@ permalink: digital-social-booth
          </h2>
          <!-- Text -->
          <p class="text-muted">
-           Our social booth allows you to customize your event with fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
+           Customize your event by adding fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
          </p>
          <!-- Link -->
          <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank">
@@ -389,7 +389,7 @@ permalink: digital-social-booth
          </h6>
          <!-- Heading -->
          <h2 class="display-4 text-white mb-9">
-           Some images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
+           Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
          </h2>
        </div>
      </div>
@@ -530,7 +530,7 @@ permalink: digital-social-booth
          <hr class="hr-sm bg-grey mx-auto mb-5">
          <!-- Heading -->
         <h2 class="display-3 text-center mb-4">
-          Excited to reserve your <span class="text-underline-primary-light">Event?</span>
+          Ready to reserve your <span class="text-underline-primary-light">Event?</span>
         </h2>
          <!-- Text -->
          <p class="text-center text-muted my-9">
