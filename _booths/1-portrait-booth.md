@@ -238,7 +238,7 @@ permalink: lafayette-photo-booth-rental
 			<h2 class="display-3 mb-5">
 				Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
 			</h2>
-			<p class="mb-10"> Select custom unique features to turly make your event's photo moments stand out.</p>
+			<p class="mb-10"> Select custom unique features to truly make your event's photo moments stand out.</p>
 		</div>
 	</div>
 </section>
