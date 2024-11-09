@@ -390,7 +390,7 @@ permalink: lafayette-photo-booth-rental
 				</h2>
 				<!-- Text -->
 				<p class="text-muted">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non accumsan in, tempor dictum neque.
+					Enhance your event with a custom vinyl wrap on our photo booths, showcasing your logo or unique design. Whether you're hosting a corporate event or a wedding, this personalized touch elevates the experience, boosting brand visibility for businesses or adding a personal flair to celebrations. For corporate events, a custom wrap transforms the booth into an interactive marketing tool, engaging guests while reinforcing your brand’s message. For weddings, it creates a cohesive, stylish environment that mirrors the couple's theme, ensuring guests remember the event. Additionally, custom screens inside the booth can display personalized messages, event hashtags, or social media feeds, making the experience even more memorable and engaging for your guests.
 				</p>
 				<!-- Link -->
 				<a class="h6 text-uppercase text-decoration-none" href="#!">
