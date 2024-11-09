@@ -416,11 +416,11 @@ permalink: lafayette-photo-booth-rental
 			<div class="col-md-10 col-lg-8 text-center">
 				<!-- Preheading -->
 				<h6 class="text-uppercase text-primary mb-5">
-					smiles speaks for themselves
+					smiles speak for themselves
 				</h6>
 				<!-- Heading -->
 				<h2 class="display-4 text-white mb-9">
-					Some images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
+					Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
 				</h2>
 			</div>
 		</div>
