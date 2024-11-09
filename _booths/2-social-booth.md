@@ -127,7 +127,7 @@ permalink: digital-social-booth
           </p>
           <!-- Text -->
           <p class="fs-sm text-white-60 mb-0">
-           In house Graphic Designers to create the most personalized image frames to match the theme and feel of your wedding.
+           In house Graphic Designers to create the most personalized image frames to match the theme and feel of your event.
           </p>
           </div>
         </div>
