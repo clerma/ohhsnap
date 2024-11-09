@@ -257,7 +257,7 @@ permalink: lafayette-photo-booth-rental
 				</h2>
 				<!-- Text -->
 				<p class="text-muted">
-					Make a statement with your backdrop, which makes up 75% of every photo! Tailor the experience for your guests with our custom printed backdrops, fully customizable and yours to keep. We also offer a wide range partners as well as in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals" title="Lafayette Backdrops Rental"> backdrop rental</a> page for more information.
+					Make a statement with your backdrop, which makes up 75% of every photo! Tailor the experience for your guests with our custom printed backdrops, fully customizable and yours to keep. We also offer contacts to a wide range of creative partners as well as in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals" title="Lafayette Backdrops Rental"> backdrop rental</a> page for more information.
 				</p>
 				<!-- Link -->
 				<a class="h6 text-uppercase text-decoration-none" href="/contact-ohh-snap-photobooth" title="Contact Lafayette Photo Booth">
