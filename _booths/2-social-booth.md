@@ -81,7 +81,7 @@ permalink: digital-social-booth
           </p>
           <!-- Text -->
           <p class="fs-sm text-white-60 mb-0">
-           Give your guest instant gratification with the ability to text or email a copy instantly.
+           Give your guests instant gratification with the ability to text or email a copy instantly.
           </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ permalink: digital-social-booth
        </h1>
        <!-- Text -->
        <p class="lead text-muted">
-         Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like glam black and white, design unique templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
+         Transform your event's memories with our customizable digital options. Choose from different photo filters, to digitally imposed props. Let your guests create their own personalized experience.
        </p>
      </div>
    </div>
