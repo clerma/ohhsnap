@@ -29,6 +29,6 @@
 	  "from": "/get-a-quote",
 	  "status": 301,
 	  "to": "/contact-ohh-snap-photobooth"
-	},
+	}
   ]
 }
