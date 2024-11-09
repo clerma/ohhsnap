@@ -62,7 +62,7 @@ permalink: digital-social-booth
           </p>
           <!-- Text -->
           <p class="fs-sm text-white-60 mb-0">
-           Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
+           Keep the look and feel consistent. With customizable hardware, digital and physical items convey a consistent message regardless if it's a wedding or a brand.
           </p>
           </div>
         </div>
@@ -107,7 +107,7 @@ permalink: digital-social-booth
           </p>
           <!-- Text -->
           <p class="fs-sm text-white-60 mb-0">
-           Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
+           Receive a report of all your event stats. Know the number of guests that came through, captures, share data, prints, estimated reach, etc...all to calculate your ROI or contact information.
           </p>
           </div>
         </div>
@@ -127,7 +127,7 @@ permalink: digital-social-booth
           </p>
           <!-- Text -->
           <p class="fs-sm text-white-60 mb-0">
-           In house Graphic Designers to to create the most personalized image frames to match the theme and feel of your wedding.
+           In house Graphic Designers to create the most personalized image frames to match the theme and feel of your wedding.
           </p>
           </div>
         </div>
