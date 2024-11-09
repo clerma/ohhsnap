@@ -201,7 +201,7 @@ permalink: digital-social-booth
        <h2 class="display-3 mb-5">
          Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
        </h2>
-       <p class="mb-10"> Customize with unique features to make your event's photo moments truly stand out.</p>
+       <p class="mb-10"> Select custom unique features to truly make your event's photo moments stand out.</p>
      </div>
    </div>
  </section>
