@@ -164,7 +164,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 In house Graphic Designers to create the most personalized image frames to match the theme and feel of your wedding.
+					 In house Graphic Designers to create the most personalized image frames to match the theme and feel of your event.
 					</p>
 				  </div>
 				</div>
@@ -193,7 +193,7 @@ permalink: lafayette-photo-booth-rental
 			</h1>
 			<!-- Text -->
 			<p class="lead text-muted">
-				Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like Glam black and white, design unique templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
+				Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like the Glam black and white, custom designed templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
 			</p>
 		</div>
 	</div>
@@ -238,7 +238,7 @@ permalink: lafayette-photo-booth-rental
 			<h2 class="display-3 mb-5">
 				Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
 			</h2>
-			<p class="mb-10"> Customize with unique features to make your event's photo moments truly stand out.</p>
+			<p class="mb-10"> Select custom unique features to turly make your event's photo moments stand out.</p>
 		</div>
 	</div>
 </section>
