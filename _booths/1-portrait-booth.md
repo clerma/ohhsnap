@@ -556,7 +556,7 @@ permalink: lafayette-photo-booth-rental
 				<hr class="hr-sm bg-grey mx-auto mb-5">
 				<!-- Heading -->
 				<h2 class="display-3 text-center mb-4">
-					Excited to reserve your <span class="text-underline-primary-light">Event?</span>
+					Ready to reserve your <span class="text-underline-primary-light">Event?</span>
 				</h2>
 				<!-- Text -->
 				<p class="text-center text-muted my-9">
