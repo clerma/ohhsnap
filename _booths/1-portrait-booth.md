@@ -61,7 +61,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
+					 Keep the look and feel consistent. With customizable hardware, digital and physical items convey a consistent message regardless if it's a wedding or a brand.
 					</p>
 				  </div>
 				</div>
@@ -80,7 +80,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 Give your guest instant gratification with the ability to text or email a copy instantly.
+					 Give your guests instant gratification with the ability to text or email a copy instantly.
 					</p>
 				  </div>
 				</div>
@@ -99,7 +99,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 We use professional photography equipment to ensure the highest quality image for you event.
+					 We use professional photography equipment to ensure the highest quality image for your event.
 					</p>
 				  </div>
 				</div>
@@ -125,7 +125,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 Prints can vary in size from 2x6 to 6x8 photos. We also offer a variety of other print media to meet your goals.
+					 Prints can vary in size from 2x6 to 6x8 photos. We also offer a variety of other print media to meet your event's goals.
 					</p>
 				  </div>
 				</div>
@@ -144,7 +144,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 Receive a report of all your event stats. Know the number of guests that came through, captures, shares information, prints, estimated reach, etc...all to calculate your ROI or contact information.
+					 Receive a report of all your event stats. Know the number of guests that came through, captures, share data, prints, estimated reach, etc...all to calculate your ROI or contact information.
 					</p>
 				  </div>
 				</div>
@@ -164,7 +164,7 @@ permalink: lafayette-photo-booth-rental
 					</p>
 					<!-- Text -->
 					<p class="fs-sm text-white-60 mb-0">
-					 In house Graphic Designers to to create the most personalized image frames to match the theme and feel of your wedding.
+					 In house Graphic Designers to create the most personalized image frames to match the theme and feel of your wedding.
 					</p>
 				  </div>
 				</div>
@@ -193,7 +193,7 @@ permalink: lafayette-photo-booth-rental
 			</h1>
 			<!-- Text -->
 			<p class="lead text-muted">
-				Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like glam black and white, design unique templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
+				Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like Glam black and white, design unique templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
 			</p>
 		</div>
 	</div>
