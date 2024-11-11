@@ -19,10 +19,6 @@ _inputs:
     comment: "Open link in new window"
   description:
     comment: ""
-source_editor:
-    tab_size: 2
-    show_gutter: false
-    theme: pastel_on_dark
 collections_config:
   pages:
     path: content
@@ -59,14 +55,14 @@ collections_config:
       default:
         path: schemas/products.md
 _enabled_editors:
-        - data
-        - content
-        - visual
+  - data
+  - content
+  - visual
 _editables:
-        content:
-          bold: true
-          italics: true
-          underline: true
+  content:
+    bold: true
+    italics: true
+    underline: true
 editor:
   default_path: /en/
 source_editor:
