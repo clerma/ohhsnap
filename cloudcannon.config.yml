@@ -27,6 +27,8 @@ collections_config:
   staff_members:
     _enabled_editors:
       - data
+      - content
+      - visual
     icon: account_circle
     schemas:
       default:
@@ -34,10 +36,26 @@ collections_config:
   coordinators:
     _enabled_editors:
       - data
+      - content
+      - visual
     icon: account_circle
+  booths:
+    _enabled_editors:
+      - data
+      - content
+      - visual
+    icon: account_circle
+  event_type:
+    _enabled_editors:
+     - data
+     - content
+     - visual
+    icon: aevent
   products:
     _enabled_editors:
       - data
+      - content
+      - visual
     output: true
     icon: shopping_cart
     schemas:
