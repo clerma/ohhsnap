@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 paths:
   uploads: /assets/uploads
 _select_data:
@@ -21,12 +20,10 @@ _inputs:
     comment: "Open link in new window"
   description:
     comment: ""
-=======
 _schema: _schema
 source: /
 paths:
   uploads: /assets/uploads
->>>>>>> origin/master
 collections_config:
   pages:
     path: content
