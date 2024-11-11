@@ -82,6 +82,9 @@ collections_config:
     output: true
     description: List of Photo Booth
     _editables:
+      block:
+      options:
+        styles: assets/css/theme.bundle.css
       text:
         allow_custom_markup: true
         remove_custom_markup: false
