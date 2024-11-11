@@ -1,29 +1,5 @@
 paths:
   uploads: /assets/uploads
-_select_data:
-_inputs:
-  map:
-    comment: "Update the map location and display settings."
-  latitude:
-    comment: "Coordinates for the center marker on the map."
-  longitude:
-    comment: "Coordinates for the center marker on the map."
-  zoom:
-    comment: "The zoom level for the map."
-  pricing_table:
-    comment: "Update the information in the pricing tables."
-  highlight:
-    comment: "Emphasis the text"
-  color:
-    comment: "The background color used in the plan name and call to action."
-  new_window:
-    comment: "Open link in new window"
-  description:
-    comment: ""
-_schema: _schema
-source: /
-paths:
-  uploads: /assets/uploads
 collections_config:
   pages:
     path: content
@@ -49,9 +25,9 @@ collections_config:
     icon: photo_camera
     output: false
     _enabled_editors:
+      - visual
       - data
       - content
-      - visual
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
