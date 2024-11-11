@@ -1,8 +1,6 @@
-source: /
 paths:
   uploads: /assets/uploads
 _select_data:
-
 _inputs:
   map:
     comment: "Update the map location and display settings."
