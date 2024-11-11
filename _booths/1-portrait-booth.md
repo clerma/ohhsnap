@@ -98,7 +98,7 @@ permalink: lafayette-photo-booth-rental
 					  High Resolution Photos
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0 editable" data-cms-bind=" ">
+					<p class="fs-sm text-white-60 mb-0" data-cms-bind=" ">
 					 We use professional photography equipment to ensure the highest quality image for your event.
 					</p>
 				  </div>
