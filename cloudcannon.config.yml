@@ -811,7 +811,7 @@ _snippets:
         cascade: true
         text: Post
 editor:
-  default_path:
+  default_path: '/'
 source_editor:
   tab_size: 2
   theme: pastel_on_dark
