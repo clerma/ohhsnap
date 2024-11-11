@@ -58,6 +58,15 @@ collections_config:
     schemas:
       default:
         path: schemas/products.md
+_enabled_editors:
+        - data
+        - content
+        - visual
+_editables:
+        content:
+          bold: true
+          italics: true
+          underline: true
 editor:
   default_path: /en/
 source_editor:
