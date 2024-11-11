@@ -54,13 +54,13 @@ permalink: lafayette-photo-booth-rental
 				  <div class="icon text-primary-light">
 					<i class="fa-duotone fa-solid fa-copyright fa-3x"></i> </div>
 				  <!-- Body -->
-				  <div class="ms-5">
+				  <div class="ms-5 editable">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1 editable">
+					<p class="fs-lg fw-bold text-white mb-1 ">
 					  Brand-able
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0 editable">
+					<p class="fs-sm text-white-60 mb-0 ">
 					 Keep the look and feel consistent. With customizable hardware, digital and physical items convey a consistent message regardless if it's a wedding or a brand.
 					</p>
 				  </div>
