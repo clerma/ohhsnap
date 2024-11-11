@@ -19,7 +19,10 @@ _inputs:
     comment: "Open link in new window"
   description:
     comment: ""
-
+source_editor:
+    tab_size: 2
+    show_gutter: false
+    theme: pastel_on_dark
 collections_config:
   staff_members:
     _enabled_editors:
