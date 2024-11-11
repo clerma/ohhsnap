@@ -84,6 +84,9 @@ collections_config:
     _editables:
       block:
       options:
+        allow_custom_markup: false
+        remove_custom_markup: false
+        image_size_attributes: true
         styles: assets/css/theme.bundle.css
       text:
         allow_custom_markup: true
@@ -209,8 +212,47 @@ _editables:
     width:
   link:
     paths:
-commit_templates:
-  - template_string: '{message}'
+  block:
+    allow_custom_markup: false
+    remove_custom_markup: false
+    blockquote:
+    bold:
+    bulletedlist:
+    center:
+    code:
+    copyformatting:
+    embed:
+    expandable:
+    format:
+    height:
+    horizontalrule:
+    image:
+    image_size_attributes: true
+    indent:
+    italic:
+    justify:
+    left:
+    link:
+    mime_type:
+    numberedlist:
+    outdent:
+    paths:
+    redo:
+    removeformat:
+    resize_style:
+    right:
+    snippet:
+    strike:
+    styles:
+    subscript:
+    superscript:
+    table:
+    underline:
+    undo:
+    width:
+_snippets_imports:
+  jekyll:
+    include:
 _snippets:
   _cc_jekyll_unknown_paired_tag:
     hidden: true
@@ -913,8 +955,6 @@ _snippets:
         comment: Enter the post name or path.
         cascade: true
         text: Post
-editor:
-  default_path: /en/
 source_editor:
   tab_size: 2
   theme: pastel_on_dark
