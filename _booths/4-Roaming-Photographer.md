@@ -29,7 +29,7 @@ permalink: romaing-event-photographer
                     <span class="text-primary-light text-underline-primary-light">Photography?</span>
                 </h1>
                 <!-- Text -->
-                <p class="fs-lg">
+                <p class="fs-lg editable">
                    Roaming Photography redefines how we document events by providing a dynamic and engaging experience. Our photographers interact directly with your guests, capturing genuine smiles and spontaneous moments that reflect the true spirit of your gathering. This personalized approach results in high-quality images that everyone will want to share.
                 </p>
             </div>
@@ -178,7 +178,7 @@ permalink: romaing-event-photographer
     <div class="row justify-content-center">
       <div class="col-md-10 col-lg-8 text-center">
         <!-- Preheading -->
-        <h6 class="text-uppercase text-primary mb-5">
+        <h6 class="text-uppercase text-primary mb-5 editable">
           Every moment matters
         </h6>
         <!-- Heading -->
@@ -191,33 +191,33 @@ permalink: romaing-event-photographer
       <div class="col-12 col-md-8 col-lg-12">
         <!-- Timeline -->
         <ol class="timeline timeline-expand-lg timeline-warning mb-0">
-          <li class="timeline-item active">
+          <li class="timeline-item active editable">
             <!-- Heading -->
             <h2>
               Real-Time Capture
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
               Our photographers move throughout the event, capturing candid moments as they happen.
             </p>
           </li>
-          <li class="timeline-item active">
+          <li class="timeline-item editable">
             <!-- Heading -->
             <h2>
               Instant Access
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
              Graphics and branding are applied to the images, and they are sent to the cloud for immediate viewing.
             </p>
           </li>
-          <li class="timeline-item active">
+          <li class="timeline-item editable">
             <!-- Heading -->
             <h2>
               Seamless Sharing
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
               Guests can easily share their favorite photos on social media to amplify the excitement.
             </p>
           </li>
@@ -232,7 +232,7 @@ permalink: romaing-event-photographer
      <div class="row justify-content-center">
        <div class="col-md-10 col-lg-8 text-center">
          <!-- Preheading -->
-         <h6 class="text-uppercase text-primary mb-5">
+         <h6 class="text-uppercase text-primary mb-5 editable">
            smiles speaks for themselves
          </h6>
          <!-- Heading -->
@@ -270,11 +270,11 @@ permalink: romaing-event-photographer
           <div class="card mb-6 mb-md-0">
             <div class="card-body position-relative bg-white text-center pb-0">
               <!-- Heading -->
-              <h3 class="display-4 h2 mb-4">
+              <h3 class="display-4 h2 mb-4 editable">
                 What's Included?
               </h3>
               <!-- Text -->
-              <p class="text-muted">
+              <p class="text-muted editable">
                With our focus on high-quality, professionally produced photos, we create an unforgettable experience for you and your guests.
               </p>
             </div>
@@ -283,34 +283,34 @@ permalink: romaing-event-photographer
               <ul class="list-group list-group-flush mt-n5">
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">3 Hours</span>
+                  <span class="text-end mx-auto editable">3 Hours</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Unlimited Sessions</span>
+                  <span class="text-end mx-auto editable">Unlimited Sessions</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Customized Overlay</span>
+                  <span class="text-end mx-auto editable">Customized Overlay</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Photo Booth Attendant</span>
+                  <span class="text-end mx-auto editable">Photo Booth Attendant</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Online Gallery</span>
+                  <span class="text-end mx-auto editable">Online Gallery</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Instant Sharing</span>
+                  <span class="text-end mx-auto editable">Instant Sharing</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Title -->
                   <div class="mx-auto text-center">
                    <strong class="fw-bolder">Add-Ons</strong>
-                   <span class="mx-auto d-block mt-5">Printing Station</span>
-                   <span class="mx-auto d-block mt-1">Additional Hours</span>
+                   <span class="mx-auto d-block mt-5 editable">Printing Station</span>
+                   <span class="mx-auto d-block mt-1 editable">Additional Hours</span>
                   </div>
                 </li>
               </ul>

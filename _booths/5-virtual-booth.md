@@ -24,12 +24,12 @@ permalink: /remote-photo-booth-rental
         <div class="row align-items-center justify-content-between">
             <div class="col-md-7 text-center text-md-start" data-aos="fade-up">
                 <!-- Heading -->
-                <h1 class="display-4 mb-4">
+                <h1 class="display-4 mb-4 editable">
                    Your Event, Your Photos <br>
                     <span class="text-primary-light text-underline-primary-light">Anywhere</span>
                 </h1>
                 <!-- Text -->
-                <p class="fs-lg">
+                <p class="fs-lg editable">
                   Our Virtual Photo Booth offers a seamless way to engage guests from any location, allowing them to capture fun moments in real time. Using their own devices, participants can access a personalized virtual booth that features customizable backdrops, fun filters, and branding options tailored to your event. Whether it’s a wedding, corporate gathering, or a virtual celebration, our platform ensures everyone can join in the fun, create lasting memories, and share their photos instantly with friends and family. Experience the joy of connection and creativity, no matter the distance!
                 </p>
             </div>
@@ -185,11 +185,11 @@ permalink: /remote-photo-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
              Customizable
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Tailor the entire virtual booth to reflect your event, company, or brand. Customize landing pages, digital outputs, and live galleries for a cohesive experience.
            </p>
            </div>
@@ -204,11 +204,11 @@ permalink: /remote-photo-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
              Instant Sharing
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Guests can easily share their creations via email, text, or social media. We’ll guide you on the best options to maximize engagement.
            </p>
            </div>
@@ -223,11 +223,11 @@ permalink: /remote-photo-booth-rental
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
             No App Required
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            Access our browser-based virtual booths on any device without downloading additional apps—just load the unique link and enjoy!
           </p>
           </div>
@@ -250,11 +250,11 @@ permalink: /remote-photo-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
             AI Background Removal
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Effortlessly remove backgrounds from photos and GIFs using our AI technology, allowing for custom backdrops that match your theme.
            </p>
            </div>
@@ -270,11 +270,11 @@ permalink: /remote-photo-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
            Embeddable
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Our virtual booth works seamlessly with any virtual platform or video conferencing software. Link or embed it for easy access!
            </p>
            </div>
@@ -290,11 +290,11 @@ permalink: /remote-photo-booth-rental
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
           Various Capture Modes
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            Select from multiple capture options, including photos, GIFs, Boomerangs, and videos, to suit your event's needs!
           </p>
           </div>
@@ -309,7 +309,7 @@ permalink: /remote-photo-booth-rental
     <div class="row justify-content-center">
       <div class="col-md-10 col-lg-8 text-center">
         <!-- Preheading -->
-        <h6 class="text-uppercase text-primary mb-5">
+        <h6 class="text-uppercase text-primary mb-5 editable">
           Simple and Fun Experience
         </h6>
         <!-- Heading -->
@@ -324,31 +324,31 @@ permalink: /remote-photo-booth-rental
         <ol class="timeline timeline-expand-lg timeline-warning mb-0">
           <li class="timeline-item active">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
               Easy Setup
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
               Guests join the virtual booth from any device.
             </p>
           </li>
-          <li class="timeline-item active">
+          <li class="timeline-item">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
               Capture Moments
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
              Guests take fun photos with customizable options.
             </p>
           </li>
-          <li class="timeline-item active">
+          <li class="timeline-item">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
              Instant Sharing
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4 editable">
               Photos are shared immediately via social media or downloads
             </p>
           </li>
@@ -363,7 +363,7 @@ permalink: /remote-photo-booth-rental
      <div class="row justify-content-center">
        <div class="col-md-10 col-lg-8 text-center">
          <!-- Preheading -->
-         <h6 class="text-uppercase text-primary mb-5">
+         <h6 class="text-uppercase text-primary mb-5 editable">
            smiles speaks for themselves
          </h6>
          <!-- Heading -->
@@ -393,7 +393,7 @@ permalink: /remote-photo-booth-rental
         <h2 class="display-3 mb-5">
           Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
         </h2>
-        <p class="mb-10"> Customize with unique features to make your event's photo moments truly stand out.</p>
+        <p class="mb-10 editable"> Customize with unique features to make your event's photo moments truly stand out.</p>
       </div>
     </div>
   </section>
@@ -406,11 +406,11 @@ permalink: /remote-photo-booth-rental
         </div>
         <div class="col-md-6 col-lg-5">
           <!-- Heading -->
-          <h2 class="display-4 mb-4">
+          <h2 class="display-4 mb-4 editable">
             Backdrops
           </h2>
           <!-- Text -->
-          <p class="text-muted">
+          <p class="text-muted editable">
             Make a statement with a custom backdrop or choose from our selection! A backdrop accounts for 75% of every photo, making it essential for creating the perfect atmosphere. Tailor the experience for your guests with our fully customizable printed backdrops, which are yours to keep. We also offer a wide range of partner and in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals"> backdrop rental</a> page for more information.
           </p>
           <!-- Link -->
@@ -538,11 +538,11 @@ permalink: /remote-photo-booth-rental
         </div>
         <div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
           <!-- Heading -->
-          <h2 class="display-4 mb-4">
+          <h2 class="display-4 mb-4 editable">
             Props and Customized Props
           </h2>
           <!-- Text -->
-          <p class="text-muted">
+          <p class="text-muted editable">
             Our social booth allows you to customize your event with fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
           </p>
           <!-- Link -->
@@ -571,7 +571,7 @@ permalink: /remote-photo-booth-rental
                 What's Included?
               </h3>
               <!-- Text -->
-              <p class="text-muted">
+              <p class="text-muted editable">
                With our focus on high-quality, professionally produced photos, we create an unforgettable experience for you and your guests.
               </p>
             </div>
