@@ -19,8 +19,6 @@ banner:
   cta_text: Contact Us
 permalink: digital-social-booth
 ---
-<p>
-</p>
 <section>
   <div class="container-lg position-relative" style="z-index: 1;">
   <div class="row align-items-center">
