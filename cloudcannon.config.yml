@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-paths:
-  uploads: /assets/uploads
-=======
 _select_data:
 
 _inputs:
@@ -23,106 +19,45 @@ _inputs:
     comment: "Open link in new window"
   description:
     comment: ""
->>>>>>> parent of ea4b9a0a (update)
 collections_config:
   pages:
     path: content
     name: Pages
     icon: wysiwyg
-    output: false
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   coordinators:
     path: _coordinators
     name: Coordinators
+    _enabled_editors:
+      - visual
+      - data
+      - content
     icon: account_circle
-    output: false
-    _enabled_editors:
-      - visual
-      - data
-      - content
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   booths:
+    _enabled_editors:
+      - data
+      - content
+      - visual
     icon: photo_camera
-    output: false
-    _enabled_editors:
-      - visual
-      - data
-      - content
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   event_type:
+    _enabled_editors:
+     - data
+     - content
+     - visual
     icon: event
-    output: false
-    _enabled_editors:
-      - data
-      - content
-      - visual
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   products:
-    icon: shopping_cart
-    output: true
     _enabled_editors:
       - data
       - content
       - visual
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+    output: true
+    icon: shopping_cart
     schemas:
       default:
         path: schemas/products.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
 _enabled_editors:
   - data
   - content
   - visual
-_inputs:
-  map:
-    type: auto
-    comment: Update the map location and display settings.
-    cascade: true
-  latitude:
-    type: auto
-    comment: Coordinates for the center marker on the map.
-    cascade: true
-  longitude:
-    type: auto
-    comment: Coordinates for the center marker on the map.
-    cascade: true
-  zoom:
-    type: auto
-    comment: The zoom level for the map.
-    cascade: true
-  pricing_table:
-    type: auto
-    comment: Update the information in the pricing tables.
-    cascade: true
-  highlight:
-    type: auto
-    comment: Emphasis the text
-    cascade: true
-  color:
-    type: auto
-    comment: The background color used in the plan name and call to action.
-    cascade: true
-  new_window:
-    type: auto
-    comment: Open link in new window
-    cascade: true
-  description:
-    type: auto
-    cascade: true
 _editables:
   content:
     bold: true
@@ -132,8 +67,10 @@ editor:
   default_path: /en/
 source_editor:
   tab_size: 2
-  theme: pastel_on_dark
   show_gutter: false
-timezone: US/Central
+  theme: pastel_on_dark
+timezone: CDT
+commit_templates:
+  - template_string: '{message}'
 markdown:
   engine: markdown
