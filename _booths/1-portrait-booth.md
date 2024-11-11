@@ -56,11 +56,11 @@ permalink: lafayette-photo-booth-rental
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					  Brand-able
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 Keep the look and feel consistent. With customizable hardware, digital and physical items convey a consistent message regardless if it's a wedding or a brand.
 					</p>
 				  </div>
@@ -75,11 +75,11 @@ permalink: lafayette-photo-booth-rental
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					  Instant Sharing
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 Give your guests instant gratification with the ability to text or email a copy instantly.
 					</p>
 				  </div>
@@ -94,11 +94,11 @@ permalink: lafayette-photo-booth-rental
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					  High Resolution Photos
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 We use professional photography equipment to ensure the highest quality image for your event.
 					</p>
 				  </div>
@@ -120,11 +120,11 @@ permalink: lafayette-photo-booth-rental
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					  Print Options
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 Prints can vary in size from 2x6 to 6x8 photos. We also offer a variety of other print media to meet your event's goals.
 					</p>
 				  </div>
@@ -135,15 +135,16 @@ permalink: lafayette-photo-booth-rental
 				<div class="d-flex mt-8 mt-md-9">
 				  <!-- Icon -->
 				  <div class="icon text-primary-light">
-					<i class="fa-duotone fa-solid fa-chart-simple fa-3x"></i>           </div>
+					<i class="fa-duotone fa-solid fa-chart-simple fa-3x"></i>
+				</div>
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					 Analytics
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 Receive a report of all your event stats. Know the number of guests that came through, captures, share data, prints, estimated reach, etc...all to calculate your ROI or contact information.
 					</p>
 				  </div>
@@ -159,11 +160,11 @@ permalink: lafayette-photo-booth-rental
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
-					<p class="fs-lg fw-bold text-white mb-1">
+					<p class="fs-lg fw-bold text-white mb-1 editable">
 					 Custom Layout
 					</p>
 					<!-- Text -->
-					<p class="fs-sm text-white-60 mb-0">
+					<p class="fs-sm text-white-60 mb-0 editable">
 					 In house Graphic Designers to create the most personalized image frames to match the theme and feel of your event.
 					</p>
 				  </div>
@@ -192,7 +193,7 @@ permalink: lafayette-photo-booth-rental
 				<span class="text-underline-warning">Customize</span> Your Capture.
 			</h1>
 			<!-- Text -->
-			<p class="lead text-muted">
+			<p class="lead text-muted editable">
 				Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like the Glam black and white, custom designed templates, or select from our diverse paper options – all tailored to make your event's photos uniquely yours.
 			</p>
 		</div>
@@ -235,10 +236,10 @@ permalink: lafayette-photo-booth-rental
 	<div class="row justify-content-center">
 		<div class="col-12 col-lg-10 text-center">
 			<!-- Heading -->
-			<h2 class="display-3 mb-5">
-				Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
+			<h2 class="display-3 mb-5 editable">
+				Enhance Your Booth <span class="text-underline text-underline-warning ">Experience</span>.
 			</h2>
-			<p class="mb-10"> Select custom unique features to truly make your event's photo moments stand out.</p>
+			<p class="mb-10 editable"> Select custom unique features to truly make your event's photo moments stand out.</p>
 		</div>
 	</div>
 </section>
@@ -252,11 +253,11 @@ permalink: lafayette-photo-booth-rental
 			</div>
 			<div class="col-md-6 col-lg-5">
 				<!-- Heading -->
-				<h2 class="display-4 mb-4">
+				<h2 class="display-4 mb-4 editable">
 					Custom Backdrops
 				</h2>
 				<!-- Text -->
-				<p class="text-muted">
+				<p class="text-muted editable">
 					Make a statement with your backdrop, which makes up 75% of every photo! Tailor the experience for your guests with our custom printed backdrops, fully customizable and yours to keep. We also offer contacts to a wide range of creative partners as well as in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals" title="Lafayette Backdrops Rental"> backdrop rental</a> page for more information.
 				</p>
 				<!-- Link -->
@@ -385,14 +386,13 @@ permalink: lafayette-photo-booth-rental
 			</div>
 			<div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
 				<!-- Heading -->
-				<h2 class="display-4 mb-4">
+				<h2 class="display-4 mb-4 editable">
 					Customized Wraps, Screens & Packaging
 				</h2>
 				<!-- Text -->
-				<p class="text-muted">
+				<p class="text-muted editable">
 					Enhance your event with a custom vinyl wrap on our photo booths, showcasing your logo or unique design. Whether you're hosting a corporate event or a wedding, this personalized touch elevates the experience, boosting brand visibility for businesses or adding a personal flair to celebrations. Additionally, custom screens inside the booth can display personalized messages, event hashtags, or social media feeds, making the experience even more memorable and engaging for your guests.
 				</p>
-			
 			</div>
 		</div>
 	</div>
@@ -415,11 +415,11 @@ permalink: lafayette-photo-booth-rental
 		<div class="row justify-content-center">
 			<div class="col-md-10 col-lg-8 text-center">
 				<!-- Preheading -->
-				<h6 class="text-uppercase text-primary mb-5">
+				<h6 class="text-uppercase text-primary mb-5 editable">
 					smiles speak for themselves
 				</h6>
 				<!-- Heading -->
-				<h2 class="display-4 text-white mb-9">
+				<h2 class="display-4 text-white mb-9 editable">
 					Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
 				</h2>
 			</div>

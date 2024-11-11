@@ -39,7 +39,7 @@ permalink: lafayette-360-booth-rental
         <span class="text-primary-light text-underline-primary-light">Video Booth?</span>
       </h1>
       <!-- Text -->
-      <p class="fs-lg">
+      <p class="fs-lg editable">
         A 360 video booth creates awesome 360-degree videos that bring your event to life and let you share the fun instantly!
       </p>
     </div>
@@ -99,11 +99,11 @@ permalink: lafayette-360-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
              Brand-able
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Keep the look and feel consistent. With customizable hardware, digital and physical items conveying a consistent message regardless if its a wedding or a brand.
            </p>
            </div>
@@ -118,11 +118,11 @@ permalink: lafayette-360-booth-rental
            <!-- Body -->
            <div class="ms-5">
            <!-- Title -->
-           <p class="fs-lg fw-bold text-white mb-1">
+           <p class="fs-lg fw-bold text-white mb-1 editable">
              Instant Sharing
            </p>
            <!-- Text -->
-           <p class="fs-sm text-white-60 mb-0">
+           <p class="fs-sm text-white-60 mb-0 editable">
             Give your guest instant gratification with the ability to text or email a copy instantly.
            </p>
            </div>

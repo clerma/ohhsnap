@@ -57,11 +57,11 @@ permalink: digital-social-booth
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
             Brand-able
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            Keep the look and feel consistent. With customizable hardware, digital and physical items convey a consistent message regardless if it's a wedding or a brand.
           </p>
           </div>
@@ -76,11 +76,11 @@ permalink: digital-social-booth
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
             Instant Sharing
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            Give your guests instant gratification with the ability to text or email a copy instantly.
           </p>
           </div>
@@ -102,11 +102,11 @@ permalink: digital-social-booth
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
            Analytics
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            Receive a report of all your event stats. Know the number of guests that came through, captures, share data, prints, estimated reach, etc...all to calculate your ROI or contact information.
           </p>
           </div>
@@ -122,11 +122,11 @@ permalink: digital-social-booth
           <!-- Body -->
           <div class="ms-5">
           <!-- Title -->
-          <p class="fs-lg fw-bold text-white mb-1">
+          <p class="fs-lg fw-bold text-white mb-1 editable">
            Custom Layout
           </p>
           <!-- Text -->
-          <p class="fs-sm text-white-60 mb-0">
+          <p class="fs-sm text-white-60 mb-0 editable">
            In house Graphic Designers to create the most personalized image frames to match the theme and feel of your event.
           </p>
           </div>
@@ -155,7 +155,7 @@ permalink: digital-social-booth
          <span class="text-underline-warning">Customize</span> Your Capture.
        </h1>
        <!-- Text -->
-       <p class="lead text-muted">
+       <p class="lead text-muted editable">
          Transform your event's memories with our customizable digital options. Choose from different photo filters, to digitally imposed props. Let your guests create their own personalized experience.
        </p>
      </div>
@@ -201,7 +201,7 @@ permalink: digital-social-booth
        <h2 class="display-3 mb-5">
          Enhance Your Booth <span class="text-underline text-underline-warning">Experience</span>.
        </h2>
-       <p class="mb-10"> Select custom unique features to truly make your event's photo moments stand out.</p>
+       <p class="mb-10 editable"> Select custom unique features to truly make your event's photo moments stand out.</p>
      </div>
    </div>
  </section>
@@ -215,11 +215,11 @@ permalink: digital-social-booth
        </div>
        <div class="col-md-6 col-lg-5">
          <!-- Heading -->
-         <h2 class="display-4 mb-4">
+         <h2 class="display-4 mb-4 editable">
            Custom Backdrops
          </h2>
          <!-- Text -->
-         <p class="text-muted">
+         <p class="text-muted editable">
            Make a statement with your backdrop, which makes up 75% of every photo! Tailor the experience for your guests with our custom printed backdrops, fully customizable and yours to keep. We also offer a wide range partners as well as in-house backdrops to choose from. Visit our <a href="/lafayette-backdrop-rentals"> backdrop rental</a> page for more information.
          </p>
          <!-- Link -->
@@ -349,12 +349,12 @@ permalink: digital-social-booth
        </div>
        <div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
          <!-- Heading -->
-         <h2 class="display-4 mb-4">
+         <h2 class="display-4 mb-4 editable">
            Props and Customized Props
          </h2>
          <!-- Text -->
-         <p class="text-muted">
-           Customize your event by adding fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
+         <p class="text-muted editable">
+           Customize your event by adding fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event's theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
          </p>
          <!-- Link -->
          <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank">
@@ -384,7 +384,7 @@ permalink: digital-social-booth
      <div class="row justify-content-center">
        <div class="col-md-10 col-lg-8 text-center">
          <!-- Preheading -->
-         <h6 class="text-uppercase text-primary mb-5">
+         <h6 class="text-uppercase text-primary mb-5 editable">
            smiles speaks for themselves
          </h6>
          <!-- Heading -->
