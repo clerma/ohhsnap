@@ -24,20 +24,17 @@ source_editor:
     show_gutter: false
     theme: pastel_on_dark
 collections_config:
-  staff_members:
-    _enabled_editors:
-      - data
-      - content
-      - visual
-    icon: account_circle
-    schemas:
-      default:
-        path: schemas/staff_members.md
+  pages:
+    path: content
+    name: Pages
+    icon: wysiwyg
   coordinators:
+    path: _coordinators
+    name: Coordinators
     _enabled_editors:
+      - visual
       - data
       - content
-      - visual
     icon: account_circle
   booths:
     _enabled_editors:
@@ -61,3 +58,14 @@ collections_config:
     schemas:
       default:
         path: schemas/products.md
+editor:
+  default_path: /en/
+source_editor:
+  tab_size: 2
+  show_gutter: false
+  theme: pastel_on_dark
+timezone: CDT
+commit_templates:
+  - template_string: '{message}'
+markdown:
+  engine: markdown
