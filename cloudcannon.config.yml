@@ -1,66 +1,106 @@
+_schema: _schema
 source: /
 paths:
   uploads: /assets/uploads
-_select_data:
-
-_inputs:
-  map:
-    comment: "Update the map location and display settings."
-  latitude:
-    comment: "Coordinates for the center marker on the map."
-  longitude:
-    comment: "Coordinates for the center marker on the map."
-  zoom:
-    comment: "The zoom level for the map."
-  pricing_table:
-    comment: "Update the information in the pricing tables."
-  highlight:
-    comment: "Emphasis the text"
-  color:
-    comment: "The background color used in the plan name and call to action."
-  new_window:
-    comment: "Open link in new window"
-  description:
-    comment: ""
 collections_config:
   pages:
     path: content
     name: Pages
     icon: wysiwyg
+    output: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   coordinators:
     path: _coordinators
     name: Coordinators
-    _enabled_editors:
-      - visual
-      - data
-      - content
     icon: account_circle
+    output: false
+    _enabled_editors:
+      - visual
+      - data
+      - content
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   booths:
-    _enabled_editors:
-      - data
-      - content
-      - visual
     icon: photo_camera
-  event_type:
-    _enabled_editors:
-     - data
-     - content
-     - visual
-    icon: event
-  products:
+    output: false
     _enabled_editors:
       - data
       - content
       - visual
-    output: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  event_type:
+    icon: event
+    output: false
+    _enabled_editors:
+      - data
+      - content
+      - visual
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  products:
     icon: shopping_cart
+    output: true
+    _enabled_editors:
+      - data
+      - content
+      - visual
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
     schemas:
       default:
         path: schemas/products.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
 _enabled_editors:
   - data
   - content
   - visual
+_inputs:
+  map:
+    type: auto
+    comment: Update the map location and display settings.
+    cascade: true
+  latitude:
+    type: auto
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  longitude:
+    type: auto
+    comment: Coordinates for the center marker on the map.
+    cascade: true
+  zoom:
+    type: auto
+    comment: The zoom level for the map.
+    cascade: true
+  pricing_table:
+    type: auto
+    comment: Update the information in the pricing tables.
+    cascade: true
+  highlight:
+    type: auto
+    comment: Emphasis the text
+    cascade: true
+  color:
+    type: auto
+    comment: The background color used in the plan name and call to action.
+    cascade: true
+  new_window:
+    type: auto
+    comment: Open link in new window
+    cascade: true
+  description:
+    type: auto
+    cascade: true
 _editables:
   content:
     bold: true
@@ -70,10 +110,8 @@ editor:
   default_path: /en/
 source_editor:
   tab_size: 2
-  show_gutter: false
   theme: pastel_on_dark
-timezone: CDT
-commit_templates:
-  - template_string: '{message}'
+  show_gutter: false
+timezone: US/Central
 markdown:
   engine: markdown
