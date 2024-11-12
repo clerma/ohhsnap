@@ -560,67 +560,41 @@ permalink: lafayette-360-booth-rental
  <!-- pricing -->
  <section class="py-10">
    <div class="container-lg position-relative" style="z-index: 1;">
-   <div class="row align-items-center gx-0">
-     <div class="col-md-7 mx-auto">
+   <div class="row row-cols-1 row-cols-md-3 mt-n6">
+     {% for list in page.package %}
+     <div class="col">
      <!-- Card -->
-     <div class="position-relative">
-       <!-- Decoration -->
-       <div class="position-absolute bottom-start text-warning ms-n10 mb-n10">
-       <svg width="185" height="186" viewBox="0 0 185 186" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2" r="2" fill="currentColor"></circle><circle cx="22" cy="2" r="2" fill="currentColor"></circle><circle cx="42" cy="2" r="2" fill="currentColor"></circle><circle cx="62" cy="2" r="2" fill="currentColor"></circle><circle cx="82" cy="2" r="2" fill="currentColor"></circle><circle cx="102" cy="2" r="2" fill="currentColor"></circle><circle cx="122" cy="2" r="2" fill="currentColor"></circle><circle cx="142" cy="2" r="2" fill="currentColor"></circle><circle cx="162" cy="2" r="2" fill="currentColor"></circle><circle cx="182" cy="2" r="2" fill="currentColor"></circle><circle cx="2" cy="22" r="2" fill="currentColor"></circle><circle cx="22" cy="22" r="2" fill="currentColor"></circle><circle cx="42" cy="22" r="2" fill="currentColor"></circle><circle cx="62" cy="22" r="2" fill="currentColor"></circle><circle cx="82" cy="22" r="2" fill="currentColor"></circle><circle cx="102" cy="22" r="2" fill="currentColor"></circle><circle cx="122" cy="22" r="2" fill="currentColor"></circle><circle cx="142" cy="22" r="2" fill="currentColor"></circle><circle cx="162" cy="22" r="2" fill="currentColor"></circle><circle cx="182" cy="22" r="2" fill="currentColor"></circle><circle cx="2" cy="42" r="2" fill="currentColor"></circle><circle cx="22" cy="42" r="2" fill="currentColor"></circle><circle cx="42" cy="42" r="2" fill="currentColor"></circle><circle cx="62" cy="42" r="2" fill="currentColor"></circle><circle cx="82" cy="42" r="2" fill="currentColor"></circle><circle cx="102" cy="42" r="2" fill="currentColor"></circle><circle cx="122" cy="42" r="2" fill="currentColor"></circle><circle cx="142" cy="42" r="2" fill="currentColor"></circle><circle cx="162" cy="42" r="2" fill="currentColor"></circle><circle cx="182" cy="42" r="2" fill="currentColor"></circle><circle cx="2" cy="62" r="2" fill="currentColor"></circle><circle cx="22" cy="62" r="2" fill="currentColor"></circle><circle cx="42" cy="62" r="2" fill="currentColor"></circle><circle cx="62" cy="62" r="2" fill="currentColor"></circle><circle cx="82" cy="62" r="2" fill="currentColor"></circle><circle cx="102" cy="62" r="2" fill="currentColor"></circle><circle cx="122" cy="62" r="2" fill="currentColor"></circle><circle cx="142" cy="62" r="2" fill="currentColor"></circle><circle cx="162" cy="62" r="2" fill="currentColor"></circle><circle cx="182" cy="62" r="2" fill="currentColor"></circle><circle cx="2" cy="82" r="2" fill="currentColor"></circle><circle cx="22" cy="82" r="2" fill="currentColor"></circle><circle cx="42" cy="82" r="2" fill="currentColor"></circle><circle cx="62" cy="82" r="2" fill="currentColor"></circle><circle cx="82" cy="82" r="2" fill="currentColor"></circle><circle cx="102" cy="82" r="2" fill="currentColor"></circle><circle cx="122" cy="82" r="2" fill="currentColor"></circle><circle cx="142" cy="82" r="2" fill="currentColor"></circle><circle cx="162" cy="82" r="2" fill="currentColor"></circle><circle cx="182" cy="82" r="2" fill="currentColor"></circle><circle cx="2" cy="102" r="2" fill="currentColor"></circle><circle cx="22" cy="102" r="2" fill="currentColor"></circle><circle cx="42" cy="102" r="2" fill="currentColor"></circle><circle cx="62" cy="102" r="2" fill="currentColor"></circle><circle cx="82" cy="102" r="2" fill="currentColor"></circle><circle cx="102" cy="102" r="2" fill="currentColor"></circle><circle cx="122" cy="102" r="2" fill="currentColor"></circle><circle cx="142" cy="102" r="2" fill="currentColor"></circle><circle cx="162" cy="102" r="2" fill="currentColor"></circle><circle cx="182" cy="102" r="2" fill="currentColor"></circle><circle cx="2" cy="122" r="2" fill="currentColor"></circle><circle cx="22" cy="122" r="2" fill="currentColor"></circle><circle cx="42" cy="122" r="2" fill="currentColor"></circle><circle cx="62" cy="122" r="2" fill="currentColor"></circle><circle cx="82" cy="122" r="2" fill="currentColor"></circle><circle cx="102" cy="122" r="2" fill="currentColor"></circle><circle cx="122" cy="122" r="2" fill="currentColor"></circle><circle cx="142" cy="122" r="2" fill="currentColor"></circle><circle cx="162" cy="122" r="2" fill="currentColor"></circle><circle cx="182" cy="122" r="2" fill="currentColor"></circle><circle cx="2" cy="142" r="2" fill="currentColor"></circle><circle cx="22" cy="142" r="2" fill="currentColor"></circle><circle cx="42" cy="142" r="2" fill="currentColor"></circle><circle cx="62" cy="142" r="2" fill="currentColor"></circle><circle cx="82" cy="142" r="2" fill="currentColor"></circle><circle cx="102" cy="142" r="2" fill="currentColor"></circle><circle cx="122" cy="142" r="2" fill="currentColor"></circle><circle cx="142" cy="142" r="2" fill="currentColor"></circle><circle cx="162" cy="142" r="2" fill="currentColor"></circle><circle cx="182" cy="142" r="2" fill="currentColor"></circle><circle cx="2" cy="162" r="2" fill="currentColor"></circle><circle cx="22" cy="162" r="2" fill="currentColor"></circle><circle cx="42" cy="162" r="2" fill="currentColor"></circle><circle cx="62" cy="162" r="2" fill="currentColor"></circle><circle cx="82" cy="162" r="2" fill="currentColor"></circle><circle cx="102" cy="162" r="2" fill="currentColor"></circle><circle cx="122" cy="162" r="2" fill="currentColor"></circle><circle cx="142" cy="162" r="2" fill="currentColor"></circle><circle cx="162" cy="162" r="2" fill="currentColor"></circle><circle cx="182" cy="162" r="2" fill="currentColor"></circle><circle cx="2" cy="182" r="2" fill="currentColor"></circle><circle cx="22" cy="182" r="2" fill="currentColor"></circle><circle cx="42" cy="182" r="2" fill="currentColor"></circle><circle cx="62" cy="182" r="2" fill="currentColor"></circle><circle cx="82" cy="182" r="2" fill="currentColor"></circle><circle cx="102" cy="182" r="2" fill="currentColor"></circle><circle cx="122" cy="182" r="2" fill="currentColor"></circle><circle cx="142" cy="182" r="2" fill="currentColor"></circle><circle cx="162" cy="182" r="2" fill="currentColor"></circle><circle cx="182" cy="182" r="2" fill="currentColor"></circle></svg>                </div>
-       <!-- Card -->
-       <div class="card mb-6 mb-md-0">
-       <div class="card-body position-relative bg-white text-center pb-0">
-         <!-- Heading -->
-         <h3 class="display-4 h2 mb-4 editable">
-         What's Included?
-         </h3>
-         <!-- Text -->
-         <p class="text-muted editable">
-          With our focus on high-quality, professionally produced photos, we create an unforgettable experience for you and your guests.
-         </p>
-       </div>
-       <div class="card-body position-relative bg-white">
-         <!-- List group -->
-         <ul class="list-group list-group-flush mt-n5">
-         {% for list in page.price.features %}
-         <li class="list-group-item d-flex align-items-center">
-           <!-- Text -->
-           <span class="text-end mx-auto">{{list.item}}</span>
+     <div class="card rounded-top-start-3 rounded-bottom-end-3 mt-6 h-100">
+       <div class="card-body">
+         <h6 class="text-center text-uppercase text-warning pb-2">
+         {{list.name}}
+         </h6>
+         <!-- List -->
+       <ul class="list-group list-group-flush mt-n3">
+           {% for item in list.features %}
+         <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+           <span class="text-end mx-auto">{{item.item}}</span>
          </li>
          {% endfor %}
-
-         <li class="list-group-item d-flex align-items-center">
-           <!-- Title -->
-           <div class="mx-auto text-center">
-            <strong class="fw-bolder">Add-Ons</strong>
-            {% for list in page.price.addon %}
-            <span class="mx-auto d-block mt-5">{{list.item}}</span>
-            {% endfor %}
-           </div>
-         </li>
          </ul>
        </div>
        <div class="card-footer position-relative border-top">
-         <div class="row">
-         <div class="col-12 col-lg">
-           <!-- Price -->
-           <div class="display-4 fw-bolder text-center text-lg-start mb-4 mb-lg-0">
+       <div class="row">
+         <div class="col-12">
+         <!-- Price -->
+         <div class="display-4 fw-bolder text-center mb-4 mb-lg-0">
            <span class="fs-3 align-middle">$</span>
-           <span class="mx-n2">{{page.price.amount}}</span>
-           <span class="fs-5 fw-light align-middle">/Starting at</span>
-           </div>
-         </div>
-         <div class="col-12 col-lg-auto">
-           <!-- Button -->
-           <a class="btn btn-primary w-100 lift" href="/contact-ohh-snap-photobooth">
-           Book Today!
-           </a>
+           <span class="mx-n2">{{list.amount}}</span>
+
          </div>
          </div>
+
        </div>
        </div>
      </div>
+
      </div>
+     {% endfor %}
    </div>
    </div>
  </section>
