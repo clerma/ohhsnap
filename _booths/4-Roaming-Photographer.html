@@ -8,6 +8,18 @@ booth:
   subtext: Event Photographer
   icon: /assets/img/icons/roaming-photographer.svg
   description: Capture spontaneous moments and interactions with our seamless roaming photography service, perfect for any event.
+price:
+  amount: 1000
+  features:
+    - item: 3 Hours
+    - item: Unlimited Sessions
+    - item: Customized Overlay
+    - item: Photo Booth Attendant
+    - item: Online Gallery
+    - item: Instant Sharing
+  addon:
+    - item: Printing Station
+    - item: Additional Hours
 banner:
   image: /assets/img/roaming/IMG_0329.JPG
   video: https://vimeo.com/1008164447
@@ -191,9 +203,9 @@ permalink: romaing-event-photographer
       <div class="col-12 col-md-8 col-lg-12">
         <!-- Timeline -->
         <ol class="timeline timeline-expand-lg timeline-warning mb-0">
-          <li class="timeline-item active editable">
+          <li class="timeline-item active">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
               Real-Time Capture
             </h2>
             <!-- Text -->
@@ -201,19 +213,19 @@ permalink: romaing-event-photographer
               Our photographers move throughout the event, capturing candid moments as they happen.
             </p>
           </li>
-          <li class="timeline-item editable">
+          <li class="timeline-item active">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
               Instant Access
             </h2>
             <!-- Text -->
-            <p class="text-muted mb-4 editable">
+            <p class="text-muted mb-4">
              Graphics and branding are applied to the images, and they are sent to the cloud for immediate viewing.
             </p>
           </li>
-          <li class="timeline-item editable">
+          <li class="timeline-item active">
             <!-- Heading -->
-            <h2>
+            <h2 class="editable">
               Seamless Sharing
             </h2>
             <!-- Text -->
@@ -281,36 +293,20 @@ permalink: romaing-event-photographer
             <div class="card-body position-relative bg-white">
               <!-- List group -->
               <ul class="list-group list-group-flush mt-n5">
+                {% for list in page.price.features %}
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto editable">3 Hours</span>
+                  <span class="text-end mx-auto">{{list.item}}</span>
                 </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto editable">Unlimited Sessions</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto editable">Customized Overlay</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto editable">Photo Booth Attendant</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto editable">Online Gallery</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto editable">Instant Sharing</span>
-                </li>
+                {% endfor %}
+
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Title -->
                   <div class="mx-auto text-center">
                    <strong class="fw-bolder">Add-Ons</strong>
-                   <span class="mx-auto d-block mt-5 editable">Printing Station</span>
-                   <span class="mx-auto d-block mt-1 editable">Additional Hours</span>
+                   {% for list in page.price.addon %}
+                   <span class="mx-auto d-block mt-5">{{list.item}}</span>
+                   {% endfor %}
                   </div>
                 </li>
               </ul>
@@ -321,7 +317,7 @@ permalink: romaing-event-photographer
                   <!-- Price -->
                   <div class="display-4 fw-bolder text-center text-lg-start mb-4 mb-lg-0">
                     <span class="fs-3 align-middle">$</span>
-                    <span class="mx-n2">1000</span>
+                    <span class="mx-n2">{{page.price.amount}}</span>
                     <span class="fs-5 fw-light align-middle">/Starting at</span>
                   </div>
                 </div>

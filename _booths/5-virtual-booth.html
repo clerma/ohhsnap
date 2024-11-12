@@ -3,6 +3,17 @@ title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
 description: Test description
 keywords: photo booth rental, photo booth rental
 image: /assets/img/virtual-booth/VirtualBoothPromoStill10.jpg
+price:
+  amount: 100
+  features:
+    - item: Host events any place, any time.
+    - item: Unlimited Captures (Video, Gif, Boomerage & Video)
+    - item: Easy Share Link
+    - item: Custom Centralized Gallery
+    - item: Brandable Elements (custom backgrounds, buttons, and overlays)
+  addon:
+    - item: Printing Station
+    - item: Additional Hours
 booth:
   name: Virtual Photo Booth
   subtext: Real-Time Memories
@@ -332,7 +343,7 @@ permalink: /remote-photo-booth-rental
               Guests join the virtual booth from any device.
             </p>
           </li>
-          <li class="timeline-item">
+          <li class="timeline-item active">
             <!-- Heading -->
             <h2 class="editable">
               Capture Moments
@@ -342,7 +353,7 @@ permalink: /remote-photo-booth-rental
              Guests take fun photos with customizable options.
             </p>
           </li>
-          <li class="timeline-item">
+          <li class="timeline-item active">
             <!-- Heading -->
             <h2 class="editable">
              Instant Sharing
@@ -578,32 +589,19 @@ permalink: /remote-photo-booth-rental
             <div class="card-body position-relative bg-white">
               <!-- List group -->
               <ul class="list-group list-group-flush mt-n5">
-                <li class="list-group-item d-flex align-items-center">
-                  <span class="text-end mx-auto">Host events any place, any time.</span>
-                </li>
+                {% for list in page.price.features %}
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Text -->
-                  <span class="text-end mx-auto">Unlimited Captures (Video, Gif, Boomerage & Video)</span>
+                  <span class="text-end mx-auto">{{list.item}}</span>
                 </li>
-                <li class="list-group-item d-flex align-items-center">
-                <!-- Text -->
-                <span class="text-end mx-auto">Easy Share Link</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto">Custom Centralized Gallery</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <!-- Text -->
-                  <span class="text-end mx-auto">Brandable Elements (custom backgrounds, buttons, and overlays)
-                  </span>
-                </li>
+                {% endfor %}
                 <li class="list-group-item d-flex align-items-center">
                   <!-- Title -->
                   <div class="mx-auto text-center">
                    <strong class="fw-bolder">Add-Ons</strong>
-                   <span class="mx-auto d-block mt-5">Printing Station</span>
-                   <span class="mx-auto d-block mt-1">Additional Hours</span>
+                   {% for list in page.price.addon %}
+                    <span class="mx-auto d-block mt-5">{{list.item}}</span>
+                    {% endfor %}
                   </div>
                 </li>
               </ul>
@@ -614,7 +612,7 @@ permalink: /remote-photo-booth-rental
                   <!-- Price -->
                   <div class="display-4 fw-bolder text-center text-lg-start mb-4 mb-lg-0">
                     <span class="fs-3 align-middle">$</span>
-                    <span class="mx-n2">100</span>
+                    <span class="mx-n2">{{page.price.amount}}</span>
                     <span class="fs-5 fw-light align-middle">/Hour</span>
                   </div>
                 </div>

@@ -9,6 +9,44 @@ keywords: >-
   prints,Photo Booth Rentals, Photo Booth Packages, Event Photography,Wedding
   Photo Booth, Lafayette,Carencro,Youngsville,Opelousas, LA
 image: /assets/img/portrait-booth/NTUQ-7X9POP0T60KWQFVU.jpeg
+package:
+  - name: Basic
+    amount: 500
+    features:
+      - item: 2 Hours
+      - item: Backdrops & Props
+      - item: Attendant
+      - item: Custom Digital Layout
+      - item: Social Kiosk (No Prints)
+      - item: Online Gallery
+      - item: Digital Files
+    addon:
+      - item:
+  - name: PLUS
+    amount: 700
+    features:
+      - item: 3 Hours
+      - item: Backdrops & Props
+      - item: Attendant
+      - item: Custom Digital Layout
+      - item: Limited Custom Prints*
+      - item: Online Gallery
+      - item: Digital Files
+    addon:
+      - item:
+  - name: Ultimate
+    amount: 900
+    features:
+      - item: 3 Hours
+      - item: Backdrops & Props
+      - item: Attendant
+      - item: Custom Digital Layout
+      - item: Unlimted Custom Prints
+      - item: Social Kiosk
+      - item: Online Gallery
+      - item: Digital Files
+    addon:
+      - item:
 booth:
   name: Portrait Booth
   subtext: A modern day photo booth
@@ -556,8 +594,49 @@ permalink: lafayette-photo-booth-rental
 		</div>
 	</div>
 </section>
+<!-- pricing -->
+<section class="py-10">
+  <div class="container-lg position-relative" style="z-index: 1;">
+	<div class="row row-cols-1 row-cols-md-3 mt-n6">
+		{% for list in page.package %}
+	  <div class="col">
+		<!-- Card -->
+		<div class="card rounded-top-start-3 rounded-bottom-end-3 mt-6 h-100">
+		  <div class="card-body">
+			  <h6 class="text-center text-uppercase text-warning pb-2">
+				{{list.name}}
+			  </h6>
+			  <!-- List -->
+			<ul class="list-group list-group-flush mt-n3">
+				  {% for item in list.features %}
+				<li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+				  <span class="text-end mx-auto">{{item.item}}</span>
+				</li>
+				{% endfor %}
+			  </ul>
+		  </div>
+		  <div class="card-footer position-relative border-top">
+			<div class="row">
+			  <div class="col-12">
+				<!-- Price -->
+				<div class="display-4 fw-bolder text-center mb-4 mb-lg-0">
+				  <span class="fs-3 align-middle">$</span>
+				  <span class="mx-n2">{{list.amount}}</span>
+
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+
+	  </div>
+	  {% endfor %}
+	</div>
+  </div>
+</section>
 <!-- CONTACT -->
-<section class="pb-5">
+<section class="py-5">
 	<div class="container-lg">
 		<div class="row justify-content-center">
 			<div class="col-md-10">
