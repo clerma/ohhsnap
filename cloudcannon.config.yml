@@ -46,8 +46,8 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  coordinators:
-    path: _coordinators
+  vendors:
+    path: _vendors
     icon: people
     output: true
     description: ''
