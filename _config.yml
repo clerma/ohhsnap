@@ -23,6 +23,13 @@ social:
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
 location: Lafayette
+alt_location:
+  - location: Lake Charles
+    url: https://lakecharlesphotobooth.com
+  - location: Baton Rouge
+    url: https://batonrougephotobooth.rentals
+  - location: Alexandria
+    url: https://alexandriaphotobooth.com
 local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"

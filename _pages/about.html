@@ -2,13 +2,13 @@
 layout: default
 title: "{{site.location}} LA Photo Booth Rental | Ohh Snap Photo Booth"
 description: "Upgrade your weddings, birthdays, and corporate gatherings with our state-of-the-art “open air” photo booth experience. Designed by seasoned event photographers, our technology ensures immersive engagement, capturing every moment with clarity and style. Say farewell to outdated booths and hello to a new era of event photography entertainment."
-keywords: photo booth rental, photo booth rental,{{site.local_keywords}}
+keywords: "photo booth rental, photo booth rental,{{site.local_keywords}}"
 image: /assets/img/about/go-red-photo-booth.JPG
 banner:
   image: /assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
   video:
   preheading: About Ohh Snap! Photo Booth
-  title:  Lafayette Photo Booth Company
+  title:  "{{site.location}} Photo Booth Company"
   subtext:  Creating unique photo and video experiences for weddings and events!
   cta_link:
   cta_text:
@@ -70,7 +70,7 @@ permalink: "/about-ohh-snap-photo-booth/"
 
                 </div>
               <div class="col-md-10 mx-auto text-white text-center editable">
-                  <p>We're the Lermas, a husband and wife photography team dedicated to capturing heartfelt moments in Lafayette, Louisiana. With our background in graphic design and a passion for providing high-quality photo booth experiences, we've built a team of skilled attendants and offer a variety of booths to suit your needs. Whether day or night, we're committed to creating a custom experience just for you.
+                  <p>We're the Lermas, a husband and wife photography team dedicated to capturing heartfelt moments in {{site.location}}, Louisiana. With our background in graphic design and a passion for providing high-quality photo booth experiences, we've built a team of skilled attendants and offer a variety of booths to suit your needs. Whether day or night, we're committed to creating a custom experience just for you.
                   </p>
               </div>
           </div>
@@ -93,10 +93,13 @@ permalink: "/about-ohh-snap-photo-booth/"
 
 
           </div>
-          <div class="col-md-6 col-lg-5 order-md-0 py-11 py-md-13">
+          <div class="col-md-12 order-md-0 py-5 py-md-10">
 
-
-
+          <h3>Primary Serviced Areas</h3>
+          <p>Ohh Snap! Photo Booth serves Lafayette, LA, the cities listed below, and surrounding areas as our primary service areas. We’re also happy to travel to most destinations to capture your unforgettable events!</p>
+          {% for item in site.alt_location %}
+          <a href="{{item.url}}" target="_blank" title="Ohh Photo Photo Booth | {{item.location}}, LA Photo Booth ">{{item.location}}</a> {% if forloop.last %}{% else %}<span class="mx-3">|</span>{% endif %}
+          {% endfor %}
           </div>
         </div>
       </div>

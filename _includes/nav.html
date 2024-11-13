@@ -20,7 +20,7 @@
                                                                 <div class="col">
                                                                        {% for item in site.booths %}
                                                                        <!-- Links -->
-                                                                       <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Lafayette, LA {{item.booth.name}} Rental">
+                                                                       <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental">
                                                                                <!-- Icon -->
                                                                                <div class="icon icon-sm text-primary-light">
                                                                                        <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
@@ -88,7 +88,7 @@
                                                                                 </h6>
                                                                                 {% for item in site.booths %}
                                                                                 <!-- Links -->
-                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Lafayette, LA {{item.booth.name}} Rental">
+                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                                 <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
@@ -128,7 +128,7 @@
                                                                         <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth">
                                                                                 About
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/lafayette-backdrop-rentals" title="Lafayette Event Backdrop Rentals">
+                                                                        <a class="dropdown-item" href="/{{site.location}}-backdrop-rentals" title="{{site.location}} Event Backdrop Rentals">
                                                                                 Backdrops
                                                                         </a>
                                                                         <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company">

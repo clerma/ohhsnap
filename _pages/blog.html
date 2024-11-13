@@ -1,13 +1,11 @@
 ---
-title: Capturing Moments | Your Source for Event Inspiration - Ohh Snap Photo Booth Blog
+title: "Capturing Moments | Your Source for Event Inspiration - {{site.location}} Photo Booth Blog"
 description: Explore the latest trends, tips, and inspiration for your next event with the Ohh Snap Photo Booth blog. From creative photo booth ideas to event planning advice, we've got you covered.
 keywords: photo booth rental, photo booth rental, photo booth blog, event trends, event planning tips, party inspiration, photo booth ideas, event entertainment, event photography, party planning advice
 layout: default
 pagename: bloglist
-location: Lafayette
 permalink: "/blog/"
 ---
-
     <!-- WELCOME -->
     <section class="pt-13 pt-md-12 bg-dark">
       <div class="container-lg">
@@ -18,20 +16,17 @@ permalink: "/blog/"
             <h6 class="text-uppercase text-warning mb-5">
               News from us
             </h6>
-
             <!-- Heading -->
             <h1 class="display-3 mb-4">
               Photo Booth Blog
             </h1>
-
             <!-- Text -->
             <p class="fs-lg">
-             A collection of articles of past events and resources on how to maximize a photo booth for activations outside of the typical wedding or party. 
+             A collection of articles of past events and resources on how to maximize a photo booth for activations outside of the typical wedding or party.
             </p>
             </div>
             <!-- Form -->
            {% include search-form.html %}
-
           </div>
         </div>
       </div>
@@ -44,61 +39,47 @@ permalink: "/blog/"
           <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 0h100v25H75L25 50H0z" fill="currentColor"/></svg>        </div>
       </div>
     </div>
-
     <!-- POSTS -->
     <section class="pt-10 pt-md-12 posts">
       <div class="container-lg">
         <div class="row mt-n6">
-            
-          {% for post in site.tags.blog limit:3 %} 
-          
-           
+          {% for post in site.tags.blog limit:3 %}
+
               <div class="col-md-4">
                  {% include postbox.html %}
               </div>
-         
           {% endfor %}
-         
         </div>
       </div>
     </section>
-   
-{% for post in site.tags.featured limit:1 %} 
+
+{% for post in site.tags.featured limit:1 %}
 
     <!-- Featured Post -->
     <section class="pt-9 pt-md-11 posts">
       <div class="container-lg">
         <div class="row">
           <div class="col-12">
-
             <!-- Heading -->
             <h6 class="h1 mb-0">
               Featured Post
             </h6>
-
             <!-- Text -->
             <p class="text-gray-600">
-              Seasonal Photo Booth Resource Articles 
+              Seasonal Photo Booth Resource Articles
             </p>
-
-           
             <!-- Card -->
             <div class="card card-lg rounded-top-start rounded-bottom-end lift lift-lg">
               <div class="row gx-0">
                 <div class="col-md-6 bg-cover rounded-top-start my-n2 vh-50 vh-md-75" style="background-image: url({{ post.image }}); background-position: center center;background-size:cover">
-
-                 
                 </div>
                 <div class="col-md-6">
-
                   <!-- Body -->
                   <div class="card-body">
-
                     <!-- Preheading -->
                     <h6 class="font-sans-serif text-primary mb-2">
                       Featured Post
                     </h6>
-
                     <!-- Heading -->
                     <h2 class="display-4 mb-4">
                       {{ post.title }}
@@ -108,7 +89,6 @@ permalink: "/blog/"
                     <p class="mb-4">
                        {{ post.excerpt | strip_html | truncatewords:15 }}
                     </p>
-
                     <!-- Link -->
                     <a class="stretched-link" href="{{ post.url | absolute_url }}"></a>
 
@@ -124,20 +104,17 @@ permalink: "/blog/"
     </section>
 
     {% endfor %}
-    
+
     <!-- USER EXPERIENCE -->
     <section class="pt-9 pt-md-11 posts">
       <div class="container-lg">
         <div class="row align-items-center mb-6">
         {% for post in site.tags.blog offset: continue %}
-           
              <div class="col-md-4">
              {% include postbox.html %}
               </div>
-          
          {% endfor %}
         </div>
-       
       </div>
     </section>
     {% comment %}
@@ -356,6 +333,5 @@ permalink: "/blog/"
       </div>
     </section>
     {% endcomment %}
-   
 
-    
+
