@@ -181,7 +181,6 @@ border-color: #2b3990 !important;
 .images-cards{
   height: 81vh;
   object-fit: cover;
-  width: 100vw;
 }
 #menu__toggle {
   opacity: 0;
