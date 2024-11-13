@@ -1,33 +1,44 @@
 ---
-title: Contact the best photo booth rental in Lafayette, LA
-description: Get in touch with Ohh Snap Photo Booth for expert services tailored to your event. Contact us now to book your unforgettable experience!
-keywords: photo booth rental, photo booth rental
-image: /assets/img/contact/contact-ohhsnap.jpg
-layout: default
-pagename: contact
-permalink: "/contact-ohh-snap-photobooth/"
+title: Lafayette LA Photo Booth Rental | Ohh Snap Photo Booth
+layout: mobile
+permalink: /social/
 ---
-    <!-- CONTENT -->
-    <section class="pt-10 mt-8">
-      <div class="container-lg">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-lg-8 text-center">
-
+<section class="" style="background-image: url('/assets/img/backdropgallery.jpg')">
+      <div class="container-fluid d-flex flex-column bg-dark-50">
+        <div class="row align-items-center justify-content-center min-vh-100 py-10 py-md-12 mt-n1">
+          <div class="col-12 col-md-7 col-lg-5 text-center">
+          <div class="card hv-50 p-10">
             <!-- Preheading -->
-            <h6 class="text-uppercase text-primary mb-5 editable">
-              Contact us
+            <a href="{{site.url}}"><img class="img-fluid col-8 mx-auto mb-md-10 mb-8" src="{{site.logo}}"/></a>
+            <h6 class="text-uppercase text-primary mb-5">
+              Welcome, friends!
             </h6>
-
             <!-- Heading -->
-            <h1 class="display-3 mb-4 editable">
-              How can we help you?
-            </h1>
+            <h2 class="display-4 mb-4">
+            Explore Our Quick Links
+            </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-muted mb-6 editable">
-             Don't hesitate, contact us today and let us assist you!
+            <p class="text-muted">
+             Here’s your go-to guide for all things Ohh Snap—catch up on our latest happenings, exciting updates, and exclusive goodies curated just for you!
             </p>
-
+            <ul class="list-group list-group-flush mt-n3">
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                  <span class="text-end mx-auto"><a href="/">Visit our website</a></span>
+                </li>
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                  <span class="text-center mx-auto"><a href="/blog/">Photo Booth Inspiration</a></span>
+                </li>
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                  <span class="text-center mx-auto"><a href="/contact-ohh-snap-photobooth">Work with us</a></span>
+                </li>
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                  <span class="text-center mx-auto"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallerymodal">
+                              Past Events
+                      </a></span>
+                </li>
+            </ul>
+            <hr class="col-6 mx-auto"/>
             <!-- Items -->
             <div class="row">
               <div class="col-md py-md-4 mb-6 mb-md-0">
@@ -84,13 +95,12 @@ permalink: "/contact-ohh-snap-photobooth/"
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M13.08 14.784l2.204-2.204a2 2 0 00.375-2.309l-.125-.25a2 2 0 01.374-2.308l2.733-2.733a.5.5 0 01.801.13l1.104 2.208a4.387 4.387 0 01-.822 5.065l-5.999 5.998a5.427 5.427 0 01-5.553 1.311l-2.415-.804a.5.5 0 01-.195-.828l2.65-2.652a2 2 0 012.31-.374l.25.125a2 2 0 002.308-.375z" fill="#335EEA"/><path d="M14.148 6.007l-.191 1.991a4.987 4.987 0 00-4.018 1.441 4.987 4.987 0 00-1.442 4.004l-1.992.185a6.986 6.986 0 012.02-5.603 6.987 6.987 0 015.623-2.018zm.35-3.985l-.185 1.992A8.978 8.978 0 007.111 6.61a8.978 8.978 0 00-2.598 7.191l-1.992.183a10.977 10.977 0 013.176-8.788 10.977 10.977 0 018.801-3.175z" fill="#335EEA" opacity=".3"/></g></svg>                  </div>
 
                   <!-- Heading -->
-                 <h6 class="text-uppercase mb-0 d-none d-md-block" >
-                     Call
-                   </h6>
-                   <h6 class="text-uppercase mb-0 d-block d-md-none">
-                       337-366-8995
-                     </h6>
-
+                  <h6 class="text-uppercase mb-0 d-none d-md-block" >
+                    Call
+                  </h6>
+                  <h6 class="text-uppercase mb-0 d-block d-md-none">
+                      337-366-8995
+                    </h6>
                   <!-- Text -->
                   <small class="text-muted editable">
                     9am - 5pm
@@ -100,12 +110,21 @@ permalink: "/contact-ohh-snap-photobooth/"
 
               </div>
             </div>
+            <hr class="col-6 mx-auto"/>
+            <h2 class="display-4 fs-3 mb-5">Elsewhere:</h2>
 
-            <!-- Form -->
-           {% include contact.html %}
+            <ul class="list-inline list-unstyled text-primary mb-0">
+                 {% for item in site.data.company_details.social %}
+                 <li class="list-inline-item ms-2">
+                     <a class="icon icon-sm " href="{{ item.link }}" title="Ohh Snap {{ item.name }} link" target="_blank">
+                         <i class="fab {{ item.icon }} text-primary fa-lg" /></i>
+                     </a>
+                 </li>
+                 {% endfor %}
+             </ul>
 
+          </div>
           </div>
         </div>
       </div>
-    </section>
-
+</section>

@@ -148,6 +148,7 @@ span.post-meta {
   .images-cards {
       height: 40vh !important;
       object-fit: cover !important;
+      width: 100vw;
   }
 }
 /* Cal Color Settings */
@@ -180,6 +181,7 @@ border-color: #2b3990 !important;
 .images-cards{
   height: 81vh;
   object-fit: cover;
+  width: 100vw;
 }
 #menu__toggle {
   opacity: 0;
