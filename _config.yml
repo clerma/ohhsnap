@@ -1,7 +1,7 @@
 ---
 timezone: America/Chicago
 baseurl:
-include: ['_pages', '_data','login.html','login','_coordinators']
+include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
@@ -23,6 +23,7 @@ social:
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
 location: Lafayette
+local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
