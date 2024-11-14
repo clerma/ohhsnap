@@ -1,8 +1,16 @@
 ---
 layout: post
-title: Does the Booth Print Photos?
-description: Test description
-keywords: photo booth rental, photo booth rental
+title: Does the Photo Booth Print Photos?
+description: >-
+  Find out if our photo booths print photos, and learn about the different print
+  options available, including digital-only booths and customizable prints for
+  your event.
+keywords: >-
+  photo booth rental, photo booth rental,photo booth print options, does the
+  photo booth print, photo booth print services, digital photo booth, print, and
+  digital photo booths, photo booth printing, event photo booth prints, print
+  options for photo booths, customized photo booth prints, photo booth rentals
+  with prints
 author: Ohh Snap
 categories:
   - Before Event
