@@ -1,8 +1,15 @@
 ---
 layout: post
 title: Do I get all the Photos?
-description: Test description
-keywords: photo booth rental, photo booth rental
+description: >-
+  Explore how our photo booth gallery works, offering easy access to your event
+  photos and providing guests the option to purchase additional prints or
+  download images.
+keywords: >-
+  photo booth rental, photo booth rental, photo booth gallery, event photo
+  gallery, photo booth images, access event photos, photo booth downloads,
+  purchase prints, guest photo access, photo booth online gallery, event photo
+  sharing, downloadable event photos
 author: Ohh Snap
 categories:
   - After Event
