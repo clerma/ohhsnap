@@ -17,7 +17,7 @@ categories:
 tags:
   - Before-Event
 helptype: technical
-image: /uploads/159692619-2990219837971023-6874608797297059283-n.jpg
+image: /uploads/img-4387.jpeg
 ---
 The answer is: it depends on the type of booth you choose! At Ohh Snap, we offer a variety of photo booths to suit different event needs.
 
