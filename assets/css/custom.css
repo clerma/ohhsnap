@@ -18,7 +18,12 @@
   padding-top: 56.25%; /* 16:9 */
   position: relative;
 }
-
+.post-img{
+  width: 30em;
+  height: 25em;
+  object-fit: cover;
+  margin-top: 4em;
+}
 .iframe-container iframe {
   position: absolute;
   top: 0;
