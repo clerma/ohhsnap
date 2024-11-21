@@ -133,15 +133,15 @@ span.post-meta {
 .authenticated .logout {
   display: block;
 }
+ .phone {
+    color: inherit;
+    pointer-events: none;
+    text-decoration: none;
+}
 @media only screen and (max-width:735px) {
   .phone {
-      color: #000;
-      pointer-events: auto;
-      text-decoration: none;
-  }
-  .phone {
       color: inherit;
-      pointer-events: none;
+      pointer-events: visible !important;
       text-decoration: none;
   }
 }
@@ -186,6 +186,9 @@ border-color: #2b3990 !important;
 .images-cards{
   height: 81vh;
   object-fit: cover;
+}
+.object-cover{
+  object-fit: cover
 }
 #menu__toggle {
   opacity: 0;
