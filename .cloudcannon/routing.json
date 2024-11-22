@@ -21,6 +21,11 @@
 	  "to": "/digital-social-booth"
 	},
 	{
+	  "from": "/ohh-snap-blog",
+	  "status": 301,
+	  "to": "/blog"
+	},
+	{
 	  "from": "/head-shots",
 	  "status": 301,
 	  "to": "/romaing-event-photographer"
