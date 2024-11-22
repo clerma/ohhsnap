@@ -104,7 +104,7 @@ defaults:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: "/:title/"
+permalink: "/ohh-snap-blog/:title/"
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap

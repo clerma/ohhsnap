@@ -1,42 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    {% include head.html %}
-    <!-- Schema other -->
-    {% seo %}
+{% include head.html %}
+{% capture seo %}
+{% seo %}
+{% for item in site.social.links %}<meta property="og:see_also" content="{{item}}" />
+{% endfor %}
 <meta name="keywords" content="{{page.keywords}}">
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1675978205753441'); // Insert your pixel ID here.
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscript=1"
-/></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
-  </head>
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+{% endcapture %}
+{{seo | replace: "Jekyll" , "Ohh Snap"}}
+
+</head>
   <body>
 
   {% include gallerymodal.html %}
     <!-- NAVBAR -->
    {% include nav.html %}
- 
-  
+
+
     {{ content }}
-   
+
     <!-- FOOTER -->
-    {% include footer.html %}   
-   
+    {% include footer.html %}
+
 
     <!-- JAVASCRIPT -->
-    {% include scripts.html %}  
-   
+    {% include scripts.html %}
+
 
   </body>
 </html>

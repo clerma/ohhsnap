@@ -26,6 +26,11 @@
 	  "to": "/ohh-snap-blog"
 	},
 	{
+	  "from": "/ohh-snap-blog/tag/Fiesta/",
+	  "status": 301,
+	  "to": "/ohh-snap-blog"
+	},
+	{
 	  "from": "/head-shots",
 	  "status": 301,
 	  "to": "/romaing-event-photographer"
