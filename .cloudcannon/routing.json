@@ -46,9 +46,9 @@
 	  "to": "/ohh-snap-blog/"
 	},
 	{
-	  "from": "/ohh-snap-blog/tag/",
+	  "from": "/ohh-snap-blog/tag/Southern_University/",
 	  "status": 301,
-	  "to": "/ohh-snap-blog/"
+	  "to": "/ohh-snap-blog/southern-university-high-school-day/"
 	},
 	{
 	  "from": "/head-shots",
