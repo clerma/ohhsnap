@@ -31,6 +31,26 @@
 	  "to": "/ohh-snap-blog"
 	},
 	{
+	  "from": "/ohh-snap-blog/tag/custom/",
+	  "status": 301,
+	  "to": "/ohh-snap-blog"
+	},
+	{
+	  "from": "/phi-Mus-semi-formal",
+	  "status": 301,
+	  "to": "/ohh-snap-blog/phi-mus-semi-formal/"
+	},
+	{
+	  "from": "/ohh-snap-blog/tag/The_Crossing_at_Mervin_Kahn/",
+	  "status": 301,
+	  "to": "/ohh-snap-blog/"
+	},
+	{
+	  "from": "/ohh-snap-blog/tag/",
+	  "status": 301,
+	  "to": "/ohh-snap-blog/"
+	},
+	{
 	  "from": "/head-shots",
 	  "status": 301,
 	  "to": "/romaing-event-photographer"
