@@ -21,9 +21,9 @@
 	  "to": "/digital-social-booth"
 	},
 	{
-	  "from": "/ohh-snap-blog",
+	  "from": "/blog",
 	  "status": 301,
-	  "to": "/blog"
+	  "to": "/ohh-snap-blog"
 	},
 	{
 	  "from": "/head-shots",
