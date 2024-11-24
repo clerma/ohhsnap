@@ -20,7 +20,7 @@
 			"to": "/digital-social-booth"
 		},
 		{
-			"from": "/blog",
+			"from": "/blog/",
 			"status": 301,
 			"to": "/ohh-snap-blog"
 		},
