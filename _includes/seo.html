@@ -1,4 +1,4 @@
-{%- assign title_separator = site.title_separator | default: '-' -%}
+{%- assign title_separator = site.title_separator | default: '|' -%}
 
 {%- if page.title -%}
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.name -%}
