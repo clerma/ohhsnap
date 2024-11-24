@@ -87,7 +87,7 @@ permalink: /{{site.location}}-backdrop-rentals/
 			  <div class="w-100">
 
 				<!-- Image -->
-				<img class="img-fluid pos-relative" src="{{item.image}}" alt="..." data-aos="wipe-left" data-aos-delay="150" />
+				<img class="img-fluid pos-relative" src="{{item.image}}" alt="{{site.location}} Backdrop Rentals" data-aos="wipe-left" data-aos-delay="150" />
 
 			  </div>
 			  {% endfor %}
@@ -146,7 +146,7 @@ permalink: /{{site.location}}-backdrop-rentals/
 					{% for backdrops in site.data.backdrops limit:1 %}
 					<div class="img-grid-item">
 						<!-- Image -->
-						<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="{{backdrops.image}}" alt="..." />
+						<img class="img-fluid rounded-top-start-3 rounded-bottom-end-3 shadow-lg" data-jarallax-element="-30" src="{{backdrops.image}}" alt="{{site.location}} Backdrop ideas" />
 					</div>
 					{% endfor %}
 					{% for backdrops in site.data.backdrops limit:5 offset:1 %}

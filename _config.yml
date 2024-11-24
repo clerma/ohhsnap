@@ -1,14 +1,18 @@
 ---
 timezone: America/Chicago
-baseurl:
+baseurl: ""
+url: https://ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+author: "Ohh Snap Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
-# Your disqus shortname, entering this will enable commenting on posts
 disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: G-9QW9SLLGLX
+logo: /assets/img/logo/ohh-snap-logo.png
+locale: en_us
 social:
   name: Ohh Snap Photo booth
   links:
@@ -20,8 +24,18 @@ social:
     - https://www.yelp.com/biz/ohh-snap-photo-booth-lafayette-2
     - https://www.theknot.com/marketplace/ohh-snap-photo-booth-lafayette-la-1089431
     - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
-logo: /assets/img/logo/ohh-snap-logo.png
-locale: en_us
+twitter:
+  username: "ohhsnapbooth"
+address:
+  street: "905 Jefferson St"
+  city: "Lafayette"
+  region: "LA"
+  zip: "70501"
+  country: "US"
+phone: "337-366-8995"
+og_image: "/assets/img/default-og-image.jpg"
+google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
+bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
 location: Lafayette
 alt_location:
   - location: Lake Charles
@@ -31,6 +45,7 @@ alt_location:
   - location: Alexandria
     url: https://alexandriaphotobooth.com
 local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville
+local_competitors: Bai booth, The Yard Photo Booth, Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
