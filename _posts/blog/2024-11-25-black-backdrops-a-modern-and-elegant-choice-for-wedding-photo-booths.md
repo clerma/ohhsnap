@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 'Black Backdrops: A Modern and Elegant Choice for Wedding Photo Booths'
-description: Test description
+description: >-
+  Discover why black backdrops are the perfect choice for a modern and elegant
+  wedding photo booth. Learn how this bold alternative to white backdrops
+  creates stunning contrast and timeless photos for your big day.
 keywords: photo booth rental, photo booth rental
 author: Ohh Snap
 categories:
