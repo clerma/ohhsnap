@@ -199,9 +199,21 @@ _select_data:
   archives: []
 _editables:
   content:
-    bold: true
-    italics: true
-    underline: true
+     allow_custom_markup: true
+     remove_custom_markup: false
+     bold: true
+     copyformatting: false
+     italic: true
+     link: true
+     paths:
+     redo:
+     removeformat:
+     strike:
+     subscript:
+     superscript:
+     underline:
+     undo:
+     image:
   image:
     expandable:
     height:
