@@ -4,7 +4,7 @@ name: Ohh Snap! Photo Booth
 url: "https://alexandriaphotobooth.com"
 baseurl:
 relative_permalinks: false
-favicon: https://0c123gkb.tinifycdn.com/assets/img/favicon.ico
+favicon: /assets/img/favicon.ico
 lang: en
 author: Ohh Snap! Photo Booth
 # Your disqus shortname, entering this will enable commenting on posts
