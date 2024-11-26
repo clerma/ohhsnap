@@ -1,5 +1,5 @@
-.artice-img{
-    width: 32%;
+.blog p img{
+    width: 45%;
     margin-bottom: .5em;
     justify-content: space-evenly;
 }
@@ -154,6 +154,11 @@ span.post-meta {
   section.hero {
     height: 40vh;
     min-height: 24rem;
+  }
+  .blog p img{
+      width: 100%;
+      margin-bottom: .5em;
+      justify-content: space-evenly;
   }
   .images-cards {
       height: 40vh !important;
