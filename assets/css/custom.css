@@ -250,3 +250,6 @@ border-color: #2b3990 !important;
 .z1{
   z-index: 1 !important;
 }
+#blog img{
+  max-width: 50%;
+}

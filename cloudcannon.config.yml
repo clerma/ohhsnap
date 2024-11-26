@@ -245,7 +245,6 @@ _editables:
     right: text-right
   image:
     expandable:
-    height:
     image_size_attributes: true
     mime_type:
     paths:
