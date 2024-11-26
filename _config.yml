@@ -31,7 +31,7 @@ snipcart_currency: "usd"
 assets:
   cdn:
     baseurl: true
-    url: https://0c123gkb.tinifycdn.com
+    url: 
   digest: true
 collections:
   products:
