@@ -10,46 +10,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-end w-100">
-                                <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                                Our Booths
-                                        </a>
-                                        <div class="dropdown-positioner">
-                                                <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="pagesDropdown">
-                                                        <div class="row gx-0">
-                                                                <div class="col">
-                                                                       {% for item in site.booths %}
-                                                                       <!-- Links -->
-                                                                       <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental">
-                                                                               <!-- Icon -->
-                                                                               <div class="icon icon-sm text-primary-light">
-                                                                                       <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
-                                                                               </div>
-                                                                               <div class="ms-3">
-                                                                                       <!-- Heading -->
-                                                                                       <p class="fw-bold mb-0">
-                                                                                               {{item.booth.name}}
-                                                                                       </p>
-                                                                                       <!-- Text -->
-                                                                                       <span class="text-muted">
-                                                                                               {{item.booth.subtext}}
-                                                                                       </span>
-                                                                               </div>
-                                                                       </a>
-                                                                       {% endfor %}
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </li>
-                                {% comment %}
+
                                 <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" id="landingsDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                 Photo Booths
                                         </a>
                                         <div class="dropdown-positioner">
-                                                <div class="dropdown-menu dropdown-menu-xl dropdown-menu-flush" aria-labelledby="landingsDropdown">
-                                                        <div class="row align-items-center gx-0">
+                                                <div class="dropdown-menu dropdown-menu-lg p-0" aria-labelledby="landingsDropdown">
+                                                        <div class="row gx-0">
+                                                                {% comment %}
                                                                 <div class="col-md-6 order-1 dropdown-menu-col rounded-top-start-0 bg-gray-900">
                                                                         <div class="dropdown-menu-body">
                                                                                 <!-- Heading -->
@@ -61,7 +30,7 @@
                                                                                 <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
-                                                                                                {{item.type.icon}}
+                                                                                              <i class="{{item.type.icon}}"></i>
                                                                                         </div>
                                                                                         <div class="ms-3">
                                                                                                 <!-- Heading -->
@@ -79,7 +48,8 @@
                                                                                 <!-- Links -->
                                                                         </div>
                                                                 </div>
-                                                                <div class="col-md-6 order-0 dropdown-menu-col">
+                                                                {% endcomment %}
+                                                                <div class="col">
                                                                         <div class="dropdown-menu-body">
 
                                                                                 <!-- Heading -->
@@ -111,7 +81,6 @@
                                                 </div>
                                         </div>
                                 </li>
-                                {% endcomment %}
                                 <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" id="pagesDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                 Information
@@ -142,7 +111,7 @@
                                                                                 Blog
                                                                         </h6>
                                                                         <!-- Links -->
-                                                                        <a class="dropdown-item" href="/blog" title="Event and Wedding insperation Articles">
+                                                                        <a class="dropdown-item" href="/ohh-snap-blog" title="Event and Wedding insperation Articles">
                                                                                 Articles
                                                                         </a>
                                                                         <!-- Heading -->

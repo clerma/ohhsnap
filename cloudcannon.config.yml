@@ -198,10 +198,51 @@ _select_data:
       category: /category/:name/
   archives: []
 _editables:
-  content:
+  block:
+    blockquote: true
     bold: true
-    italics: true
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    italic: true
     underline: true
+    link: true
+    bulletedlist: true
+    indent: true
+    numberedlist: true
+    code: true
+    embed: true
+    image: true
+    table: true
+    styles: /assets/css/editor.css
+    left: text-left
+    center: text-center
+    right: text-right
+    image_size_attributes: true
+    expandable: true
+    resize_style: cover
+  content:
+    blockquote: true
+    bold: true
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    italic: true
+    underline: true
+    link: true
+    bulletedlist: true
+    indent: true
+    numberedlist: true
+    code: true
+    embed: true
+    image: true
+    table: true
+    redo: true
+    image_size_attributes: false
+    expandable: true
+    removeformat: true
+    copyformatting: true
+    resize_style: cover
+    styles: /assets/css/editor.css
+    left: text-left
+    center: text-center
+    right: text-right
   image:
     expandable:
     height:

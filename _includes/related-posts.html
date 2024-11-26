@@ -20,7 +20,7 @@
 <!-- begin related posts -->
  <div class="row mt-n6">
               <h2 class="section__title">You may also like</h2>
-              <a class="section__link" href="{{ '/blog' | relative_url }}">
+              <a class="section__link" href="{{ '/ohh-snap-blog' | relative_url }}">
                 {% if page.tags.size >= 1 %}
                 {% for tag in page.tags %}
                   {% if forloop.index == 1 %}
@@ -29,13 +29,13 @@
                 {% endfor %}
               {% endif %}
               </a>
- </div>    
+ </div>
           <div class="row">
 
           {% for post in site.posts %}
             {% assign sameTagCount = 0 %}
             {% assign commonTags = '' %}
-      
+
             {% for tag in post.tags %}
               {% if post.url != page.url %}
                 {% if page.tags contains tag %}
@@ -45,16 +45,16 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-      
+
             {% if sameTagCount >= minCommonTags %}
             <div class="col-md-4">
-            
+
               <!-- Card -->
               <div class="card card-sm rounded-top-start rounded-bottom-end lift lift-lg mt-6">
-            
+
                 <!-- Image -->
-                <img class="card-img-top rounded-top-start" src="{{ post.image }}" alt="...">
-            
+                <img class="card-img-top bloglistimg rounded-top-start" src="{{ post.image }}" alt="{{ post.title }}">
+
                 <!-- Shape -->
                 <div class="position-relative">
                   <div class="shape shape-fluid-x shape-top text-white">
@@ -62,32 +62,29 @@
                       <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg>                  </div>
                   </div>
                 </div>
-            
+
                 <!-- Body -->
                 <div class="card-body">
-            
+
                   <!-- Heading -->
                   <h2 class="mb-2">
                     {{ post.title }}
                   </h2>
-            
+
                   <!-- Text -->
                   <p class="fs-sm mb-4">
-                   {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 120 }}{% endif
+                   {% if post.content %}{{ post.content | strip_html | truncate: 120 }}{% else %}{{ post.description | strip_html | truncate: 120 }}{% endif
                    %}
                   </p>
-            
-                 
-            
                   <!-- Link -->
                   <a class="stretched-link" href="{{ post.url }}"></a>
-            
+
                 </div>
               </div>
-            
+
             </div>
 
-            
+
 
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                 {% if maxRelatedCounter >= maxRelated %}
@@ -95,5 +92,5 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-         
+
 <!-- end related posts -->
