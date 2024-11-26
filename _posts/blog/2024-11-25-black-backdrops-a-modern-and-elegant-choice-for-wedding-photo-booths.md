@@ -60,10 +60,10 @@ At Ohh Snap! Photo Booth, we’re here to help you create the perfect photo expe
 
 Ready to give your guests a photo booth experience they’ll never forget? [Contact us today](/contact-ohh-snap-photobooth) to book your date and explore our range of backdrops and customizable packages.
 
-![](/uploads/2024-11-23-64676b-1.jpg)
-![](/uploads/2024-11-23-64979a.jpg)
-![](/uploads/2024-11-23-66602c.jpg)
-![](/uploads/2024-11-23-67234a.jpg)
-![](/uploads/2024-11-23-67472b.jpg)
-![](/uploads/2024-11-23-67683b.jpg)
-![](/uploads/2024-11-23-67958a.jpg)
+![](/uploads/2024-11-23-64676b-1.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-64979a.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-66602c.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-67234a.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-67472b.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-67683b.jpg){: .artice-img width="30%" height="auto"}
+![](/uploads/2024-11-23-67958a.jpg){: .artice-img width="30%" height="auto"}

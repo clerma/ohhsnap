@@ -1,3 +1,8 @@
+.artice-img{
+    width: 32%;
+    margin-bottom: .5em;
+    justify-content: space-evenly;
+}
 .trademark{
 	position: relative;
 	left: 5px;
@@ -249,7 +254,4 @@ border-color: #2b3990 !important;
 }
 .z1{
   z-index: 1 !important;
-}
-#blog p img{
-  width: 20%;
 }
