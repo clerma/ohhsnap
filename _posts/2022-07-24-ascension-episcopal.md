@@ -15,6 +15,6 @@ categories:
   - Blog
 tags:
   - blog
-image: https://0c123gkb.tinifycdn.com/2018-3-9-66462B.jpg
+image: /2018-3-9-66462B.jpg
 ---
 Themed parties are our favorite\! We got to fiesta with&nbsp;[Ascension Episcopal](https://www.ascensionbluegators.org/){: target="_blank"}&nbsp;at their Spring Dance. This group of kids were so lively and were so fun to watch really get into the theme. The prop choice of the night was the sombrero and guitar, of course\! Ohh Snap’s&nbsp;[red sequin photo booth backdrop](https://ohhsnapbooth.com/photo-booth-and-photography-backdrops.html)&nbsp;was perfect for this fiesta themed party\! We love a good themed party, and this was one was no exception\! Thanks for letting us fiesta with you, Ascension\!
