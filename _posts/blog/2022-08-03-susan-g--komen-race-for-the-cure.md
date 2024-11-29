@@ -8,8 +8,8 @@ description: >-
   global outreach and public policy initiatives in order to make the biggest
   impact against Breast Cancer.
 keywords: >-
-  PhotoBooth, Open Booth,Lafayette,LA Photo Booth Rentals, Party Booth,
-  Professional Photography, Event,Lafayette Photo Booth
+  PhotoBooth, Open Booth,{{site.location}},LA Photo Booth Rentals, Party Booth,
+  Professional Photography, Event,{{site.location}} Photo Booth
   Rental,Brand,Marketing,Social Sharing,Events,Corporate Event,Keepsake,5k,Photo
   Booth,Susan G. Komen,Race for the Cure,Breast Cancer
   Awareness,Non-profit,Exposure,

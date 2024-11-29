@@ -1,16 +1,16 @@
 ---
 timezone: America/Chicago
 baseurl: ""
-url: https://ohhsnapbooth.com
+url: https://batonrougephotobooth.rentals
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
-description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Baton Rouge, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
 author: "Ohh Snap Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-9QW9SLLGLX
+google_analytics: G-NT2M22QX2Z
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
 social:
@@ -34,18 +34,18 @@ address:
   country: "US"
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
-google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
-bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
-location: Lafayette
+google_site_verification: ""
+bing_site_verification: ""
+location: Baton Rouge
 alt_location:
+  - location: Lafayette
+    url: https://ohhsnapbooth.com
   - location: Lake Charles
     url: https://lakecharlesphotobooth.com
-  - location: Baton Rouge
-    url: https://batonrougephotobooth.rentals
   - location: Alexandria
     url: https://alexandriaphotobooth.com
-local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville, Lafayette,Crowly
-local_competitors: Bai booth, The Yard Photo Booth, Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production
+local_keywords: Zachary, Baker, Central, Denham Springs, Walker, Prairieville, Gonzales, Port Allen, Addis, Brusly, St. Gabriel, Geismar, Plaquemine, Donaldsonville, Livingston, New Roads, Iberville, Watson
+local_competitors: Bai booth, Baton Rouge Photo Booth Company, The Pixure Booth, Southern Blink Photo Booth, The Selfie Station, Exclusive Photo Booth, Pose & Pix Photo Booth Rentals, Comoco Photo, Complete Weddings + Events Baton Rouge, MiHi Entertainment
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
