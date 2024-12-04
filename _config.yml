@@ -5,7 +5,7 @@ url: https://ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
-author: "Ohh Snap Photo Booth"
+author: "Lafayette Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
@@ -109,9 +109,9 @@ defaults:
     type: posts
   values:
     layout: bloglayout
-assets:
-  cdn:
-   url: https://0c123gkb.tinifycdn.com
+# assets:
+#   cdn:
+#    url: https://0c123gkb.tinifycdn.com
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)

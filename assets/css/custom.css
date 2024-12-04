@@ -260,3 +260,21 @@ border-color: #2b3990 !important;
 .z1{
   z-index: 1 !important;
 }
+.gallery-image{
+  width: calc(100% - 2rem); max-width: 680px;
+}
+.h53{
+  height:53vh
+}
+.t2{
+  top: 2rem;
+}
+.max-w-288{
+  max-width: 288px;
+}
+.test-cards{
+  height: 300px;overflow: hidden;
+}
+.vh70{
+height:70vh
+}
