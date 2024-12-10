@@ -18,8 +18,8 @@ tags:
 helptype: technical
 image: /uploads/watermark.jpg
 ---
-This is a question we sometimes get, and we understand the frustration. Unfortunately, the watermark appears when other photo booth companies use our photos for their own purposes, such as on their websites or social media platforms.
+This is a question we sometimes get, and we understand the frustration. Unfortunately, the watermark appears as a result of other photo booth companies use our photos for their own purposes, such as on their websites or social media platforms.
 
-However, if you rented the booth, don’t worry—there’s a way to access all your photos without the watermark! You’ll receive a unique download pin that allows you to download the high-resolution photos without the watermark. Simply use this pin to access the full gallery and download all images in a zip file. Keep in mind, zip files might be too large for your phone to handle, so we recommend downloading the individual images you want directly from your phone without downloading the whole gallery.
+However, if you rented the booth, don’t worry—there’s a way to access all your photos without the watermark! You’ll receive a unique download pin that allows you to download the high-resolution photos without the watermark. Simply use this pin to access the full gallery and download all images in a zip file. Keep in mind, zip files might be too large for your phone to handle, so we recommend downloading the individual images you want directly from your phone with the pin number without downloading the whole gallery.
 
-If you're a guest and have a photo with a watermark, don't worry! You can easily access your image without the watermark on our gallery. You’ll have the option to download or print your photo without any branding, ensuring you have a beautiful keepsake from the event.
+If you're a guest and have a photo with a watermark, don't worry! You can easily access your image without the watermark on our gallery. You’ll have the option to purchase a digital download or print without any branding, ensuring you have a beautiful keepsake from the event.
