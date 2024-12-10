@@ -6,13 +6,18 @@ description: >-
   simple as just picking another date. Learn about our rescheduling policies,
   fees, and the reasoning behind them.
 keywords: >-
-  photo booth rental, photo booth rental, rescheduling, event planning, wedding,
-  photo booth, vendor policies, cancellation fees
+  photo booth rental, photo booth rental,photo booth print options, does the
+  photo booth print, photo booth print services, digital photo booth, print, and
+  digital photo booths, photo booth printing, event photo booth prints, print
+  options for photo booths, customized photo booth prints, photo booth rentals
+  with prints,photo booth rental, photo booth rental, rescheduling, event
+  planning, wedding, photo booth, vendor policies, cancellation fees
 author: Ohh Snap
 categories:
-  - blog
+  - Before Event
 tags:
-  - blog
+  - Before-Event
+helptype: technical
 image: /uploads/2019-7-13-70408b.jpg
 ---
 Rescheduling an event can be stressful, and while we’re always here to help, we want to help you understand why rescheduling isn’t always as simple as just picking another date. When you book a vendor for your event, you’re not just booking their products or services; you're reserving a specific date. The date itself is what we’re really booking—it's our limited inventory. Once you’ve reserved your date with us, it's no longer available for other clients to book.
