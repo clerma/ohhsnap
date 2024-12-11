@@ -7,7 +7,7 @@
 - name: Carat Mermaid
   image: /assets/img/backdrops/CaratMermaid.jpg
   type: standard
-- name: BLACK HEXAGONS
+- name: Black Hexagon
   image: /assets/img/backdrops/Black-Hexagons.jpg
   type: standard
 - name: Champaign
@@ -18,7 +18,7 @@
   type: standard
 - name: Green Screen
   image: /assets/img/backdrops/GreenScreen.jpg
-  type: standard
+  type: custom
 - name: Kaleidoscope
   image: /assets/img/backdrops/Kaleidoscope.jpg
   type: standard
@@ -30,7 +30,7 @@
   type: standard
 - name: Step & Repeat
   image: /assets/img/backdrops/Step&Repeat.jpg
-  type: standard
+  type: custom
 - name: Vegas Mermaid
   image: /assets/img/backdrops/VegasMermaid.jpg
   type: standard
