@@ -23,7 +23,7 @@ permalink: event-photo-booth
 ---
  <!-- VIDEO -->
 <section>
-  <div class="container-lg position-relative" style="z-index: 1;">
+  <div class="container-lg position-relative z1">
   <div class="row align-items-center">
     <div class="col-12 text-center">
     <!-- Decoration -->
@@ -271,7 +271,7 @@ permalink: event-photo-booth
 </section>
 <!-- ABOUT -->
 <section>
-  <div class="container-lg position-relative" style="z-index: 1;">
+  <div class="container-lg position-relative z1">
     <div class="row align-items-center justify-content-between">
       <div class="col-md-5 order-md-1 pt-10 py-md-8">
         <!-- Image -->
@@ -414,7 +414,7 @@ permalink: event-photo-booth
   </div>
 </div>
 <!-- CASES -->
-<section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+<section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark pattern-1">
   <!-- Content -->
   <div class="container-lg">
     <div class="row justify-content-center">
@@ -434,7 +434,7 @@ permalink: event-photo-booth
   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
     {% for item in site.static_files %}
     {% if item.path contains '/assets/img/gallery/portrait' %}
-    <div style="width: calc(100% - 2rem); max-width: 680px;">
+    <div class="gallery-image">
       <!-- Image -->
       <img class="img-fluid rounded" src="{{item.path}}" alt="...">
     </div>
