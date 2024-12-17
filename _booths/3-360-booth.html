@@ -233,7 +233,7 @@ permalink: /{{site.location | downcase}}-360-booth-rental
    {% for item in page.gallery %}
    <div class="col-lg-4 col-10 mx-2">
      <div class="iframe-container">
-    <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0&autoplay={{forloop.index}}" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
      </div>
    </div>
    {% endfor %}
