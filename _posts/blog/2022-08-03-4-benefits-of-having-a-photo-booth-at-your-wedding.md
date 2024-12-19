@@ -3,7 +3,7 @@ layout: post
 title: 4 Benefits of Having a Photo Booth at Your Wedding
 description: Keys to a few must-have items you need for the perfect wedding day.
 keywords: >-
-  PhotoBooth, Open Booth,Lafayette,LA Photo Booth Rentals, Party Booth,
+  PhotoBooth, Open Booth,{{site.location}},LA Photo Booth Rentals, Party Booth,
   Professional Photography, Event,Wedding Photo Booth,Lafayette Photo Booth
   Rental,Houston Photo Booth Rental,Weddings,Keepsake,Houston Photo Booth,
 author: Ohh Snap

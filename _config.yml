@@ -1,16 +1,16 @@
 ---
 timezone: America/Chicago
 baseurl: ""
-url: https://ohhsnapbooth.com
+url: https://alexandriaphotobooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
-description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
-author: "Lafayette Photo Booth"
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Alexandria, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+author: "Alexandria Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-9QW9SLLGLX
+google_analytics: G-WBTR9WGDD4
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
 social:
@@ -36,16 +36,16 @@ phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
 bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
-location: Lafayette
+location: Alexandria
 alt_location:
+  - location: Lafayette
+    url: https://ohhsnapbooth.com
   - location: Lake Charles
     url: https://lakecharlesphotobooth.com
   - location: Baton Rouge
     url: https://batonrougephotobooth.rentals
-  - location: Alexandria
-    url: https://alexandriaphotobooth.com
-local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville, Lafayette,Crowly
-local_competitors: Bai booth, The Yard Photo Booth, Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies
+local_keywords: Pineville, Tioga, Ball, Marksville, Mansura, Jena, Woodworth, Cotile, Lecompte, and Natchez
+local_competitors: Bai booth, EpPix Selfies, JB Studios, Art by Annie Aymond 360, Cajun Fried Photography, T&Z Oh Snap
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
