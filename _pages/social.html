@@ -1,7 +1,7 @@
 ---
 title: "Social Media Landing Page for {{site.location}} LA Photo Booth Rental"
 layout: mobile
-permalink: /social/
+permalink: /social
 ---
 <section class="" style="background-image: url('/assets/img/backdropgallery.jpg')">
       <div class="container-fluid d-flex flex-column bg-dark-50">
@@ -27,7 +27,7 @@ permalink: /social/
                   <span class="text-end mx-auto"><a href="/">Visit our website</a></span>
                 </li>
                 <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
-                  <span class="text-center mx-auto"><a href="/ohh-snap-blo">Photo Booth Inspiration</a></span>
+                  <span class="text-center mx-auto"><a href="/ohh-snap-blog">Photo Booth Inspiration</a></span>
                 </li>
                 <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
                   <span class="text-center mx-auto"><a href="/contact-ohh-snap-photobooth">Work with us</a></span>
@@ -116,7 +116,7 @@ permalink: /social/
             <ul class="list-inline list-unstyled text-primary mb-0">
                  {% for item in site.data.company_details.social %}
                  <li class="list-inline-item ms-2">
-                     <a class="icon icon-sm " href="{{ item.link }}" title="Ohh Snap {{ item.name }} link" target="_blank">
+                     <a class="icon icon-sm " href="{{ item.link }}" title="Ohh Snap {{ item.name }} link" target="_blank" rel="noopener">
                          <i class="fab {{ item.icon }} text-primary fa-lg" /></i>
                      </a>
                  </li>

@@ -51,7 +51,7 @@ banner:
     photography service, perfect for any event.
   cta_link: /contact-ohh-snap-photobooth
   cta_text: Contact Us
-permalink: romaing-event-photographer
+permalink: /romaing-event-photographer
 ---
 <!-- WELCOME -->
 <section class="pt-8 pt-md-12 pb-11 pb-md-13 bg-light-boxed-end">
@@ -261,7 +261,7 @@ permalink: romaing-event-photographer
     </div>
   </div>
 </section>
- <section class="pt-12 py-md-10 pb-11 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+ <section class="pt-12 py-md-10 pb-11 bg-dark pattern-1">
    <!-- Content -->
    <div class="container-lg">
      <div class="row justify-content-center">
@@ -282,7 +282,7 @@ permalink: romaing-event-photographer
    <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
      {% for item in site.static_files %}
      {% if item.path contains '/assets/img/roaming/gallery/' %}
-     <div style="width: calc(100% - 2rem); max-width: 680px;">
+     <div class="gallery-image">
        <!-- Image -->
        <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Roaming Photo Booth Alternative" />
      </div>
@@ -293,7 +293,7 @@ permalink: romaing-event-photographer
 
 <!-- pricing -->
 <section class="py-10">
-  <div class="container-lg position-relative" style="z-index: 1;">
+  <div class="container-lg position-relative z1">
     <div class="row align-items-center gx-0">
       <div class="col-md-7 mx-auto">
         <!-- Card -->

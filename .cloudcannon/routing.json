@@ -25,6 +25,11 @@
 			"to": "/digital-social-booth"
 		},
 		{
+			"from": "/ohh-snap-photo-booth.html",
+			"status": 301,
+			"to": "/"
+		},
+		{
 			"from": "/blog/",
 			"status": 301,
 			"to": "/ohh-snap-blog"
@@ -38,6 +43,41 @@
 			"from": "/ohh-snap-blog/tag/custom/",
 			"status": 301,
 			"to": "/ohh-snap-blog"
+		},
+		{
+			"from": "/contact-ohh-snap-photobooth/",
+			"status": 301,
+			"to": "/contact-ohh-snap-photobooth"
+		},
+		{
+			"from": "/romaing-event-photographer/",
+			"status": 301,
+			"to": "/romaing-event-photographer"
+		},
+		{
+			"from": "/help-center/",
+			"status": 301,
+			"to": "/help-center"
+		},
+		{
+			"from": "/gallery/kVWJd/",
+			"status": 301,
+			"to": "/social-photo-booth-gallery"
+		},
+		{
+			"from": "/Lafayette-photo-booth-rental/",
+			"status": 301,
+			"to": "/lafayette-photo-booth-rental"
+		},
+		{
+			"from": "/blog-post/",
+			"status": 301,
+			"to": "/ohh-snap-blog"
+		},
+		{
+			"from": "/Lafayette-360-booth-rental/",
+			"status": 301,
+			"to": "/lafayette-360-booth-rental"
 		},
 		{
 			"from": "/phi-Mus-semi-formal",

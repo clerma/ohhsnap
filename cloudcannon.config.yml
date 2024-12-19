@@ -245,12 +245,12 @@ _editables:
     right: text-right
   image:
     expandable:
-    height:
     image_size_attributes: true
     mime_type:
     paths:
-    resize_style:
-    width:
+    resize_style: crop
+    width: 400
+    height: 300
   link:
     paths:
   block:

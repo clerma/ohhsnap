@@ -62,7 +62,7 @@ gallery:
   - link: https://player.vimeo.com/video/1008844265
   - link: https://player.vimeo.com/video/1008844201
   - link: https://player.vimeo.com/video/1008844299
-permalink: /{{site.location}}-360-booth-rental
+permalink: /{{site.location | downcase}}-360-booth-rental
 ---
 <!-- WELCOME -->
 <section class="pt-13 pt-md-12 pb-11 pb-md-13 bg-light-boxed-end">
@@ -166,7 +166,7 @@ permalink: /{{site.location}}-360-booth-rental
      </div>
      <div class="col-md-4">
        <div class="col-md-12 text-center mx-auto">
-         <img src="assets/img/360/ohhsnap-360-booth.png" class="img-fluid" style="height:53vh" />
+         <img src="assets/img/360/ohhsnap-360-booth.png" class="img-fluid h53" />
          </div>
      </div>
      <div class="col-md-4">
@@ -233,7 +233,7 @@ permalink: /{{site.location}}-360-booth-rental
    {% for item in page.gallery %}
    <div class="col-lg-4 col-10 mx-2">
      <div class="iframe-container">
-    <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0&autoplay={{forloop.index}}" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
      </div>
    </div>
    {% endfor %}
@@ -299,7 +299,7 @@ permalink: /{{site.location}}-360-booth-rental
 
  <!-- ABOUT -->
  <section>
-   <div class="container-lg position-relative" style="z-index: 1;">
+   <div class="container-lg position-relative z1">
      <div class="row align-items-center justify-content-between">
        <div class="col-md-5 order-md-1 pt-10 py-md-8">
          <!-- Image -->
@@ -423,7 +423,7 @@ permalink: /{{site.location}}-360-booth-rental
            Customize your event with fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your 360 experience with personalized, themed props for an unforgettable touch!
          </p>
          <!-- Link -->
-         <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank">
+         <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank" rel="noopener">
            Explore <i class="fe fe-arrow-right ms-2"></i>
          </a>
        </div>
@@ -443,7 +443,7 @@ permalink: /{{site.location}}-360-booth-rental
  </div>
 
  <!-- Images -->
- <section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+ <section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark pattern-1">
    <!-- Content -->
    <div class="container-lg">
      <div class="row justify-content-center">
@@ -464,7 +464,7 @@ permalink: /{{site.location}}-360-booth-rental
    <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
      {% for item in site.static_files %}
      {% if item.path contains '/assets/img/360/stills/' %}
-     <div style="width: calc(100% - 2rem); max-width: 680px;">
+     <div class="gallery-image">
        <!-- Image -->
        <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} 360 booth" />
      </div>
@@ -585,7 +585,7 @@ permalink: /{{site.location}}-360-booth-rental
  </section>
 <!-- pricing -->
  <section class="py-10">
-   <div class="container-lg position-relative" style="z-index: 1;">
+   <div class="container-lg position-relative z1">
      <div class="row align-items-center gx-0">
        <div class="col-md-7 mx-auto">
          <!-- Card -->

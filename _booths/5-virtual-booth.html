@@ -268,7 +268,7 @@ permalink: /remote-photo-booth-rental
      </div>
      <div class="col-md-4">
        <div class="col-md-12">
-         <img src="/assets/img/virtual-booth/ohhsnap-virtual-booth.png" class="img-fluid object-cover" style="height:70vh" />
+         <img src="/assets/img/virtual-booth/ohhsnap-virtual-booth.png" class="img-fluid object-cover vh70" />
          </div>
      </div>
      <div class="col-md-4">
@@ -389,7 +389,7 @@ permalink: /remote-photo-booth-rental
     </div>
   </div>
 </section>
- <section class="pt-12 py-md-10 pb-11 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+ <section class="pt-12 py-md-10 pb-11 bg-dark pattern-1">
    <!-- Content -->
    <div class="container-lg">
      <div class="row justify-content-center">
@@ -410,7 +410,7 @@ permalink: /remote-photo-booth-rental
    <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
      {% for item in site.static_files %}
      {% if item.path contains '/assets/img/virtual-booth/gallery/' %}
-     <div style="width: calc(100% - 2rem); max-width: 680px;">
+     <div class="gallery-image">
        <!-- Image -->
        <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Virtual Booth" />
      </div>
@@ -454,7 +454,7 @@ permalink: /remote-photo-booth-rental
     </div>
   </section>
  <section>
-    <div class="container-lg position-relative" style="z-index: 1;">
+    <div class="container-lg position-relative z1">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-5 order-md-1 pt-10 py-md-8">
           <!-- Image -->
@@ -578,7 +578,7 @@ permalink: /remote-photo-booth-rental
             Customize your event with fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event’s theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
           </p>
           <!-- Link -->
-          <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank">
+          <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank" rel="noopener">
             Explore <i class="fe fe-arrow-right ms-2"></i>
           </a>
         </div>
@@ -587,7 +587,7 @@ permalink: /remote-photo-booth-rental
   </section>
 <!-- pricing -->
 <section class="py-10">
-  <div class="container-lg position-relative" style="z-index: 1;">
+  <div class="container-lg position-relative z1">
     <div class="row align-items-center gx-0">
       <div class="col-md-7 mx-auto">
         <!-- Card -->

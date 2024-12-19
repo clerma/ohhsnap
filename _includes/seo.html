@@ -98,6 +98,7 @@
 <!-- Verification -->
 {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
 {% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}">{% endif %}
+{% comment %}
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -108,8 +109,10 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1675978205753441'); // Insert your pixel ID here.
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
+<noscript><img class="d-none" height="1" width="1"
 src="https://www.facebook.com/tr?id=1675978205753441&amp;ev=PageView&amp;noscript=1"
 /></noscript>
-<!-- DO NOT MODIFY -->
+<!-- DO NOT MODIFY --> 
 <!-- End Facebook Pixel Code -->
+{% endcomment %}
+
