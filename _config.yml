@@ -5,7 +5,7 @@ url: https://batonrougephotobooth.rentals
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
 name: Ohh Snap! Photo Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Baton Rouge, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
-author: "Ohh Snap Photo Booth"
+author: "Baton Rouge Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
