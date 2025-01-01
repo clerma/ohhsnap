@@ -14,7 +14,7 @@ categories:
 tags:
   - Before-Event
 helptype: technical
-image: /assets/img/prints/IMG_1678.jpeg
+image: /assets/img/backdrops/custom-lafayette-box-wood.jpg
 ---
 # **How to Choose the Right Backdrop for Your Photo Booth Rental**
 
