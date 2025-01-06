@@ -21,11 +21,11 @@
 
 
 @font-face {
-  font-family: "SebastianBobbyRegular", Arial, Helvetica, sans-serif;
+  font-family: "SebastianBobbyRegular", cursive;
   src: url('https://ohhsnapbooth.com/email/webFonts/SebastianBobbyRegular/font.woff2') format('woff2'), url('https://ohhsnapbooth.com/email/webFonts/SebastianBobbyRegular/font.woff') format('woff');
 }
 @font-face {
-  font-family: "SebastianBobbySlanted", Arial, Helvetica, sans-serif;
+  font-family: "SebastianBobbySlanted", cursive;
   src: url('https://ohhsnapbooth.com/email/webFonts/SebastianBobbySlanted/font.woff2') format('woff2'), url('https://ohhsnapbooth.com/email/webFonts/SebastianBobbySlanted/font.woff') format('woff');
 }
 
