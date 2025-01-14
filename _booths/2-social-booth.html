@@ -61,7 +61,7 @@ banner:
   title: Social Booth
   subtext: The ultimate digital photo booth. Simple to use and packed with features.
   cta_link: /contact-ohh-snap-photobooth
-  cta_text: Contact Us
+  cta_text: Book Now
 permalink: digital-social-booth
 ---
 <section class="mt-10">
@@ -229,6 +229,53 @@ permalink: digital-social-booth
    </div>
  </div>
 
+<!-- pricing -->
+  <section class="py-10">
+    <div class="container-lg position-relative z1">
+    <div class="row row-cols-1 row-cols-md-3 mt-n6">
+      {% for list in page.package %}
+      <div class="col my-3">
+      <!-- Card -->
+      <div class="card rounded-top-start-3 rounded-bottom-end-3 mt-6 h-100">
+        <div class="card-body">
+          <h6 class="text-center text-uppercase text-warning pb-2">
+          {{list.name}}
+          </h6>
+          <!-- List -->
+        <ul class="list-group list-group-flush mt-n3">
+            {% for item in list.features %}
+          <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+            <span class="text-center mx-auto">{{item.item}}</span>
+          </li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="card-footer position-relative border-top">
+        <div class="row">
+          <div class="col-12 text-center">
+          <!-- Price -->
+          <small class="fs-xxs"> starting at </small>
+          <div class="display-4 fw-bolder  mb-4 mb-lg-0">
+            <span class="fs-3 align-middle">$</span>
+            <span class="mx-n2">{{list.amount}}</span>
+
+          </div>
+          </div>
+          <div class="col-12 text-center">
+            <a href="/contact-ohh-snap-photobooth" class="btn btn-primary btn-sm  mt-5">
+              Book Now
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+  </section>
+
  <section class="container py-10">
    <div class="row mx-auto justify-content-center">
      <div class="col-md-10 text-center">
@@ -289,7 +336,7 @@ permalink: digital-social-booth
      </div>
    </div>
  </section>
- <!-- ABOUT -->
+ <!-- Add Ons -->
  <section class="pt-11 pt-md-13">
    <div class="container-lg">
      <div class="row align-items-center justify-content-between">
@@ -308,14 +355,13 @@ permalink: digital-social-booth
          </p>
          <!-- Link -->
          <a class="h6 text-uppercase text-decoration-none" href="/contact-ohh-snap-photobooth">
-           Contact Us <i class="fe fe-arrow-right ms-2"></i>
+          Book Now<i class="fe fe-arrow-right ms-2"></i>
          </a>
        </div>
      </div>
    </div>
  </section>
-
- <!-- ABOUT -->
+ <!-- Add Ons -->
  <section>
    <div class="container-lg position-relative z1">
      <div class="row align-items-center justify-content-between">
@@ -460,7 +506,7 @@ permalink: digital-social-booth
    </div>
  </div>
 
- <!-- CASES -->
+ <!-- Gallery -->
  <section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark pattern-1">
 
    <!-- Content -->
@@ -603,48 +649,7 @@ permalink: digital-social-booth
      </div>
    </div>
  </section>
-<!-- pricing -->
- <section class="py-10">
-   <div class="container-lg position-relative z1">
-   <div class="row row-cols-1 row-cols-md-3 mt-n6">
-     {% for list in page.package %}
-     <div class="col my-3">
-     <!-- Card -->
-     <div class="card rounded-top-start-3 rounded-bottom-end-3 mt-6 h-100">
-       <div class="card-body">
-         <h6 class="text-center text-uppercase text-warning pb-2">
-         {{list.name}}
-         </h6>
-         <!-- List -->
-       <ul class="list-group list-group-flush mt-n3">
-           {% for item in list.features %}
-         <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
-           <span class="text-center mx-auto">{{item.item}}</span>
-         </li>
-         {% endfor %}
-         </ul>
-       </div>
-       <div class="card-footer position-relative border-top">
-       <div class="row">
-         <div class="col-12 text-center">
-         <!-- Price -->
-         <small class="fs-xxs"> starting at </small>
-         <div class="display-4 fw-bolder  mb-4 mb-lg-0">
-           <span class="fs-3 align-middle">$</span>
-           <span class="mx-n2">{{list.amount}}</span>
 
-         </div>
-         </div>
-
-       </div>
-       </div>
-     </div>
-
-     </div>
-     {% endfor %}
-   </div>
-   </div>
- </section>
  <!-- CONTACT -->
  <section class="pb-5">
    <div class="container-lg">
@@ -659,7 +664,7 @@ permalink: digital-social-booth
          <!-- Text -->
          <p class="text-center text-muted my-9">
            <a href="/contact-ohh-snap-photobooth" class="btn btn-primary mt-5 mt-md-0">
-             Contact Us
+             Book Now
            </a>
          </p>
        </div>
