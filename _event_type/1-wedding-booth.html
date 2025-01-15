@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "{{site.location}} LA Photo Booth Rental | Ohh Snap Photo Booth"
 description: Test description
 keywords: photo booth rental, photo booth rental
@@ -238,138 +239,34 @@ permalink: wedding-photo-booth
       <div class="col-md-6">
         <!-- Text -->
         <p class="mb-0">
-          Below, you’ll find detailed information on each of our wedding photo booth options. From the classic portrait booth to the dynamic 360 experience and our fun digital booth, we have something for every wedding style.
+          Below, you'll find detailed information on each of our wedding photo booth options. From the classic portrait booth to the dynamic 360 experience and our fun digital booth, we have something for every wedding style.
         </p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <!-- Slider -->
-        <div class="flickity-viewport-visible mx-n4" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
-          <div class="position-absolute col-12 px-4 max-w-288">
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+
+          {% for item in site.booths %}
+          <div class="col-2 px-4 text-center">
+            <a href="{{item.url}}" title="{{site.location}} {{item.booth.name}}">
             <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-1.jpg" alt="...">
+            <img class="img-fluid" src="{{item.booth.icon}}" alt="..." >
             <!-- Footer -->
             <div class="py-4 text-center">
               <!-- Title -->
               <p class="fw-bold mb-0">
-                Liddy Buchanan
+                {{item.booth.name}}
               </p>
               <!-- Text -->
               <p class="fs-sm text-muted mt-n1 mb-0">
-                Chief Design Officer
+                {{item.booth.subtext}}
               </p>
             </div>
+            </a>
           </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-2.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Richard Simpson
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                VP of Engineering
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-3.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Brooke Fyfe
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Human Resources
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-4.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Jenny Haleen
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Head of Product
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-5.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
+          {% endfor %}
 
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Shannon O'Connor
-              </p>
-
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                President of Sales
-              </p>
-
-            </div>
-
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-6.jpg" alt="...">
-
-            <!-- Footer -->
-            <div class="py-4 text-center">
-
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Kevin Qwestlove
-              </p>
-
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Employee Resources
-              </p>
-
-            </div>
-
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="assets/img/avatars/avatar-7.jpg" alt="...">
-
-            <!-- Footer -->
-            <div class="py-4 text-center">
-
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Chrissy Polachek
-              </p>
-
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                VP of Logistics
-              </p>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
     </div>
   </div>
 </section>
@@ -386,7 +283,7 @@ permalink: wedding-photo-booth
 
         <!-- Preheading -->
         <h6 class="text-uppercase text-primary mb-5">
-         Let’s Make Your Wedding Unforgettable
+         Let's Make Your Wedding Unforgettable
         </h6>
 
         <!-- Heading -->
