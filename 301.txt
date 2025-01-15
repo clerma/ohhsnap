@@ -26,6 +26,11 @@
 	  "to": "/romaing-event-photographer"
 	},
 	{
+	  "from": "/anne-frank",
+	  "status": 301,
+	  "to": "/ohh-snap-blog/anne-frank"
+	},
+	{
 	  "from": "/get-a-quote",
 	  "status": 301,
 	  "to": "/contact-ohh-snap-photobooth"

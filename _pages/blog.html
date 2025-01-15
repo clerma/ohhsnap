@@ -343,4 +343,18 @@ permalink: /ohh-snap-blog
     </section>
     {% endcomment %}
 
-
+<script>
+  window.addEventListener(
+    "load",
+    function () {
+      var searchParam = new URLSearchParams(window.location.search).get("q");
+      if (searchParam != null) {
+        document.getElementById("search-input").value = searchParam;
+        sjs.search(searchParam);
+      }
+      document.getElementById("search-input").placeholder =
+        "Type your search here...";
+    },
+    false
+  );
+</script>
