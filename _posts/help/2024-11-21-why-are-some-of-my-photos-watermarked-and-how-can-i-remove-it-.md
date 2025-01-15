@@ -1,7 +1,6 @@
 ---
 layout: post
-title: |
-  Why Are Some of My Photos Watermarked and How Can I Remove It?
+title: "Why Are Some of My Photos Watermarked and How Can I Remove It"
 description: >-
   Learn why some of your photos may have a watermark and how to easily access
   and download high-resolution, watermark-free images from your Ohh Snap event.
