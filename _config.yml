@@ -1,16 +1,16 @@
 ---
 timezone: America/Chicago
 baseurl: ""
-url: https://lakecharlesphotobooth.com
-include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
-name: Ohh Snap! Photo Booth
-description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lake Charles, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
-author: "Lake Charles Photo Booth"
+url: https://ohhsnapbooth.com
+include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
+name: Lafayette Photo Booth
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+author: "Lafayette Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-07R8V9TJV5
+google_analytics: G-9QW9SLLGLX
 logo: /assets/img/logo/ohh-snap-logo.png
 locale: en_us
 social:
@@ -36,18 +36,18 @@ address:
   country: "US"
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
-google_site_verification: ""
-bing_site_verification: ""
-location: Lake Charles
+google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
+bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
+location: Lafayette
 alt_location:
-  - location: Lafayette
-    url: https://ohhsnapbooth.com
+  - location: Lake Charles
+    url: https://lakecharlesphotobooth.com
   - location: Baton Rouge
     url: https://batonrougephotobooth.rentals
   - location: Alexandria
     url: https://alexandriaphotobooth.com
-local_keywords: Sulphur,Jennings,Crowley,Eunice,Abbeville, Westlake, Moss Bluff, Iowa, Lacassine, Welsh, Oberlin, Cenla
-local_competitors: Snap & Geaux Photo Booth, Photo Booth Guy, A2J Photo Booth, Picture Pixels, Paparazzi Photo Booth, Selfie Sorusies Photo Booth, Southern Snaps Photo Booth, Big "C" Photo Booth & Event Rentals, Kaptured Photo Booth,More Than Amirror Photobooth,Mes Amies Designer Events,POSE Photo Booths of SWLA,Coastal Charm Event Co.
+local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville, Lafayette,Crowly
+local_competitors: Bai booth, The Yard Photo Booth, Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
