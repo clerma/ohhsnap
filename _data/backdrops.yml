@@ -58,7 +58,7 @@
 - name: Black Backdrop
   image: /uploads/2024-11-23-67958c.jpg
   type: fabric
-- name: White
+- name: White Backdrop
   image: /uploads/2024-11-16-69532a.jpg
   type: fabric
 - name: Hedge Wall
@@ -82,7 +82,7 @@
 - name: Empire
   image: /uploads/2019-5-11-75795c.jpg
   type: fabric
-- name: Storm
+- name: Storm Backdrop
   image: /uploads/boutique-bridal-show-2023-photo-50.jpeg
   type: fabric
 - name: Surf Rider
