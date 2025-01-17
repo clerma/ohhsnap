@@ -1,45 +1,45 @@
 - name: Bubbly Mermaid
   image: /assets/img/backdrops/Bubbly-Mermaid.jpg
-  type: standard
+  type: Standard
 - name: Black Sequins
   image: /assets/img/backdrops/Black-Sequins.jpg
-  type: standard
+  type: Standard
 - name: Carat Mermaid
   image: /assets/img/backdrops/CaratMermaid.jpg
-  type: standard
+  type: Standard
 - name: Black Hexagon
   image: /assets/img/backdrops/Black-Hexagons.jpg
-  type: standard
+  type: Standard
 - name: Champaign
   image: /assets/img/backdrops/Champagne.jpg
-  type: standard
+  type: Standard
 - name: Gold Sequins
   image: /assets/img/backdrops/GoldSequins.jpg
-  type: standard
+  type: Standard
 - name: Green Screen
   image: /assets/img/backdrops/GreenScreen.jpg
   type: custom
 - name: Kaleidoscope
   image: /assets/img/backdrops/Kaleidoscope.jpg
-  type: standard
+  type: Standard
 - name: Ruby Sequins
   image: /assets/img/backdrops/RubySequins.jpg
-  type: standard
+  type: Standard
 - name: Silver Sequins
   image: /assets/img/backdrops/SilverSequins.jpg
-  type: standard
+  type: Standard
 - name: Step & Repeat
   image: /assets/img/backdrops/Step&Repeat.jpg
   type: custom
 - name: Vegas Mermaid
   image: /assets/img/backdrops/VegasMermaid.jpg
-  type: standard
+  type: Standard
 - name: Venue
   image: /assets/img/backdrops/Venue.jpg
   type: custom
 - name: Woodgrain
   image: /assets/img/backdrops/Woodgrian.jpg
-  type: standard
+  type: Standard
 - name: Balloon Wall or Balloon Accents
   image: /assets/img/backdrops/2019-1-20-47277b.JPG
   type: custom
