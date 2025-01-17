@@ -1,45 +1,45 @@
 - name: Bubbly Mermaid
   image: /assets/img/backdrops/Bubbly-Mermaid.jpg
-  type: Standard
+  type: Mermaid
 - name: Black Sequins
   image: /assets/img/backdrops/Black-Sequins.jpg
-  type: Standard
+  type: Sequins
 - name: Carat Mermaid
   image: /assets/img/backdrops/CaratMermaid.jpg
-  type: Standard
+  type: Mermaid
 - name: Black Hexagon
   image: /assets/img/backdrops/Black-Hexagons.jpg
-  type: Standard
+  type: fabric
 - name: Champaign
   image: /assets/img/backdrops/Champagne.jpg
-  type: Standard
+  type: Sequins
 - name: Honey Sequins
   image: /assets/img/backdrops/GoldSequins.jpg
-  type: Standard
+  type: Sequins
 - name: Green Screen
   image: /assets/img/backdrops/GreenScreen.jpg
   type: Premium
 - name: Kaleidoscope
   image: /assets/img/backdrops/Kaleidoscope.jpg
-  type: Standard
+  type: fabric
 - name: Ruby Sequins
   image: /assets/img/backdrops/RubySequins.jpg
-  type: Standard
+  type: Sequins
 - name: Silver Sequins
   image: /uploads/2024-5-11-73571a.jpg
-  type: Standard
+  type: Sequins
 - name: Step & Repeat
   image: /uploads/2019-10-20-61854a.jpg
   type: Premium
 - name: Vegas Mermaid
   image: /assets/img/backdrops/VegasMermaid.jpg
-  type: Standard
+  type: Mermaid
 - name: Venue
   image: /assets/img/backdrops/Venue.jpg
   type: custom
 - name: Woodgrain
   image: /assets/img/backdrops/Woodgrian.jpg
-  type: Standard
+  type: fabric
 - name: Balloon Wall or Balloon Accents
   image: /assets/img/backdrops/2019-1-20-47277b.JPG
   type: Premium
@@ -51,16 +51,16 @@
   type: Premium
 - name: Gold Sequins
   image: /uploads/2025-1-4-67788a.jpg
-  type: Standard
+  type: Sequins
 - name: Champagne Sequins
   image: /uploads/2024-12-14-68471b.jpg
-  type: Standard
+  type: Sequins
 - name: Black Backdrop
   image: /uploads/2024-11-23-67958c.jpg
-  type: Standard
+  type: fabric
 - name: White
   image: /uploads/2024-11-16-69532a.jpg
-  type: Standard
+  type: fabric
 - name: Hedge Wall
   image: /uploads/2022-12-30-78514a.jpg
   type: 'Premium '
@@ -69,31 +69,31 @@
   type: Premium
 - name: Grey Backdrop
   image: /uploads/2024-10-5-75984a.jpg
-  type: Standard
+  type: fabric
 - name: Peacock Sequins
   image: /uploads/2024-2-9-70886b.jpg
-  type: Standard
+  type: Sequins
 - name: Peacock Mermaid
   image: /uploads/2024-3-22-66942d.jpg
-  type: Standard
+  type: Mermaid
 - name: Rose Gold
   image: /uploads/2020-2-8-66485a.jpg
-  type: Standard
+  type: Sequins
 - name: Empire
   image: /uploads/2019-5-11-75795c.jpg
-  type: Standard
+  type: fabric
 - name: Storm
   image: /uploads/boutique-bridal-show-2023-photo-50.jpeg
-  type: Standard
+  type: fabric
 - name: Surf Rider
   image: /uploads/2018-6-22-68939d.jpg
-  type: Standard
+  type: fabric
 - name: Rose - Mermaid
   image: /uploads/2018-2-24-65884a.jpg
-  type: Standard
+  type: Mermaid
 - name: Navy Sequins
   image: /uploads/2016-8-2-67972a.jpg
-  type: Standard
+  type: Sequins
 - name: Real Flower Backdrop
   image: /uploads/2021-5-30-47093a.jpg
   type: Premium
