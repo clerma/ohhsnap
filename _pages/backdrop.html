@@ -204,8 +204,13 @@ permalink: /{{site.location | downcase | replace: ' ', '-'}}-backdrop-rentals
 						</a>
 					</li>
 					<li class="nav-item" role="presentation">
-						<a class="nav-link" data-bs-toggle="tab" data-filter=".Custom" data-target="#backdrops" href="#">
-							Custom
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Premium" data-target="#backdrops" href="#">
+							Premium
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".FleurFete" data-target="#backdrops" href="#">
+							Fleur Fete
 						</a>
 					</li>
 				</ul>
@@ -214,12 +219,12 @@ permalink: /{{site.location | downcase | replace: ' ', '-'}}-backdrop-rentals
 		</div>
 		<div class="row mt-n5" id="backdrops" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
 			{% for backdrops in site.data.backdrops %}
-			<div class="col-6 col-md-3 all {{backdrops.type}}">
+			<div class="col-6 col-md-3 all {{backdrops.type | remove: ''}}">
 				<!-- Card -->
 				<a data-bigpicture='{"imgSrc": "{{backdrops.image}}"}' href="#" class="d-block mb-3 mb-md-0">
 				<div class="card card-sm bg-white mt-5">
 					<!-- Image -->
-					<img class="card-img-top rounded-top-start rounded-bottom-end" src="{{backdrops.image}}" alt="{{site.location}}, LA Backdrop Rental | {{backdrops.name}}" />
+					<img class="card-img-top rounded-top-start rounded-bottom-end gallery-img" src="{{backdrops.image}}" alt="{{site.location}}, LA Backdrop Rental | {{backdrops.name}}" />
 					<!-- Body -->
 					<div class="card-body px-0 text-center">
 						<!-- Heading -->
