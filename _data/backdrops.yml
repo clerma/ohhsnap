@@ -29,7 +29,7 @@
   image: /uploads/2024-5-11-73571a.jpg
   type: Standard
 - name: Step & Repeat
-  image: /assets/img/backdrops/Step&Repeat.jpg
+  image: /uploads/2019-10-20-61854a.jpg
   type: Premium
 - name: Vegas Mermaid
   image: /assets/img/backdrops/VegasMermaid.jpg
@@ -64,7 +64,7 @@
 - name: Hedge Wall
   image: /uploads/2022-12-30-78514a.jpg
   type: 'Premium '
-- name: Balloon Wall
+- name: Balloon Wall or Balloon Accents
   image: /uploads/nsi-gumbo-cook-off-photo-47.jpeg
   type: Premium
 - name: Grey Backdrop
@@ -82,3 +82,18 @@
 - name: Empire
   image: /uploads/2019-5-11-75795c.jpg
   type: Standard
+- name: Storm
+  image: /uploads/boutique-bridal-show-2023-photo-50.jpeg
+  type: Standard
+- name: Surf Rider
+  image: /uploads/2018-6-22-68939d.jpg
+  type: Standard
+- name: Rose - Mermaid
+  image: /uploads/2018-2-24-65884a.jpg
+  type: Standard
+- name: Navy Sequins
+  image: /uploads/2016-8-2-67972a.jpg
+  type: Standard
+- name: Real Flower Backdrop
+  image: ''
+  type: Premium
