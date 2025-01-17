@@ -43,9 +43,6 @@
 - name: Balloon Wall or Balloon Accents
   image: /assets/img/backdrops/2019-1-20-47277b.JPG
   type: Premium
-- name: Flower Wall
-  image: /assets/img/backdrops/2022-5-7-77552B.jpg
-  type: Premium
 - name: Fully Custom Setup
   image: /assets/img/backdrops/IMG_71542.jpg
   type: Premium
@@ -61,9 +58,6 @@
 - name: White Backdrop
   image: /uploads/2024-11-16-69532a.jpg
   type: fabric
-- name: Hedge Wall
-  image: /uploads/2022-12-30-78514a.jpg
-  type: 'Premium '
 - name: Balloon Wall or Balloon Accents
   image: /uploads/nsi-gumbo-cook-off-photo-47.jpeg
   type: Premium
@@ -97,6 +91,24 @@
 - name: Real Flower Backdrop
   image: /uploads/2021-5-30-47093a.jpg
   type: Premium
+- name: Hedge Wall
+  image: /uploads/2022-12-30-78514a.jpg
+  type: Fleur Fete
 - name: Bliss Pure White
   image: /uploads/bliss-pure-white.webp
+  type: Fleur Fete
+- name: Baby Blue
+  image: /uploads/baby-blue.webp
+  type: Fleur Fete
+- name: Blush Pink
+  image: /uploads/blush-baby-pink2.jpg
+  type: Fleur Fete
+- name: Coco
+  image: /uploads/coco.webp
+  type: Fleur Fete
+- name: Ivory
+  image: /uploads/ivory.webp
+  type: Fleur Fete
+- name: Heirloom Arch
+  image: /uploads/heirloom-blue-arch.webp
   type: Fleur Fete
