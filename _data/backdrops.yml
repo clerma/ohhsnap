@@ -13,12 +13,12 @@
 - name: Champaign
   image: /assets/img/backdrops/Champagne.jpg
   type: Standard
-- name: Gold Sequins
+- name: Honey Sequins
   image: /assets/img/backdrops/GoldSequins.jpg
   type: Standard
 - name: Green Screen
   image: /assets/img/backdrops/GreenScreen.jpg
-  type: custom
+  type: Premium
 - name: Kaleidoscope
   image: /assets/img/backdrops/Kaleidoscope.jpg
   type: Standard
@@ -26,11 +26,11 @@
   image: /assets/img/backdrops/RubySequins.jpg
   type: Standard
 - name: Silver Sequins
-  image: /assets/img/backdrops/SilverSequins.jpg
+  image: /uploads/2024-5-11-73571a.jpg
   type: Standard
 - name: Step & Repeat
   image: /assets/img/backdrops/Step&Repeat.jpg
-  type: custom
+  type: Premium
 - name: Vegas Mermaid
   image: /assets/img/backdrops/VegasMermaid.jpg
   type: Standard
@@ -42,10 +42,43 @@
   type: Standard
 - name: Balloon Wall or Balloon Accents
   image: /assets/img/backdrops/2019-1-20-47277b.JPG
-  type: Custom
+  type: Premium
 - name: Flower Wall
   image: /assets/img/backdrops/2022-5-7-77552B.jpg
-  type: Custom
+  type: Premium
 - name: Fully Custom Setup
   image: /assets/img/backdrops/IMG_71542.jpg
-  type: Custom
+  type: Premium
+- name: Gold Sequins
+  image: /uploads/2025-1-4-67788a.jpg
+  type: Standard
+- name: Champagne Sequins
+  image: /uploads/2024-12-14-68471b.jpg
+  type: Standard
+- name: Black Backdrop
+  image: /uploads/2024-11-23-67958c.jpg
+  type: Standard
+- name: White
+  image: /uploads/2024-11-16-69532a.jpg
+  type: Standard
+- name: Hedge Wall
+  image: /uploads/2022-12-30-78514a.jpg
+  type: 'Premium '
+- name: Balloon Wall
+  image: /uploads/nsi-gumbo-cook-off-photo-47.jpeg
+  type: Premium
+- name: Grey Backdrop
+  image: /uploads/2024-10-5-75984a.jpg
+  type: Standard
+- name: Peacock Sequins
+  image: /uploads/2024-2-9-70886b.jpg
+  type: Standard
+- name: Peacock Mermaid
+  image: /uploads/2024-3-22-66942d.jpg
+  type: Standard
+- name: Rose Gold
+  image: /uploads/2020-2-8-66485a.jpg
+  type: Standard
+- name: Empire
+  image: /uploads/2019-5-11-75795c.jpg
+  type: Standard
