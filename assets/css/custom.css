@@ -278,3 +278,7 @@ border-color: #2b3990 !important;
 .vh70{
 height:70vh
 }
+.gallery-img{
+  height: 200px;
+  object-fit: cover
+}
