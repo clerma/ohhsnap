@@ -1,3 +1,24 @@
+- name: Hedge Wall
+  image: /uploads/2022-12-30-78514a.jpg
+  type: Fleur Fete
+- name: Bliss Pure White
+  image: /uploads/bliss-pure-white.webp
+  type: Fleur Fete
+- name: Baby Blue
+  image: /uploads/baby-blue.webp
+  type: Fleur Fete
+- name: Blush Pink
+  image: /uploads/blush-baby-pink2.jpg
+  type: Fleur Fete
+- name: Coco
+  image: /uploads/coco.webp
+  type: Fleur Fete
+- name: Ivory
+  image: /uploads/ivory.webp
+  type: Fleur Fete
+- name: Heirloom Arch
+  image: /uploads/heirloom-blue-arch.webp
+  type: Fleur Fete
 - name: Bubbly Mermaid
   image: /assets/img/backdrops/Bubbly-Mermaid.jpg
   type: Mermaid
@@ -91,24 +112,3 @@
 - name: Real Flower Backdrop
   image: /uploads/2021-5-30-47093a.jpg
   type: Premium
-- name: Hedge Wall
-  image: /uploads/2022-12-30-78514a.jpg
-  type: Fleur Fete
-- name: Bliss Pure White
-  image: /uploads/bliss-pure-white.webp
-  type: Fleur Fete
-- name: Baby Blue
-  image: /uploads/baby-blue.webp
-  type: Fleur Fete
-- name: Blush Pink
-  image: /uploads/blush-baby-pink2.jpg
-  type: Fleur Fete
-- name: Coco
-  image: /uploads/coco.webp
-  type: Fleur Fete
-- name: Ivory
-  image: /uploads/ivory.webp
-  type: Fleur Fete
-- name: Heirloom Arch
-  image: /uploads/heirloom-blue-arch.webp
-  type: Fleur Fete
