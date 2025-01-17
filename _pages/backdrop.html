@@ -192,15 +192,25 @@ permalink: /{{site.location | downcase | replace: ' ', '-'}}-backdrop-rentals
 			<div class="col-12 col-md-auto">
 
 				<!-- Nav -->
-				<ul class="nav nav-tabs nav-overflow mb-0" id="teamTab" role="tablist">
+				<ul class="nav nav-tabs nav-overflow mb-0 mt-5" id="teamTab" role="tablist">
 					<li class="nav-item" role="presentation">
 						<a class="nav-link text-primary" data-bs-toggle="tab" data-filter=".all" data-target="#backdrops" href="#">
 							All
 						</a>
 					</li>
 					<li class="nav-item" role="presentation">
-						<a class="nav-link" data-bs-toggle="tab" data-filter=".Standard" data-target="#backdrops" href="#">
-							Standard
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".fabric" data-target="#backdrops" href="#">
+							Solid/Patterns
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Sequins" data-target="#backdrops" href="#">
+							Sequins
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Mermaid" data-target="#backdrops" href="#">
+							Mermaid Double Sided Sequins
 						</a>
 					</li>
 					<li class="nav-item" role="presentation">
@@ -219,7 +229,7 @@ permalink: /{{site.location | downcase | replace: ' ', '-'}}-backdrop-rentals
 		</div>
 		<div class="row mt-n5" id="backdrops" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
 			{% for backdrops in site.data.backdrops %}
-			<div class="col-6 col-md-3 all {{backdrops.type | remove: ''}}">
+			<div class="col-6 col-md-3 all {{backdrops.type | remove: ' ' }}">
 				<!-- Card -->
 				<a data-bigpicture='{"imgSrc": "{{backdrops.image}}"}' href="#" class="d-block mb-3 mb-md-0">
 				<div class="card card-sm bg-white mt-5">
