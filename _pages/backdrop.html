@@ -1,8 +1,12 @@
 ---
 layout: default
 title: '{{site.location}} Backdrop Rentals'
-description: Backdrop rentals for the very best in unique and custom pieces for your wedding or event
-keywords: photo booth rental, photo booth rental, box wood, flower backdrop, flower wall, balloon wall, balloon decorations,
+description: >-
+  Backdrop rentals for the very best in unique and custom pieces for your
+  wedding or event
+keywords: >-
+  photo booth rental, photo booth rental, box wood, flower backdrop, flower
+  wall, balloon wall, balloon decorations,
 image: /assets/img/backdrops/custom-lafayette-box-wood.jpg
 banner:
   image: /assets/img/backdrops/custom-lafayette-box-wood.jpg
@@ -34,19 +38,19 @@ backdrops_type:
     image: /assets/img/backdrops/2022-5-7-77552B.jpg
     description: >-
       Add a touch of elegance to your event with our stunning Flower Wall,
-      designed by our talented partner, <a href="https://rentsouthernsilks.com/"
-      target="_blank" rel="noopener">Southern Silks</a>. Whether you're hosting a wedding,
-      gala, or other special occasion, this timeless beauty will make your event
-      truly unforgettable.
+      designed by our talented partner, <a href="https://www.rentfleurfete.com/"
+      target="_blank" rel="noopener">Fleur Fete</a>. Whether you're hosting a
+      wedding, gala, or other special occasion, this timeless beauty will make
+      your event truly unforgettable.
   - name: Custom Backdrop
     image: /assets/img/backdrops/IMG_71542.jpg
     description: >-
       Let your creativity run wild with a Custom Backdrop tailored specifically
       to your event. In partnership with <a
-      href="https://www.instagram.com/mylaffyhouse/" target="_blank" rel="noopener">My Laffy
-      House</a>, we build unique setups that provide your guests with an
-      interactive, one-of-a-kind experience. Make your event stand out with a
-      backdrop that's as unique as your celebration.
+      href="https://www.instagram.com/mylaffyhouse/" target="_blank"
+      rel="noopener">My Laffy House</a>, we build unique setups that provide
+      your guests with an interactive, one-of-a-kind experience. Make your event
+      stand out with a backdrop that's as unique as your celebration.
   - name: Green Screen
     image: /assets/img/backdrops/2017-5-9-70192A-GS.jpg
     description: >-
@@ -55,7 +59,7 @@ backdrops_type:
       backgrounds they can choose from. Whether it's a tropical paradise or a
       snowy mountain, the possibilities are endless!
   - name: Branded Backdrops
-    image: /assets/img/backdrops/Step&Repeat.jpg
+    image: /uploads/2019-10-20-61854a.jpg
     description: >-
       Perfect for corporate events, product launches, or media events, our
       Branded Backdrops are ideal for adding a professional touch. We handle
@@ -63,8 +67,9 @@ backdrops_type:
       cost-effective, high-quality banner. Best of all, you get to keep the
       banner as a memorable takeaway and future use.
 pagename: backdrops
-permalink: /{{site.location | downcase}}-backdrop-rentals/
+permalink: /{{site.location | downcase | replace: ' ', '-'}}-backdrop-rentals
 ---
+
 <!-- SLIDER -->
 <section class="bg-light py-8">
   <div class="container-lg">
@@ -191,20 +196,35 @@ permalink: /{{site.location | downcase}}-backdrop-rentals/
 			<div class="col-12 col-md-auto">
 
 				<!-- Nav -->
-				<ul class="nav nav-tabs nav-overflow mb-0" id="teamTab" role="tablist">
+				<ul class="nav nav-tabs nav-overflow mb-0 mt-5" id="teamTab" role="tablist">
 					<li class="nav-item" role="presentation">
 						<a class="nav-link text-primary" data-bs-toggle="tab" data-filter=".all" data-target="#backdrops" href="#">
 							All
 						</a>
 					</li>
 					<li class="nav-item" role="presentation">
-						<a class="nav-link" data-bs-toggle="tab" data-filter=".standard" data-target="#backdrops" href="#">
-							Standard
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".fabric" data-target="#backdrops" href="#">
+							Solid/Patterns
 						</a>
 					</li>
 					<li class="nav-item" role="presentation">
-						<a class="nav-link" data-bs-toggle="tab" data-filter=".custom" data-target="#backdrops" href="#">
-							Custom
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Sequins" data-target="#backdrops" href="#">
+							Sequins
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Mermaid" data-target="#backdrops" href="#">
+							Mermaid Double Sided Sequins
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".Premium" data-target="#backdrops" href="#">
+							Premium
+						</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-bs-toggle="tab" data-filter=".FleurFete" data-target="#backdrops" href="#">
+							Fleur Fete
 						</a>
 					</li>
 				</ul>
@@ -213,12 +233,12 @@ permalink: /{{site.location | downcase}}-backdrop-rentals/
 		</div>
 		<div class="row mt-n5" id="backdrops" data-isotope='{"layoutMode": "fitRows", "imagesLoaded": true}'>
 			{% for backdrops in site.data.backdrops %}
-			<div class="col-6 col-md-3 all {{backdrops.type}}">
+			<div class="col-6 col-md-3 all {{backdrops.type | remove: ' ' }}">
 				<!-- Card -->
 				<a data-bigpicture='{"imgSrc": "{{backdrops.image}}"}' href="#" class="d-block mb-3 mb-md-0">
 				<div class="card card-sm bg-white mt-5">
 					<!-- Image -->
-					<img class="card-img-top rounded-top-start rounded-bottom-end" src="{{backdrops.image}}" alt="{{site.location}}, LA Backdrop Rental | {{backdrops.name}}" />
+					<img class="card-img-top rounded-top-start rounded-bottom-end gallery-img" src="{{backdrops.image}}" alt="{{site.location}}, LA Backdrop Rental | {{backdrops.name}}" />
 					<!-- Body -->
 					<div class="card-body px-0 text-center">
 						<!-- Heading -->
@@ -227,7 +247,7 @@ permalink: /{{site.location | downcase}}-backdrop-rentals/
 						</h5>
 						<!-- Text -->
 						<small class="text-muted fs-6">
-							{{backdrops.type}} Backdrop
+							{{backdrops.type | capitalize}} Backdrop
 						</small>
 					</div>
 				</div>
