@@ -1,183 +1,164 @@
 {
-	"routes": [{
+	"routes": [
+		{
 			"from": "/photo-booth-and-photography-backdrops",
 			"to": "/lafayette-backdrop-rentals",
 			"status": 301
 		},
 		{
 			"from": "/photo-booth-packages",
-			"status": 301,
-			"to": "/lafayette-photo-booth-rental"
+			"to": "/lafayette-photo-booth-rental",
+			"status": 301
 		},
 		{
 			"from": "/lafayette-360-booth",
-			"status": 301,
-			"to": "/lafayette-360-booth-rental"
+			"to": "/lafayette-360-booth-rental",
+			"status": 301
 		},
 		{
 			"from": "/social-photo-booth",
-			"status": 301,
-			"to": "/digital-social-booth"
+			"to": "/digital-social-booth",
+			"status": 301
 		},
 		{
 			"from": "/digital-social-booth/",
-			"status": 301,
-			"to": "/digital-social-booth"
+			"to": "/digital-social-booth",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-photo-booth.html",
-			"status": 301,
-			"to": "/"
+			"to": "/",
+			"status": 301
 		},
 		{
 			"from": "/blog/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Fiesta/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/custom/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/contact-ohh-snap-photobooth/",
-			"status": 301,
-			"to": "/contact-ohh-snap-photobooth"
+			"to": "/contact-ohh-snap-photobooth",
+			"status": 301
 		},
 		{
 			"from": "/romaing-event-photographer/",
-			"status": 301,
-			"to": "/romaing-event-photographer"
+			"to": "/romaing-event-photographer",
+			"status": 301
 		},
 		{
 			"from": "/help-center/",
-			"status": 301,
-			"to": "/help-center"
+			"to": "/help-center",
+			"status": 301
 		},
 		{
 			"from": "/gallery/kVWJd/",
-			"status": 301,
-			"to": "/social-photo-booth-gallery"
-		},
-		{
-			"from": "/lafayette-photo-booth-rental/",
-			"status": 301,
-			"to": "/lafayette-photo-booth-rental"
+			"to": "/social-photo-booth-gallery",
+			"status": 301
 		},
 		{
 			"from": "/blog-post/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
-		},
-		{
-			"from": "/lafayette-360-booth-rental/",
-			"status": 301,
-			"to": "/lafayette-360-booth-rental"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/phi-Mus-semi-formal",
-			"status": 301,
-			"to": "/ohh-snap-blog/phi-mus-semi-formal/"
+			"to": "/ohh-snap-blog/phi-mus-semi-formal/",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/The_Crossing_at_Mervin_Kahn/",
-			"status": 301,
-			"to": "/ohh-snap-blog/"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Southern_University/",
-			"status": 301,
-			"to": "/ohh-snap-blog/southern-university-high-school-day/"
+			"to": "/ohh-snap-blog/southern-university-high-school-day/",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/calendar/2018/2/index.html",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/calendar/2018/3/index.html",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/calendar/2018/1/index.html",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Don&apos;s_Wholesale/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/New_Year&apos;s_Eve/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Ruffino&apos;s_on_the_River/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
-		},
-		{
-			"from": "/ohh-snap-photo-booth.html",
-			"status": 301,
-			"to": "/ohh-snap-photo-booth.html"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/RSSRetrieve.aspx-ID=28299&Type=RSS20.rss",
-			"status": 301,
-			"to": "/"
+			"to": "/",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Step_&amp;_Repeat/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/tag/Van_Eaton_&amp;_Romero/",
-			"status": 301,
-			"to": "/ohh-snap-blog"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/lafayette",
-			"status": 301,
-			"to": "/"
+			"to": "/",
+			"status": 301
 		},
 		{
 			"from": "/360-video-booth/",
-			"status": 301,
-			"to": "/lafayette-360-booth-rental"
+			"to": "/lafayette-360-booth-rental",
+			"status": 301
 		},
 		{
 			"from": "/backdrops",
-			"status": 301,
-			"to": "/lafayette-backdrop-rentals"
+			"to": "/lafayette-backdrop-rentals",
+			"status": 301
 		},
 		{
 			"from": "/ohh-snap-blog/calendar/2017/11/index.html",
-			"status": 301,
-			"to": "/ohh-snap-blog"
-		},
-		{
-			"from": "/lafayette-backdrop-rentals/",
-			"status": 301,
-			"to": "/lafayette-backdrop-rentals"
+			"to": "/ohh-snap-blog",
+			"status": 301
 		},
 		{
 			"from": "/head-shots",
-			"status": 301,
-			"to": "/romaing-event-photographer"
+			"to": "/romaing-event-photographer",
+			"status": 301
 		},
 		{
 			"from": "/get-a-quote",
-			"status": 301,
-			"to": "/contact-ohh-snap-photobooth"
+			"to": "/contact-ohh-snap-photobooth",
+			"status": 301
 		}
 	]
 }
