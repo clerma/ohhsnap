@@ -1,18 +1,18 @@
 {
 	"routes": [{
 			"from": "/photo-booth-and-photography-backdrops",
-			"to": "/{{site.location}}-backdrop-rentals",
+			"to": "/lafayette-backdrop-rentals",
 			"status": 301
 		},
 		{
 			"from": "/photo-booth-packages",
 			"status": 301,
-			"to": "/{{site.location}}-photo-booth-rental"
+			"to": "/lafayette-photo-booth-rental"
 		},
 		{
-			"from": "/{{site.location}}-360-booth",
+			"from": "/lafayette-360-booth",
 			"status": 301,
-			"to": "/{{site.location}}-360-booth-rental"
+			"to": "/lafayette-360-booth-rental"
 		},
 		{
 			"from": "/social-photo-booth",
@@ -65,9 +65,9 @@
 			"to": "/social-photo-booth-gallery"
 		},
 		{
-			"from": "/{{site.location}}-photo-booth-rental/",
+			"from": "/lafayette-photo-booth-rental/",
 			"status": 301,
-			"to": "/{{site.location}}-photo-booth-rental"
+			"to": "/lafayette-photo-booth-rental"
 		},
 		{
 			"from": "/blog-post/",
@@ -75,9 +75,9 @@
 			"to": "/ohh-snap-blog"
 		},
 		{
-			"from": "/{{site.location}}-360-booth-rental/",
+			"from": "/lafayette-360-booth-rental/",
 			"status": 301,
-			"to": "/{{site.location}}-360-booth-rental"
+			"to": "/lafayette-360-booth-rental"
 		},
 		{
 			"from": "/phi-Mus-semi-formal",
@@ -145,19 +145,19 @@
 			"to": "/ohh-snap-blog"
 		},
 		{
-			"from": "/{{site.location}}",
+			"from": "/lafayette",
 			"status": 301,
 			"to": "/"
 		},
 		{
 			"from": "/360-video-booth/",
 			"status": 301,
-			"to": "/{{site.location}}-360-booth-rental"
+			"to": "/lafayette-360-booth-rental"
 		},
 		{
 			"from": "/backdrops",
 			"status": 301,
-			"to": "/{{site.location}}-backdrop-rentals"
+			"to": "/lafayette-backdrop-rentals"
 		},
 		{
 			"from": "/ohh-snap-blog/calendar/2017/11/index.html",
