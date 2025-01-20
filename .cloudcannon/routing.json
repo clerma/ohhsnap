@@ -160,6 +160,11 @@
 			"to": "/ohh-snap-blog"
 		},
 		{
+			"from": "/lafayette-backdrop-rentals/",
+			"status": 301,
+			"to": "/lafayette-backdrop-rentals"
+		},
+		{
 			"from": "/head-shots",
 			"status": 301,
 			"to": "/romaing-event-photographer"
