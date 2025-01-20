@@ -2,18 +2,23 @@
   "routes": [
 	{
 	  "from": "/photo-booth-and-photography-backdrops",
-	  "to": "/baton%20rouge-backdrop-rentals",
+	  "to": "/lafayette-backdrop-rentals",
 	  "status": 301
 	},
 	{
 	  "from": "/photo-booth-packages",
 	  "status": 301,
-	  "to": "/baton%20rouge-photo-booth-rental"
+	  "to": "/lafayette-photo-booth-rental"
+	},
+	{
+	  "from": "/lafayette-backdrop-rentals/",
+	  "status": 301,
+	  "to": "/lafayette-backdrop-rentals"
 	},
 	{
 	  "from": "/Lafayette-360-booth",
 	  "status": 301,
-	  "to": "/baton%20rouge-360-booth-rental"
+	  "to": "/lafayette-360-booth-rental"
 	},
 	{
 	  "from": "/social-photo-booth",
