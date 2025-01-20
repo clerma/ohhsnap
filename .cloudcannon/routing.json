@@ -150,6 +150,11 @@
 			"to": "/"
 		},
 		{
+			"from": "/360-video-booth/",
+			"status": 301,
+			"to": "/{{site.location}}-360-booth-rental"
+		},
+		{
 			"from": "/backdrops",
 			"status": 301,
 			"to": "/{{site.location}}-backdrop-rentals"
