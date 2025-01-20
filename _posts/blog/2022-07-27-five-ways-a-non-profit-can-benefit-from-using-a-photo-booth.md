@@ -1,5 +1,5 @@
 ---
-layout: blogs
+layout: post
 title: Five Ways a Non-profit Can Benefit From Using a Photo Booth
 description: photo booth can help your non-profit expand its reach and foster meaningful connections
 keywords: photo booth rental, photo booth rental
