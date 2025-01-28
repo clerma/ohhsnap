@@ -109,6 +109,7 @@ defaults:
 -
   scope:
     type: posts
+  permalink: "/ohh-snap-blog/:title/"
   values:
     layout: bloglayout
 # assets:
@@ -123,7 +124,7 @@ defaults:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: "/ohh-snap-blog/:title/"
+permalink: pretty
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
