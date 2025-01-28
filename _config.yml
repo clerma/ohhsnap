@@ -126,7 +126,7 @@ jekyll-archives:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: pretty
+permalink: "/ohh-snap-blog/:title/"
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
