@@ -104,10 +104,18 @@ defaults:
   values:
     permalink:
 - scope:
+    path: "_posts/blog"
     type: posts
   values:
     permalink: "/ohh-snap-blog/:title"
-    layout: bloglayout
+    layout: post
+- scope:
+    path: "_posts/help"
+    type: posts
+  values:
+    permalink: "/ohh-snap-help/:title"
+    layout: post
+
 # assets:
 #   cdn:
 #    url: https://0c123gkb.tinifycdn.com
