@@ -106,14 +106,8 @@ defaults:
 - scope:
     type: posts
   values:
-    permalink: "/ohh-snap-blog/:title/"
+    permalink: "/ohh-snap-blog/:title"
     layout: bloglayout
-jekyll-archives:
-  enabled: [categories, tags]
-  layout: archive
-  permalinks:
-    tag: '/ohh-snap-blog/tag/:name/'
-    category: '/ohh-snap-blog/category/:name/'
 # assets:
 #   cdn:
 #    url: https://0c123gkb.tinifycdn.com
@@ -126,7 +120,7 @@ jekyll-archives:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: "/ohh-snap-blog/:title/"
+permalink: pretty
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
