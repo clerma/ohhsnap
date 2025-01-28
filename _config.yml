@@ -94,24 +94,27 @@ defaults:
         image: true
         link: true
         embed: true
--
-  scope:
+- scope:
     path: ""
     type: "products"
   values:
     layout: "product"
--
-  scope:
+- scope:
     type: pages
     path: _pages/index.html
   values:
     permalink:
--
-  scope:
+- scope:
     type: posts
-  permalink: "/ohh-snap-blog/:title/"
   values:
+    permalink: "/ohh-snap-blog/:title/"
     layout: bloglayout
+jekyll-archives:
+  enabled: [categories, tags]
+  layout: archive
+  permalinks:
+    tag: '/ohh-snap-blog/tag/:name/'
+    category: '/ohh-snap-blog/category/:name/'
 # assets:
 #   cdn:
 #    url: https://0c123gkb.tinifycdn.com
