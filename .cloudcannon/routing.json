@@ -164,6 +164,11 @@
 			"from": "/get-a-quote",
 			"to": "/contact-ohh-snap-photobooth",
 			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/tag/Make_it_Memorable/",
+			"to": "/ohh-snap-blog",
+			"status": 301
 		}
 	]
 }
