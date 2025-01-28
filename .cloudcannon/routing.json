@@ -146,6 +146,11 @@
 			"status": 301
 		},
 		{
+			"from": "/anne-frank/",
+			"to": "/ohh-snap-blog/anne-frank",
+			"status": 301
+		},
+		{
 			"from": "/ohh-snap-blog/calendar/2017/11/index.html",
 			"to": "/ohh-snap-blog",
 			"status": 301
