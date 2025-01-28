@@ -169,6 +169,21 @@
 			"from": "/ohh-snap-blog/tag/Make_it_Memorable/",
 			"to": "/ohh-snap-blog",
 			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/tag/Prop_Box_Me/index.html",
+			"to": "/ohh-snap-blog",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/tag/party/index.html",
+			"to": "/ohh-snap-blog",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/tag/Houston_Photo_Booth_Rental/index.html",
+			"to": "/ohh-snap-blog",
+			"status": 301
 		}
 	]
 }
