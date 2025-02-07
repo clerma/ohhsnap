@@ -1,5 +1,7 @@
 var isAuthenticated = document.cookie.indexOf("authenticated=true") >= 0;
 
+var jslang='EN';
+
 if (isAuthenticated) {
   document.body.className += " authenticated";
 }
