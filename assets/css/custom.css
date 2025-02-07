@@ -1,3 +1,8 @@
+svg {
+  image-rendering: optimizeQuality;
+  transform: scale(0.5)
+}
+
 .blog p img{
     width: 45%;
     margin-bottom: .5em;
@@ -87,6 +92,10 @@ section.hero .overlay {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+}
+.logo{
+  width: 250px;
+  height: 90px;
 }
 .menu-icons{
   height: 3em;
