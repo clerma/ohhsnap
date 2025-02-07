@@ -34,8 +34,8 @@ address:
   region: "LA"
   zip: "70501"
   country: "US"
-geo.latitude: 30.221191
-geo.longitude: -92.018257
+latitude: "30.221191"
+longitude: "-92.018257"
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
