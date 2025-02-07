@@ -17,7 +17,7 @@ categories:
   - blog
 tags:
   - blog
-image: /uploads/2018-1-21-58849a_katsvs.jpg
+image: /assets/img/ohhsnap/2018-1-21-58849A.jpg
 ---
 Just like finding the perfect outfit for your wedding or event, selecting the right photo booth can feel overwhelming with so many incredible options available. Whether you’re planning a wedding, corporate event, school dance, or fundraiser, a photo booth brings a new level of excitement and engagement to your celebration. But how do you know which one suits your event best? Let’s explore the different types of photo booths and their unique benefits to help you decide.
 
