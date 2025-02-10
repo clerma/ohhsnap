@@ -16,3 +16,6 @@ social:
   - name: tiktok
     link: https://tiktok.com/@ohhsnapbooth
     icon: fa-tiktok
+  - name: youtube
+    link: https://www.youtube.com/@ohhsnapbooth
+    icon: fa-youtube
