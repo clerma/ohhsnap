@@ -19,3 +19,6 @@ social:
   - name: youtube
     link: https://www.youtube.com/@ohhsnapbooth
     icon: fa-youtube
+  - name: Linked-in
+    link: https://linkedin.com/in/ohh-snap-photo-booth
+    icon: fa-linkedin
