@@ -291,3 +291,56 @@ height:70vh
   height: 200px;
   object-fit: cover
 }
+.progress-wrap {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(15,36,84,.2);
+    box-shadow: inset 0 0 0 1px #0f245433;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+    background-color: rgba(255, 255, 255, 0.803)
+}
+
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.progress-wrap:after {
+    position: absolute;
+    font-family: "Font Awesome 6 Pro"!important;
+    content: "\f4ad";
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0e3083;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+
+}
+
