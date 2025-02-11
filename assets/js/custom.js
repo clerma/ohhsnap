@@ -69,3 +69,15 @@ document.addEventListener('snipcart.ready', function() {
     originalAddEventListener.call(this, type, listener, passiveOptions);
   };
 })();
+if (document.getElementById("curator-feed-social-media-feed-layout")) {
+    /* curator-feed-social-media-feed-layout */
+    (function(){
+        var i, e, d = document, s = "script";
+        i = d.createElement("script");
+        i.async = 1;
+        i.charset = "UTF-8";
+        i.src = "https://cdn.curator.io/published/9a94c960-289a-4d77-9d37-86b1ecbe023c.js";
+        e = d.getElementsByTagName(s)[0];
+        e.parentNode.insertBefore(i, e);
+    })();
+}
