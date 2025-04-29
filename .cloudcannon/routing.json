@@ -181,11 +181,6 @@
 			"status": 301
 		},
 		{
-		  "from": "^/(.*)/$",
-		  "to": "/$1",
-		  "status": 301
-		},
-		{
 			"from": "/ohh-snap-blog/tag/Houston_Photo_Booth_Rental/index.html",
 			"to": "/ohh-snap-blog",
 			"status": 301
