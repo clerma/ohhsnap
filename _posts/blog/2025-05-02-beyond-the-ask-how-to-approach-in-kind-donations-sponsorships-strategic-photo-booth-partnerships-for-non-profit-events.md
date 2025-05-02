@@ -118,7 +118,6 @@ We’re here to help you create not just fun moments, but **strategic ones**. If
 
 We'll help you find the most effective way to bring value to your guests, your cause, and your supporters.
 
-👉 **[Explore our Non-Profit Photo Booth Experiences »](https://ohhsnapbooth.com/non-profit-photo-booths)**<br>
 👉 **[Contact us to start the conversation »](https://ohhsnapbooth.com/contact-ohh-snap-photobooth)**
 
 ---
