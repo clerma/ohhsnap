@@ -8,7 +8,7 @@ description: >-
   and use photo booths for impactful fundraising events.
 keywords: >-
   photo booth rental, photo booth rental, Discover how non-profits can approach
-  in-kind donations, vendor sponsorships, and use photo booths for impactful
+  in-kind donations, vendor sponsorships, and use photo booths for impactful, {{site.location}} Photo Booth, Photo Booth Rental {{site.location}}
   fundraising events.
 author: Ohh Snap
 categories:
