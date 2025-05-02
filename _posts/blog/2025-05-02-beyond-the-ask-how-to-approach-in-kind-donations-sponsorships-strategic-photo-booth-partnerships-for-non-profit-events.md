@@ -15,7 +15,7 @@ categories:
   - blog
 tags:
   - blog
-image: /uploads/MyGIF.gif
+image: /uploads/palates-and-pate-2024-photo-20240516-time-195817-wczwnu.jpeg
 ---
 # Beyond the Ask: How to Approach In-Kind Donations, Sponsorships & Strategic Photo Booth Partnerships for Non-Profit Events
 
