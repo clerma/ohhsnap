@@ -136,7 +136,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 				<div class="d-flex mt-8 mt-md-9">
 				  <!-- Icon -->
 				  <div class="icon text-primary-light">
-					<i class="fa-duotone fa-solid fa-image fa-3x"></i>            </div>
+					<i class="fa-duotone fa-solid fa-image fa-3x"></i></div>
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
@@ -153,7 +153,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 		</div>
 		<div class="col-md-4">
 			<div class="col-md-12">
-				<img src="/assets/img/portrait-booth/ohhsnap-portrait-booth.png" class="img-fluid" />
+				<img src="/assets/img/portrait-booth/ohhsnap-portrait-booth.png" class="img-fluid" alt="{{site.location}} Portrait Photo Booth Rental" />
 			  </div>
 		</div>
 		<div class="col-md-4">
@@ -162,7 +162,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 				<div class="d-flex mt-8 mt-md-9">
 				  <!-- Icon -->
 				  <div class="icon text-primary-light">
-					<i class="fa-duotone fa-solid fa-print fa-3x"></i>  </div>
+					<i class="fa-duotone fa-solid fa-print fa-3x"></i></div>
 				  <!-- Body -->
 				  <div class="ms-5">
 					<!-- Title -->
@@ -298,7 +298,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 	<div class="col-lg-4 col-10 mx-2">
 		<!-- Image -->
 		<a data-bigpicture='{"imgSrc": "{{item.path}}"}' href="#" class="d-block mb-3 mb-md-0">
-			<img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Portrait Booth" data-aos="wipe-left" />
+			<img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Portrait Booth {{forloop.index}} | Photo Booth Rental {{site.location}}" data-aos="wipe-left" />
 		</a>
 	</div>
 	{% endif %}
@@ -343,7 +343,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 		<div class="row align-items-center justify-content-between">
 			<div class="col-md-6">
 				<!-- Image -->
-				<img class="img-fluid mb-8 mb-md-0" src="/assets/img/aflac-tension.jpg" alt="Custom Printed Backdrop Rentals | {{site.location}}" />
+				<img class="img-fluid mb-8 mb-md-0" src="/assets/img/aflac-tension.jpg" alt="Custom Aflac Printed Backdrop Rentals | {{site.location}}" />
 			</div>
 			<div class="col-md-6 col-lg-5">
 				<!-- Heading -->
@@ -525,7 +525,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 		{% if item.path contains '/assets/img/gallery/portrait' %}
 		<div class="gallery-image">
 			<!-- Image -->
-			<img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth" />
+			<img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth {{forloop.index}}" />
 		</div>
 		{% endif %}
 		{% endfor %}

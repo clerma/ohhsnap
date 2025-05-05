@@ -2,7 +2,9 @@ svg {
   image-rendering: optimizeQuality;
   transform: scale(0.5)
 }
-
+.chat-iframe{
+  border-width: 0px;height: 75vh;
+}
 .blog p img{
     width: 45%;
     margin-bottom: .5em;

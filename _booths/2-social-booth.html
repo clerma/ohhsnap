@@ -148,7 +148,7 @@ permalink: digital-social-booth
     </div>
     <div class="col-md-4">
       <div class="col-md-12">
-        <img src="/assets/img/social-booth/ohhsnap-social.png" class="img-fluid vh70 object-cover" />
+        <img src="/assets/img/social-booth/ohhsnap-social.png" class="img-fluid vh70 object-cover" alt="The Social Booth" />
         </div>
     </div>
     <div class="col-md-4">
@@ -299,7 +299,7 @@ Custom Layout
    <div class="col-lg-4 col-10 mx-2">
      <!-- Image -->
      <a data-bigpicture='{"imgSrc": "{{item.path}}"}' href="#" class="d-block mb-3 mb-md-0">
-       <img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Social Booth" data-aos="wipe-left" />
+       <img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Social Booth {{forloop.index}} | {{site.location}} Photo Booth Rental" data-aos="wipe-left" />
      </a>
    </div>
    {% endif %}
@@ -344,7 +344,7 @@ Custom Layout
      <div class="row align-items-center justify-content-between">
        <div class="col-md-6">
          <!-- Image -->
-         <img class="img-fluid mb-8 mb-md-0" src="/assets/img/aca-tension.jpg" alt="{{site.location}} Custom Photo Booth Backdrop" />
+         <img class="img-fluid mb-8 mb-md-0" src="/assets/img/aca-tension.jpg" alt="{{site.location}} Custom Acadiana Center For the Arts Photo Booth Backdrop" />
        </div>
        <div class="col-md-6 col-lg-5">
          <!-- Heading -->
@@ -476,7 +476,7 @@ Make a statement with your backdrop, which makes up 75% of every photo! Tailor t
   </svg>
 </div>
 <!-- Image -->
-<img class="img-fluid position-relative border border-7 border-white shadow-lg" src="/assets/img/props.jpg" alt="Elevate your photo booth rental with custom props" />
+<img class="img-fluid position-relative border border-7 border-white shadow-lg" src="/assets/img/props.jpg" alt="Elevate your photo booth rental with custom photo booth props" />
          </div>
        </div>
        <div class="col-md-6 col-lg-5 order-md-0 py-10 py-md-12">
@@ -489,7 +489,7 @@ Props and Customized Props
 Customize your event by adding fun props from our standard collection or through our sister company, Prop Box, which creates bespoke props to fit your event's theme. Enhance your photo booth experience with personalized, themed props for an unforgettable touch!
          </p>
          <!-- Link -->
-         <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank" rel="noopener">
+         <a class="h6 text-uppercase text-decoration-none" href="https://www.facebook.com/propboxme" target="_blank" title="Custom Photo Booth Props" rel="noopener">
 Explore <i class="fe fe-arrow-right ms-2"></i>
          </a>
        </div>
@@ -529,7 +529,7 @@ Actual images from our past<br /> <span class="text-underline-primary-light">pho
      {% if item.path contains '/assets/img/gallery/social/gif' %}
      <div class="gallery-image text-center">
        <!-- Image -->
-       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Digital Photo Booth" />
+       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Digital Photo Booth {{forloop.index}}" />
      </div>
      {% endif %}
      {% endfor %}
@@ -661,7 +661,7 @@ Actual images from our past<br /> <span class="text-underline-primary-light">pho
         </h2>
          <!-- Text -->
          <p class="text-center text-muted my-9">
-<a href="/contact-ohh-snap-photobooth" class="btn btn-primary mt-5 mt-md-0">
+<a href="/contact-ohh-snap-photobooth" class="btn btn-primary mt-5 mt-md-0" title="Contact {{site.location}} best photo and 360 booth">
   Get a Quote
 </a>
          </p>
