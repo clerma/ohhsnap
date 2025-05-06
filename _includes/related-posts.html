@@ -20,7 +20,7 @@
 <!-- begin related posts -->
  <div class="row mt-n6">
               <h2 class="section__title">You may also like</h2>
-              <a class="section__link" href="{{ '/ohh-snap-blog' | relative_url }}">
+              <a class="section__link" href="{{ '/ohh-snap-blog' | relative_url }}" title="{{site.location}} Event planning articles">
                 {% if page.tags.size >= 1 %}
                 {% for tag in page.tags %}
                   {% if forloop.index == 1 %}
@@ -77,7 +77,7 @@
                    %}
                   </p>
                   <!-- Link -->
-                  <a class="stretched-link" href="{{ post.url }}"></a>
+                  <a class="stretched-link" href="{{ post.url }}" title="{{ post.title }} article"></a>
 
                 </div>
               </div>
