@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wedding
 title: "{{site.location}} LA Photo Booth Rental | Ohh Snap Photo Booth"
 description: Test description
 keywords: photo booth rental, photo booth rental
@@ -227,7 +227,7 @@ permalink: wedding-photo-booth
 </div>
 
 <!-- STORIES -->
-<section class="pt-10 pt-md-11 bg-light">
+<section class="py-10 pt-md-11 bg-light">
   <div class="container-lg">
     <div class="row align-items-center justify-content-between mb-9">
       <div class="col-md-6">
@@ -247,114 +247,44 @@ permalink: wedding-photo-booth
       <div class="col-12">
         <!-- Slider -->
         <div class="flickity-viewport-visible mx-n4" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-1.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Liddy Buchanan
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Chief Design Officer
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-2.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Richard Simpson
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                VP of Engineering
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-3.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Brooke Fyfe
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Human Resources
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-4.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Jenny Haleen
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                Head of Product
-              </p>
-            </div>
-          </div>
-          <div class="position-absolute col-12 px-4 max-w-288">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-5.jpg" alt="...">
-            <!-- Footer -->
-            <div class="py-4 text-center">
-
           {% for item in site.booths %}
-          <div class="col-2 px-4 text-center">
-            <a href="{{item.url}}" title="{{site.location}} {{item.booth.name}}">
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-6.jpg" alt="...">
+          <div class="position-absolute col-12 px-4" style="max-width: 350px;">
+          <a href="{{item.url}}" title="{{site.location}} {{item.booth.name}}">
+            <!-- Card -->
+            <div class="card card-sm rounded-top-start rounded-bottom-end lift">
+              <!-- Image  -->
+              <img class="card-img rounded-top-start" src="{{item.image}}" alt="..." style="height:200px; width: 100%;object-fit: cover">
+              <!-- SHAPE -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-top text-white">
+                  <div class="shape-img pb-4">
+                    <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg>               </div>
+                </div>
+              </div>
+              <!-- Body -->
+              <div class="card-body">
+                <!-- Heading -->
+                <div class="d-flex align-items-center mb-3">
+                  <!-- Logo -->
+                  <div class="img-fluid mb-0">
+                   <h3>{{item.booth.name}}</h3>
+                  </div>
+                  <!-- Icon -->
+                  <a class="ms-auto text-decoration-none stretched-link" href="{{item.url}}">
+                    <i class="fe fe-arrow-right"></i>
+                  </a>
+                </div>
+                <!-- Text -->
+                <small>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non.
+                </small>
 
-            <!-- Footer -->
-            <div class="py-4 text-center">
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                {{item.booth.name}}
-              </p>
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                {{item.booth.subtext}}
-              </p>
+              </div>
+
             </div>
-            </a>
+          </a>
           </div>
           {% endfor %}
-
-            <!-- Image -->
-            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-7.jpg" alt="...">
-
-            <!-- Footer -->
-            <div class="py-4 text-center">
-
-              <!-- Title -->
-              <p class="fw-bold mb-0">
-                Chrissy Polachek
-              </p>
-
-              <!-- Text -->
-              <p class="fs-sm text-muted mt-n1 mb-0">
-                VP of Logistics
-              </p>
-
-            </div>
-
-          </div>
-        </div>
-
       </div>
     </div>
   </div>

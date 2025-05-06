@@ -2,6 +2,17 @@ svg {
   image-rendering: optimizeQuality;
   transform: scale(0.5)
 }
+.wedding h1, h2{
+ font-family: benton-modern-display-conden, serif !important;
+ font-weight: 300;
+ font-style: normal;
+  text-transform: uppercase
+}
+.wedding p{
+  font-family: "proxima-nova", sans-serif !important;
+  font-weight: 100 !important;
+  font-style: normal;
+}
 .chat-iframe{
   border-width: 0px;height: 75vh;
 }
