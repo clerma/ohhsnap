@@ -16,7 +16,7 @@ pagename: about
 image_rotator:
  - image: /assets/img/about/2019-1-20-43785b.jpg
  - image: /assets/img/about/u5nu-iswpuckfdo4nlln5.jpeg
-permalink: "/about-ohh-snap-photo-booth/"
+permalink: "/about-ohh-snap-photo-booth"
 ---
     <!-- SLIDER -->
     <section class="position-relative pt-13 pt-md-12 z1">
@@ -96,7 +96,7 @@ permalink: "/about-ohh-snap-photo-booth/"
           <div class="col-md-12 order-md-0 py-5 py-md-10">
 
           <h3>Primary Serviced Areas</h3>
-          <p>Ohh Snap! Photo Booth serves Lafayette, LA, the cities listed below, and surrounding areas as our primary service areas. We’re also happy to travel to most destinations to capture your unforgettable events!</p>
+          <p>Ohh Snap! Photo Booth serves {{site.location}}, LA, the cities listed below, and surrounding areas as our primary service areas. We’re also happy to travel to most destinations to capture your unforgettable events!</p>
           {% for item in site.alt_location %}
           <a href="{{item.url}}" target="_blank" rel="noopener" title="Ohh Photo Photo Booth | {{item.location}}, LA Photo Booth ">{{item.location}}</a> {% if forloop.last %}{% else %}<span class="mx-3">|</span>{% endif %}
           {% endfor %}

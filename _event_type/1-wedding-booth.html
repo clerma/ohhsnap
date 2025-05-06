@@ -58,15 +58,15 @@ permalink: wedding-photo-booth
         <div class="img-grid img-grid-4">
           <div class="img-grid-item">
             <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="assets/img/360/wedding.gif" alt="..." data-jarallax-element="-85">
+            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="/assets/img/360/wedding.gif" alt="..." data-jarallax-element="-85">
           </div>
           <div class="img-grid-item">
             <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow w-75" src="assets/img/portrait-booth/wedding-portatit-booth.jpeg" alt="..." data-jarallax-element="-30">
+            <img class="img-fluid border border-4 border-md-7 border-white shadow w-75" src="/assets/img/portrait-booth/wedding-portatit-booth.jpeg" alt="..." data-jarallax-element="-30">
           </div>
           <div class="img-grid-item">
             <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="assets/img/social-booth/social-wedding.jpeg" alt="..." data-jarallax-element="-25">
+            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="/assets/img/social-booth/social-wedding.jpeg" alt="..." data-jarallax-element="-25">
           </div>
         </div>
       </div>
@@ -243,15 +243,82 @@ permalink: wedding-photo-booth
         </p>
       </div>
     </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
+    <div class="row">
+      <div class="col-12">
+        <!-- Slider -->
+        <div class="flickity-viewport-visible mx-n4" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
+          <div class="position-absolute col-12 px-4 max-w-288">
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-1.jpg" alt="...">
+            <!-- Footer -->
+            <div class="py-4 text-center">
+              <!-- Title -->
+              <p class="fw-bold mb-0">
+                Liddy Buchanan
+              </p>
+              <!-- Text -->
+              <p class="fs-sm text-muted mt-n1 mb-0">
+                Chief Design Officer
+              </p>
+            </div>
+          </div>
+          <div class="position-absolute col-12 px-4 max-w-288">
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-2.jpg" alt="...">
+            <!-- Footer -->
+            <div class="py-4 text-center">
+              <!-- Title -->
+              <p class="fw-bold mb-0">
+                Richard Simpson
+              </p>
+              <!-- Text -->
+              <p class="fs-sm text-muted mt-n1 mb-0">
+                VP of Engineering
+              </p>
+            </div>
+          </div>
+          <div class="position-absolute col-12 px-4 max-w-288">
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-3.jpg" alt="...">
+            <!-- Footer -->
+            <div class="py-4 text-center">
+              <!-- Title -->
+              <p class="fw-bold mb-0">
+                Brooke Fyfe
+              </p>
+              <!-- Text -->
+              <p class="fs-sm text-muted mt-n1 mb-0">
+                Human Resources
+              </p>
+            </div>
+          </div>
+          <div class="position-absolute col-12 px-4 max-w-288">
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-4.jpg" alt="...">
+            <!-- Footer -->
+            <div class="py-4 text-center">
+              <!-- Title -->
+              <p class="fw-bold mb-0">
+                Jenny Haleen
+              </p>
+              <!-- Text -->
+              <p class="fs-sm text-muted mt-n1 mb-0">
+                Head of Product
+              </p>
+            </div>
+          </div>
+          <div class="position-absolute col-12 px-4 max-w-288">
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-5.jpg" alt="...">
+            <!-- Footer -->
+            <div class="py-4 text-center">
 
           {% for item in site.booths %}
           <div class="col-2 px-4 text-center">
             <a href="{{item.url}}" title="{{site.location}} {{item.booth.name}}">
             <!-- Image -->
-            <img class="img-fluid" src="{{item.booth.icon}}" alt="..." >
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-6.jpg" alt="...">
+
             <!-- Footer -->
             <div class="py-4 text-center">
               <!-- Title -->
@@ -267,6 +334,28 @@ permalink: wedding-photo-booth
           </div>
           {% endfor %}
 
+            <!-- Image -->
+            <img class="img-fluid rounded-top-start rounded-bottom-end" src="/assets/img/avatars/avatar-7.jpg" alt="...">
+
+            <!-- Footer -->
+            <div class="py-4 text-center">
+
+              <!-- Title -->
+              <p class="fw-bold mb-0">
+                Chrissy Polachek
+              </p>
+
+              <!-- Text -->
+              <p class="fs-sm text-muted mt-n1 mb-0">
+                VP of Logistics
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>

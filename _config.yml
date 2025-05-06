@@ -3,7 +3,7 @@ timezone: America/Chicago
 baseurl: ""
 url: https://ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
-name: Lafayette Photo Booth
+name: Ohh Snap Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
 author: "Lafayette Photo Booth"
 relative_permalinks: false
@@ -26,6 +26,8 @@ social:
     - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
     - https://www.stylemepretty.com/vendor-profile/ohh-snap-photo-booth?location=southeastern-us/louisiana
     - https://www.bing.com/maps?osid=8c037a23-54a0-432d-8ee2-26799c5f2469&cp=30.492782~-92.076716&lvl=16&pi=0&imgid=8a7af4dc-d1f9-4f80-82f7-652189843304&v=2&sV=2&form=S00027
+    - https://www.youtube.com/@ohhsnapbooth
+    - https://www.linkedin.com/in/ohh-snap-photo-booth
 twitter:
   username: "ohhsnapbooth"
 address:
@@ -34,6 +36,8 @@ address:
   region: "LA"
   zip: "70501"
   country: "US"
+latitude: "30.221191"
+longitude: "-92.018257"
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
@@ -47,7 +51,7 @@ alt_location:
   - location: Alexandria
     url: https://alexandriaphotobooth.com
 local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville, Lafayette,Crowly
-local_competitors: Bai booth, The Yard Photo Booth, Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies
+local_competitors: Bai booth, The Yard Photo Booth, Social Booth, The Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies, Lafayette 360 Photo Booth, luxe booth, Luxe Booth Luxe 360 Booth, photo booth rental lafayette,
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
 collections:
@@ -61,8 +65,7 @@ collections:
   event_type:
     output: true
 defaults:
--
-  scope:
+- scope:
     path: ""
   values:
     layout: default
@@ -94,26 +97,32 @@ defaults:
         image: true
         link: true
         embed: true
--
-  scope:
+- scope:
     path: ""
     type: "products"
   values:
     layout: "product"
--
-  scope:
+- scope:
     type: pages
     path: _pages/index.html
   values:
     permalink:
--
-  scope:
+- scope:
+    path: "_posts/blog"
     type: posts
   values:
-    layout: bloglayout
-# assets:
-#   cdn:
-#    url: https://0c123gkb.tinifycdn.com
+    permalink: "/ohh-snap-blog/:title"
+    layout: post
+- scope:
+    path: "_posts/help"
+    type: posts
+  values:
+    permalink: "/ohh-snap-help/:title"
+    layout: post
+
+assets:
+  cdn:
+    url: https://rtg82ywq.tinifycdn.com
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -123,7 +132,7 @@ defaults:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: "/ohh-snap-blog/:title/"
+permalink: pretty
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap

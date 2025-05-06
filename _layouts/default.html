@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
+<head>
 {% include head.html %}
-{% include seo.html %}
 </head>
 <body class="{% if page.url == '/' %}{% else %}overflow-hidden{% endif %}">
   {% include gallerymodal.html %}
+  <a href="/chat" title="Ohh Snap's AI Assisted chat bot for all your photo booth questions"><div class="progress-wrap cursor-pointer active-progress"></div></a>
     <!-- NAVBAR -->
    {% include nav.html %}
    <!-- Hero -->
@@ -71,17 +71,10 @@
        </section>
       {% endif %}
    {% endif %}
-
-
     {{ content }}
-
     <!-- FOOTER -->
     {% include footer.html %}
-
-
     <!-- JAVASCRIPT -->
     {% include scripts.html %}
-
-
   </body>
 </html>

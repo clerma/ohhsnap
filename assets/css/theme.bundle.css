@@ -8338,6 +8338,18 @@ textarea.form-control-lg {
 .bg-transparent {
     background-color: transparent!important
 }
+.bg-dark-10 {
+    background-color: rgba(0, 0, 0, 0.1)!important
+}
+.bg-dark-20 {
+    background-color: rgba(0, 0, 0, 0.2)!important
+}
+.bg-dark-30 {
+    background-color: rgba(0, 0, 0, 0.3)!important
+}
+.bg-dark-40 {
+    background-color: rgba(0, 0, 0, 0.4)!important
+}
 .bg-dark-50 {
     background-color: rgba(0, 0, 0, 0.5)!important
 }

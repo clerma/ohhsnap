@@ -3,49 +3,49 @@ title: "Social Media Landing Page for {{site.location}} LA Photo Booth Rental"
 layout: mobile
 permalink: /social
 ---
-<section class="" style="background-image: url('/assets/img/backdropgallery.jpg')">
-      <div class="container-fluid d-flex flex-column bg-dark-50">
+<section style="background-image: url('/assets/img/backdropgallery2.jpg')">
+      <div class="container-fluid d-flex flex-column bg-dark-20">
         <div class="row align-items-center justify-content-center min-vh-100 py-10 py-md-12 mt-n1">
           <div class="col-12 col-md-7 col-lg-5 text-center">
-          <div class="card hv-50 p-10">
+          <div class="card hv-50 py-10 px-9" data-aos="fade-up">
             <!-- Preheading -->
-            <a href="{{site.url}}"><img class="img-fluid col-8 mx-auto mb-md-10 mb-8" src="{{site.logo}}"/></a>
-            <h6 class="text-uppercase text-primary mb-5">
+            <a href="{{site.url}}"><img class="img-fluid col-12 mx-auto mb-md-10 mb-8" src="/assets/img/logo/Ohh-Snap-Photo-Booth.png" alt="{{site.location}} Photo Booth Logo"/></a>
+            <h6 class="text-uppercase text-primary mb-5" data-aos="fade-up" >
               Welcome, friends!
             </h6>
+            <div data-aos="fade-up">
             <!-- Heading -->
-            <h2 class="display-4 mb-4">
+            <h2 class="display-4 mb-5">
             Explore Our Quick Links
             </h2>
 
             <!-- Text -->
             <p class="text-muted">
-             Here’s your go-to guide for all things Ohh Snap—catch up on our latest happenings, exciting updates, and exclusive goodies curated just for you!
+           Welcome to Ohh Snap—your starting point for unforgettable photo experiences. Explore our most loved wedding moments, creative booth options, and everything you need to elevate your celebration.
             </p>
+            </div>
             <ul class="list-group list-group-flush mt-n3">
-                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}" data-aos="fade-up">
                   <span class="text-end mx-auto"><a href="/">Visit our website</a></span>
                 </li>
-                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
-                  <span class="text-center mx-auto"><a href="/ohh-snap-blog">Photo Booth Inspiration</a></span>
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}" data-aos="fade-up">
+                  <span class="text-center mx-auto"><a href="/ohh-snap-blog"> Event Inspiration</a></span>
                 </li>
-                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
-                  <span class="text-center mx-auto"><a href="/contact-ohh-snap-photobooth">Work with us</a></span>
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}" data-aos="fade-up">
+                  <span class="text-center mx-auto"><a href="/contact-ohh-snap-photobooth" title="Book Photo Booth in {{site.location}}">Work with us</a></span>
                 </li>
-                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}">
+                <li class="list-group-item d-flex align-items-center {% if forloop.last %}pb-0{% endif %}" data-aos="fade-up">
                   <span class="text-center mx-auto"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallerymodal">
-                              Past Events
+                               Event Photos
                       </a></span>
                 </li>
             </ul>
             <hr class="col-6 mx-auto"/>
             <!-- Items -->
             <div class="row">
-              <div class="col-md py-md-4 mb-6 mb-md-0">
-
+              <div class="col-md py-md-4 mb-6 mb-md-0" data-aos="fade-up">
                 <!-- Chat -->
-                <a class="text-reset text-decoration-none" href="#!">
-
+                <a class="text-reset text-decoration-none" href="/chat" title="talk to {{site.location}}'s' best photo booth">
                   <!-- Icon -->
                   <div class="icon text-primary-light mb-3">
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M14.486 18l-1.689 3.057a1 1 0 01-1.708.069L9.017 18H5a3 3 0 01-3-3V6a3 3 0 013-3h14a3 3 0 013 3v9a3 3 0 01-3 3h-4.514z" fill="#335EEA" opacity=".3"/><path d="M6 7h9a1 1 0 010 2H6a1 1 0 110-2zm0 4h5a1 1 0 010 2H6a1 1 0 010-2z" fill="#335EEA" opacity=".3"/></g></svg>                  </div>
@@ -63,7 +63,7 @@ permalink: /social
                 </a>
 
               </div>
-              <div class="col-md py-md-4 mb-6 mb-md-0 border-start-md">
+              <div class="col-md py-md-4 mb-6 mb-md-0 border-start-md" data-aos="fade-up">
 
                 <!-- Chat -->
                 <a class="text-reset text-decoration-none" href="mailto:chat@ohhsnapbooth.com">
@@ -85,7 +85,7 @@ permalink: /social
                 </a>
 
               </div>
-              <div class="col-md py-md-4 border-start-md">
+              <div class="col-md py-md-4 border-start-md" data-aos="fade-up">
 
                 <!-- Chat -->
                 <a class="text-reset text-decoration-none phone" href="tel:337-366-8995">
@@ -111,18 +111,19 @@ permalink: /social
               </div>
             </div>
             <hr class="col-6 mx-auto"/>
+            <div data-aos="fade-up">
             <h2 class="display-4 fs-3 mb-5">Elsewhere:</h2>
 
             <ul class="list-inline list-unstyled text-primary mb-0">
                  {% for item in site.data.company_details.social %}
-                 <li class="list-inline-item ms-2">
+                 <li class="list-inline-item ms-2 mb-2">
                      <a class="icon icon-sm " href="{{ item.link }}" title="Ohh Snap {{ item.name }} link" target="_blank" rel="noopener">
                          <i class="fab {{ item.icon }} text-primary fa-lg" /></i>
                      </a>
                  </li>
                  {% endfor %}
              </ul>
-
+            </div>
           </div>
           </div>
         </div>

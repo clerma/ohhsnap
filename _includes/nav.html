@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white d-inline-flex">
         <div class="container-lg">
                 <!-- Brand -->
-                <a class="navbar-brand d-lg-none me-0 col-8" href="/"><img class="w-50" src="/{{ site.data.company_details.logo_image }}" alt="{{site.name}} logo" /></a>
+                <a class="navbar-brand d-lg-none me-0 col-8" href="/" target="_self"><img class="w-50" src="{{ site.data.company_details.logo_image }}" alt="{{site.name}} logo" /></a>
                 <input id="menu__toggle" class="navbar-toggler" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" />
                 <label class="menu__btn" for="menu__toggle">
                         <span></span>
@@ -10,7 +10,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-end w-100">
-
                                 <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" id="landingsDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                 Photo Booths
@@ -27,7 +26,7 @@
                                                                                 </h6>
                                                                                 {% for item in site.event_type %}
                                                                                 {% if item.type.featured == "enabled" %}
-                                                                                <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental">
+                                                                                <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                               <i class="{{item.type.icon}}"></i>
@@ -58,7 +57,7 @@
                                                                                 </h6>
                                                                                 {% for item in site.booths %}
                                                                                 <!-- Links -->
-                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental">
+                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                                 <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
@@ -94,13 +93,13 @@
                                                                                 Company
                                                                         </h6>
                                                                         <!-- Links -->
-                                                                        <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth">
+                                                                        <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth" target="_self">
                                                                                 About
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/{{site.location}}-backdrop-rentals" title="{{site.location}} Event Backdrop Rentals">
+                                                                        <a class="dropdown-item" href="/{{site.location | downcase}}-backdrop-rentals" title="{{site.location}} Event Backdrop Rentals" target="_self">
                                                                                 Backdrops
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company">
+                                                                        <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company" target="_self">
                                                                                 Job Openings
                                                                         </a>
 
@@ -111,7 +110,7 @@
                                                                                 Blog
                                                                         </h6>
                                                                         <!-- Links -->
-                                                                        <a class="dropdown-item" href="/ohh-snap-blog" title="Event and Wedding insperation Articles">
+                                                                        <a class="dropdown-item" href="/ohh-snap-blog" title="Event and Wedding insperation Articles" target="_self">
                                                                                 Articles
                                                                         </a>
                                                                         <!-- Heading -->
@@ -119,7 +118,7 @@
                                                                                 Help Center
                                                                         </h6>
                                                                         <!-- Links -->
-                                                                        <a class="dropdown-item" href="/help-center" title="Get all your event photo booth rental questions answered">
+                                                                        <a class="dropdown-item" href="/help-center" title="Get all your event photo booth rental questions answered" target="_self">
                                                                                 Resources
                                                                         </a>
                                                                 </div>
@@ -129,7 +128,7 @@
                                 </li>
                         </ul>
                         <!-- Brand -->
-                        <a class="navbar-brand d-none d-lg-block px-lg-6 w-35" href="/"><img src="/{{ site.data.company_details.logo_image }}" alt="{{site.name}} logo" /></a>
+                        <a class="navbar-brand d-none d-lg-block px-0 col-lg-3 col-md-2 mx-0 mx-md-5 text-center" href="/"><img src="{{ site.data.company_details.logo_image }}" class="logo" alt="{{site.name}} logo" /></a>
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-start w-100">
                                 <li class="nav-item dropdown">
@@ -139,11 +138,11 @@
                                 </li>
                                 <li class="nav-item dropdown">
                                         <a href="/contact-ohh-snap-photobooth" title="Contact your local Photo Booth Company" class="btn btn-primary btn-sm mt-5 mt-md-0">
-                                                Book Now
+                                                Get a Quote
                                         </a>
                                 </li>
                                 <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2 d-none">
-                                        <a href="#" class="snipcart-checkout text-decoration-none">
+                                        <a href="#" class="snipcart-checkout text-decoration-none" title="Photo Booth Resoruces">
                                                 <div class="snipcart-summary">
                                                         <i class="fal fa-shopping-bag"></i>
                                                         <span class="snipcart-items-count"></span>
