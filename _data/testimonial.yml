@@ -6,6 +6,7 @@
     night!! Our ladies had so much fun!! You guys were easy to work with!! Thank
     you for being such a blessing!!"
   booth: legacy
+  event-type: corporate
 - date:
   name: Paula Bates Meyers
   testimony: >-
@@ -13,21 +14,25 @@
     take the moments with then... I have pictures from weddings, church events
     and banquets.. Love love love Oh Snap memories.."
   booth: legacy
+  event-type: wedding
 - date: 2020-10-04
   name: Taryn S. Fabacher
   testimony: >-
     Ohh Snap was so helpful with the creative process, set up installation, and more! Everyone at our wedding loved it! There was never a time it was empty! One of our guests loved it so much they booked Ohh Snap for their wedding as well! Thanks again! So much fun. xoxo The Fabachers"
   booth: Social Booth
+  event-type: wedding
 - date: 2020-12-21
   name: Alea de Valle
   testimony: >-
     "We loved Oh Snap!! We had them come to our wedding in early January and they truly made the night a blast. Our guests absolutely loved it, I am pretty sure there was a line of people for it the entire night! Definitely a very effective way to make your wedding fun and memorable!"
   booth: legacy
+  event-type: wedding
 - date:
   name: Gina Bourque
   testimony: >-
     "They did a FANTASTIC job at my daughter’s wedding!! The booth was being used nonstop! The host was amazing!"
   booth: legacy
+  event-type: wedding
 - date: 2019-11-12
   name: Whitley Bjerga
   testimony: >-
@@ -41,16 +46,19 @@
     right away! Simple & fun rolled into one! You should definitely use Ohh Snap
     Booth for all your events!"
   booth: legacy
+  event-type: wedding
 - date: 2019-10-16
   name: Kayla Simon
   testimony: >-
     "We hired the Ohh Snap Social Booth for our recent non-profit event. The booth made it easy for our guests to retrieve photos & promote our sponsors online. Clean graphics, professional service, and gave us an extra 30 minutes! We will be booking again next year! Thank you Ohh Snap Booth!"
   booth: Social Booth
+  event-type: corporate
 - date: 2018-9-26
   name: LynSandra Lee Joseph
   testimony: >-
     "We had a great time making memories. Our family will surely be using OHHSNAP again in the near future!"
   booth: Legacy
+  event-type: wedding
 - date:
   name: Elise Marie Hanks
   testimony: >-
@@ -58,23 +66,27 @@
     and all of my guests enjoyed themselves too! Thank you for making our
     special day GREAT!"
   booth: legacy
+  event-type: wedding
 - date: 2022-11-3
   name: Melanie Lee Lebouef
   testimony: >-
     "Great photo booth company! We hired Ohh Snap Booth for our city Halloween event. Ashley and her team are great to work with!!"
   booth: Social Booth
+  event-type: corporate
 - date:
   name: Kathryn McMinn
   testimony: >-
     Seriously the best wedding vendors you could hope for! Thank you all so much
     for making our wedding day so awesome!"
   booth: legacy
+  event-type: wedding
 - date:
   name: Kristin Daniel
   testimony: >-
     "You guys at Ohh Snap are so professional and cooperative. Thanks for adding
     another special touch to our Dad's Birthday!"
   booth: legacy
+  event-type: corporate
 - date:
   name: Nicole Bell
   testimony: >-
@@ -84,69 +96,10 @@
     photos INSTANTLY!! The quality of the photos were amazing. Seriously...
     AMAZING! Many thanks to the very professional and easy to work with staff."
   booth: legacy
+  event-type: wedding
 - date: 2022-12-28
   name: Mary Walton Massaro
   testimony: >-
     "Highly recommend! We used Ohh Snap for our wedding. They were easy to work with, and the pictures turned out great! We were so glad to have all of the pictures of our guests after the event."
   booth: legacy
-- date: '2018-05-17'
-  name: Frankie Stelly
-  testimony: >-
-    "Love this had many good times and great memories pictures for ever.""
-  booth:
-- date: '2018-03-07'
-  name: Hailey Yelverton
-  testimony: >-
-    "They did a fantastic job for our wedding! All our guests enjoyed it;
-    would highly recommend for any event!""
-- date: '2018-01-05'
-  name: Rhonda Gerace Bergeron
-  testimony: >-
-    "Absolutely awesome photos. We attended a wedding where they were and
-    the pictures were incredible!!! Highly recommend them!""
-- date: '2017-08-15'
-  name: Spring Atkinson-Baker
-  testimony: >-
-     "Love this Photo Booth! It's super upscale, looks great, and prints gorgeous
-     prints. You and your guests will have such a blast without a doubt. Highly recommend!"
-- date: '2017-08-15'
-  name: Charles Albert
-  testimony: >-
-    "Best open-air photobooth setup around! Ohh Snap Booth are a delight to
-    work with from start to finish. From booking, designing the print template to
-    the end of the event. They made sure our process was easy and effortless. Their
-    fun backdrop selections are amazing as well. Take a look at their website and
-    you will see why. Thank you!"
-- date: '2017-06-04'
-  name: Annie Doucet Clark
-  testimony: >-
-    "Photo booth was definitely a hit at my daughter's wedding reception!!
-    Thanks for the posting the contest!!! Winning this for their night was awesome!!
-    I can't wait to see all of the pics!!"
-- date: '2017-05-17'
-  name: Brandon Wong
-  testimony: >-
-    "Hired these guys for my Dungeons and Dragons group party and had a blast!
-    I would highly recommend to other wizards and knights out there.""
-- date: '2017-05-17'
-  name: Morgan Hilliard
-  testimony: >-
-    "Used Ohh Snap twice... once for my wedding and the second time at an
-    event for my job. Couldn't have asked for a more perfect and professional experience.
-    Carlos and Ashley really go above and beyond to make sure you get EXACTLY what
-    you want. Photo booth is definitely the life of the party! Can't wait for a reason
-    to book with them again ❤️"
-- date: '2015-07-28'
-  name: Paula Jackson
-  testimony: >-
-    "I Think this is Great for just about Any Event. It's a simple way to
-    remember memories of the event. Loved the photos I took! :)"
-- date: '2015-07-27'
-  name: Rachel Reed Thomas
-  testimony: >-
-    "Best photo booth around!! Always have props that are way cool! Price
-    is great! Owners are awesome!! ❤️ y'all!""
-- date: '2014-11-09'
-  name: Courtney Cavalier
-  testimony: >-
-     "Lots of fun!!"
+  event-type: wedding
