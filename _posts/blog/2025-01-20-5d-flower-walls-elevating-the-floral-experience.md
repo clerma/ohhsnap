@@ -16,6 +16,7 @@ categories:
   - blog
 tags:
   - blog
+  - home
 image: /uploads/white.jpg
 ---
 We are thrilled to introduce our newest offering: **5D Flower Walls**, **Boxwood Hedge Walls**, and other luxurious floral designs. At **Ohh Snap!**, we believe in delivering exceptional quality, which is why we’ve partnered with <a href="https://www.rentfleurfete.com/" target="_blank" rel="noopener"><strong>FleurFête</strong></a> to bring you the most elegant and immersive floral experiences available.

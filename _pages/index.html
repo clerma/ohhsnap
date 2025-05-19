@@ -1,7 +1,7 @@
 ---
 title: '{{site.location}} Photo  Booth & 360 Booth Rental Company'
 description: >-
-  {{site.location}}, LA Photo booth rental. Ohh Snap offers a modern twist on
+  Photo booth rentals in {{site.location}}, LA. Ohh Snap offers a modern twist on
   the traditional photo booth, providing fun, customizable experiences for
   weddings, events, and more!
 keywords: >-
@@ -12,7 +12,7 @@ keywords: >-
   booth,church events,fundraisers, {{site.location}} booths,Event Photos, photo
   rentals, weddings photo booth, photo, rentals,event booth, Corporate Booths,
   Corporate Events, branding, Marketing, promoting
-image: /assets/img/gallery/portrait/2023-10-28-78780A.jpg
+image: /assets/img/gallery/portrait/2023-12-16-76592A.jpg
 banner:
   image: assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg
   video: https://vimeo.com/915819790
@@ -38,7 +38,7 @@ permalink: /
       <div class="col-md-8 text-center">
         <!-- Text -->
         <p class="lead text-muted editable">
-          Event Photography is essential to any type of event. Long gone is the bulky box or the make shift tripod setup. Our modern day photo booth is built to be a beautiful and elegant solution to any event. Scroll down to find your type of event.
+          Say goodbye to clunky setups and hello to a sleek, elevated photo experience. At Ohh Snap!, we specialize in stylish, high-quality photo booth and event photography solutions that seamlessly blend into any celebration—whether it's a wedding, corporate event, or community festival. Scroll down to find the perfect fit for your event.
         </p>
       </div>
     </div>
@@ -72,7 +72,7 @@ permalink: /
               <div class="row gx-0">
                 <div class="col-md order-md-1 d-flex d-sm-block align-items-end bg-primary" <!-- Image -->
                   <a href="{{ booth.url }}">
-                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo booth | {{ event.name }} Photo Booth Rental" />
+                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="Photo Booth {{site.location}} | {{ event.name }} Photo Booth Rental" />
                   </a>
                 </div>
                 <div class="col-md-5 order-md-0 d-flex align-items-center bg-white">
@@ -262,6 +262,7 @@ permalink: /
   <!-- Slider -->
   <div class="flickity-buttons-responsive flickity-items-fade" data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
     {% for post in site.tags.blog limit:6 %}
+    {% if site.tags.home %}
     <div class="blog-cards">
       <!-- Image -->
       <a href="{{ post.url }}">
@@ -279,6 +280,7 @@ permalink: /
         </p>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

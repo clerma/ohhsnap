@@ -18,6 +18,7 @@ categories:
   - blog
 tags:
   - blog
+  - home
 image: /uploads/2024-11-23-67541a.jpg
 ---
 # Black Backdrops: A Modern and Elegant Choice for Wedding Photo Booths
