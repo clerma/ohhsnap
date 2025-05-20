@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '5D Flower Walls: Elevating the Floral Experience'
+title: 'Flower Walls: Elevating the Floral Experience'
 description: >-
   Discover the elegance of 5D Flower Walls with Ohh Snap! Learn how these
   luxurious floral backdrops create dynamic, photogenic experiences for weddings
