@@ -4,13 +4,14 @@ title: 4 Benefits of Having a Photo Booth at Your Wedding
 description: Keys to a few must-have items you need for the perfect wedding day.
 keywords: >-
   PhotoBooth, Open Booth,{{site.location}},LA Photo Booth Rentals, Party Booth,
-  Professional Photography, Event,Wedding Photo Booth,{{site.location}} Photo Booth
-  Rental,Houston Photo Booth Rental,Weddings,Keepsake,Houston Photo Booth,
+  Professional Photography, Event,Wedding Photo Booth,{{site.location}} Photo
+  Booth Rental,Houston Photo Booth Rental,Weddings,Keepsake,Houston Photo Booth,
 author: Ohh Snap
 categories:
   - Blog
 tags:
   - blog
+  - home
 image: /assets/img/ohhsnap/2016-5-7-81729B.jpg
 ---
 There are a few must-have items you need for the perfect wedding day: a photographer, DJ/band, a venue, catering, invitations, floral arrangements and the like. While these are some of the traditional wedding items, make sure to add in a photo booth if you want to enhance the mood and add more entertainment for your guests\! Although photo booths at a wedding are really a modern addition to your ongoing wedding checklist, they do provide many benefits and can take your wedding from just another nuptial engagement, to the wedding of the year\! And it doesn’t matter what type of wedding you’re having either, because a photo booth can seamlessly complement a black tie gala to a rustic, backyard affair\! Still not convinced you should have a photo booth on your big day? Read on to find out why it should be at the top of your wedding list\!
