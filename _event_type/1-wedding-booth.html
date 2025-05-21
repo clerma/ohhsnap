@@ -12,6 +12,11 @@ type:
   subtext: Forever Captured Moments
   icon: 'fas fa-rings-wedding'
   featured: enabled
+booths:
+  - name: Portrait Booth
+    image: /assets/img/gallery/portrait/2023-2-3-75274A.jpg
+    description: Known for its studio-quality images and luxury prints, the Ohh Snap Portrait Booth is the perfect addition to your wedding. Guests will love the unforgettable memories it captures—and the stunning keepsake they get to take home.
+    url: "{{site.location}}-photo-booth-rental"
 banner:
   image: /assets/img/booth/IMG_9578.jpg
   video: https://vimeo.com/1082923847
@@ -245,9 +250,9 @@ permalink: wedding-photo-booth
       </div>
     </div>
     <div class="row">
-      {% for item in site.booths %}
+      {% for item in site.wedding %}
       <div class="col-4 px-4 mb-5">
-      <a href="{{item.url}}" title="{{site.location}} {{item.booth.name}}">
+      <a href="{{item.url}}" title="{{site.location}} {{item.name}}">
         <!-- Card -->
         <div class="card card-sm rounded-top-start rounded-bottom-end lift">
           <!-- Image  -->
@@ -265,7 +270,7 @@ permalink: wedding-photo-booth
             <div class="d-flex align-items-center mb-3">
               <!-- Logo -->
               <div class="img-fluid mb-0">
-               <h3>{{item.booth.name}}</h3>
+               <h3 class="h2">{{item.name}}</h3>
               </div>
               <!-- Icon -->
               <a class="ms-auto text-decoration-none stretched-link" href="{{item.url}}">
@@ -274,11 +279,9 @@ permalink: wedding-photo-booth
             </div>
             <!-- Text -->
             <small>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non.
+             {{item.short-description}}
             </small>
-
           </div>
-
         </div>
       </a>
       </div>
@@ -345,7 +348,7 @@ permalink: wedding-photo-booth
 
         <!-- Text -->
         <p>
-        Let's find the perfect photo experience to match the wedding you’ve been dreaming of.
+        Let's find the perfect photo experience to match the wedding you've been dreaming of.
         </p>
 
         <!-- Button -->

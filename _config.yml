@@ -2,7 +2,7 @@
 timezone: America/Chicago
 baseurl: ""
 url: https://ohhsnapbooth.com
-include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
+include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email, 'wedding']
 name: Ohh Snap Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
 author: "Lafayette Photo Booth"
@@ -57,6 +57,8 @@ snipcart_currency: "usd"
 collections:
   products:
     output: true
+  wedding:
+    output: true
   coordinators:
     output: true
     permalink: /:title
@@ -107,6 +109,11 @@ defaults:
     path: _pages/index.html
   values:
     permalink:
+- scope:
+    type: pages
+    path: _wedding/
+  values:
+    permalink: /:title/
 - scope:
     path: "_posts/blog"
     type: posts
