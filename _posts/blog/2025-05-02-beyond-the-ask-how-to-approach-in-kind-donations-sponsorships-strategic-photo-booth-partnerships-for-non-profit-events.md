@@ -18,7 +18,7 @@ tags:
   - blog
 image: /uploads/palates-and-pate-2024-photo-20240516-time-195817-wczwnu.jpeg
 ---
-# Beyond the Ask: How to Approach In-Kind Donations, Sponsorships & Strategic Photo Booth Partnerships for Non-Profit Events
+# Beyond the Ask - How to Approach Strategic Photo Booth Partnerships for Non-Profit Events
 
 When it comes to planning a successful fundraising event, the conversation can’t just start with **“Can you donate your services?”** Instead, the best events begin by asking deeper questions:
 
