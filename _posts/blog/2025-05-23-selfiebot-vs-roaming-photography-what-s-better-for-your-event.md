@@ -136,6 +136,6 @@ While the SelfieBot certainly adds a cool tech-forward twist to events, the nove
 
 At Ohh Snap!, we believe in creating **real human connections through thoughtful photo experiences**. Whether that’s through our professional **Roaming Photography**, an elegant **Social Booth**, or another one of our interactive setups, we’re here to make your event unforgettable.
 
-👉 [Learn more about Roaming Photography](/roaming-photography)<br> 👉 [Explore our Social Booth experience](/digital-social-booth)<br> 👉 [Let’s Chat!](/contact-ohh-snap-photobooth)
+👉 [Learn more about Roaming Photography](/romaing-event-photographer)<br> 👉 [Explore our Social Booth experience](/digital-social-booth)<br> 👉 [Let’s Chat!](/contact-ohh-snap-photobooth)
 
 ---
