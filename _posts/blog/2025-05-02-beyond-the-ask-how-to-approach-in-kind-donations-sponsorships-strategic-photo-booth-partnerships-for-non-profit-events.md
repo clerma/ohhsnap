@@ -32,7 +32,7 @@ Whether it’s a gala, festival, donor dinner, or awareness walk, here’s how t
 
 ---
 
-## 🧠 Start With Strategy, Not Just a Vendor List
+## Start With Strategy, Not Just a Vendor List
 
 Before you start reaching out for donations, zoom out and ask:
 
@@ -44,7 +44,7 @@ These questions help you make **intentional decisions**—not just about decorat
 
 ---
 
-## 🤝 How to Ask for In-Kind Donations the Right Way
+## How to Ask for In-Kind Donations the Right Way
 
 If you’ve identified a vendor that aligns with your event goals, here are a few best practices before sending a donation request:
 
@@ -52,9 +52,7 @@ If you’ve identified a vendor that aligns with your event goals, here are a fe
 
 Don’t just say “We’d love a free photo booth.” Instead, explain how their presence contributes to the **guest experience** and **event success**.
 
-Will it keep guests engaged between speeches?<br>
-Drive visibility through social sharing?<br>
-Give donors something they’ll take home and remember?
+Will it keep guests engaged between speeches?<br> Drive visibility through social sharing?<br> Give donors something they’ll take home and remember?
 
 ### Provide Exposure Value
 
@@ -77,21 +75,17 @@ At **Ohh Snap!**, we love working with non-profits—but we also know we can’t
 
 ### Here's how that works:
 
-✅ **You find a business aligned with your mission**<br>
-Think local businesses, board members, or supporters who want to be seen as active community partners.
+**You find a business aligned with your mission**<br> Think local businesses, board members, or supporters who want to be seen as active community partners.
 
-✅ **We customize the booth with their branding**<br>
-From logos on the booth wrap, to custom prints, branded photo overlays, and sponsored galleries—**their brand gets premium placement** all while guests have fun.
+**We customize the booth with their branding**<br> From logos on the booth wrap, to custom prints, branded photo overlays, and sponsored galleries—**their brand gets premium placement** all while guests have fun.
 
-✅ **Guests walk away with a keepsake AND a sponsor impression**<br>
-People stick photo booth prints on their fridge, desks, and corkboards.<br>
-Unlike banner signage, photos get **seen and remembered**—and reshared on social media for years to come.
+**Guests walk away with a keepsake AND a sponsor impression**<br> People stick photo booth prints on their fridge, desks, and corkboards.<br> Unlike banner signage, photos get **seen and remembered**—and reshared on social media for years to come.
 
-> 📊 **Bonus**: With our **social booths** and **roaming photography**, we offer **data insights, contact collection**, and even **pre-filled social captions**, making your sponsor’s presence **truly measurable**.
+> **Bonus**: With our **social booths** and **roaming photography**, we offer **data insights, contact collection**, and even **pre-filled social captions**, making your sponsor’s presence **truly measurable**.
 
 ---
 
-## 🎯 Align the Booth with Your Event Goals
+## Align the Booth with Your Event Goals
 
 Photo booths can be more than just a line item. When integrated with your strategy, they can:
 
@@ -103,7 +97,7 @@ Photo booths can be more than just a line item. When integrated with your strate
 
 ---
 
-## 🔁 Don’t Forget the Follow-Up
+## Don’t Forget the Follow-Up
 
 One of the most powerful takeaways from any event happens **after it ends**. And the photo booth is one of the best ways to **keep the moment alive**:
 
@@ -113,16 +107,16 @@ One of the most powerful takeaways from any event happens **after it ends**. And
 
 ---
 
-## 🎉 Ready to Make It Happen?
+## Ready to Make It Happen?
 
 We’re here to help you create not just fun moments, but **strategic ones**. If you’re planning a non-profit event and want to explore either an **in-kind donation** or a **sponsored photo activation**, let’s talk.
 
 We'll help you find the most effective way to bring value to your guests, your cause, and your supporters.
 
-👉 **[Contact us to start the conversation »](https://ohhsnapbooth.com/contact-ohh-snap-photobooth)**
+[**Contact us to start the conversation »**](https://ohhsnapbooth.com/contact-ohh-snap-photobooth)
 
 ---
 
-## 📝 Final Thought
+##  Final Thought
 
 Not every vendor can donate, but **every conversation is an opportunity to collaborate creatively**. When you lead with goals, value, and partnership, you’ll be amazed at the doors that open—and the moments you can create together.
