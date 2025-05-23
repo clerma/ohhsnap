@@ -2,13 +2,13 @@ svg {
   image-rendering: optimizeQuality;
   transform: scale(0.5)
 }
-.wedding h1, h2, h3{
+.wedding h1, .wedding h2, .wedding h3{
  font-family: benton-modern-display-conden, serif !important;
  font-weight: 300;
  font-style: normal;
   text-transform: uppercase
 }
-.wedding p, small{
+.wedding p, .wedding small{
   font-family: "proxima-nova", sans-serif !important;
   font-weight: 200 !important;
   font-style: normal;
