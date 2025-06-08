@@ -1,6 +1,6 @@
 ---
 timezone: America/Chicago
-baseurl: ""
+baseurl:
 url: https://ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email, 'wedding']
 name: Ohh Snap Booth
