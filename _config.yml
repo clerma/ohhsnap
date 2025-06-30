@@ -1,7 +1,7 @@
 ---
 timezone: America/Chicago
-baseurl: ""
-url: https://ohhsnapbooth.com
+baseurl: "https://lafayettephotobooth.com"
+url: https://lafayettephotobooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
 name: Ohh Snap Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
@@ -132,7 +132,7 @@ assets:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: pretty
+permalink: /:path/:basename:output_ext
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap

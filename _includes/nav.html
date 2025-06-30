@@ -26,7 +26,7 @@
                                                                                 </h6>
                                                                                 {% for item in site.event_type %}
                                                                                 {% if item.type.featured == "enabled" %}
-                                                                                <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental" target="_self">
+                                                                                <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url | with_html}}" title="Ohh Snap {{item.type.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                               <i class="{{item.type.icon}}"></i>
@@ -57,7 +57,7 @@
                                                                                 </h6>
                                                                                 {% for item in site.booths %}
                                                                                 <!-- Links -->
-                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental" target="_self">
+                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url | with_html}}" title="{{site.location}}, LA {{item.booth.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                                 <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
