@@ -23,7 +23,7 @@ categories:
 tags:
   - blog
   - home
-image: /uploads/1103-mc-brennan-preview.jpg
+image: /uploads/1118-mc-brennan-preview.jpg
 ---
 We’re thrilled to share that **Ohh Snap! Photo Booth** was recently featured in [Style Me Pretty’s coverage](https://www.stylemepretty.com/2025/07/30/an-elevated-garden-party-brought-indoors-in-south-louisiana/) of one of South Louisiana’s most unforgettable wedding celebrations. This elevated garden party-inspired wedding at Le Pavillon was a masterclass in intentional design, personal storytelling, and high-end vendor collaboration.
 
