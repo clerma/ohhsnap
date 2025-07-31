@@ -16,7 +16,7 @@ keywords: >-
   vendor feature, 337 band wedding, luxury wedding rentals Louisiana, wedding
   branding ideas, Lafayette wedding inspiration, live wedding butterflies,
   interactive wedding booth, romantic ballroom wedding, local wedding
-  professionals
+  professionals, glam weddings, glam photo booth
 author: Ohh Snap
 categories:
   - blog
