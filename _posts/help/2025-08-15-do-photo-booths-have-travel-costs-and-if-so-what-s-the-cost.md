@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Do Photo Booths have travel costs, and If So, what’s the Cost?
+title: Do you travel with the Photo Booth, and If So, what’s the Cost?
 description: >-
-  Find out if our photo booths print photos, and learn about the different print
-  options available, including digital-only booths and customizable prints for
-  your event.
+  Yes, we travel! Ohh Snap Photo Booth serves Lafayette and beyond—from Houston
+  to Mississippi. Learn how travel fees are calculated and how to get a custom
+  quote for your event.
 keywords: >-
   photo booth {{site.location}}, {{site.location}}, photo booth rental, South
   Louisiana photo booth, traveling photo booth rental, photo booth Houston,
