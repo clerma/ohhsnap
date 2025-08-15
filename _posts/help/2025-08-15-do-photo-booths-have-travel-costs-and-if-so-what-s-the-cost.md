@@ -18,7 +18,7 @@ categories:
 tags:
   - Before-Event
 helptype: technical
-image: /uploads/2017-11-25-72923a.jpg
+image: /uploads/ohhsnap-0177.jpg
 ---
 Absolutely, we travel!
 
