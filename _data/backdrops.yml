@@ -16,8 +16,20 @@
 - name: Ivory
   image: /uploads/ivory.webp
   type: Fleur Fete
+- name: Rose - Berry Flower Wall
+  image: /uploads/img-0179.jpeg
+  type: Fleur Fete
 - name: Heirloom Arch
   image: /uploads/heirloom-blue-arch.webp
+  type: Fleur Fete
+- name: Ballet Pink Pillars
+  image: /uploads/img-1418.jpeg
+  type: Fleur Fete
+- name: The Pure Heart in Ivory
+  image: /uploads/img-0402.jpeg
+  type: Fleur Fete
+- name: Garden Arches
+  image: /uploads/img-0074.jpeg
   type: Fleur Fete
 - name: Bubbly Mermaid
   image: /assets/img/backdrops/Bubbly-Mermaid.jpg

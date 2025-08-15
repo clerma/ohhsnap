@@ -29,9 +29,9 @@ permalink: /
     <div class="row justify-content-center">
       <div class="col-md-12 col-xl-10 text-center">
         <!-- Heading -->
-        <h1 class="display-4 mb-4 editable">
+        <h3 class="h1 display-4 mb-4 editable">
           Creating memorable photo booth experiences for your <span class="text-underline-warning d-md-inline"><span data-typed='{"strings": ["Wedding.", "Party.", "Fundraiser.", "Corporate Party.", "School Dance.", "Church Function."]}'></span></span>
-        </h1>
+        </h3>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -71,8 +71,8 @@ permalink: /
             <div class="card card-lg rounded overflow-hidden">
               <div class="row gx-0">
                 <div class="col-md order-md-1 d-flex d-sm-block align-items-end bg-primary" <!-- Image -->
-                  <a href="{{ booth.url }}">
-                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="Photo Booth {{site.location}} | {{ event.name }} Photo Booth Rental" />
+                  <a href="{{ booth.url }}" title="{{site.location}} Photo Booth Rentals | Ohh Snap {{ event.name }}">
+                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo Booth | {{ event.name }} Photo Booth Rental" />
                   </a>
                 </div>
                 <div class="col-md-5 order-md-0 d-flex align-items-center bg-white">
@@ -90,7 +90,7 @@ permalink: /
                       {{ booth.booth.description }}
                     </p>
                     <!-- Link -->
-                    <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}">
+                    <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}" title="Learn More on how to book a {{site.location}} {{ event.name }}">
                       Learn More <i class="fe fe-arrow-right"></i>
                     </a>
                   </div>
