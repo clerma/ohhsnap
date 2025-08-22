@@ -73,9 +73,6 @@
 - name: Woodgrain
   image: /assets/img/backdrops/Woodgrian.jpg
   type: fabric
-- name: Balloon Wall or Balloon Accents
-  image: /assets/img/backdrops/2019-1-20-47277b.JPG
-  type: Premium
 - name: Fully Custom Setup
   image: /assets/img/backdrops/IMG_71542.jpg
   type: Premium
