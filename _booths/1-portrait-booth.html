@@ -1,7 +1,7 @@
 ---
 layout: default
-title: '{{site.location}} Photo Booth Rental for Weddings & Events'
-description: '{{site.location}}, LA photo booth rentals. Ohh Snap Photo Booth price options for your event, wedding or party.'
+title: "{{site.location}} Photo Booth Rental for Weddings & Events"
+description: "{{site.location}}, LA photo booth rentals. Ohh Snap Photo Booth price options for your event, wedding or party."
 keywords: Ohh Snap Packages, Ohh Snap social, Custom Quote, Custom Logos, custom prints,Photo Booth Rentals, Photo Booth Packages, Event Photography,Wedding Photo Booth,
 image: /assets/img/portrait-booth/NTUQ-7X9POP0T60KWQFVU.jpeg
 package:
@@ -15,8 +15,8 @@ package:
       - item: Social Sharing (No Prints)
       - item: Online Gallery
       - item: Digital Files
-    addon:
-      - item:
+    addon: []
+
   - name: PLUS
     amount: 700
     features:
@@ -27,8 +27,8 @@ package:
       - item: Limited Custom Prints* (up to 400)
       - item: Online Gallery
       - item: Digital Files
-    addon:
-      - item:
+    addon: []
+
   - name: Ultimate
     amount: 900
     features:
@@ -42,7 +42,8 @@ package:
       - item: Online Gallery
       - item: Digital Files
     addon:
-      - item:
+      - item: []
+
 booth:
   name: Portrait Booth
   subtext: Studio-quality Photobooth
@@ -50,7 +51,7 @@ booth:
   description: Experience real connections with our portrait event photo booths, featuring instant printing for instant memories.
 banner:
   image: /assets/img/portrait-booth/NTUQ-7X9POP0T60KWQFVU.jpeg
-  video: https://vimeo.com/1009205814
+  video: "https://vimeo.com/1009205814"
   preheading: Ohh Snap
   title: Portrait Photo Booth
   subtext: >-
@@ -58,7 +59,7 @@ banner:
     instant printing for instant memories.
   cta_link: /contact-ohh-snap-photobooth
   cta_text: Book Now
-permalink: /{{site.location | downcase | replace: ' ', '-'}}-photo-booth-rental
+permalink: "/{{site.location | slugify}}-photo-booth-rental"
 ---
 <!-- VIDEO -->
 <section class="pt-10">
