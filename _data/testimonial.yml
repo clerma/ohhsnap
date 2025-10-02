@@ -1,4 +1,4 @@
-- date: 
+- date:
   name: Crossroads Church
   testimony: >-
     We'd like to give a huge shout out to Ohh Snap Photo Booth!! We had you guys
@@ -6,7 +6,7 @@
     night!! Our ladies had so much fun!! You guys were easy to work with!! Thank
     you for being such a blessing!!
   booth: legacy
-- date: 
+- date:
   event-type: corporate
   name: Paula Bates Meyers
   testimony: >-
@@ -15,6 +15,7 @@
     banquets.. Love love love Oh Snap memories..
   booth: legacy
 - date: 2020-10-04 00:00:00
+  event-type: wedding
   name: Taryn S. Fabacher
   testimony: >-
     Ohh Snap was so helpful with the creative process, set up installation, and
@@ -30,7 +31,7 @@
     sure there was a line of people for it the entire night! Definitely a very
     effective way to make your wedding fun and memorable!
   booth: legacy
-- date: 
+- date: 2019-11-12 00:00:00
   event-type: wedding
   name: Gina Bourque
   testimony: >-
@@ -38,6 +39,7 @@
     nonstop! The host was amazing!
   booth: legacy
 - date: 2019-11-12 00:00:00
+  event-type: wedding
   name: Whitley Bjerga
   testimony: >-
     We used Ohh Snap Booth for my brother's wedding! Best decision ever! We got
@@ -64,7 +66,7 @@
     We had a great time making memories. Our family will surely be using OHHSNAP
     again in the near future!
   booth: Legacy
-- date: 
+- date:
   event-type: wedding
   name: Elise Marie Hanks
   testimony: >-
