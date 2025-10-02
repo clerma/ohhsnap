@@ -80,57 +80,20 @@ While it doesn’t come with a human attendant like Roaming Photography, the Soc
 ---
 
 ## Which One Should You Choose?
-<table class="table">
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>SelfieBot</th>
-      <th>Roaming Photography</th>
-      <th>Social Booth</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Interaction Style</strong></td>
-      <td>Autonomous Robot</td>
-      <td>Human Photographer</td>
-      <td>Self-Serve</td>
-    </tr>
-    <tr>
-      <td><strong>Image Quality</strong></td>
-      <td>Variable</td>
-      <td>Professional</td>
-      <td>High Quality</td>
-    </tr>
-    <tr>
-      <td><strong>Customization</strong></td>
-      <td>Limited</td>
-      <td>Highly Customizable</td>
-      <td>Fully Customizable</td>
-    </tr>
-    <tr>
-      <td><strong>Guest Engagement</strong></td>
-      <td>Novelty-Driven</td>
-      <td>Personal & Intentional</td>
-      <td>Organized & Branded</td>
-    </tr>
-    <tr>
-      <td><strong>Best For</strong></td>
-      <td>Trade Shows, Tech Events</td>
-      <td>Weddings, Galas, Corporate Events</td>
-      <td>Social Activations, Parties</td>
-    </tr>
-  </tbody>
-</table>
 
+| Feature | SelfieBot | Roaming Photography | Social Booth |
+| --- | --- | --- | --- |
+| **Interaction Style** | Autonomous Robot | Human Photographer | Self-Serve |
+| **Image Quality** | Variable | Professional | High Quality |
+| **Customization** | Limited | Highly Customizable | Fully Customizable |
+| **Guest Engagement** | Novelty-Driven | Personal & Intentional | Organized & Branded |
+| **Best For** | Trade Shows, Tech Events | Weddings, Galas, Corporate Events | Social Activations, Parties |
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1008161383?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ohh-snap-roaming"></iframe></div>
+{.table}
 
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1008161383?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ohh-snap-roaming"></iframe><p></p></div>
 
 ---
-
-## 💡 Final Thoughts
 
 While the SelfieBot certainly adds a cool tech-forward twist to events, the novelty can wear off quickly—especially when guests are craving meaningful moments, flattering photos, or personalized experiences.
 
