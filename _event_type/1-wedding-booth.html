@@ -288,6 +288,36 @@ permalink: wedding-photo-booth
       {% endfor %}
   </div>
 </section>
+<!-- Photos -->
+<section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark pattern-1">
+  <!-- Content -->
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8 text-center">
+        <!-- Preheading -->
+        <h6 class="text-uppercase text-primary mb-5 editable">
+          smiles speak for themselves
+        </h6>
+        <!-- Heading -->
+        <h2 class="display-4 text-white mb-9 editable">
+          Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
+        </h2>
+      </div>
+    </div>
+  </div>
+  <!-- Slider -->
+  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+    {% for item in site.static_files %}
+    {% if item.path contains '/assets/img/gallery/portrait' %}
+    <div class="gallery-image">
+      <!-- Image -->
+      <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth {{forloop.index}}" />
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
 <!-- TESTIMONIALS -->
 <section class="py-10">
   <div class="container-lg">
