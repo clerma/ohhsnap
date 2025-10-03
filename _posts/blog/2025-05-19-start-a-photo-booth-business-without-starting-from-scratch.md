@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start a Photo Booth Business Without Starting From Scratch
+title: How to start a Photo Booth Business Without Starting From Scratch
 description: >-
   Thinking about starting a photo booth business? Learn how you can skip the
   stress and partner with Ohh Snap! to grow in your market with expert support,

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 'SelfieBot vs. Roaming Photography: What’s Better for Your Event?'
+title: 'Selfiebot vs. Roaming Photography: What’s Better for Your Event?'
 description: >-
   Wondering whether a SelfieBot or roaming photographer is right for your event?
   Discover the key differences and why a personalized approach might be the
   better choice.
 keywords: >-
-  photo booth rental, photo booth rental, selfiebot, roaming photography, mobile
-  photo booth, event photography, lafayette photo booth, selfie robot, robot
-  photo booth, event photo ideas, ohh snap booth
+  photo booth rental, lafayette photo booth, selfiebot, roaming photography,
+  mobile photo booth, event photography, photo booth lafayette, selfie robot,
+  robot photo booth, event photo ideas, ohh snap booth
 author: Ohh Snap
 categories:
   - blog

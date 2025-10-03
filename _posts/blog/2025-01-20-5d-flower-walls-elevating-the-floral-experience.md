@@ -2,9 +2,9 @@
 layout: post
 title: 'Flower Walls: Elevating the Floral Experience'
 description: >-
-  Discover the elegance of 5D Flower Walls with Ohh Snap! Learn how these
-  luxurious floral backdrops create dynamic, photogenic experiences for weddings
-  and events.
+  Lafayette Backdrops, discover the elegance of 5D Flower Walls with Ohh Snap!
+  Discover how these luxurious floral backdrops create dynamic, visually
+  stunning experiences for weddings and events.
 keywords: >-
   photo booth rental, photo booth rental, 5D flower wall, luxury flower walls,
   event backdrops, wedding flower walls, 5D floral backdrop, Ohh Snap flower

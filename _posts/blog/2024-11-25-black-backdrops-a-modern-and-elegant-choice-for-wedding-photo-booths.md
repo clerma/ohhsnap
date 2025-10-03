@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Black Backdrops: A Modern and Elegant Choice for Wedding Photo Booths'
+title: Black Backdrops | A Modern and Elegant Choice for Wedding Photo Booths
 description: >-
   Discover why black backdrops are the perfect choice for a modern and elegant
   wedding photo booth. Learn how this bold alternative to white backdrops
