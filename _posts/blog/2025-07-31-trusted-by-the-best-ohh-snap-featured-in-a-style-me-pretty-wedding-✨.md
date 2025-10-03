@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Trusted by the Best: Ohh Snap Featured in a Style Me Pretty Wedding ✨'
+title: 'Trusted by the Best: Ohh Snap Featured in a Style Me Pretty Wedding '
 description: >-
   Ohh Snap Photo Booth was recently featured in a stunning Style Me Pretty
   wedding at Le Pavillon in Lafayette, Louisiana, alongside top-tier South
