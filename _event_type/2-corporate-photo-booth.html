@@ -12,6 +12,13 @@ type:
   subtext: Engagement That Moves the Needle
   icon: 'fas fa-briefcase'
   featured: enabled
+booth-image:
+  portrait: /assets/img/booth/IMG_9578.jpg
+  social: /assets/img/booth/IMG_9578.jpg
+  "360": /assets/img/booth/IMG_9578.jpg
+  roaming: /assets/img/booth/IMG_9578.jpg
+  virtual: /assets/img/booth/IMG_9578.jpg
+  glam: /assets/img/booth/IMG_9578.jpg
 banner:
   image: /assets/img/booth/IMG_9578.jpg
   video: https://vimeo.com/1086907169
@@ -189,30 +196,47 @@ permalink: corporate-photo-booth
         </p>
       </div>
     </div>
+
     <div class="row">
       {% for item in site.booths %}
       {% if item.featured == 'enabled' %}
+
+    {%- comment -%} build key: first word of booth name, lowercased {%- endcomment -%}
+    {% assign booth_key = item.booth.name | strip | split: ' ' | first | downcase %}
+
+    {%- comment -%} get the per-page override map {%- endcomment -%}
+    {% assign img_map = page['booth-image'] %}
+
+    {%- comment -%} choose override or fall back to the booth's default image {%- endcomment -%}
+    {% assign card_img = img_map[booth_key] | default: item.image %}
+
       <div class="col-4 px-4 mb-5">
-        <a href="{{item.url}}" title="{{site.location}} {{item.name}}">
+        <a href="{{ item.url }}" title="{{ site.location }} {{ item.name }}">
           <div class="card card-sm rounded-top-start rounded-bottom-end lift">
-            <img class="card-img rounded-top-start" src="{{item.image}}" alt="{{item.booth.name}}" style="height:200px; width: 100%;object-fit: cover">
+            <img
+              class="card-img rounded-top-start"
+              src="{{ card_img }}"
+              alt="{{ item.booth.name }}"
+              style="height:200px; width:100%; object-fit:cover">
             <div class="position-relative">
               <div class="shape shape-fluid-x shape-top text-white">
                 <div class="shape-img pb-4">
-                  <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/></svg>
+                  <svg viewBox="0 0 100 50" preserveAspectRatio="none">
+                    <path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/>
+                  </svg>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <div class="d-flex align-items-center mb-3">
                 <div class="img-fluid mb-0">
-                  <h3 class="h2">{{item.booth.name}}</h3>
+                  <h3 class="h2">{{ item.booth.name }}</h3>
                 </div>
-                <a class="ms-auto text-decoration-none stretched-link" href="{{item.url}}">
+                <a class="ms-auto text-decoration-none stretched-link" href="{{ item.url }}">
                   <i class="fe fe-arrow-right"></i>
                 </a>
               </div>
-              <small>{{item.booth.description}}</small>
+              <small>{{ item.booth.description }}</small>
             </div>
           </div>
         </a>
@@ -222,6 +246,7 @@ permalink: corporate-photo-booth
     </div>
   </div>
 </section>
+
 
 <!-- Photos -->
 <section class="pt-12 pt-md-12 pb-11 pb-md-16 bg-dark pattern-1">
