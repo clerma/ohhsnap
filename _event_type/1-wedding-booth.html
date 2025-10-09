@@ -12,6 +12,16 @@ type:
   subtext: Forever Captured Moments
   icon: 'fas fa-rings-wedding'
   featured: enabled
+page-image-1: /assets/img/360/wedding.gif
+page-image-2: /assets/img/portrait-booth/wedding.jpg
+page-image-3: /assets/img/social-booth/social-wedding.jpeg
+booth-image:
+  '360': /assets/img/360/stills/12.jpg
+  portrait: /uploads/2019-10-20-61854a.jpg
+  social: /assets/img/social-booth/img-5639.jpeg
+  roaming: /assets/img/roaming/IMG_0329.JPG
+  virtual: /assets/img/virtual-booth/VirtualBoothPromoStill08.jpg
+  glam: /assets/img/booth/IMG_9578.jpg
 booths:
   - name: Portrait Booth
     image: /assets/img/gallery/portrait/2023-2-3-75274A.jpg
@@ -58,23 +68,19 @@ permalink: wedding-photo-booth
         </p>
 
       </div>
-      <div class="col-md-5 col-lg-6">
-        <!-- Image grid -->
-        <div class="img-grid img-grid-4">
-          <div class="img-grid-item">
-            <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="/assets/img/360/wedding.gif" alt="..." data-jarallax-element="-85">
-          </div>
-          <div class="img-grid-item">
-            <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow w-75" src="assets/img/portrait-booth/wedding.jpg" alt="..." data-jarallax-element="-30">
-          </div>
-          <div class="img-grid-item">
-            <!-- Image -->
-            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="/assets/img/social-booth/social-wedding.jpeg" alt="..." data-jarallax-element="-25">
-          </div>
-        </div>
-      </div>
+     <div class="col-md-5 col-lg-6">
+       <div class="img-grid img-grid-4">
+         <div class="img-grid-item">
+           <img class="img-fluid border border-4 border-md-7 border-white shadow" src="{{page.page-image-1}}" alt="Corporate 360 video booth" data-jarallax-element="-85" />
+         </div>
+         <div class="img-grid-item">
+           <img class="img-fluid border border-4 border-md-7 border-white shadow w-75" src="{{page.page-image-2}}" alt="Corporate portrait/headshot lounge" data-jarallax-element="-30" />
+         </div>
+         <div class="img-grid-item">
+           <img class="img-fluid border border-4 border-md-7 border-white shadow" src="{{page.page-image-3}}" alt="Corporate social/digital booth" data-jarallax-element="-25" />
+         </div>
+       </div>
+     </div>
     </div>
   </div>
 </section>
@@ -221,7 +227,7 @@ permalink: wedding-photo-booth
   </div>
 </div>
 <!-- IMAGE -->
-<section data-jarallax data-speed=".8" class="py-14 py-md-18 bg-cover jarallax" style="background-image: url(assets/img/ohhsnap/2021-4-24-22169D.jpg);"></section>
+<section data-jarallax data-speed=".8" class="py-14 py-md-18 bg-cover jarallax" style="background-image: url({{page.image}});"></section>
 
 <!-- SHAPE -->
 <div class="position-relative">
@@ -250,12 +256,22 @@ permalink: wedding-photo-booth
     </div>
     <div class="row">
       {% for item in site.wedding %}
+
+      {%- comment -%} build key: first word of booth name, lowercased {%- endcomment -%}
+      {% assign booth_key = item.booth.name | remove: 'wedding' | strip | split: ' ' | first | downcase %}
+
+      {%- comment -%} get the per-page override map {%- endcomment -%}
+      {% assign img_map = page['booth-image'] %}
+
+      {%- comment -%} choose override or fall back to the booth's default image {%- endcomment -%}
+      {% assign card_img = img_map[booth_key] | default: item.image %}
+
       <div class="col-4 px-4 mb-5">
       <a href="{{item.url}}" title="{{site.location}} {{item.name}}">
         <!-- Card -->
         <div class="card card-sm rounded-top-start rounded-bottom-end lift">
           <!-- Image  -->
-          <img class="card-img rounded-top-start" src="{{item.image}}" alt="..." style="height:200px; width: 100%;object-fit: cover">
+          <img class="card-img rounded-top-start" src="{{ card_img }}" alt="..." style="height:200px; width: 100%;object-fit: cover">
           <!-- SHAPE -->
           <div class="position-relative">
             <div class="shape shape-fluid-x shape-top text-white">

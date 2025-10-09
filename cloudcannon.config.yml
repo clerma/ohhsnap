@@ -191,6 +191,15 @@ _inputs:
   glam:
     type: image
     cascade: true
+  page-image-1:
+    type: image
+    cascade: true
+  page-image-2:
+    type: image
+    cascade: true
+  page-image-3:
+    type: image
+    cascade: true
 _select_data:
   social:
     name: Ohh Snap Photo booth
