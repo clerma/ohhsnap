@@ -173,7 +173,7 @@ _inputs:
   description:
     type: textarea
     cascade: true
-  social:
+  booth-image:
     type: image
     cascade: true
 _select_data:
