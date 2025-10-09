@@ -257,14 +257,20 @@ permalink: wedding-photo-booth
     <div class="row">
       {% for item in site.wedding %}
 
-      {%- comment -%} build key: first word of booth name, lowercased {%- endcomment -%}
-      {% assign booth_key = item.booth.name | remove: 'wedding' | strip | split: ' ' | first | downcase %}
+     {% assign words = item.name | strip | split: ' ' %}
+     {% if words.size > 1 %}
+       {% assign booth_key = words[1] | downcase
+         | replace: '/', ''
+         | replace: '-', ''
+         | replace: '_', ''
+         | replace: ',', ''
+         | replace: '.', '' %}
+     {% else %}
+       {% assign booth_key = item.name | downcase %}
+     {% endif %}
 
-      {%- comment -%} get the per-page override map {%- endcomment -%}
-      {% assign img_map = page['booth-image'] %}
-
-      {%- comment -%} choose override or fall back to the booth's default image {%- endcomment -%}
-      {% assign card_img = img_map[booth_key] | default: item.image %}
+     {% assign img_map = page['booth-image'] %}
+     {% assign card_img = img_map[booth_key] | default: item.image %}
 
       <div class="col-4 px-4 mb-5">
       <a href="{{item.url}}" title="{{site.location}} {{item.name}}">
