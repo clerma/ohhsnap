@@ -224,48 +224,83 @@ permalink: school-photo-booth
   </div>
 </section>
 
+
+<!-- Photos -->
+<section class="pt-12 pt-md-12 pb-11 pb-md-16 bg-dark pattern-1">
+  <!-- Content -->
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8 text-center">
+        <!-- Preheading -->
+        <h6 class="text-uppercase text-primary mb-5 editable">
+          smiles speak for themselves
+        </h6>
+        <!-- Heading -->
+        <h2 class="display-4 text-white mb-9 editable">
+          Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
+        </h2>
+      </div>
+    </div>
+  </div>
+  <!-- Slider -->
+  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+    {% for item in site.static_files %}
+    {% if item.path contains '/assets/img/gallery/portrait' %}
+    <div class="gallery-image">
+      <!-- Image -->
+      <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth {{forloop.index}}" />
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
 <!-- TESTIMONIALS -->
 <section class="py-10">
   <div class="container-lg">
     <div class="row align-items-center justify-content-center">
       <div class="col-md-12 pb-md-8">
-        <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true,"adaptiveHeight": true}'>
-          {% assign time_based_index = 'now' | date: "%s" | modulo: site.data.testimonial.size %}
-          {% assign randomized_testimonials = site.data.testimonial | sort: 'name' %}
-          {% assign randomized_testimonials = randomized_testimonials | slice: time_based_index, randomized_testimonials.size %}
-          {% for testimonial in randomized_testimonials %}
-          {% if testimonial.event-type == 'school' %}
-          <div class="col-12 px-4" data-aos="fade-up">
-            <blockquote class="px-9">
-              <p class="h1 text-center mb-8 fw-bold">
-                {{testimonial.testimony}}
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="ms-4 text-center">
-                  <p class="fw-bold mb-0">
-                    {{testimonial.name}}
-                  </p>
+      <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true, "adaptiveHeight": true}'>
+
+        {%- assign size = site.data.testimonial | size -%}
+        {%- if size > 0 -%}
+          {%- assign time_based_index = 'now' | date: "%s" | modulo: size -%}
+          {%- assign sorted = site.data.testimonial | sort: 'name' -%}
+          {%- assign shifted = sorted | slice: time_based_index, sorted.size -%}
+          {%- assign remainder = sorted | slice: 0, time_based_index -%}
+          {%- assign randomized_testimonials = shifted | concat: remainder -%}
+
+          {%- assign seen = "" -%}
+          {%- assign shown = 0 -%}
+
+          {%- for testimonial in randomized_testimonials -%}
+            {%- assign evtype = testimonial.event_type | default: testimonial['event-type'] -%}
+            {%- if evtype == 'school' and shown < 5 -%}
+              {%- assign key = testimonial.name | append: '||' | append: testimonial.testimony | strip -%}
+              {%- unless seen contains key -%}
+
+                <div class="col-12 px-4" data-aos="fade-up">
+                  <blockquote class="px-9">
+                    <p class="h1 text-center mb-8 fw-bold">
+                      {{ testimonial.testimony }}
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="ms-4 text-center">
+                        <p class="fw-bold mb-0">{{ testimonial.name }}</p>
+                      </div>
+                    </div>
+                  </blockquote>
                 </div>
-              </div>
-            </blockquote>
-          </div>
-          <div class="col-12 px-4" data-aos="fade-up">
-            <blockquote class="px-9">
-              <p class="h1 text-center mb-8 fw-bold">
-                {{testimonial.testimony}}
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="ms-4 text-center">
-                  <p class="fw-bold mb-0">
-                    {{testimonial.name}}
-                  </p>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          {% endif %}
-          {% endfor %}
-        </div>
+
+                {%- assign seen = seen | append: key | append: ";" -%}
+                {%- assign shown = shown | plus: 1 -%}
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+
+      </div>
+
       </div>
     </div>
   </div>

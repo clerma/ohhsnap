@@ -1,5 +1,6 @@
 - date:
   name: Crossroads Church
+  event-type: nonprofit
   testimony: >-
     We'd like to give a huge shout out to Ohh Snap Photo Booth!! We had you guys
     out at our Joie de Vivre FEARLESS Conference at Crossroads Church last
@@ -195,6 +196,7 @@
   booth:
 - date: 2014-11-09 00:00:00
   name: Courtney Cavalier
+  event-type: school
   testimony: Lots of fun!!
   booth:
 - date: 2020-10-04 00:00:00
@@ -203,5 +205,22 @@
   testimony: >-
     I always have such a good experience with Ohh Snap, so easy to work with,
     that makes me want to use the any them over other company in Baton Rouge
-  booth: /1-portrait-booth
-
+  booth: /portrait-booth
+- date: 2025-02-04 00:00:00
+  name: Tricia Cuccio
+  event-type: corporate
+  testimony: >-
+    Such a fun experience for our 25 year anniversary company party!! Highly recommend!
+  booth: /portrait-booth
+- date: 2025-02-04 00:00:00
+  name: Baileigh Meche
+  event-type: school
+  testimony: >-
+    Who doesn't love a good Photo Booth? Dependable and quality work--hard to come by! You won't regret booking!!
+  booth: /portrait-booth
+- date: 2022-05-06 00:00:00
+  name: Shaddox Family
+  event-type: wedding
+  testimony: >-
+   We used Oh Snapp Photo Booth for our wedding day and everyone raved about the experience! It was such a fun addition to our wedding night and so many of the guests loved it. We also loved how when you text the images to yourself, you can look at everyone’s pictures from the whole night! It was so fun for me to see the cute images of everyone there and having fun. The customer service was great, they answered all of my questions and were so helpful with executing the design!
+  booth: /portrait-booth
