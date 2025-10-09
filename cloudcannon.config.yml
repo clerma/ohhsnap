@@ -253,44 +253,6 @@ _editables:
     height: 300
   link:
     paths:
-  block:
-    allow_custom_markup: false
-    remove_custom_markup: false
-    blockquote:
-    bold:
-    bulletedlist:
-    center:
-    code:
-    copyformatting:
-    embed:
-    expandable:
-    format:
-    height:
-    horizontalrule:
-    image:
-    image_size_attributes: true
-    indent:
-    italic:
-    justify:
-    left:
-    link:
-    mime_type:
-    numberedlist:
-    outdent:
-    paths:
-    redo:
-    removeformat:
-    resize_style:
-    right:
-    snippet:
-    strike:
-    styles:
-    subscript:
-    superscript:
-    table:
-    underline:
-    undo:
-    width:
 _snippets_imports:
   jekyll:
     include:
