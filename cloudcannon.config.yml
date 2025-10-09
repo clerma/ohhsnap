@@ -173,7 +173,22 @@ _inputs:
   description:
     type: textarea
     cascade: true
-  booth-image:
+  "360":
+    type: image
+    cascade: true
+  portrait:
+    type: image
+    cascade: true
+  social:
+    type: image
+    cascade: true
+  roaming:
+    type: image
+    cascade: true
+  virtual:
+    type: image
+    cascade: true
+  glam:
     type: image
     cascade: true
 _select_data:
