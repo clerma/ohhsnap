@@ -275,7 +275,7 @@ permalink: corporate-photo-booth
   <!-- Slider -->
   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
     {% for item in site.static_files %}
-    {% if item.path contains '/assets/img/gallery/portrait' %}
+    {% if item.path contains '/assets/img/gallery/corporate' %}
     <div class="gallery-image">
       <!-- Image -->
       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth {{forloop.index}}" />
