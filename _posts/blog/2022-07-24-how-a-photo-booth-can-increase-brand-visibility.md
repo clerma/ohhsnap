@@ -15,6 +15,7 @@ categories:
   - blog
 tags:
   - blog
+  - Corporate
 image: /uploads/2017-4-28-69091.jpg
 ---
 Photo booths are no longer just fun novelties for weddings and birthday parties—they’ve become one of the most engaging and effective marketing tools for businesses and brands. Whether you're hosting a corporate launch, networking mixer, trade show booth, or community event, adding a branded photo booth to the experience can significantly increase brand awareness, drive social media engagement, and give your guests something fun to remember (and share).
