@@ -343,7 +343,7 @@ permalink: wedding-photo-booth
     {% endfor %}
   </div>
 </section>
-    {% for post in site.tags.blog %}{% if post.tags contains 'wedding' %}{% assign article_tag = true %}{% endif %}{% endfor %}
+    {% for post in site.tags.blog %}{% if post.tags contains 'Wedding' %}{% assign article_tag = true %}{% endif %}{% endfor %}
     {% if article_tag == true %}
  <section class="pt-9 pt-md-11 posts">
   <div class="container-lg">
@@ -358,8 +358,8 @@ permalink: wedding-photo-booth
           {{page.type.name}} <span class="text-underline-primary-light">Articles</span>
         </h2>
       </div>
-    {% for post in site.tags.blog %}
-    {% if post.tags contains 'wedding' %}
+    {% for post in site.tags.blog limit:3 %}
+    {% if post.tags contains 'Wedding' %}
          <div class="col-md-4">
          {% include postbox.html %}
           </div>
