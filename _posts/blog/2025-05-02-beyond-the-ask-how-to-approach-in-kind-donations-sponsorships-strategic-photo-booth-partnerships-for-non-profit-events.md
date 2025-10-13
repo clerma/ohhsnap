@@ -7,15 +7,16 @@ description: >-
   Discover how non-profits can approach in-kind donations, vendor sponsorships,
   and use photo booths for impactful fundraising events.
 keywords: >-
-  photo booth rental, photo booth rental, Discover how non-profits can approach
+  "photo booth rental, photo booth rental, Discover how non-profits can approach
   in-kind donations, vendor sponsorships, and use photo booths for impactful,
   {{site.location}} Photo Booth, Photo Booth Rental {{site.location}}
-  fundraising events.
+  fundraising events."
 author: Ohh Snap
 categories:
   - blog
 tags:
   - blog
+  - Non-Profit
 image: /uploads/palates-and-pate-2024-photo-20240516-time-195817-wczwnu.jpeg
 ---
 # Beyond the Ask - How to Approach Strategic Photo Booth Partnerships for Non-Profit Events
