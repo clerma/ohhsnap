@@ -1,8 +1,6 @@
 ---
 layout: post
-title: >-
-  Beyond the Ask - How to Approach Strategic Photo Booth Partnerships for
-  Non-Profit Events
+title: How to Approach Strategic Photo Booth Partnerships for Non-Profit Events
 description: >-
   Discover how non-profits can approach in-kind donations, vendor sponsorships,
   and use photo booths for impactful fundraising events.
@@ -118,6 +116,6 @@ We'll help you find the most effective way to bring value to your guests, your c
 
 ---
 
-##  Final Thought
+## Final Thought
 
 Not every vendor can donate, but **every conversation is an opportunity to collaborate creatively**. When you lead with goals, value, and partnership, you’ll be amazed at the doors that open—and the moments you can create together.
