@@ -343,9 +343,21 @@ permalink: wedding-photo-booth
     {% endfor %}
   </div>
 </section>
+    {% for post in site.tags.blog %}{% if post.tags contains 'wedding' %}{% assign article_tag = true %}{% endif %}{% endfor %}
+    {% if article_tag == true %}
  <section class="pt-9 pt-md-11 posts">
   <div class="container-lg">
     <div class="row align-items-center mb-6">
+      <div class="col-md-12 text-center">
+        <!-- Preheading -->
+        <h6 class="text-uppercase text-primary mb-5 editable">
+          Posts to help with your next event
+        </h6>
+        <!-- Heading -->
+        <h2 class="display-4 mb-9 editable">
+          {{page.type.name}} <span class="text-underline-primary-light">Articles</span>
+        </h2>
+      </div>
     {% for post in site.tags.blog %}
     {% if post.tags contains 'wedding' %}
          <div class="col-md-4">
@@ -356,6 +368,7 @@ permalink: wedding-photo-booth
     </div>
   </div>
 </section>
+    {% endif %}
 <!-- TESTIMONIALS -->
 <section class="py-10">
   <div class="container-lg">
