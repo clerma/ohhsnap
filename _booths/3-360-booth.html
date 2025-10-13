@@ -531,7 +531,7 @@ permalink: /{{site.location | downcase}}-360-booth-rental
    </div>
 
    <!-- Slider -->
-   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
      {% for item in site.static_files %}
      {% if item.path contains '/assets/img/360/stills/' %}
      <div class="gallery-image">

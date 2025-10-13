@@ -277,7 +277,7 @@ permalink: wedding-photo-booth
      {% assign img_map = page['booth-image'] %}
      {% assign card_img = img_map[booth_key] | default: item.image %}
 
-      <div class="col-4 px-4 mb-5">
+      <div class="col-md-4 col-12 px-4 mb-5">
       <a href="{{item.url}}" title="{{site.location}} {{item.name}}">
         <!-- Card -->
         <div class="card card-sm rounded-top-start rounded-bottom-end lift">
@@ -332,7 +332,7 @@ permalink: wedding-photo-booth
     </div>
   </div>
   <!-- Slider -->
-  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true, "adaptiveHeight": true}'>
     {% for item in site.static_files %}
     {% if item.path contains '/assets/img/gallery/wedding' %}
     <div class="gallery-image">

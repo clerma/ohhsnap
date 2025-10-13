@@ -521,7 +521,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 		</div>
 	</div>
 	<!-- Slider -->
-	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
 		{% for item in site.static_files %}
 		{% if item.path contains '/assets/img/gallery/portrait' %}
 		<div class="gallery-image">
@@ -619,8 +619,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 				  {% assign shifted = shuffled_testimonials | slice: time_based_index, shuffled_testimonials.size %}
 				  {% assign remainder = shuffled_testimonials | slice: 0, time_based_index %}
 				  {% assign randomized_testimonials = shifted | concat: remainder %}
-				  {% assign selected_testimonials = randomized_testimonials | slice: 0, 5 %} {# Change 5 to however many you want to show #}
-
+				  {% assign selected_testimonials = randomized_testimonials | slice: 0, 5 %}
 				  {% for testimonial in selected_testimonials %}
 					<div class="col-12 px-4" data-aos="fade-up">
 					  <!-- Blockquote -->

@@ -526,7 +526,7 @@ permalink: /{{site.location | downcase}}-wedding-glam-booth
 		</div>
 	</div>
 	<!-- Slider -->
-	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
 		{% for item in site.static_files %}
 		{% if item.path contains '/assets/img/gallery/portrait' %}
 		<div class="gallery-image">
