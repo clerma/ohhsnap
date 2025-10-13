@@ -531,7 +531,7 @@ permalink: brand-activation
           {{page.type.name}} <span class="text-underline-primary-light">Articles</span>
         </h2>
       </div>
-    {% for post in site.tags.blog limit:3 %}
+    {% for post in site.tags.blog %}
     {% if post.tags contains 'Brand Activation' %}
          <div class="col-md-4">
          {% include postbox.html %}
