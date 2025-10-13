@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Stanford Wedding & Portrait Photo Booth in Lafayette
+title: Stanford Wedding | Wedding Photo Booth at The Crossing in Lafayette"
 description: >-
-  See how Ohh Snap transformed the Stanford wedding in Lafayette with our
-  open-air photo booth, custom backdrops & guest-favorite props.
+  Explore highlights from the Stanford wedding at The Crossing in Rayne,
+  LA—featuring our wedding photo booth and custom backdrop setup.
 keywords: >-
   Lafayette wedding photo booth, open air photo booth Lafayette, rustic wedding
   photo booth, photo booth for wedding reception, wedding photo booth ideas,
@@ -25,25 +25,25 @@ tags:
   - blog
 image: /uploads/2017-10-28-58303a.jpg
 ---
-# Stanford Wedding | Wedding Photo Booth at The Crossing in Lafayette
+# Stanford Wedding \| Wedding Photo Booth at The Crossing in Lafayette
 
-We had such a fantastic time celebrating with Mr. and Mrs. Stanford on their big day! The [Crossing at Mervin Kahn](https://thecrossingmk.com/){:target="_blank" rel="noopener"} in Rayne, Louisiana set the tone with its beautiful rustic charm—perfect for a romantic southern wedding.
+We had such a fantastic time celebrating with Mr. and Mrs. Stanford on their big day! The <a href="https://thecrossingmk.com/" :target="_blank" rel="noopener">Crossing at Mervin Kahn</a> in Rayne, Louisiana set the tone with its beautiful rustic charm—perfect for a romantic southern wedding.
 
 To match the couple’s style, we set up our popular [champagne sequin backdrop](https://ohhsnapbooth.com/lafayette-backdrop-rentals "Lafayette Backdrops"), which paired beautifully with the venue’s aesthetic. Guests had an absolute blast taking photos—and let’s just say the unicorn mask was the unexpected star of the show! It made its way into dozens of snapshots and added tons of laughter to the evening.
 
 Our **wedding photo booth** helped turn every candid moment into a keepsake, giving guests something fun to do and something sweet to take home. We were honored to be a part of such a joyful night. Congratulations to the Stanfords!
 
-[Click here to view the full gallery from the Stanford Wedding →](https://gallery.ohhsnapbooth.com/?q=stanford){:target="_blank" rel="noopener"}
+<a href="https://gallery.ohhsnapbooth.com/?q=stanford" :target="_blank" rel="noopener">Click here to view the full gallery from the Stanford Wedding →</a>
 
 ---
 
 ## Why Book a Photo Booth for Your Wedding?
 
-- Adds fun and energy to your reception
-- Custom backdrops that fit your wedding theme
-- High-quality images guests can print or share
-- Memorable keepsakes for everyone who attends
-- Great for rustic, modern, or elegant venues
+* Adds fun and energy to your reception
+* Custom backdrops that fit your wedding theme
+* High-quality images guests can print or share
+* Memorable keepsakes for everyone who attends
+* Great for rustic, modern, or elegant venues
 
 ---
 
@@ -51,5 +51,4 @@ Our **wedding photo booth** helped turn every candid moment into a keepsake, giv
 
 Looking for a **wedding photo booth in Lafayette** or surrounding areas? We’d love to be part of your day. We’ve served hundreds of Louisiana weddings with custom setups, fun props, and professional service.
 
-[Learn more about our wedding booth packages →](/wedding-photo-booth-lafayette)  
-[Check availability or request a quote →](/contact)
+[Learn more about our wedding booth packages →](/wedding-photo-booth-lafayette)<br> [Check availability or request a quote →](/contact)
