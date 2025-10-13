@@ -18,6 +18,7 @@ categories:
 tags:
   - blog
   - home
+  - Wedding
 image: /assets/img/ohhsnap/2021-4-24-22169B.jpg
 ---
 **Can You Successfully Plan a Wedding Under $10,000? Absolutely! Here’s How**
