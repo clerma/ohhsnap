@@ -51,4 +51,4 @@ Our **wedding photo booth** helped turn every candid moment into a keepsake, giv
 
 Looking for a **wedding photo booth in Lafayette** or surrounding areas? We’d love to be part of your day. We’ve served hundreds of Louisiana weddings with custom setups, fun props, and professional service.
 
-[Learn more about our wedding booth packages →](/wedding-photo-booth-lafayette)<br> [Check availability or request a quote →](/contact)
+[Learn more about our wedding booth packages →](/wedding-photo-booth-lafayette)<br> [Check availability or request a quote →](/contact-ohh-snap-photobooth)

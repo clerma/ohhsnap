@@ -68,4 +68,4 @@ Our photo booth rentals are perfect for:
 * Nonprofit banquets
 * Health fairs & resource expos
 
-[→ Learn more about our photo booth rentals for nonprofit and charity events](/event-photo-booth)<br> [→ Contact us to book your next event](/contact)
+[→ Learn more about our photo booth rentals for nonprofit and charity events](/event-photo-booth)<br> [→ Contact us to book your next event](/contact-ohh-snap-photobooth)

@@ -81,4 +81,4 @@ We partner with schools, colleges, and universities across Louisiana and beyond 
 * Enrollment events & open houses
 * Athletics & fan day experiences
 
-[→ Let’s talk about your next student activation](/contact)<br> [→ Learn more about our campus & school event photo booths](/school-photo-booth)
+[→ Let’s talk about your next student activation](/contact-ohh-snap-photobooth)<br> [→ Learn more about our campus & school event photo booths](/school-photo-booth)
