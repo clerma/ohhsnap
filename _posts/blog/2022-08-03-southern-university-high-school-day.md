@@ -25,7 +25,7 @@ We had the opportunity to be part of something powerful at **Southern University
 
 The goal? **Make an unforgettable impression** on the next generation of Jaguars.
 
-And that’s exactly what we helped do—with a fully branded, high-energy [photo booth activation](/school-photo-booth-rentals) designed to engage students, promote school pride, and deliver custom content they could share instantly.
+And that’s exactly what we helped do—with a fully branded, high-energy [photo booth activation](/school-photo-booth) designed to engage students, promote school pride, and deliver custom content they could share instantly.
 
 This wasn’t just a photo booth—it was a content hub, hype zone, and marketing moment all rolled into one.
 
@@ -57,7 +57,7 @@ More than just fun, our school photo booth experiences are built with purpose:
 
 Whether it’s High School Day, **College Preview Week**, or a **department showcase**, our team works with your staff to make sure the booth supports your enrollment goals.
 
-[→ Explore our school photo booth packages and customization options](/school-photo-booth-rentals)
+[→ Explore our school photo booth packages and customization options](/school-photo-booth)
 
 ---
 
@@ -81,4 +81,4 @@ We partner with schools, colleges, and universities across Louisiana and beyond 
 * Enrollment events & open houses
 * Athletics & fan day experiences
 
-[→ Let’s talk about your next student activation](/contact)<br> [→ Learn more about our campus & school event photo booths](/school-photo-booth-rentals)
+[→ Let’s talk about your next student activation](/contact)<br> [→ Learn more about our campus & school event photo booths](/school-photo-booth)
