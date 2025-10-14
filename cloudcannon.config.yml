@@ -176,7 +176,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-collections_config_override: true
+collections_config_override: false
 collection_groups:
   - heading:
     collections:
