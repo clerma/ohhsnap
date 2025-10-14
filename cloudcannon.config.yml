@@ -12,8 +12,10 @@ paths:
 collections_config:
   data:
     path: _data
-    icon: notes
+    icon: database
     output: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -38,14 +40,34 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   wedding:
-    path: _wedding
+    path:
+    glob:
+    name:
+    singular_name:
     icon: church
-    output: true
+    output: false
+    url:
+    filter:
+    parse_branch_index:
+    documentation:
     description: ''
+    preview:
+    sort:
+    sort_options:
+    singular_key:
+    _editables:
     _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
   products:
     path: _products
     icon: shopping_cart
@@ -156,35 +178,20 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  wedding:
-    path:
-    glob:
-    name:
-    singular_name:
-    icon: church
-    output: false
-    url:
-    filter:
-    parse_branch_index:
-    documentation:
-    description: ''
-    preview:
-    sort:
-    sort_options:
-    singular_key:
-    _editables:
-    _enabled_editors:
-    _inputs:
-    _select_data:
-    _structures:
-    add_options:
-    create:
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    new_preview_url:
-    schemas:
-    schema_key:
+collection_groups:
+  - heading: Pages
+    collections:
+      - pages
+      - wedding
+      - booths
+      - event_type
+      - products
+  - heading: Blogging
+    collections:
+      - posts
+  - heading: Data Files
+    collections:
+      - data
 _enabled_editors:
   - data
   - content
@@ -1034,10 +1041,3 @@ source_editor:
 timezone: America/Chicago
 markdown:
   engine: markdown
-collection_groups:
-  - heading: Pages
-    collections: [pages, wedding, booths, event_type, products]
-  - heading: Blogging
-    collections: [posts,  ]
-  - heading: Data Files
-    collections: [data]
