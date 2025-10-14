@@ -182,9 +182,9 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-      - wedding
       - booths
       - event_type
+      - wedding
       - products
   - heading: Blogging
     collections:
