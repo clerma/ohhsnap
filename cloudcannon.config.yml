@@ -136,17 +136,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-  drafts:
-    path: _drafts
-    name: Drafts
-    singular_name: Draft
-    icon: mdi:insert_invitation
-    output: true
-    create:
-      publish_to: posts
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   wedding:
     path:
     glob:
@@ -176,6 +165,17 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
+  drafts:
+    path: _drafts
+    name: Drafts
+    singular_name: Draft
+    icon: mdi:insert_invitation
+    output: true
+    create:
+      publish_to: posts
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 _enabled_editors:
   - data
   - content
