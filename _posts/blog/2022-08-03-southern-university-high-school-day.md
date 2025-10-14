@@ -29,9 +29,7 @@ And that’s exactly what we helped do—with a fully branded, high-energy [phot
 
 This wasn’t just a photo booth—it was a content hub, hype zone, and marketing moment all rolled into one.
 
-![Southern High School Day Booth](https://gallery.ohhsnapbooth.com/api/gallery/thumbnail/southern)
-
-<a href="https://gallery.ohhsnapbooth.com/?q=Southern" :target="_blank" rel="noopener">→ View the full photo gallery from Southern University High School Day</a>
+<a href="https://gallery.ohhsnapbooth.com/?q=Southern" :target="_blank" rel="noopener"> View the full photo gallery from Southern University High School Day</a>
 
 ---
 
