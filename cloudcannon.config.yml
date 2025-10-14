@@ -1034,3 +1034,10 @@ source_editor:
 timezone: America/Chicago
 markdown:
   engine: markdown
+collection_groups:
+  - heading: Pages
+    collections: [pages, wedding, booths, event_type, products]
+  - heading: Blogging
+    collections: [posts,  ]
+  - heading: Data Files
+    collections: [data]
