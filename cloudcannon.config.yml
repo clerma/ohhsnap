@@ -110,6 +110,32 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+  event_type:
+    path: _event_type
+    name: Event Type
+    icon: event_seat
+    output: true
+    description: ''
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold: true
+        copyformatting: false
+        italic: true
+        link: true
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   wedding:
     path:
     glob:
@@ -139,32 +165,6 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
-  event_type:
-    path: _event_type
-    name: Event Type
-    icon: event_seat
-    output: true
-    description: ''
-    _editables:
-      text:
-        allow_custom_markup: true
-        remove_custom_markup: false
-        bold: true
-        copyformatting: false
-        italic: true
-        link: true
-        paths:
-        redo:
-        removeformat:
-        strike:
-        subscript:
-        superscript:
-        underline:
-        undo:
-    _enabled_editors:
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   drafts:
     path: _drafts
     name: Drafts
@@ -176,6 +176,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+collections_config_override: true
 collection_groups:
   - heading:
     collections:
