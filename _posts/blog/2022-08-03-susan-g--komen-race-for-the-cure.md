@@ -26,7 +26,7 @@ We were honored to be part of the **Susan G. Komen Race for the Cure** in Lafaye
 
 Our custom photo booth added a fun and meaningful touch to the event, giving participants a chance to snap photos with friends, family, and fellow supporters. The **Bubbly Mermaid backdrop** paired perfectly with the signature pink theme, and our collection of props—think pink boas, sunglasses, and message signs—kept the good vibes going all morning.
 
-[→ View the full photo gallery from the Susan G. Komen Race for the Cure](https://gallery.ohhsnapbooth.com/?q=susan){:target="_blank" rel="noopener"}
+[→ View the full photo gallery from the Susan G. Komen Race for the Cure](https://gallery.ohhsnapbooth.com/?q=susan)
 
 ---
 
