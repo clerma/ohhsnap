@@ -247,7 +247,7 @@ permalink: /{{site.location | downcase}}-wedding-glam-booth
 	  </h1>
 	  <!-- Text -->
 	  <p class="lead text-muted">
-		Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like glam black and white, design unique templates, or select from our diverse paper options â all tailored to make your event's photos uniquely yours.
+		Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like glam black and white, design unique templates, or select from our diverse paper options all tailored to make your event's photos uniquely yours.
 	  </p>
 	</div>
   </div>
@@ -568,36 +568,6 @@ permalink: /{{site.location | downcase}}-wedding-glam-booth
   </div>
 </div>
 
-
-<!-- Photos -->
-<section class="pt-12 pt-md-18 pb-11 pb-md-16 bg-dark pattern-1">
-  <!-- Content -->
-  <div class="container-lg">
-	<div class="row justify-content-center">
-	  <div class="col-md-10 col-lg-8 text-center">
-		<!-- Preheading -->
-		<h6 class="text-uppercase text-primary mb-5 editable">
-		  smiles speak for themselves
-		</h6>
-		<!-- Heading -->
-		<h2 class="display-4 text-white mb-9 editable">
-		  Actual images from our past<br /> <span class="text-underline-primary-light">photo booth</span> events.
-		</h2>
-	  </div>
-	</div>
-  </div>
-  <!-- Slider -->
-  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
-	{% for item in site.static_files %}
-	{% if item.path contains '/assets/img/gallery/portrait' %}
-	<div class="gallery-image">
-	  <!-- Image -->
-	  <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Studio Photo Booth {{forloop.index}}" />
-	</div>
-	{% endif %}
-	{% endfor %}
-  </div>
-</section>
   {% for post in site.tags.blog %}{% if post.tags contains 'Glam' %}{% assign article_tag = true %}{% endif %}{% endfor %}
 	{% if article_tag == true %}
  <section class="pt-9 pt-md-11 posts">
@@ -644,7 +614,7 @@ permalink: /{{site.location | downcase}}-wedding-glam-booth
 
 		  {%- for testimonial in randomized_testimonials -%}
 			{%- assign evtype = testimonial.event_type | default: testimonial['event-type'] -%}
-			{%- if evtype == 'glam' and shown < 5 -%}
+			{%- if evtype == 'wedding' and shown < 5 -%}
 			  {%- assign key = testimonial.name | append: '||' | append: testimonial.testimony | strip -%}
 			  {%- unless seen contains key -%}
 
