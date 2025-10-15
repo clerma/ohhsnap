@@ -261,7 +261,6 @@ permalink: wedding-photo-booth
     </div>
     <div class="row">
       {% for item in site.wedding %}
-
      {% assign words = item.name | strip | split: ' ' %}
      {% if words.size > 1 %}
        {% assign booth_key = words[1] | downcase
