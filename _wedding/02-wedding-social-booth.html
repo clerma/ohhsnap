@@ -336,7 +336,7 @@ permalink: /{{site.location | downcase}}-wedding-social-booth
   </div>
   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
     {% for item in site.static_files %}
-    {% if item.path contains '/assets/img/gallery/social/gif' %}
+    {% if item.path contains '/assets/img/gallery/wedding/social/gif' %}
     <div class="gallery-image text-center">
       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Wedding Digital Photo Booth {{forloop.index}}" />
     </div>
