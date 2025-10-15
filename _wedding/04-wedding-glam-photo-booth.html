@@ -28,18 +28,18 @@ page-image-2: /assets/img/gallery/wedding/glam/n2hc-vqj2yaoop97dx3l6.jpeg
 page-image-3: /assets/img/gallery/wedding/glam/3F9V-3Z0D87ZN3OAXLTO3.jpeg
 booth-image:
   '360': /uploads/img-2722.jpeg
-  portrait: /uploads/2022-12-30-78514a.jpg
-  social: /uploads/dsc-0449.jpg
-  roaming: /uploads/15-glam-portrait-roaming-booth-stock.jpg
-  virtual: /assets/img/virtual-booth/VirtualBoothPromoStill08.jpg
+  portrait: /uploads/2025-4-26-74844b.jpg
+  social: /uploads/glam-social.jpg
+  roaming: /uploads/glam-roaming.jpg
+  virtual: /uploads/glamvirtual.jpg
   glam: /uploads/2024-4-27-77644a.jpg
 booths:
-  -  name: Glam Booth
-     subtext: Studio-quality Photobooth
-     icon: /assets/img/icons/legacy.svg
-     description: >-
-      Experience real connections with our portrait event photo booths, featuring
-      instant printing for instant memories.
+  - name: Glam Booth
+    subtext: Studio-quality Photobooth
+    icon: /assets/img/icons/legacy.svg
+    description: >-
+      Experience real connections with our portrait event photo booths,
+      featuring instant printing for instant memories.
 banner:
   image: /uploads/2017-11-25-72923a.jpg
   video: https://vimeo.com/1085004531
@@ -307,7 +307,7 @@ permalink: /{{site.location | downcase}}-wedding-glam-booth
   </div>
   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true, "adaptiveHeight": true}'>
     {% for item in site.static_files %}
-    {% if item.path contains '/assets/img/gallery/glam' %}
+    {% if item.path contains '/assets/img/gallery/wedding' %}
     <div class="gallery-image">
       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Glam Photo Booth {{forloop.index}}" />
     </div>
