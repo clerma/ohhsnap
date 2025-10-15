@@ -221,7 +221,7 @@ permalink: /{{site.location | downcase}}-wedding-social-booth
 <!-- Gallery (social stills) -->
 <div class="pt-5 mt-5" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
   {% for item in site.static_files %}
-  {% if item.path contains '/assets/img/gallery/social/stills' %}
+  {% if item.path contains '/assets/img/gallery/wedding/social' %}
   <div class="col-lg-4 col-10 mx-2">
     <a data-bigpicture='{"imgSrc": "{{item.path}}"}' href="#" class="d-block mb-3 mb-md-0">
       <img class="img-fluid" src="{{item.path}}" alt="Ohh Snap Wedding Social Booth {{forloop.index}} | {{site.location}} Photo Booth Rental" data-aos="wipe-left" />
