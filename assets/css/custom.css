@@ -176,6 +176,9 @@ span.post-meta {
       pointer-events: visible !important;
       text-decoration: none;
   }
+  .mobile-h{
+    height: 200px;
+  }
 }
 @media (max-width: 767.98px) {
   section.hero {
