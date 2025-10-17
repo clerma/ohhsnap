@@ -66,30 +66,30 @@ permalink: /
         </div>
         <!-- Stack -->
         <div class="card-stack">
-          {% for booth in site.booths %}
-          {% if item.type.featured == "enabled" %}
+          {% for booth in site.event_type %}
+          {% if booth.type.featured == "enabled" %}
           <!-- Card -->
           <div class="card-stack-item mb-9">
             <div class="card card-lg rounded overflow-hidden">
               <div class="row gx-0">
                 <div class="col-md order-md-1 d-flex d-sm-block align-items-end bg-primary" <!-- Image -->
-                  <a href="{{ booth.url }}" title="{{site.location}} Photo Booth Rentals | Ohh Snap {{ event.name }}">
-                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo Booth | {{ event.name }} Photo Booth Rental" />
+                  <a href="{{ booth.url }}" title="{{site.location}} Photo Booth Rentals | Ohh Snap {{ booth.name }}">
+                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo Booth | {{ booth.name }} Photo Booth Rental" />
                   </a>
                 </div>
                 <div class="col-md-5 order-md-0 d-flex align-items-center bg-white">
                   <div class="card-body text-center">
                     <!-- Icon -->
                     <div class="icon text-primary-light mx-auto mb-4">
-                      <i class="{{ event.icon }}"></i>
+                      <i class="{{ booth.icon }}"></i>
                     </div>
                     <!-- Heading -->
                     <h2 class="font-serif h1 mb-4 mt-auto fw-bold">
-                      {{ booth.booth.name }}
+                      {{ booth.type.name }}
                     </h2>
                     <!-- Text -->
                     <p>
-                      {{ booth.booth.description }}
+                      {{ booth.type.description }}
                     </p>
                     <!-- Link -->
                     <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}" title="Learn More on how to book a {{site.location}} {{ event.name }}">
