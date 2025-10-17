@@ -264,7 +264,7 @@ permalink: /
   </div>
   <!-- Slider -->
   <div class="flickity-buttons-responsive flickity-items-fade" data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
-    {% for post in site.tags.blog limit:6 %}
+    {% for post in site.tags.blog %}
      {% if post.tags contains 'home' %}
     <div class="blog-cards">
       <!-- Image -->
