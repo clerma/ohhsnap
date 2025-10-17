@@ -9,6 +9,7 @@ keywords: >-
   prints,Photo Booth Rentals, Photo Booth Packages, Event Photography,Wedding
   Photo Booth,
 image: /uploads/2024-11-23-67958c.jpg
+featured: enabled
 package:
   - name: Ultimate
     amount: 900
@@ -286,7 +287,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 			</h1>
 			<!-- Text -->
 			<p class="lead text-muted editable">
-			  Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like the Glam black and white feature, custom designed templates, or select from our diverse paper options – all tailored to make your event photos uniquely yours.
+			  Transform your event's memories with our customizable photo printing booths. Choose from elegant filters like the Glam black and white feature, custom designed templates, or select from our diverse paper options all tailored to make your event photos uniquely yours.
 			</p>
 		</div>
 	</div>
@@ -520,7 +521,7 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 		</div>
 	</div>
 	<!-- Slider -->
-	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+	<div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
 		{% for item in site.static_files %}
 		{% if item.path contains '/assets/img/gallery/portrait' %}
 		<div class="gallery-image">
@@ -612,31 +613,35 @@ permalink: /{{site.location | downcase}}-photo-booth-rental
 			<div class="col-md-12 pb-md-8">
 				<!-- Slider -->
 				<div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true,"adaptiveHeight": true}'>
-					{% assign time_based_index = 'now' | date: "%s" | modulo: site.data.testimonial.size %}
-					{% assign randomized_testimonials = site.data.testimonial | sort: 'name' %}
-					{% assign randomized_testimonials = randomized_testimonials | slice: time_based_index, randomized_testimonials.size %}
-					{% for testimonial in randomized_testimonials %}
+
+				  {% assign time_based_index = 'now' | date: "%s" | modulo: site.data.testimonial.size %}
+				  {% assign shuffled_testimonials = site.data.testimonial | sort: 'name' %}
+				  {% assign shifted = shuffled_testimonials | slice: time_based_index, shuffled_testimonials.size %}
+				  {% assign remainder = shuffled_testimonials | slice: 0, time_based_index %}
+				  {% assign randomized_testimonials = shifted | concat: remainder %}
+				  {% assign selected_testimonials = randomized_testimonials | slice: 0, 5 %}
+				  {% for testimonial in selected_testimonials %}
 					<div class="col-12 px-4" data-aos="fade-up">
-						<!-- Blockquote -->
-						<blockquote class="px-9">
-							<!-- Text -->
-							<p class="h1 text-center mb-8">
-								{{testimonial.testimony}}
+					  <!-- Blockquote -->
+					  <blockquote class="px-9">
+						<!-- Text -->
+						<p class="h1 text-center mb-8">
+						  {{ testimonial.testimony }}
+						</p>
+						<!-- Footer -->
+						<div class="d-flex align-items-center justify-content-center">
+						  <div class="ms-4 text-center">
+							<p class="fw-bold mb-0">
+							  {{ testimonial.name }}
 							</p>
-							<!-- Footer -->
-							<div class="d-flex align-items-center justify-content-center">
-								<!-- Body -->
-								<div class="ms-4 text-center">
-									<!-- Title -->
-									<p class="fw-bold mb-0">
-										{{testimonial.name}}
-									</p>
-								</div>
-							</div>
-						</blockquote>
+						  </div>
+						</div>
+					  </blockquote>
 					</div>
-					{% endfor %}
+				  {% endfor %}
+
 				</div>
+
 			</div>
 		</div>
 	</div>

@@ -30,7 +30,7 @@ permalink: /
     <div class="row justify-content-center">
       <div class="col-md-12 col-xl-10 text-center">
         <!-- Heading -->
-        <h3 class="h1 display-4 mb-4 editable">
+        <h3 class="h1 display-4 mb-4 editable mobile-h">
           Creating memorable photo booth experiences for your <span class="text-underline-warning d-md-inline"><span data-typed='{"strings": ["Wedding.", "Party.", "Fundraiser.", "Corporate Party.", "School Dance.", "Church Function."]}'></span></span>
         </h3>
       </div>
@@ -67,6 +67,7 @@ permalink: /
         <!-- Stack -->
         <div class="card-stack">
           {% for booth in site.booths %}
+          {% if item.type.featured == "enabled" %}
           <!-- Card -->
           <div class="card-stack-item mb-9">
             <div class="card card-lg rounded overflow-hidden">
@@ -99,6 +100,7 @@ permalink: /
               </div>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -130,9 +132,9 @@ permalink: /
           <div class="card card-sm rounded-top-start rounded-bottom-end mb-10 mb-md-0">
             <!-- Slider -->
             <div class="test-cards" data-flickity='{"asNavFor": "#testimonialsSlider", "fade": true, "draggable": false, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "wrapAround": true}'>
-              <img class="card-img-top rounded-top-start" src="/assets/img/event/opelousas.jpeg" alt="Halloween Photo Booth Rental for Opelousas Tourisum" />
-              <img class="card-img-top rounded-top-start" src="/assets/img/event/taryn.jpg" alt="Social Booth Rental for Weddings" />
-              <img class="card-img-top rounded-top-start" src="/assets/img/event/carlee-daniel.jpg" alt="Wedding Photo Booth Rental" />
+              <img class="card-img-top rounded-top-start" src="/assets/img/testimonials/opelousas.jpeg" alt="Halloween Photo Booth Rental for Opelousas Tourisum" />
+              <img class="card-img-top rounded-top-start" src="/assets/img/testimonials/taryn.jpg" alt="Social Booth Rental for Weddings" />
+              <img class="card-img-top rounded-top-start" src="/assets/img/testimonials/carlee-daniel.jpg" alt="Wedding Photo Booth Rental" />
             </div>
             <!-- SHAPE -->
             <div class="position-relative">

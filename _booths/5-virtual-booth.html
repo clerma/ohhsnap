@@ -20,6 +20,7 @@ keywords: >-
   services, instant photo sharing booth, {{site.location}} custom virtual booth,
   virtual photo fun, {{site.location}} event photography online
 image: /assets/img/virtual-booth/VirtualBoothPromoStill10.jpg
+featured: enabled
 price:
   amount: 50
   features:
@@ -474,7 +475,7 @@ permalink: /remote-photo-booth-rental
    </div>
 
    <!-- Slider -->
-   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
      {% for item in site.static_files %}
      {% if item.path contains '/assets/img/virtual-booth/gallery/' %}
      <div class="gallery-image">

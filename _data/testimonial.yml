@@ -1,12 +1,14 @@
 - date:
   name: Crossroads Church
+  event-type: nonprofit
   testimony: >-
     We'd like to give a huge shout out to Ohh Snap Photo Booth!! We had you guys
     out at our Joie de Vivre FEARLESS Conference at Crossroads Church last
     night!! Our ladies had so much fun!! You guys were easy to work with!! Thank
     you for being such a blessing!!
   booth: legacy
-- date:
+- date: 2020-10-04 00:00:00
+  event-type: corporate
   name: Paula Bates Meyers
   testimony: >-
     Ohh Snap is so much fan and you can't bet letting everyone have fun and take
@@ -14,6 +16,7 @@
     banquets.. Love love love Oh Snap memories..
   booth: legacy
 - date: 2020-10-04 00:00:00
+  event-type: wedding
   name: Taryn S. Fabacher
   testimony: >-
     Ohh Snap was so helpful with the creative process, set up installation, and
@@ -22,6 +25,7 @@
     well! Thanks again! So much fun. xoxo The Fabachers
   booth: Social Booth
 - date: 2020-12-21 00:00:00
+  event-type: wedding
   name: Alea de Valle
   testimony: >-
     We loved Oh Snap!! We had them come to our wedding in early January and they
@@ -29,13 +33,15 @@
     sure there was a line of people for it the entire night! Definitely a very
     effective way to make your wedding fun and memorable!
   booth: legacy
-- date:
+- date: 2019-11-12 00:00:00
+  event-type: wedding
   name: Gina Bourque
   testimony: >-
     They did a FANTASTIC job at my daughter’s wedding!! The booth was being used
     nonstop! The host was amazing!
   booth: legacy
 - date: 2019-11-12 00:00:00
+  event-type: wedding
   name: Whitley Bjerga
   testimony: >-
     We used Ohh Snap Booth for my brother's wedding! Best decision ever! We got
@@ -49,6 +55,7 @@
     Booth for all your events!
   booth: legacy
 - date: 2019-10-16 00:00:00
+  event-type: nonprofit
   name: Kayla Simon
   testimony: >-
     We hired the Ohh Snap Social Booth for our recent non-profit event. The
@@ -57,12 +64,14 @@
     minutes! We will be booking again next year! Thank you Ohh Snap Booth!
   booth: Social Booth
 - date: 2018-09-26 00:00:00
+  event-type: event
   name: LynSandra Lee Joseph
   testimony: >-
     We had a great time making memories. Our family will surely be using OHHSNAP
     again in the near future!
   booth: Legacy
-- date:
+- date: 2018-09-26 00:00:00
+  event-type: wedding
   name: Elise Marie Hanks
   testimony: >-
     You guys did an amazing job handling our wedding! Everything was amazing,
@@ -70,25 +79,30 @@
     special day GREAT!
   booth: legacy
 - date: 2022-11-03 00:00:00
+  event-type: corporate
   name: Melanie Lee Lebouef
   testimony: >-
     Great photo booth company! We hired Ohh Snap Booth for our city Halloween
     event. Ashley and her team are great to work with!!
   booth: Social Booth
-- date:
+  event-type: corporate
+- date: 2020-10-04 00:00:00
   name: Kathryn McMinn
   testimony: >-
     Seriously the best wedding vendors you could hope for! Thank you all so much
     for making our wedding day so awesome!
   booth: legacy
-- date:
+  event-type: wedding
+- date: 2020-10-04 00:00:00
   name: Kristin Daniel
   testimony: >-
     You guys at Ohh Snap are so professional and cooperative. Thanks for adding
     another special touch to our Dad's Birthday!
   booth: legacy
-- date:
+  event-type: event
+- date: 2020-10-04 00:00:00
   name: Nicole Bell
+  event-type: wedding
   testimony: >-
     My family and I thoroughly enjoyed working with Ohh Snap Photobooth for my
     younger brother's wedding day this past weekend. The process was very easy
@@ -98,58 +112,67 @@
   booth: legacy
 - date: 2022-12-28 00:00:00
   name: Mary Walton Massaro
+  event-type: wedding
   testimony: >-
     Highly recommend! We used Ohh Snap for our wedding. They were easy to work
     with, and the pictures turned out great! We were so glad to have all of the
     pictures of our guests after the event.
   booth: legacy
-- date: '2018-05-17'
+- date: 2018-05-17 00:00:00
   name: Frankie Stelly
+  event-type: corporate
   testimony: Love this had many good times and great memories pictures for ever.
   booth:
-- date: '2018-03-07'
+- date: 2018-03-07 00:00:00
   name: Hailey Yelverton
+  event-type: wedding
   testimony: >-
     They did a fantastic job for our wedding! All our guests enjoyed it; would
     highly recommend for any event!
   booth:
-- date: '2018-01-05'
+- date: 2018-01-05 00:00:00
   name: Rhonda Gerace Bergeron
+  event-type: wedding
   testimony: >-
     Absolutely awesome photos. We attended a wedding where they were and the
     pictures were incredible!!! Highly recommend them!
   booth:
-- date: '2017-08-15'
+- date: 2017-08-15 00:00:00
   name: Spring Atkinson-Baker
+  event-type: event
   testimony: >-
     Love this Photo Booth! It's super upscale, looks great, and prints gorgeous
     prints. You and your guests will have such a blast without a doubt. Highly
     recommend!
   booth:
-- date: '2017-08-15'
+- date: 2017-08-15 00:00:00
   name: Charles Albert
+  event-type: nonprofit
   testimony: >-
-    Best open-air photobooth setup around! Ohh Snap Booth are a delight to work
+    Best photobooth setup around! Ohh Snap Booth are a delight to work
     with from start to finish. From booking, designing the print template to the
     end of the event. They made sure our process was easy and effortless. Their
     fun backdrop selections are amazing as well. Take a look at their website
     and you will see why. Thank you!
   booth:
-- date: '2017-06-04'
+- date: 2017-06-04 00:00:00
   name: Annie Doucet Clark
+  event-type: wedding
   testimony: >-
     Photo booth was definitely a hit at my daughter's wedding reception!! Thanks
     for the posting the contest!!! Winning this for their night was awesome!! I
     can't wait to see all of the pics!!
   booth:
-- date: '2017-05-17'
+- date: 2017-05-17 00:00:00
   name: Brandon Wong
+  event-type: event
   testimony: >-
     Hired these guys for my Dungeons and Dragons group party and had a blast! I
     would highly recommend to other wizards and knights out there.
   booth:
-- date: '2017-05-17'
+- date: 2017-05-17 00:00:00
   name: Morgan Hilliard
+  event-type: wedding
   testimony: >-
     Used Ohh Snap twice... once for my wedding and the second time at an event
     for my job. Couldn't have asked for a more perfect and professional
@@ -157,25 +180,47 @@
     get EXACTLY what you want. Photo booth is definitely the life of the party!
     Can't wait for a reason to book with them again ❤️
   booth:
-- date: '2015-07-28'
+- date: 2015-07-28 00:00:00
   name: Paula Jackson
+  event-type: event
   testimony: >-
     I Think this is Great for just about Any Event. It's a simple way to
     remember memories of the event. Loved the photos I took! :)
   booth:
-- date: '2015-07-27'
+- date: 2015-07-27 00:00:00
   name: Rachel Reed Thomas
+  event-type: event
   testimony: >-
     Best photo booth around!! Always have props that are way cool! Price is
     great! Owners are awesome!! ❤️ y'all!
   booth:
-- date: '2014-11-09'
+- date: 2014-11-09 00:00:00
   name: Courtney Cavalier
+  event-type: school
   testimony: Lots of fun!!
   booth:
-- date:
+- date: 2020-10-04 00:00:00
   name: Cajun Industries
+  event-type: corporate
   testimony: >-
     I always have such a good experience with Ohh Snap, so easy to work with,
     that makes me want to use the any them over other company in Baton Rouge
-  booth: /1-portrait-booth
+  booth: /portrait-booth
+- date: 2025-02-04 00:00:00
+  name: Tricia Cuccio
+  event-type: corporate
+  testimony: >-
+    Such a fun experience for our 25 year anniversary company party!! Highly recommend!
+  booth: /portrait-booth
+- date: 2025-02-04 00:00:00
+  name: Baileigh Meche
+  event-type: school
+  testimony: >-
+    Who doesn't love a good Photo Booth? Dependable and quality work--hard to come by! You won't regret booking!!
+  booth: /portrait-booth
+- date: 2022-05-06 00:00:00
+  name: Shaddox Family
+  event-type: wedding
+  testimony: >-
+   We used Oh Snapp Photo Booth for our wedding day and everyone raved about the experience! It was such a fun addition to our wedding night and so many of the guests loved it. We also loved how when you text the images to yourself, you can look at everyone’s pictures from the whole night! It was so fun for me to see the cute images of everyone there and having fun. The customer service was great, they answered all of my questions and were so helpful with executing the design!
+  booth: /portrait-booth
