@@ -73,8 +73,8 @@ permalink: /
             <div class="card card-lg rounded overflow-hidden">
               <div class="row gx-0">
                 <div class="col-md order-md-1 d-flex d-sm-block align-items-end bg-primary" <!-- Image -->
-                  <a href="{{ booth.url }}" title="{{site.location}} Photo Booth Rentals | Ohh Snap {{ booth.name }}">
-                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo Booth | {{ booth.name }} Photo Booth Rental" />
+                  <a href="{{ booth.url }}" title="{{site.location}} Photo Booth Rentals | Ohh Snap {{ booth.type.name }}">
+                    <img class="card-img-top images-cards" src="{{ booth.image }}" alt="{{site.location}} Photo Booth | {{ booth.type.name }} Photo Booth Rental" />
                   </a>
                 </div>
                 <div class="col-md-5 order-md-0 d-flex align-items-center bg-white">
@@ -92,7 +92,7 @@ permalink: /
                       {{ booth.type.description }}
                     </p>
                     <!-- Link -->
-                    <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}" title="Learn More on how to book a {{site.location}} {{ event.name }}">
+                    <a class="h6 text-uppercase text-decoration-none mt-auto" href="{{ booth.url }}" title="Learn More on how to book a {{site.location}} {{ booth.type.name }}">
                       Learn More <i class="fe fe-arrow-right"></i>
                     </a>
                   </div>
