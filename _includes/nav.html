@@ -2,9 +2,9 @@
         <div class="container-lg">
                 <!-- Brand -->
                 <a class="navbar-brand d-lg-none me-0 col-8" href="/" target="_self">{% if include.weddinglogo == "true" %}
-                        <img class="w-50" src="/assets/img/logo/ohh-snap-photo-booth.svg" alt="{{ site.name }} logo" />
+                          <img class="w-50" src="/assets/img/logo/ohh-snap-photo-booth.svg" alt="{{ site.name }} logo" />
                         {% else %}
-                        <img class="w-50" src="{{ site.data.company_details.logo_image }}" alt="{{ site.name }} logo" />
+                          <img class="w-50" src="{{ site.data.company_details.logo_image }}" alt="{{ site.name }} logo" />
                         {% endif %}</a>
                 <input id="menu__toggle" class="navbar-toggler" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" />
                 <label class="menu__btn" for="menu__toggle">
@@ -33,7 +33,7 @@
                                                                                 <a class="d-flex text-decoration-none {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="Ohh Snap {{item.type.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
-                                                                                                <i class="{{item.type.icon}}"></i>
+                                                                                              <i class="{{item.type.icon}}"></i>
                                                                                         </div>
                                                                                         <div class="ms-3">
                                                                                                 <!-- Heading -->
@@ -135,14 +135,14 @@
                         </ul>
                         <!-- Brand -->
                         <a class="navbar-brand d-none d-lg-block px-0 col-lg-3 col-md-2 mx-0 mx-md-5 text-center" href="/">{% if include.weddinglogo == "true" %}
-                                <img class="logo" src="/assets/img/logo/ohh-snap-photo-booth.svg" alt="{{ site.name }} logo" />
+                                  <img class="logo" src="/assets/img/logo/ohh-snap-photo-booth.svg" alt="{{ site.name }} logo" />
                                 {% else %}
-                                <img class="logo" src="{{ site.data.company_details.logo_image }}" alt="{{ site.name }} logo" />
+                                  <img class="logo" src="{{ site.data.company_details.logo_image }}" alt="{{ site.name }} logo" />
                                 {% endif %}</a>
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-start w-100">
                                 <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#" title="" data-bs-toggle="modal" data-bs-target="#gallerymodal">
+                                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallerymodal">
                                                 Event Photos
                                         </a>
                                 </li>
