@@ -364,4 +364,13 @@ height:70vh
     transition: all .4s linear;
 
 }
+.jarallax-fallback {
+  animation: fadeOutFallback 2s ease-in 2.5s forwards;
+}
 
+@keyframes fadeOutFallback {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

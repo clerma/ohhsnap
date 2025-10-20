@@ -214,17 +214,15 @@
                }))
             }, window.Isotope = L();
 window.imagesLoaded = E();
-
-// â Lazy-load jarallax to improve LCP
 function initJarallaxLazy() {
   const jarallaxElements = document.querySelectorAll("[data-jarallax], [data-jarallax-element]");
-  if (typeof l.jarallax === 'function') {
-    l.jarallaxVideo();
-    l.jarallaxElement();
-    l.jarallax(jarallaxElements);
-    window.jarallax = l.jarallax;
-    window.jarallaxElement = l.jarallaxElement;
-    window.jarallaxVideo = l.jarallaxVideo;
+  if (typeof jarallax === 'function') {
+    jarallaxVideo();
+    jarallaxElement();
+    jarallax(jarallaxElements);
+    window.jarallax = jarallax;
+    window.jarallaxElement = jarallaxElement;
+    window.jarallaxVideo = jarallaxVideo;
   }
 }
 
