@@ -212,7 +212,33 @@
                      })
                   }))
                }))
-            }, window.Isotope = L(), window.imagesLoaded = E();
+            }, window.Isotope = L();
+window.imagesLoaded = E();
+
+// â Lazy-load jarallax to improve LCP
+function initJarallaxLazy() {
+  const jarallaxElements = document.querySelectorAll("[data-jarallax], [data-jarallax-element]");
+  if (typeof l.jarallax === 'function') {
+    l.jarallaxVideo();
+    l.jarallaxElement();
+    l.jarallax(jarallaxElements);
+    window.jarallax = l.jarallax;
+    window.jarallaxElement = l.jarallaxElement;
+    window.jarallaxVideo = l.jarallaxVideo;
+  }
+}
+
+if ('requestIdleCallback' in window) {
+  requestIdleCallback(() => {
+    requestAnimationFrame(() => {
+      setTimeout(initJarallaxLazy, 200);
+    });
+  });
+} else {
+  window.addEventListener('load', () => {
+    setTimeout(initJarallaxLazy, 2000);
+  });
+}
             const O = document.querySelectorAll("[data-jarallax], [data-jarallax-element]");
             (0, l.jarallaxVideo)(), (0, l.jarallaxElement)(), (0, l.jarallax)(O), window.jarallax = l.jarallax, window.jarallaxElement = l.jarallaxElement, window.jarallaxVideo = l.jarallaxVideo;
             o(9328), o(5060);
