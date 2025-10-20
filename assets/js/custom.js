@@ -63,18 +63,3 @@ window.addEventListener('load', function () {
     document.getElementsByTagName("script")[0].parentNode.insertBefore(i, null);
   }
 });
-document.addEventListener('DOMContentLoaded', function () {
-  const fallback = document.querySelector('.jarallax-fallback');
-
-  // Jarallax adds its video background inside a div with class .jarallax-img
-  const observer = new MutationObserver(() => {
-    const jarallaxVideo = document.querySelector('.jarallax-video');
-
-    if (jarallaxVideo && fallback) {
-      fallback.style.display = 'none';
-      observer.disconnect();
-    }
-  });
-
-  observer.observe(document.body, { childList: true, subtree: true });
-});
