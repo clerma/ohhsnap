@@ -1,0 +1,110 @@
+---
+title: "Social Media Landing Page for {{site.location}} LA Photo Booth Rental"
+layout: mobile
+permalink: /social-activation
+---
+<section style="background-image: url('/assets/img/backdropgallery.jpg')">
+  <div class="container-fluid d-flex flex-column bg-dark-20">
+    <div class="row align-items-center justify-content-center min-vh-100 py-10 py-md-12 mt-n1">
+      <div class="col-12 col-md-7 col-lg-5 text-center">
+        <div class="card hv-50 py-10 px-9" data-aos="fade-up">
+
+          <!-- Logo -->
+          <a href="{{site.url}}">
+            <img class="img-fluid col-12 mx-auto mb-md-10 mb-8" src="{{site.logo}}" alt="{{site.location}} Brand Activation Photo Booth Logo"/>
+          </a>
+
+          <!-- Preheading -->
+          <h6 class="text-uppercase text-primary mb-5" data-aos="fade-up">
+            Welcome, innovators!
+          </h6>
+
+          <!-- Heading -->
+          <div data-aos="fade-up">
+            <h2 class="display-4 mb-5">
+              Explore Our Activation Resources
+            </h2>
+
+            <!-- Text -->
+            <p class="text-muted">
+              Welcome to Ohh Snap—your creative partner in experiential marketing and branded engagement. Discover how our photo experiences, data-driven activations, and customizable setups can amplify your brand at any event.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <ul class="list-group list-group-flush mt-n3">
+            <li class="list-group-item d-flex align-items-center" data-aos="fade-up">
+              <span class="text-end mx-auto"><a href="/">Visit Our Website</a></span>
+            </li>
+            <li class="list-group-item d-flex align-items-center" data-aos="fade-up">
+              <span class="text-center mx-auto"><a href="/ohh-snap-blog">Activation Insights & Case Studies</a></span>
+            </li>
+            <li class="list-group-item d-flex align-items-center" data-aos="fade-up">
+              <span class="text-center mx-auto"><a href="/lafayette-backdrop-rentals" title="Custom Branded Backdrops {{site.location}}">Custom Branded Backdrops</a></span>
+            </li>
+            <li class="list-group-item d-flex align-items-center" data-aos="fade-up">
+              <span class="text-center mx-auto"><a href="/contact-ohh-snap-photobooth" title="Partner with Ohh Snap for Brand Activations">Partner With Us</a></span>
+            </li>
+            <li class="list-group-item d-flex align-items-center" data-aos="fade-up">
+              <span class="text-center mx-auto"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallerymodal">
+                View Activation Gallery
+              </a></span>
+            </li>
+          </ul>
+
+          <hr class="col-6 mx-auto"/>
+
+          <!-- Contact Options -->
+          <div class="row">
+            <div class="col-md py-md-4 mb-6 mb-md-0" data-aos="fade-up">
+              <a class="text-reset text-decoration-none" href="/chat" title="Chat with {{site.location}} Activation Experts">
+                <div class="icon text-primary-light mb-3">
+                  <i class="fas fa-comments fa-lg"></i>
+                </div>
+                <h6 class="text-uppercase mb-0">Live Chat</h6>
+                <small class="text-muted">Tap to start a conversation</small>
+              </a>
+            </div>
+
+            <div class="col-md py-md-4 mb-6 mb-md-0 border-start-md" data-aos="fade-up">
+              <a class="text-reset text-decoration-none" href="mailto:chat@ohhsnapbooth.com">
+                <div class="icon text-primary-light mb-3">
+                  <i class="fas fa-envelope fa-lg"></i>
+                </div>
+                <h6 class="text-uppercase mb-0">Email Us</h6>
+                <small class="text-muted">We reply within 24 hours</small>
+              </a>
+            </div>
+
+            <div class="col-md py-md-4 border-start-md" data-aos="fade-up">
+              <a class="text-reset text-decoration-none phone" href="tel:337-366-8995">
+                <div class="icon text-primary-light mb-3">
+                  <i class="fas fa-phone fa-lg"></i>
+                </div>
+                <h6 class="text-uppercase mb-0 d-none d-md-block">Call Us</h6>
+                <h6 class="text-uppercase mb-0 d-block d-md-none">337-366-8995</h6>
+                <small class="text-muted">9am – 5pm</small>
+              </a>
+            </div>
+          </div>
+
+          <hr class="col-6 mx-auto"/>
+
+          <!-- Social Links -->
+          <div data-aos="fade-up">
+            <h2 class="display-4 fs-3 mb-5">Connect With Us</h2>
+            <ul class="list-inline list-unstyled text-primary mb-0">
+              {% for item in site.data.company_details.socials %}
+              <li class="list-inline-item ms-2 mb-2">
+                <a class="icon icon-sm" href="{{ item.link }}" title="Ohh Snap {{ item.name }} link" target="_blank" rel="noopener">
+                  <i class="fab {{ item.icon }} text-primary fa-lg"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
