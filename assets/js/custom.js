@@ -55,11 +55,11 @@ window.addEventListener('load', function () {
   })();
 
   // Curator Feed embed
-  if (document.getElementById("curator-feed-social-media-feed-layout")) {
-    var i = document.createElement("script");
-    i.async = 1;
-    i.charset = "UTF-8";
-    i.src = "https://cdn.curator.io/published/9a94c960-289a-4d77-9d37-86b1ecbe023c.js";
-    document.getElementsByTagName("script")[0].parentNode.insertBefore(i, null);
-  }
+  // if (document.getElementById("curator-feed-social-media-feed-layout")) {
+  //   var i = document.createElement("script");
+  //   i.async = 1;
+  //   i.charset = "UTF-8";
+  //   i.src = "https://cdn.curator.io/published/9a94c960-289a-4d77-9d37-86b1ecbe023c.js";
+  //   document.getElementsByTagName("script")[0].parentNode.insertBefore(i, null);
+  // }
 });
