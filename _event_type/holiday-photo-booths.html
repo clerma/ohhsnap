@@ -1,0 +1,140 @@
+---
+layout: default
+title: 'Holiday Photo Booth Rentals | {{site.location}}'
+description: >-
+  Capture the holiday magic with our festive photo booths in {{site.location}}.
+  From Halloween and Fall Festivals to Christmas parties and corporate events,
+  we create share-worthy experiences with instant prints, custom backdrops, and
+  branded overlays.
+keywords: >-
+  holiday photo booth, christmas photo booth, halloween photo booth, fall festival booth,
+  holiday party photo booth, santa photo booth, festive backdrops, instant prints,
+  {{site.location}} photo booth, holiday events
+image: /uploads/holiday-photo-booth.jpg
+type:
+  name: Holiday Photo Booth Rentals
+  description: >-
+    Custom photo booth experiences for Halloween, Harvest, and Christmas events
+    across {{site.location}}—with on-brand decor, festive backdrops, digital
+    sharing, and optional prints.
+  subtext: Make Spirits Bright—Then Capture It.
+  icon: fas fa-gift
+  featured: enabled
+permalink: /holiday-photo-booth/
+banner:
+  image: /uploads/christmas-photo-backdrop-2024.jpg
+  preheading: Festive Fun Starts Here
+  title: Holiday Photo Booths
+  subtext: >-
+    Make your Halloween party, Fall Festival, or Christmas event unforgettable with
+    custom photo & video activations that deliver joy, brand engagement, and memories.
+  cta_link: /contact-ohh-snap-photobooth
+  cta_text: Reserve Your Date
+---
+
+<!-- SHAPE DECORATION -->
+<div class="position-relative">
+  <div class="shape shape-fluid-x shape-top text-white">
+    <div class="shape-img pb-5">
+      <svg viewbox="0 0 100 50" preserveaspectratio="none"><path d="M0 25h25L75 0h25v50H0z" fill="currentColor" /></svg>
+    </div>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<section class="pt-10 pt-md-12 text-center text-white bg-dark">
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h1 class="display-3 mb-4">{{ page.banner.title }}</h1>
+        <p class="fs-lg">{{ page.banner.subtext }}</p>
+        <a class="btn btn-primary mt-4" href="{{ page.banner.cta_link }}">{{ page.banner.cta_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOLIDAY FEATURES -->
+<section class="py-10 py-md-12">
+  <div class="container-lg">
+    <div class="row text-center mb-9">
+      <div class="col">
+        <h6 class="text-uppercase text-primary">Festive Features</h6>
+        <h2 class="display-4">Make Spirits Bright with Every Snap</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <h5 class="fw-bold">🎃 Halloween Booths</h5>
+        <p>Spooky overlays, haunted props, and eerie lighting for your school party or fall event.</p>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h5 class="fw-bold">🍂 Harvest Festival</h5>
+        <p>Think pumpkins, hay bales, and warm colors—great for churches, schools, and markets.</p>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h5 class="fw-bold">🎄 Christmas Magic</h5>
+        <p>Santa backdrops, snow overlays, festive wraps, and pro lighting to make your holiday party sparkle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMAGE GALLERY -->
+<section class="py-10 bg-light">
+  <div class="container-lg">
+    <div class="row justify-content-center mb-6">
+      <div class="col-md-10 text-center">
+        <h2 class="display-4">See the Holiday Cheer in Action</h2>
+      </div>
+    </div>
+    <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
+      {% for item in site.static_files %}
+        {% if item.path contains '/assets/img/gallery/holiday' %}
+        <div class="gallery-image">
+          <img class="img-fluid rounded" src="{{ item.path }}" alt="{{ site.location }} holiday booth {{ forloop.index }}" />
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-10 bg-dark text-white">
+  <div class="container-lg">
+    <div class="row justify-content-center mb-6">
+      <div class="col-md-10 text-center">
+        <h2 class="display-4">What Others Are Saying</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="flickity-soft-edges" data-flickity='{"imagesLoaded": true, "pageDots": true, "wrapAround": true}'>
+          {% assign count = 0 %}
+          {% for testimonial in site.data.testimonial %}
+            {% assign evtype = testimonial.event_type | default: testimonial['event-type'] %}
+            {% if evtype == 'holiday' and count < 5 %}
+              <div class="col px-4">
+                <blockquote>
+                  <p class="h2 mb-4">“{{ testimonial.testimony }}”</p>
+                  <footer class="blockquote-footer text-white">{{ testimonial.name }}</footer>
+                </blockquote>
+              </div>
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-10 text-center">
+  <div class="container">
+    <h2 class="display-4 mb-4">Let’s Make Your Holiday Event Unforgettable</h2>
+    <p class="mb-5">Whether you’re planning a Fall Festival, Halloween Bash, or Corporate Christmas Party—let's bring your vision to life.</p>
+    <a href="/contact-ohh-snap-photobooth" class="btn btn-primary">Reserve Your Date</a>
+  </div>
+</section>
