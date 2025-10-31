@@ -1,23 +1,25 @@
 ---
 layout: default
-title: 'Book a Christmas Photo Booth | {{site.location}}'
+title: Book a Christmas Photo Booth | {{site.location}}
 description: >-
-  Christmas-themed photo booth rentals for holiday parties, company celebrations,
-  winter festivals, and Santa events in {{site.location}}. Studio-quality images,
-  on‑site prints, instant digital sharing, and festive overlays.
+  Christmas-themed photo booth rentals for holiday parties, company
+  celebrations, winter festivals, and Santa events in {{site.location}}.
+  Studio-quality images, on‑site prints, instant digital sharing, and festive
+  overlays.
 keywords: >-
-  christmas photo booth, christmas party booth, santa photos, holiday photo booth,
-  winter festival photo booth, corporate christmas party rentals, on-site prints,
-  santa booth, holiday backdrop, {{site.location}} christmas event
+  christmas photo booth, christmas party booth, santa photos, holiday photo
+  booth, winter festival photo booth, corporate christmas party rentals, on-site
+  prints, santa booth, holiday backdrop, {{site.location}} christmas event
 image: /uploads/2024-12-21-72911a.jpg
 type:
   name: Christmas Photo Booths
   description: >-
-    Make your Christmas party unforgettable with our festive photo & video booths.
-    Perfect for corporate holiday parties, Santa sessions, and winter festivals.
+    Make your Christmas party unforgettable with our festive photo & video
+    booths. Perfect for corporate holiday parties, Santa sessions, and winter
+    festivals.
   subtext: Festive Fun Meets Studio-Quality Photos
   icon: fas fa-gift
-  featured: enabled
+  featured: disabled
 page-image-1: /assets/img/gallery/holiday/VB3Q-JMN6R6JPVCAAB88H.gif
 page-image-2: /assets/img/gallery/holiday/2022-12-17-70887A.jpg
 page-image-3: /assets/img/gallery/holiday/IMG_1267.jpeg
@@ -39,7 +41,6 @@ banner:
   cta_text: Book Your Booth
 permalink: /christmas-photo-booths
 ---
-
 <!-- ABOUT -->
 <section class="pt-10 pt-md-12" id="about">
   <div class="container-lg">
@@ -56,19 +57,13 @@ permalink: /christmas-photo-booths
       <div class="col-md-5 col-lg-6">
         <div class="img-grid img-grid-4">
           <div class="img-grid-item">
-            <img class="img-fluid border border-4 border-md-7 border-white shadow"
-                 src="{{page.page-image-1}}" alt="Christmas 360 Video Booth"
-                 data-jarallax-element="-85" />
+            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="{{page.page-image-1}}" alt="Christmas 360 Video Booth" data-jarallax-element="-85" />
           </div>
           <div class="img-grid-item">
-            <img class="img-fluid border border-4 border-md-7 border-white shadow w-75"
-                 src="{{page.page-image-2}}" alt="Portrait Christmas Photo Booth"
-                 data-jarallax-element="-30" />
+            <img class="img-fluid border border-4 border-md-7 border-white shadow w-75" src="{{page.page-image-2}}" alt="Portrait Christmas Photo Booth" data-jarallax-element="-30" />
           </div>
           <div class="img-grid-item">
-            <img class="img-fluid border border-4 border-md-7 border-white shadow"
-                 src="{{page.page-image-3}}" alt="Social Christmas Booth"
-                 data-jarallax-element="-25" />
+            <img class="img-fluid border border-4 border-md-7 border-white shadow" src="{{page.page-image-3}}" alt="Social Christmas Booth" data-jarallax-element="-25" />
           </div>
         </div>
       </div>
@@ -211,7 +206,7 @@ permalink: /christmas-photo-booths
               <div class="shape shape-fluid-x shape-top text-white">
                 <div class="shape-img pb-4">
                   <svg viewbox="0 0 100 50" preserveaspectratio="none">
-                    <path d="M0 25h25L75 0h25v50H0z" fill="currentColor"/>
+                    <path d="M0 25h25L75 0h25v50H0z" fill="currentColor" />
                   </svg>
                 </div>
               </div>
@@ -250,15 +245,12 @@ permalink: /christmas-photo-booths
     </div>
   </div>
 
-  <div class="flickity-items-fade"
-       data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
+  <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
 
     {% for item in site.static_files %}
     {% if item.path contains '/assets/img/gallery/holiday' %}
     <div class="gallery-image">
-      <img class="img-fluid rounded"
-           src="{{item.path}}"
-           alt="{{site.location}} Christmas photo booth {{forloop.index}}" />
+      <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Christmas photo booth {{forloop.index}}" />
     </div>
     {% endif %}
     {% endfor %}
