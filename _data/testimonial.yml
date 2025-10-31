@@ -121,7 +121,8 @@
 - date: 2018-05-17 00:00:00
   name: Frankie Stelly
   event-type: corporate
-  testimony: Love this had many good times and great memories pictures for ever.
+  testimony: >-
+    Love this had many good times and great memories pictures for ever.
   booth:
 - date: 2018-03-07 00:00:00
   name: Hailey Yelverton
@@ -224,3 +225,10 @@
   testimony: >-
    We used Oh Snapp Photo Booth for our wedding day and everyone raved about the experience! It was such a fun addition to our wedding night and so many of the guests loved it. We also loved how when you text the images to yourself, you can look at everyone’s pictures from the whole night! It was so fun for me to see the cute images of everyone there and having fun. The customer service was great, they answered all of my questions and were so helpful with executing the design!
   booth: /portrait-booth
+- date: 2022-05-06 00:00:00
+  name: Rachel Thomas
+  event-type: christmas
+  testimony: >-
+   Best photo booth around!! Always have props that are way cool! Price is great! Owners are awesome!!
+  booth: /portrait-booth
+
