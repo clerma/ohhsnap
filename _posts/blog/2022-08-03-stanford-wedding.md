@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanford Wedding | Wedding Photo Booth at The Crossing in Lafayette"
+title: "Wedding Photo Booth at The Crossing in Lafayette"
 description: >-
   Explore highlights from the Stanford wedding at The Crossing in Rayne,
   LA—featuring our wedding photo booth and custom backdrop setup.
@@ -25,7 +25,7 @@ tags:
   - blog
 image: /uploads/2017-10-28-58303a.jpg
 ---
-# Stanford Wedding \| Wedding Photo Booth at The Crossing in Lafayette
+# Stanford Wedding Wedding Photo Booth at The Crossing in Lafayette
 
 We had such a fantastic time celebrating with Mr. and Mrs. Stanford on their big day! The <a href="https://thecrossingmk.com/" :target="_blank" rel="noopener">Crossing at Mervin Kahn</a> in Rayne, Louisiana set the tone with its beautiful rustic charm—perfect for a romantic southern wedding.
 
