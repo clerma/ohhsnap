@@ -248,7 +248,7 @@ permalink: /christmas-photo-booths
   <div class="flickity-items-fade" data-flickity='{"imagesLoaded": true, "pageDots": false, "wrapAround": true, "adaptiveHeight": true}'>
 
     {% for item in site.static_files %}
-    {% if item.path contains '/assets/img/gallery/holiday' %}
+    {% if item.path contains '/assets/img/gallery/christmas' %}
     <div class="gallery-image">
       <img class="img-fluid rounded" src="{{item.path}}" alt="{{site.location}} Christmas photo booth {{forloop.index}}" />
     </div>
