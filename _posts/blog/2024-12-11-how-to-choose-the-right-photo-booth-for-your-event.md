@@ -86,7 +86,7 @@ Not all events require a stationary photo booth. [**Roaming Photography**](/roma
 
 Customization is the key to making your photo booth stand out. From branded backdrops and custom layouts to personalized props, these details tie your event together and leave a lasting impression. Whether you want to showcase your corporate logo or design something unique for a wedding, customization enhances the guest experience.
 
-> Check out our \[**Custom Backdrops**\](https://ohhsnapbooth.com/{{site.location}}\-backdrop-rentals) for inspiration.
+> Check out our [**Custom Backdrops**](/lafayette-backdrop-rentals) for inspiration.
 
 ---
 
