@@ -181,6 +181,21 @@
 			"status": 301
 		},
 		{
+			"from": "/roaming-photography/",
+			"to": "/roaming-event-photographer",
+			"status": 301
+		},
+		{
+			"from": "/photo-booth-layout/",
+			"to": "/ohh-snap-help/what-is-a-photo-booth-layout",
+			"status": 301
+		},
+		{
+			"from": "/roaming-event-photographer/",
+			"to": "/roaming-event-photographer",
+			"status": 301
+		},
+		{
 			"from": "/ohh-snap-blog/tag/Houston_Photo_Booth_Rental/index.html",
 			"to": "/ohh-snap-blog",
 			"status": 301
