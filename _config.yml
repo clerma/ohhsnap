@@ -1,0 +1,151 @@
+---
+timezone: America/Chicago
+baseurl: "https://lafayettephotobooth.com"
+url: https://lafayettephotobooth.com
+include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
+name: Ohh Snap Booth
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+author: "Lafayette Photo Booth"
+relative_permalinks: false
+favicon: /assets/favicon/favicon.ico
+disqus:
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: G-9QW9SLLGLX
+logo: /assets/img/logo/ohh-snap-logo.png
+locale: en_us
+social:
+  name: Ohh Snap Photo booth
+  links:
+    - https://twitter.com/ohhsnapbooth
+    - https://www.facebook.com/ohhsnapbooth
+    - https://www.pinterest.com/ohhsnapbooth
+    - https://instagram.com/ohhsnapbooth
+    - https://maps.app.goo.gl/HFYo8vHsEqHiMQfX8
+    - https://www.yelp.com/biz/ohh-snap-photo-booth-lafayette-2
+    - https://www.theknot.com/marketplace/ohh-snap-photo-booth-lafayette-la-1089431
+    - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
+    - https://www.stylemepretty.com/vendor-profile/ohh-snap-photo-booth?location=southeastern-us/louisiana
+    - https://www.bing.com/maps?osid=8c037a23-54a0-432d-8ee2-26799c5f2469&cp=30.492782~-92.076716&lvl=16&pi=0&imgid=8a7af4dc-d1f9-4f80-82f7-652189843304&v=2&sV=2&form=S00027
+    - https://www.youtube.com/@ohhsnapbooth
+    - https://www.linkedin.com/in/ohh-snap-photo-booth
+twitter:
+  username: "ohhsnapbooth"
+address:
+  street: "905 Jefferson St"
+  city: "Lafayette"
+  region: "LA"
+  zip: "70501"
+  country: "US"
+latitude: "30.221191"
+longitude: "-92.018257"
+phone: "337-366-8995"
+og_image: "/assets/img/default-og-image.jpg"
+google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
+bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
+location: Lafayette
+alt_location:
+  - location: Lake Charles
+    url: https://lakecharlesphotobooth.com
+  - location: Baton Rouge
+    url: https://batonrougephotobooth.rentals
+  - location: Alexandria
+    url: https://alexandriaphotobooth.com
+local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville, Lafayette,Crowly
+local_competitors: Bai booth, The Yard Photo Booth, Social Booth, The Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies, Lafayette 360 Photo Booth, luxe booth, Luxe Booth Luxe 360 Booth, photo booth rental lafayette,studio b photog,creative culture films, Berry Booths,Berry Booths - Photo Booth & Event Rentals,
+snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
+snipcart_currency: "usd"
+collections:
+  products:
+    output: true
+  coordinators:
+    output: true
+    permalink: /:title
+  booths:
+    output: true
+  event_type:
+    output: true
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: default
+    _options:
+      content: &content_defaults
+        uploads_dir: "uploads/:title"
+        format: p h1 h2 h3 h4 h5 h6 div
+        styles: /assets/css/theme.css
+        undo: true
+        redo: true
+        left: text-left
+        center: text-center
+        right: text-right
+        justify: justify-content-center
+        bold: true
+        italic: true
+        underline: true
+        strike: true
+        subscript: false
+        superscript: false
+        blockquote: true
+        table: true
+        copyformatting: true
+        removeformat: true
+        numberedlist: true
+        bulletedlist: true
+        outdent: false
+        indent: false
+        image: true
+        link: true
+        embed: true
+- scope:
+    path: ""
+    type: "products"
+  values:
+    layout: "product"
+- scope:
+    type: pages
+    path: _pages/index.html
+  values:
+    permalink:
+- scope:
+    path: "_posts/blog"
+    type: posts
+  values:
+    permalink: "/ohh-snap-blog/:title"
+    layout: post
+- scope:
+    path: "_posts/help"
+    type: posts
+  values:
+    permalink: "/ohh-snap-help/:title"
+    layout: post
+
+assets:
+  cdn:
+    url: https://rtg82ywq.tinifycdn.com
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+# http://jekyllrb.com/docs/pagination/
+# paginate: 3
+# paginate_path: '/page:num/'
+
+# Permalinks
+permalink: /:path/:basename:output_ext
+plugins:
+  #- jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+exclude:
+    - .jekyll-cache/
+    - gemfiles/
+    - Gemfile
+    - Gemfile.lock
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
+    - _site
