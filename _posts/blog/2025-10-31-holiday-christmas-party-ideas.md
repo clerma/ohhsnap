@@ -1,8 +1,28 @@
 ---
 layout: post
-title: "Holiday Photo Booth Ideas for Your Company Christmas Party"
-description: "Planning a company Christmas party? A holiday photo booth brings instant joy, encourages team bonding, and creates shareable memories your employees will love."
-keywords: "company christmas party ideas, holiday photo booth rental, corporate christmas party entertainment, christmas party photo booth, office holiday party ideas, employee appreciation holiday event, photo booth for holiday party, corporate holiday party photo booth, christmas team building activity, holiday party entertainment ideas, fun christmas photo booth ideas for office parties, interactive holiday party experiences, how to plan a memorable office christmas party, employee engagement holiday activities, photo booth rental for christmas events, christmas photo booth backdrop ideas, holiday party planning for companies, christmas-themed photo booth props, festive photo booth setup for corporate events, ways to boost employee morale at holiday parties"
+title: Photo Booth Ideas for Your Company Christmas Party
+description: >-
+  Planning a company Christmas party? A holiday photo booth brings instant joy,
+  encourages team bonding, and creates shareable memories your employees will
+  love.
+keywords: >-
+  company christmas party ideas, holiday photo booth rental, corporate christmas
+  party entertainment, christmas party photo booth, office holiday party ideas,
+  employee appreciation holiday event, photo booth for holiday party, corporate
+  holiday party photo booth, christmas team building activity, holiday party
+  entertainment ideas, fun christmas photo booth ideas for office parties,
+  interactive holiday party experiences, how to plan a memorable office
+  christmas party, employee engagement holiday activities, photo booth rental
+  for christmas events, christmas photo booth backdrop ideas, holiday party
+  planning for companies, christmas-themed photo booth props, festive photo
+  booth setup for corporate events, ways to boost employee morale at holiday
+  parties, christmas photo booth, christmas party booth, santa photos, holiday
+  photo booth, winter festival photo booth, corporate christmas party rentals,
+  on-site prints, santa booth, holiday backdrop, {{site.location}} christmas
+  event, christmas photo booth ideas, company christmas party, company party
+  planning, Company Party, Christmas Party ideas, Christmas Party Planning
+  Checklist, Guide to Creating a Festive Celebration,The ultimate Christmas and
+  holiday party planning guide
 image: /assets/img/gallery/holiday/IMG_1267.jpeg
 tags:
   - corporate
@@ -10,7 +30,6 @@ tags:
   - christmas
   - blog
 ---
-
 # Make Your Company Christmas Party One to Remember
 
 When it comes to planning a **company Christmas party** that your team will actually enjoy, few things create a festive vibe like a well-designed holiday photo booth experience. It’s more than just pictures — it’s about giving your team a moment to connect, laugh, and celebrate the season together.
