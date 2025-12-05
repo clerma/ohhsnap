@@ -1,11 +1,11 @@
 ---
 timezone: America/Chicago
-baseurl: "https://lafayettephotobooth.com"
-url: https://lafayettephotobooth.com
+baseurl: "newiberia.ohhsnapbooth.com"
+url: https://newiberia.ohhsnapbooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email]
 name: Ohh Snap Booth
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
-author: "Lafayette Photo Booth"
+author: "New Iberia Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
@@ -42,15 +42,17 @@ phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
 bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
-location: Lafayette
+location: New Iberia
 alt_location:
+  - location: Lafayette
+    url: https://lafayettephotobooth.com
   - location: Lake Charles
     url: https://lakecharlesphotobooth.com
   - location: Baton Rouge
     url: https://batonrougephotobooth.rentals
   - location: Alexandria
     url: https://alexandriaphotobooth.com
-local_keywords: Scott, Carencro, Sunset, Opelousas, Duson, Youngsville, New Iberia, Breaux Bridge, Grand Coteau, and Arnaudville,Lafayette,Crowly, Midtown, Downtown Lafayette, 
+local_keywords: New Iberia, Jeanerette,Avery Island,Lydia,Loreauville,Lafayette,
 local_competitors: Bai booth, The Yard Photo Booth, Social Booth, The Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies, Lafayette 360 Photo Booth, luxe booth, Luxe Booth Luxe 360 Booth, photo booth rental lafayette,studio b photog,creative culture films, Berry Booths,Berry Booths Photo Booth & Event Rentals,Snapster Photo Booth Rentals,Snapster,
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
@@ -122,7 +124,7 @@ defaults:
 
 assets:
   cdn:
-    url: https://rtg82ywq.tinifycdn.com
+    # url: https://rtg82ywq.tinifycdn.com
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
