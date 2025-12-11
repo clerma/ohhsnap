@@ -5,7 +5,26 @@
 {%- if page.description -%}{%- assign seo_description = page.description -%}{%- elsif page.excerpt -%}{%- assign seo_description = page.excerpt -%}{%- else -%}{%- assign seo_description = site.description -%}{%- endif -%}
 
 {%- assign seo_keywords = page.keywords | default: site.keywords -%}
-{%- assign seo_keywords = seo_keywords | append: ", " | append: site.local_keywords | append: ", " | append: site.local_competitors -%}
+{%- comment -%} Normalize arrays → comma-separated strings {%- endcomment -%}
+{%- assign lk_list = site.local_keywords | join: ', ' -%}
+{%- assign lc_list = site.local_competitors | join: ', ' -%}
+
+{%- assign seo_list = '' -%}
+{%- if seo_keywords and seo_keywords != '' -%}
+  {%- assign seo_list = seo_keywords -%}
+{%- endif -%}
+
+{%- if lk_list and lk_list != '' -%}
+  {%- if seo_list != '' -%}{% assign seo_list = seo_list | append: ', ' %}{%- endif -%}
+  {%- assign seo_list = seo_list | append: lk_list -%}
+{%- endif -%}
+
+{%- if lc_list and lc_list != '' -%}
+  {%- if seo_list != '' -%}{% assign seo_list = seo_list | append: ', ' %}{%- endif -%}
+  {%- assign seo_list = seo_list | append: lc_list -%}
+{%- endif -%}
+
+{%- assign seo_keywords = seo_list -%}
 {%- assign page_image = page.image | default: site.og_image | absolute_url -%}
 {%- assign og_type = page.date | default: "website" -%}
 
