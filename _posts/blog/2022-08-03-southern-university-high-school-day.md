@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Southern High School Day | Branded Campus Photo Booth Activation
+title: Branded Campus Photo Booth Activation
 description: >-
   Ohh Snap partnered with Southern University to create a branded photo booth
   experience for thousands of high school students during their recruitment day

@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Phi Mu's Semi Formal
-description: Test description
+title: Phi Mu Semi Formal Photo Booth Fun
+description: >-
+  Ohh Snap Booth captured all the fun at Phi Mu’s semi formal in downtown
+  Lafayette with our silver sequin backdrop and signature props!
 keywords: >-
-  photo booth rental, photo booth rental, sorority life, phi mu, event photo
-  booth, event ideas, event planning, 
+  photo booth rental, Lafayette event photo booth, Phi Mu, sorority formal,
+  college events, Greek life party ideas, event photography, silver sequin
+  backdrop, downtown Lafayette venues
 author: Ohh Snap
 categories:
   - Blog
@@ -13,6 +16,12 @@ tags:
   - School
 image: /uploads/2017-11-11-69354a.jpg
 ---
-What better way to spend our Saturday night than with an energetic group like the Phi Mus’\!
+There’s no better way to spend a Saturday night than celebrating with the fun-loving women of **Phi Mu**!
 
-Phi Mu’s Semi formal was held at the Jefferson Street Pub downtown, Lafayette. This venue set the perfect tone for the formal. Phi Mu chose our silver- sequin photo booth backdrop along with a bunch of our silly props. This Sorority sure knew how to have a good time and we had a blast capturing these moments\! Until next time, Phi Mu\!
+Their **semi formal event at** <a href="https://thejeffersonlafayette.com/" target="_blank" rel="noopener"><strong>Jefferson Street Pub in downtown Lafayette</strong></a> set the scene for a night of laughter, dancing, and unforgettable memories. With a venue full of energy and excitement, we were honored to be part of the celebration.
+
+Phi Mu chose our [**silver sequin backdrop**](/lafayette-backdrop-rentals) for their photo booth setup—glamorous, reflective, and perfect for party pics. Add in a table full of **fun and silly props**, and the result? A non-stop stream of candid, creative photos their members will be looking back on for years.
+
+We loved capturing the spirit of **sisterhood, celebration, and style**. Thanks for having us, Phi Mu—can’t wait to do it again soon!
+
+Want to bring this same level of energy and fun to your next **sorority event or formal**? [Check out our booths here](/booths) and let’s make it unforgettable.
