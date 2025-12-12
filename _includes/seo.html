@@ -4,8 +4,6 @@
 {%- assign canonical_url = page.canonical_url | default: page.url | absolute_url -%}
 {%- if page.description -%}{%- assign seo_description = page.description -%}{%- elsif page.excerpt -%}{%- assign seo_description = page.excerpt -%}{%- else -%}{%- assign seo_description = site.description -%}{%- endif -%}
 
-{%- assign seo_keywords = page.keywords | default: site.keywords -%}
-{%- assign seo_keywords = seo_keywords | append: ", " | append: site.local_keywords | append: ", " | append: site.local_competitors -%}
 {%- assign page_image = page.image | default: site.og_image | absolute_url -%}
 {%- assign og_type = page.date | default: "website" -%}
 
@@ -15,7 +13,6 @@
 
 <!-- Meta Tags -->
 <meta name="description" content="{{ seo_description }}">
-<meta name="keywords" content="{{ seo_keywords }}">
 <meta name="author" content="{{ site.author }}">
 
 <!-- Open Graph -->
