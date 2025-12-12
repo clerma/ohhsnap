@@ -9,28 +9,7 @@
     <!-- NAVBAR -->
    {% include nav.html %}
 
-   <section class="py-10">
-     <div class="container">
-       <h1 class="display-4">
-         {{ page.city }} {{ page.h1_suffix | default: "Photo Booth Rentals" }}
-       </h1>
-
-       {% if page.hero_image %}
-         <img class="w-100 my-4" src="{{ page.hero_image | relative_url }}" alt="{{ page.city }} photo booth">
-       {% endif %}
-
-       <p class="lead">
-         Serving {{ page.city }} and surrounding areas with portrait, glam, 360, roaming, and social booths.
-       </p>
-
        {{ content }}
-
-       <!-- Example: link into your existing collections/listings -->
-       <div class="mt-5">
-         <a class="btn btn-primary" href="/book/">Get a Quote for {{ page.city }}</a>
-       </div>
-     </div>
-   </section>
 
     <!-- FOOTER -->
     {% include footer.html %}

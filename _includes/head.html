@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0,minimum-scale=1.0">
 
 <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="{{site.favicon}}" title="Ohh Snap! {{site.location}} Photo Booth Favicon">
+<link rel="icon" type="image/x-icon" href="{{site.favicon}}" title="Ohh Snap! {% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Photo Booth Favicon">
 <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">

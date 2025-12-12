@@ -189,7 +189,56 @@
     </div>
   </div>
 </section>
+<!-- TESTIMONIALS -->
+<section class="py-10">
+  <div class="container-lg">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-12 pb-md-8">
+      <div class="flickity-soft-edges" data-flickity='{"asNavFor": "#testimonialsSlider", "draggable": true, "imagesLoaded": true, "pageDots": true, "prevNextButtons": true, "wrapAround": true, "adaptiveHeight": true}'>
 
+        {%- assign size = site.data.testimonial | size -%}
+        {%- if size > 0 -%}
+          {%- assign time_based_index = 'now' | date: "%s" | modulo: size -%}
+          {%- assign sorted = site.data.testimonial | sort: 'name' -%}
+          {%- assign shifted = sorted | slice: time_based_index, sorted.size -%}
+          {%- assign remainder = sorted | slice: 0, time_based_index -%}
+          {%- assign randomized_testimonials = shifted | concat: remainder -%}
+
+          {%- assign seen = "" -%}
+          {%- assign shown = 0 -%}
+
+          {%- for testimonial in randomized_testimonials -%}
+            {%- assign evtype = testimonial.event_type | default: testimonial['event-type'] -%}
+
+              {%- assign key = testimonial.name | append: '||' | append: testimonial.testimony | strip -%}
+              {%- unless seen contains key -%}
+
+                <div class="col-12 px-4" data-aos="fade-up">
+                  <blockquote class="px-9">
+                    <p class="h1 text-center mb-8 fw-bold">
+                      {{ testimonial.testimony }}
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <div class="ms-4 text-center">
+                        <p class="fw-bold mb-0">{{ testimonial.name }}</p>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+
+                {%- assign seen = seen | append: key | append: ";" -%}
+                {%- assign shown = shown | plus: 1 -%}
+              {%- endunless -%}
+
+          {%- endfor -%}
+        {%- endif -%}
+
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 <!-- CTA -->
 <section class="position-relative pt-10 pt-md-12 pb-12 bg-light">
   <div class="container-lg text-center">

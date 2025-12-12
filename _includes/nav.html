@@ -62,7 +62,7 @@
                                                                                 {% for item in site.booths %}
                                                                                 {% if item.featured == "enabled" %}
                                                                                 <!-- Links -->
-                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{{site.location}}, LA {{item.booth.name}} Rental" target="_self">
+                                                                                <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %}, LA {{item.booth.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
                                                                                                 <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
@@ -102,7 +102,7 @@
                                                                         <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth" target="_self">
                                                                                 About
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/{{site.location | downcase}}-backdrop-rentals" title="{{site.location}} Event Backdrop Rentals" target="_self">
+                                                                        <a class="dropdown-item" href="/{{site.location | downcase}}-backdrop-rentals" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Event Backdrop Rentals" target="_self">
                                                                                 Backdrops
                                                                         </a>
                                                                         <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company" target="_self">
