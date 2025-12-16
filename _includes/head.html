@@ -21,11 +21,14 @@
 <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 {% include seo.html %}
-<!-- Libs CSS -->
-<link rel="stylesheet" href="/assets/css/libs.bundle.css" onload="this.onload=null;this.rel='stylesheet'" />
-<!-- Theme CSS -->
-<link rel="stylesheet" href="/assets/css/theme.bundle.css" onload="this.onload=null;this.rel='stylesheet'" />
-<link rel="stylesheet" href="/assets/css/custom.css" onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="/assets/css/libs.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/assets/css/libs.bundle.css"></noscript>
+
+<link rel="preload" href="/assets/css/theme.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/assets/css/theme.bundle.css"></noscript>
+
+<link rel="preload" href="/assets/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/assets/css/custom.css"></noscript>
 <link rel="stylesheet" href="https://use.typekit.net/atv7ulw.css">
 <script src="https://kit.fontawesome.com/b89107202e.js" crossorigin="anonymous"></script>
 <link rel="preload" as="image" href="{{page.image}}" fetchpriority="high">

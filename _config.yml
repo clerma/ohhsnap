@@ -30,6 +30,11 @@ social:
     - https://www.linkedin.com/in/ohh-snap-photo-booth
 twitter:
   username: "ohhsnapbooth"
+schema:
+  business_id: "#localbusiness"
+  business_type: "LocalBusiness"
+  service_radius_meters: 64374
+
 address:
   street: "905 Jefferson St"
   city: "Lafayette"
@@ -38,6 +43,19 @@ address:
   country: "US"
 latitude: "30.221191"
 longitude: "-92.018257"
+price_range: "$$"
+payment_accepted: ["Cash","Credit Card","PayPal","Check"]
+opening_hours:
+weekday:
+  days: ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+  opens: "09:00"
+  closes: "17:00"
+weekend:
+  days: ["Saturday","Sunday"]
+  opens: "10:00"
+  closes: "17:00"
+review_count: 50
+default_rating_value: "5.0"
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
