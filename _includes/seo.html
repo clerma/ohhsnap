@@ -75,7 +75,7 @@
     {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"10:00","closes":"17:00"}
   ],
   "priceRange":"{{ site.price_range | default: '$$' }}",
-  "paymentAccepted": {{ site.payment_accepted | default: '["Cash","Credit Card","PayPal","Check"]' }},
+  "paymentAccepted": [{% if site.payment_accepted %}{% for p in site.payment_accepted %}"{{ p | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}{% else %}"Cash","Credit Card","PayPal","Check"{% endif %}],
   "sameAs":[
     {% for link in site.social.links %}
     "{{ link }}"{% unless forloop.last %},{% endunless %}
