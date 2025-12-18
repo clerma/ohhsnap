@@ -111,9 +111,16 @@ permalink: /about-ohh-snap-photo-booth
 
           <h3>Primary Serviced Areas</h3>
           <p>Ohh Snap! Photo Booth serves {{site.location}}, LA, the cities listed below, and surrounding areas as our primary service areas. We’re also happy to travel to most destinations to capture your unforgettable events!</p>
-          {% for item in site.alt_location %}
-          <a href="{{item.url}}" target="_blank" rel="noopener" title="Ohh Photo Photo Booth | {{item.location}}, LA Photo Booth ">{{item.location}}</a> {% if forloop.last %}{% else %}<span class="mx-3">|</span>{% endif %}
-          {% endfor %}
+         <ul class="list-inline">
+           {% for item in site.local_keywords %}
+             <li class="list-inline-item">
+               <a href="/locations/{{ item | slugify }}"
+                  title="Photo Booth Rental in {{ item }}, LA | Ohh Snap Booth">
+                 {{ item }}
+               </a>
+             </li>
+           {% endfor %}
+         </ul>
           </div>
         </div>
       </div>
