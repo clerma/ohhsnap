@@ -12,6 +12,7 @@ categories:
   - Blog
 tags:
   - blog
+  - home
 image: /uploads/91-western-rich-ohh-snap-photo-booth.jpg
 ---
 If you’ve started searching for a photo booth in Lafayette or South Louisiana, you’ve probably noticed something pretty quickly—there are a lot of options. At first glance, many companies look similar. Comparable booths. Similar photo samples. Matching buzzwords like “modern,” “open-air,” and “custom.”
