@@ -65,7 +65,7 @@
                                                                                 <a class="d-flex text-decoration-none text-reset {% if forloop.first %}{% else %}mt-4{% endif %}" href="{{item.url}}" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %}, LA {{item.booth.name}} Rental" target="_self">
                                                                                         <!-- Icon -->
                                                                                         <div class="icon icon-sm text-primary-light">
-                                                                                                <img src="{{item.booth.icon}}" class="menu-icons" title="Ohh Snap {{item.booth.name}} Rental" />
+                                                                                                <img src="{{item.booth.icon}}" class="menu-icons" alt="{% if page.city %}{{page.city}} {% else %}{{site.location}}{% endif %}, LA {{item.booth.name}} Icon" title="Ohh Snap {{item.booth.name}} Rental" />
                                                                                         </div>
                                                                                         <div class="ms-3">
                                                                                                 <!-- Heading -->
