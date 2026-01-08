@@ -58,4 +58,34 @@
       loadLightwidget();
     }
   })();
+  function appendScriptSafely(src, attrs) {
+    function doAppend() {
+      try {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = src;
+
+        if (attrs) {
+          Object.keys(attrs).forEach(function (k) {
+            s.setAttribute(k, attrs[k]);
+          });
+        }
+
+        var target =
+          document.head ||
+          document.getElementsByTagName('head')[0] ||
+          document.body ||
+          document.documentElement;
+
+        if (!target || !target.appendChild) return; // nothing to attach to yet
+        target.appendChild(s);
+      } catch (e) {}
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', doAppend, { once: true });
+    } else {
+      doAppend();
+    }
+  }
 })();
