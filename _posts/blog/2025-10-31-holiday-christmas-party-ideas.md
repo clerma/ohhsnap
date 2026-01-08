@@ -23,7 +23,7 @@ keywords: >-
   planning, Company Party, Christmas Party ideas, Christmas Party Planning
   Checklist, Guide to Creating a Festive Celebration,The ultimate Christmas and
   holiday party planning guide
-image: /assets/img/gallery/holiday/IMG_1267.jpeg
+image: /assets/img/gallery/holiday/img-4190.jpeg
 tags:
   - corporate
   - holiday
