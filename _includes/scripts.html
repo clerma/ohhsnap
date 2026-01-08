@@ -7,41 +7,44 @@
 <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
 <div id="snipcart" data-api-key="YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4" hidden></div>
 {% endcomment %}
-<!-- Facebook Pixel Code (Delayed 2s after load) -->
+
+<!-- Facebook Pixel (2s after window load) -->
 <script>
   window.addEventListener('load', function () {
     setTimeout(function () {
+      try {
+        !function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = '2.0';
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(
-        window,
-        document,
-        'script',
-        'https://connect.facebook.net/en_US/fbevents.js'
-      );
-
-      fbq('init', '1264306011306093'); // your pixel ID
-      fbq('track', 'PageView');
-
-    }, 2000); // 2 second delay
+        fbq('init', '1264306011306093');
+        fbq('track', 'PageView');
+      } catch (e) {}
+    }, 2000);
   });
 </script>
 <noscript>
-  <img
-    height="1"
-    width="1"
-    style="display:none"
-    src="https://www.facebook.com/tr?id=1264306011306093&ev=PageView&noscript=1"
-  />
+  <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=1264306011306093&ev=PageView&noscript=1" />
 </noscript>
-<!-- End Facebook Pixel Code -->
+
+<!-- Microsoft Clarity (first interaction + 3s delay) -->
 <script>
   (function () {
+    const CLARITY_ID = "u874tbjv6n";
     let clarityLoaded = false;
 
     function loadClarity() {
@@ -49,25 +52,24 @@
       clarityLoaded = true;
 
       setTimeout(function () {
-        (function (c, l, a, r, i, t, y) {
-          c[a] = c[a] || function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-          t = l.createElement(r);
-          t.async = 1;
-          t.src = "https://www.clarity.ms/tag/" + i;
-          y = l.getElementsByTagName(r)[0];
-          y.parentNode.insertBefore(t, y);
-        })(window, document, "clarity", "script", "u874tbjv6n");
-      }, 3000); // 3 second delay AFTER first interaction
+        try {
+          (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+          })(window, document, "clarity", "script", CLARITY_ID);
+        } catch (e) {}
+      }, 3000);
     }
 
-    ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function (event) {
-      window.addEventListener(event, loadClarity, { once: true, passive: true });
+    ["scroll", "mousemove", "touchstart", "keydown"].forEach(function (evt) {
+      window.addEventListener(evt, loadClarity, { once: true, passive: true });
     });
   })();
 </script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 <script>
