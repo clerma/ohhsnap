@@ -177,7 +177,7 @@ defaults:
     layout: post
 assets:
       cdn:
-       url: https://ohhsnap.b-cdn.net
+       # url: https://ohhsnap.b-cdn.net
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -200,12 +200,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 exclude:
-    - .jekyll-cache/
-    - gemfiles/
-    - Gemfile
-    - Gemfile.lock
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
-    - _site
+  - node_modules/
+  - __MACOSX/
+  - .DS_Store
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _site

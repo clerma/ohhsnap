@@ -374,3 +374,5 @@ height:70vh
     visibility: hidden;
   }
 }
+.lw-wrap { width: 100%; }
+.lightwidget-widget { display:block; width:100%; }
