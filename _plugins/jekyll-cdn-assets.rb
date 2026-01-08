@@ -12,10 +12,11 @@ module Jekyll
 		Jekyll.logger.warn "CDN Assets Plugin:", "No CDN URL specified in config."
 		return
 	  end
+
 	  cdn_url        = cdn_url.sub(%r{\/+$}, "")
-	  baseurl        = (site.config["baseurl"] || "").to_s         # e.g. "/blog" or ""
+	  baseurl        = (site.config["baseurl"] || "").to_s
 	  site_url       = (site.config["url"] || "").to_s.sub(%r{\/+$}, "")
-	  absolute_links = !!(site.config.dig("assets","cdn","absolute_links"))
+	  absolute_links = !!(site.config.dig("assets", "cdn", "absolute_links"))
 
 	  Jekyll.logger.info "CDN Assets Plugin:", "Using CDN URL: #{cdn_url}"
 
@@ -47,6 +48,24 @@ module Jekyll
 
 	private
 
+	# Only these extensions will be rewritten to the CDN.
+	# You can add/remove extensions here later as needed.
+	CDN_ELIGIBLE_EXTS = %w[
+	  .png .jpg .jpeg .gif .webp .svg .avif .heic .heif
+	  .bmp .tiff
+	  .mp4 .webm .mov .m4v .ogg .ogv
+	  .mp3 .wav .flac
+	  .pdf .zip .rar .7z .tar .gz
+	].freeze
+
+	def cdn_eligible?(path)
+	  return false if path.nil? || path.empty?
+
+	  clean = path.split("?").first.split("#").first
+	  ext   = File.extname(clean).downcase
+	  CDN_ELIGIBLE_EXTS.include?(ext)
+	end
+
 	def generate_cache_buster(site)
 	  digest = Digest::MD5.new
 	  site.static_files.each do |file|
@@ -54,6 +73,7 @@ module Jekyll
 		begin
 		  digest.update(File.read(file.path, mode: "rb"))
 		rescue
+		  # ignore unreadable files
 		end
 	  end
 	  "?v=#{digest.hexdigest}"
@@ -85,41 +105,68 @@ module Jekyll
 		(?!(?:https?:)?//)            # not absolute url
 		(\/?#{base_opt}\/?(?:assets|uploads)\/[^"'\s)]+) # 2: path
 	  }x
-	  out.gsub!(path_pat) do
+
+	  out.gsub!(path_pat) do |whole|
 		pre  = Regexp.last_match(1)
 		path = Regexp.last_match(2)
-		normalized = path.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
-		"#{pre}#{cdn_url}/#{normalized}#{cache_buster}"
+
+		# Only rewrite if file extension is CDN-eligible
+		unless cdn_eligible?(path)
+		  whole
+		else
+		  normalized = path.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
+		  "#{pre}#{cdn_url}/#{normalized}#{cache_buster}"
+		end
 	  end
 
 	  # Same-origin absolute → CDN
 	  unless site_url.empty?
-		host = Regexp.escape(site_url)
+		host    = Regexp.escape(site_url)
 		abs_pat = %r{
 		  (["'(])
 		  (?:#{host})\/
 		  ((?:#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/[^"'\s)]+)
 		}x
-		out.gsub!(abs_pat) do
+
+		out.gsub!(abs_pat) do |whole|
 		  pre  = Regexp.last_match(1)
 		  path = Regexp.last_match(2)
-		  normalized = path.sub(%r{^#{Regexp.escape(base_clean)}\/}, "")
-		  "#{pre}#{cdn_url}/#{normalized}#{cache_buster}"
+
+		  unless cdn_eligible?(path)
+			whole
+		  else
+			normalized = path.sub(%r{^#{Regexp.escape(base_clean)}\/}, "")
+			"#{pre}#{cdn_url}/#{normalized}#{cache_buster}"
+		  end
 		end
 	  end
 
-	  # srcset / imagesrcset
+	  # srcset / imagesrcset (primarily images)
 	  out.gsub!(/\b(?:srcset|imagesrcset)\s*=\s*"([^"]+)"/i) do
 		list = Regexp.last_match(1)
 		rewritten = list.split(",").map(&:strip).map do |item|
-		  if !site_url.empty? && item =~ %r{^(?:#{Regexp.escape(site_url)}\/)?((?:#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/[^\s]+)(\s+\S+)?$}i
+		  # same-origin absolute
+		  if !site_url.empty? &&
+			 item =~ %r{^(?:#{Regexp.escape(site_url)}\/)?((?:#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/[^\s]+)(\s+\S+)?$}i
 			path = Regexp.last_match(1); desc = Regexp.last_match(2).to_s
-			normalized = path.sub(%r{^#{Regexp.escape(base_clean)}\/}, "").sub(%r{^/}, "")
-			"#{cdn_url}/#{normalized}#{cache_buster}#{desc}"
+
+			if cdn_eligible?(path)
+			  normalized = path.sub(%r{^#{Regexp.escape(base_clean)}\/}, "").sub(%r{^/}, "")
+			  "#{cdn_url}/#{normalized}#{cache_buster}#{desc}"
+			else
+			  item
+			end
+
+		  # relative /assets|uploads
 		  elsif item =~ %r{^(?!(?:https?:)?//)(\/?(?:#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/[^\s]+)(\s+\S+)?$}i
 			path = Regexp.last_match(1); desc = Regexp.last_match(2).to_s
-			normalized = path.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
-			"#{cdn_url}/#{normalized}#{cache_buster}#{desc}"
+
+			if cdn_eligible?(path)
+			  normalized = path.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
+			  "#{cdn_url}/#{normalized}#{cache_buster}#{desc}"
+			else
+			  item
+			end
 		  else
 			item
 		  end
@@ -127,12 +174,17 @@ module Jekyll
 		%(srcset="#{rewritten}")
 	  end
 
-	  # Inline style url(...)
-	  out.gsub!(/url\(\s*(['"]?)(?!data:|(?:https?:)?\/\/)(\/?(?:#{base_clean}\/)?(?:assets|uploads)\/[^)"']+)\1\s*\)/i) do
+	  # Inline style url(...) — only rewrite if the referenced file is eligible
+	  out.gsub!(/url\(\s*(['"]?)(?!data:|(?:https?:)?\/\/)(\/?(?:#{base_clean}\/)?(?:assets|uploads)\/[^)"']+)\1\s*\)/i) do |whole|
 		q = Regexp.last_match(1)
 		p = Regexp.last_match(2)
-		normalized = p.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
-		%(url(#{q}#{cdn_url}/#{normalized}#{cache_buster}#{q}))
+
+		unless cdn_eligible?(p)
+		  whole
+		else
+		  normalized = p.sub(%r{^/#{Regexp.escape(base_clean)}\/?}, "").sub(%r{^/}, "")
+		  %(url(#{q}#{cdn_url}/#{normalized}#{cache_buster}#{q}))
+		end
 	  end
 
 	  out
@@ -151,21 +203,17 @@ module Jekyll
 					  p.start_with?("mailto:") ||
 					  p.start_with?("tel:") ||
 					  p.start_with?("javascript:")
-		return nil if p =~ %r{^(?:https?:)?//}i                 # external
-		return nil if p =~ %r{^(?:/?#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/}i # assets handled by CDN
+		return nil if p =~ %r{^(?:https?:)?//}i
+		return nil if p =~ %r{^(?:/?#{Regexp.escape(base_clean)}\/)?(?:assets|uploads)\/}i
 
-		# ensure leading slash + baseurl
 		if p.start_with?("/")
-		  # already root-relative; ensure baseurl present if you use one
 		  unless base_clean.empty? || p.start_with?("/#{base_clean}/") || p == "/#{base_clean}"
 			p = "/#{base_clean}#{p}"
 		  end
 		else
-		  # relative like "contact/" -> "/baseurl/contact/"
 		  p = base_clean.empty? ? "/#{p}" : "/#{base_clean}/#{p}"
 		end
 
-		# collapse double slashes except protocol
 		p.gsub!(%r{/{2,}}, "/")
 		"#{site_url}#{p}"
 	  end
