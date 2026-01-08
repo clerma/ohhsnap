@@ -15,7 +15,7 @@ tags:
   - home
 image: /uploads/91-western-rich-ohh-snap-photo-booth.jpg
 ---
-If you’ve started searching for a photo booth in Lafayette or South Louisiana, you’ve probably noticed something pretty quickly—there are a lot of options. At first glance, many companies look similar. Comparable booths. Similar photo samples. Matching buzzwords like “modern,” “open-air,” and “custom.”
+If you’ve started searching for a photo booth in Lafayette or in Louisiana, you’ve probably noticed something pretty quickly—there are a lot of options. At first glance, many companies look similar. Comparable booths. Similar photo samples. Matching buzzwords like “modern,” “open-air,” and “custom.”
 
 So how do you actually decide?
 
@@ -56,7 +56,7 @@ Experience isn’t just about years—it’s about **repetition, refinement, and
 
 ## 3\. Customization Is More Than Graphics
 
-Customization often gets reduced to logos and overlays. While those details matter—and a professionally designed print is important—true customization goes much deeper.
+Customization often gets reduced to logos and overlays. While those details matter—and professionally designed print is important—which is why we have a full time graphics designer. But true customization goes much deeper.
 
 A thoughtfully customized photo booth considers:
 
@@ -88,13 +88,14 @@ This is especially important for weddings and large events, where timing and gue
 
 ## 5\. Ask the Right Questions Before You Book
 
-When comparing photo booth companies in Lafayette or South Louisiana, don’t be afraid to ask deeper questions:
+When comparing photo booth companies in Lafayette or in Louisiana, don’t be afraid to ask deeper questions:
 
 * How do you help determine booth placement and timing?
 * How do you customize beyond just graphics?
+* Do you have backup equipment?
 * What happens if the event timeline changes?
 * Will someone be on-site the entire time?
-* Have you worked with my venue before?
+* Have you worked with my venue or size event before?
 
 The answers will tell you a lot about the level of experience you’re booking.
 
@@ -106,7 +107,7 @@ In a sea of photo booth companies, the right choice often comes down to trust. T
 
 When you choose a photo booth company based on experience—not just equipment—you’re investing in peace of mind, professionalism, and an experience your guests will actually remember.
 
-If you’re planning an event in **Lafayette, Acadiana, or anywhere in South Louisiana**, taking the time to choose the right photo booth company can make all the difference.
+If you’re planning an event in **Lafayette, or anywhere in Louisiana**, taking the time to choose the right photo booth company can make all the difference.
 
 ---
 
