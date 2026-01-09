@@ -376,3 +376,21 @@ height:70vh
 }
 .lw-wrap { width: 100%; }
 .lightwidget-widget { display:block; width:100%; }
+.typewriter-container {
+    /* **CRITICAL:** Set a specific height or min-height to prevent layout shift */
+    min-height: 1.5em; /* Adjust based on your font size/line height */
+    /* Optional: Hide overflow if you are using the width-animation method */
+    /* overflow: hidden; */
+    white-space: nowrap; /* Keeps text on a single line */
+    font-family: monospace; /* Monospaced fonts help prevent minor shifts between characters */
+    border-right: .15em solid orange; /* The initial cursor style */
+
+    /* Animation for the blinking cursor */
+    animation: blink-caret .75s step-end infinite;
+}
+
+/* Define the blinking cursor animation */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}

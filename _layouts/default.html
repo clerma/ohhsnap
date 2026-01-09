@@ -13,9 +13,9 @@
      {% if page.banner.video %}
     <section
       class="bg-cover jarallax hero mt-11"
-      data-jarallax
+      data-jarallax-lazy="true"
       data-speed=".5"
-      data-video-src="{{ page.banner.video }}?autoplay=0"
+      data-video-src-lazy="{{ page.banner.video }}?autoplay=0"
       style="background-image: url('{{ page.image }}'); background-size: cover; background-position: center; position: relative;"
     >
       <!-- Fallback image for LCP -->

@@ -88,4 +88,79 @@
       doAppend();
     }
   }
+
+})();
+(function () {
+  function initJarallaxVideo(el) {
+    if (!el || el.dataset.jarallaxInited === "true") return;
+
+    // Require jarallax to be present
+    if (typeof window.jarallax !== "function") return;
+
+    // Activate jarallax on this element
+    el.setAttribute("data-jarallax", "");
+    if (el.dataset.videoSrcLazy) el.setAttribute("data-video-src", el.dataset.videoSrcLazy);
+
+    // Call jarallaxVideo/jarallaxElement if available (safe)
+    try { window.jarallaxVideo && window.jarallaxVideo(); } catch (e) {}
+    try { window.jarallaxElement && window.jarallaxElement(); } catch (e) {}
+
+    // Init jarallax instance on this element
+    var speed = parseFloat(el.getAttribute("data-speed") || "0.5");
+    window.jarallax(el, { speed: speed });
+
+    el.dataset.jarallaxInited = "true";
+  }
+
+  function isInInitialViewport(el) {
+    var r = el.getBoundingClientRect();
+    return r.top < window.innerHeight && r.bottom > 0;
+  }
+
+  function setupLazyJarallaxVideos() {
+    var els = document.querySelectorAll("[data-jarallax-lazy][data-video-src-lazy]");
+    if (!els.length) return;
+
+    els.forEach(function (el) {
+      // HERO (above the fold): wait for first interaction OR 3s after load (whichever happens first)
+      if (isInInitialViewport(el)) {
+        var started = false;
+
+        function start() {
+          if (started) return;
+          started = true;
+          initJarallaxVideo(el);
+        }
+
+        // 3s after window load (fallback)
+        window.addEventListener("load", function () {
+          setTimeout(start, 3000);
+        }, { once: true });
+
+        // first interaction starts it sooner
+        ["pointerdown", "touchstart", "keydown", "scroll", "mousemove"].forEach(function (evt) {
+          window.addEventListener(evt, start, { once: true, passive: true });
+        });
+
+        return;
+      }
+
+      // BELOW THE FOLD: init when near viewport
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          initJarallaxVideo(entry.target);
+          io.unobserve(entry.target);
+        });
+      }, { rootMargin: "300px 0px" });
+
+      io.observe(el);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupLazyJarallaxVideos);
+  } else {
+    setupLazyJarallaxVideos();
+  }
 })();
