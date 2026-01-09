@@ -162,7 +162,7 @@ defaults:
     type: pages
     path: _wedding/
   values:
-    permalink: /:title/
+    permalink: /:title
 - scope:
     path: "_posts/blog"
     type: posts
