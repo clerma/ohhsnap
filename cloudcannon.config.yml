@@ -1034,6 +1034,7 @@ _snippets:
         comment: Enter the post name or path.
         cascade: true
         text: Post
+base_url: https://ohhsnapbooth.com
 source_editor:
   tab_size: 2
   theme: pastel_on_dark
