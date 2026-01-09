@@ -199,6 +199,7 @@
 		  "from": "/(.+?)/$",
 		  "to": "/$1",
 		  "status": 308
-		}
+		},
+		{ "from": "/(.*)", "to": "https://ohhsnapbooth.com/$1", "status": 308 }
 	]
 }
