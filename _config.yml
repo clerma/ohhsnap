@@ -161,7 +161,7 @@ defaults:
     permalink:
 - scope:
     type: pages
-    path: _wedding/
+    path: _wedding
   values:
     permalink: /:title
 - scope:

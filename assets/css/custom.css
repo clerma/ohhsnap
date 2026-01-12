@@ -22,9 +22,25 @@ svg {
   border-width: 0px;height: 75vh;
 }
 .blog p img{
-    width: 45%;
-    margin-bottom: .5em;
-    justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: .5em;
+  display: block;
+}
+
+/* If the <p> contains 2+ images, switch that <p> into a wrapping row */
+.blog p:has(img + img){
+  display: flex;
+  flex-wrap: wrap;      /* <-- this is what makes it NOT one long row */
+  gap: .5em 1%;         /* row-gap column-gap */
+  align-items: flex-start;
+}
+
+/* Two images per row (when space allows), then wrap */
+.blog p:has(img + img) img{
+ flex: 49%;
+ width: 49%;
+ margin-bottom: 0;
+ justify-content: space-between;
 }
 .trademark{
 	position: relative;
