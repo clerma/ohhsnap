@@ -23,7 +23,7 @@ keywords: >-
   planning, Company Party, Christmas Party ideas, Christmas Party Planning
   Checklist, Guide to Creating a Festive Celebration,The ultimate Christmas and
   holiday party planning guide
-image: /https:/ohhsnapbooth.com/uploads/img-9508.jpeg
+image: /uploads/img-9508.jpeg
 tags:
   - corporate
   - holiday

@@ -124,7 +124,7 @@ section.hero .overlay {
   width: 1.25em;
 
 }
-.bloglistimg{height:250px;object-fit: cover;object-position: top}
+.bloglistimg{height:250px;object-fit: cover;object-position: center}
 .bloghomeimg{
   height: 500px;
   overflow: hidden;

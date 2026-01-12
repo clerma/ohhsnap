@@ -19,7 +19,7 @@ tags:
   - mardi gras
   - krewe balls
   - events
-image: /https:/ohhsnapbooth.com/uploads/1768097234-0-150.jpg
+image: /uploads/1768097234-0-150.jpg
 ---
 # Kicking Off Mardi Gras with an Epic Photo Booth 🎭📸
 
