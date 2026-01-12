@@ -56,6 +56,8 @@ The **Krewe of Rio 2026 Ball** set the bar early. This is a large, well-establis
 
 Guests arrived dressed to the nines, ready for a formal night that quickly turned into a packed dance floor. It’s the kind of event where a clean, professional photo booth setup matters, because people expect photos that actually reflect the effort they put in.
 
+![Krewe of Rio 2026 Mardi Gras ball Photo Booth Photo](/uploads/1768091172-23.jpg "Krewe of Rio 2026"){loading="lazy"}
+
 👉 <a href="https://gallery.ohhsnapbooth.com/?q=Rio+Krewe" target="_blank" rel="noopener"><em>View the Krewe of Rio 2026 Ball gallery</em> </a>
 
 ---
@@ -65,6 +67,8 @@ Guests arrived dressed to the nines, ready for a formal night that quickly turne
 On the more playful side, **Krewe des Bon Amis XLVIII** leaned fully into creativity. Hosted at Feed & Seed, this ball embraced costumes, personality, and a more intimate—but no less energetic—crowd.
 
 These are the nights where friends show up ready to have fun, laugh, and capture moments they’ll still be talking about long after Mardi Gras is over.
+
+![Krewe des Bon Amis Mardi Gras Ball 2026](/uploads/1768020356-133.jpg "Krewe des Bon Amis 2026"){loading="lazy"}
 
 👉 <a href="https://gallery.ohhsnapbooth.com/?q=Krewe+des+Bon+Amis" target="_blank" rel="noopener"><em>View the Krewe des Bon Amis XLVIII gallery</em> </a>
 
