@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Ohh Snap Compares to Other Lafayette Photo Booth Rentals
+title: How to Compare Photo Booth Rentals in {{site.location}}
 description: >-
   In a sea of photo booth companies, experience matters. Learn how Ohh Snap!
   Photo Booth compares to other {{site.location}} photo booth rentals—and what
@@ -80,8 +80,9 @@ Better equipment paired with photography expertise results in better photos. You
 Many competitors limit prints to one or two per guest, cap the total number of prints, or charge extra for additional copies.
 
 **What Ohh Snap! offers:**
-- **PLUS Package:** Up to 400 custom prints included
-- **Ultimate Package:** Unlimited custom prints
+
+* **PLUS Package:** Up to 400 custom prints included
+* **Ultimate Package:** Unlimited custom prints
 
 **Why it matters:**
 Your guests can take home multiple copies—one for themselves, one for family, one for the fridge. No one has to choose between keeping a photo or giving it away. More prints mean more memories shared.
@@ -137,11 +138,12 @@ Major brands require reliability, professionalism, and consistency. That same st
 One or two booth options, often applied to every event type.
 
 **What Ohh Snap! offers:**
-- Portrait Booth
-- Social Booth
-- 360 Photo Booth
-- Roaming Photo Booth
-- Virtual Photo Booth
+
+* Portrait Booth
+* Social Booth
+* 360 Photo Booth
+* Roaming Photo Booth
+* Virtual Photo Booth
 
 **Why it matters:**
 Different events need different solutions. We help you choose the right experience—not just the most popular one.
@@ -179,14 +181,15 @@ When plans change or venues require documentation, you need a vendor who’s ava
 We’re not the cheapest photo booth company in Lafayette—and we’re okay with that.
 
 What you get instead:
-- Custom design for every event
-- Professional photography expertise
-- More prints included
-- Backdrops and props in every package
-- Analytics and long-term galleries
-- Trusted partnerships and industry recognition
-- Multiple booth options
-- Full-time support and proper insurance
+
+* Custom design for every event
+* Professional photography expertise
+* More prints included
+* Backdrops and props in every package
+* Analytics and long-term galleries
+* Trusted partnerships and industry recognition
+* Multiple booth options
+* Full-time support and proper insurance
 
 If you’re looking for the cheapest option, we may not be the right fit. But if you’re looking for a professional, custom, and intentional photo booth experience—we’d love to work with you.
 
