@@ -2,13 +2,14 @@
 layout: post
 title: How Ohh Snap Compares to Other Lafayette Photo Booth Rentals
 description: >-
-  In a sea of photo booth companies, experience matters. Learn how Ohh Snap! Photo
-  Booth compares to other {{site.location}} photo booth rentals—and what to look for when
-  choosing a professional, custom photo booth for your event.
+  In a sea of photo booth companies, experience matters. Learn how Ohh Snap!
+  Photo Booth compares to other {{site.location}} photo booth rentals—and what
+  to look for when choosing a professional, custom photo booth for your event.
 keywords: >-
-  photo booth {{site.location}} LA, Lafayette photo booth rental, photo booth company
-  Lafayette, best photo booth {{site.location}}, professional photo booth {{site.location}},
-  wedding photo booth {{site.location}}, event photo booth Louisiana
+  photo booth {{site.location}} LA, Lafayette photo booth rental, photo booth
+  company Lafayette, best photo booth {{site.location}}, professional photo
+  booth {{site.location}}, wedding photo booth {{site.location}}, event photo
+  booth Louisiana
 author: Ohh Snap
 categories:
   - blog
@@ -18,9 +19,8 @@ tags:
   - lafayette
   - weddings
   - events
-image: /uploads/91-western-rich-ohh-snap-photo-booth.jpg
+image: /uploads/compare-local-photo-booths.jpg
 ---
-
 # How Ohh Snap! Photo Booth Compares to Other Lafayette Photo Booth Rentals
 
 If you’ve started searching for a photo booth in Lafayette or anywhere in Louisiana, you’ve probably noticed something pretty quickly—there are a lot of options. At first glance, many photo booth companies might seem similar. They all promise fun photos, instant sharing, and memorable experiences. But when you dig deeper, the differences become clear.
