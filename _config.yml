@@ -82,6 +82,7 @@ local_keywords:
       - Arnaudville
       - Lafayette
       - Crowley
+      - Broussard
 
 local_keywords_base: "locations"   # => /locations/<city>/
 local_keywords_defaults:
