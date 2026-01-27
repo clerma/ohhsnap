@@ -24,7 +24,7 @@ image: /uploads/1769133141-0-41.jpg
 
 When companies host client appreciation events, the goal is simple—but meaningful: make people feel valued. Not marketed to. Not rushed through a program. But genuinely appreciated for the relationship they’ve built.
 
-That was exactly the intention behind the recent client appreciation event hosted by **:contentReference[oaicite:0]{index=0}** in **:contentReference[oaicite:1]{index=1}**, and it was our pleasure to help bring that vision to life.
+That was exactly the intention behind the recent client appreciation event hosted by **Stine Tax & Wealth Management** in **Lake Charles, Louisiana**, and it was our pleasure to help bring that vision to life.
 
 ---
 
