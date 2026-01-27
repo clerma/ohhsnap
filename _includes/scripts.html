@@ -1,15 +1,108 @@
-<!-- Map JS -->
-<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 <!-- Vendor JS -->
-<script src="/assets/js/vendor.bundle.js"></script>
+<script src="/assets/js/vendor.bundle.patched.js" defer></script>
 <!-- Theme JS -->
-<script src="/assets/js/theme.bundle.js"></script>
-<script src="/assets/js/custom.js"></script>
-
+<script src="/assets/js/theme.bundle.patched.v2.js" defer></script>
+<script src="/assets/js/custom.js" defer></script>
 {% comment %}
 <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
 <div id="snipcart" data-api-key="YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4" hidden></div>
 {% endcomment %}
+
+<!-- Facebook Pixel (2s after window load) -->
+<script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      try {
+        // Stub fbq (same behavior Meta expects)
+        if (!window.fbq) {
+          var fbq = function () {
+            fbq.callMethod ? fbq.callMethod.apply(fbq, arguments) : fbq.queue.push(arguments);
+          };
+          fbq.queue = [];
+          fbq.version = '2.0';
+          fbq.loaded = true;
+          window.fbq = fbq;
+          window._fbq = fbq;
+        }
+
+        // Inject script safely
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://connect.facebook.net/en_US/fbevents.js';
+        (document.head || document.documentElement).appendChild(s);
+
+        // Track
+        window.fbq('init', '1264306011306093');
+        window.fbq('track', 'PageView');
+      } catch (e) {}
+    }, 2000);
+  });
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=1264306011306093&ev=PageView&noscript=1" />
+</noscript>
+
+<script>
+  (function () {
+    var CLARITY_ID = "u874tbjv6n";
+    var loaded = false;
+
+    function appendScriptSafely(src, attrs) {
+      function doAppend() {
+        try {
+          var s = document.createElement("script");
+          s.async = true;
+          s.src = src;
+
+          if (attrs) {
+            Object.keys(attrs).forEach(function (k) {
+              s.setAttribute(k, attrs[k]);
+            });
+          }
+
+          var target =
+            document.head ||
+            document.getElementsByTagName("head")[0] ||
+            document.body ||
+            document.documentElement;
+
+          if (!target || !target.appendChild) return;
+          target.appendChild(s);
+        } catch (e) {}
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", doAppend, { once: true });
+      } else {
+        doAppend();
+      }
+    }
+
+    function loadClarity() {
+      if (loaded) return;
+      loaded = true;
+
+      setTimeout(function () {
+        try {
+          window.clarity =
+            window.clarity ||
+            function () {
+              (window.clarity.q = window.clarity.q || []).push(arguments);
+            };
+
+          appendScriptSafely("https://www.clarity.ms/tag/" + CLARITY_ID, {
+            "data-clarity": "1",
+          });
+        } catch (e) {}
+      }, 3000);
+    }
+
+    ["scroll", "mousemove", "touchstart", "keydown"].forEach(function (evt) {
+      window.addEventListener(evt, loadClarity, { once: true, passive: true });
+    });
+  })();
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>

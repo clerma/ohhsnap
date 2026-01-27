@@ -1,7 +1,46 @@
+svg {
+  image-rendering: optimizeQuality;
+  transform: scale(0.5)
+}
+.wedding h1, .wedding h2, .wedding h3{
+ font-family: benton-modern-display-conden, serif !important;
+ font-weight: 300;
+ font-style: normal;
+  text-transform: uppercase
+}
+.wedding p, .wedding small{
+  font-family: "proxima-nova", sans-serif !important;
+  font-weight: 200 !important;
+  font-style: normal;
+}
+.wedding a{
+  font-family: "proxima-nova", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+.chat-iframe{
+  border-width: 0px;height: 75vh;
+}
 .blog p img{
-    width: 45%;
-    margin-bottom: .5em;
-    justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: .5em;
+  display: block;
+}
+
+/* If the <p> contains 2+ images, switch that <p> into a wrapping row */
+.blog p:has(img + img){
+  display: flex;
+  flex-wrap: wrap;      /* <-- this is what makes it NOT one long row */
+  gap: .5em 1%;         /* row-gap column-gap */
+  align-items: flex-start;
+}
+
+/* Two images per row (when space allows), then wrap */
+.blog p:has(img + img) img{
+ flex: 49%;
+ width: 49%;
+ margin-bottom: 0;
+ justify-content: space-between;
 }
 .trademark{
 	position: relative;
@@ -88,6 +127,10 @@ section.hero .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+.logo{
+  width: 250px;
+  height: 90px;
+}
 .menu-icons{
   height: 3em;
   width: 2em;
@@ -97,7 +140,7 @@ section.hero .overlay {
   width: 1.25em;
 
 }
-.bloglistimg{height:250px;object-fit: cover;object-position: top}
+.bloglistimg{height:250px;object-fit: cover;object-position: center}
 .bloghomeimg{
   height: 500px;
   overflow: hidden;
@@ -148,6 +191,9 @@ span.post-meta {
       color: inherit;
       pointer-events: visible !important;
       text-decoration: none;
+  }
+  .mobile-h{
+    height: 200px;
   }
 }
 @media (max-width: 767.98px) {
@@ -281,4 +327,86 @@ height:70vh
 .gallery-img{
   height: 200px;
   object-fit: cover
+}
+.progress-wrap {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(15,36,84,.2);
+    box-shadow: inset 0 0 0 1px #0f245433;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+    background-color: rgba(255, 255, 255, 0.803)
+}
+
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.progress-wrap:after {
+    position: absolute;
+    font-family: "Font Awesome 6 Pro"!important;
+    content: "\f4ad";
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0e3083;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+
+}
+.jarallax-fallback {
+  animation: fadeOutFallback 2s ease-in 2.5s forwards;
+}
+
+@keyframes fadeOutFallback {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.lw-wrap { width: 100%; }
+.lightwidget-widget { display:block; width:100%; }
+.typewriter-container {
+    /* **CRITICAL:** Set a specific height or min-height to prevent layout shift */
+    min-height: 1.5em; /* Adjust based on your font size/line height */
+    /* Optional: Hide overflow if you are using the width-animation method */
+    /* overflow: hidden; */
+    white-space: nowrap; /* Keeps text on a single line */
+    font-family: monospace; /* Monospaced fonts help prevent minor shifts between characters */
+    border-right: .15em solid orange; /* The initial cursor style */
+
+    /* Animation for the blinking cursor */
+    animation: blink-caret .75s step-end infinite;
+}
+
+/* Define the blinking cursor animation */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
 }

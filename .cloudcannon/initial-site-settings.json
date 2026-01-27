@@ -1,0 +1,27 @@
+{
+  "ssg": "jekyll",
+  "mode": "hosted",
+  "build_configuration": {
+    "hugoVersion": "0.128.1",
+    "rubyVersion": "3.1.3",
+    "nodeVersion": "18",
+    "denoVersion": "1.40.2",
+    "environment_variables": [
+      {
+        "key": "GEM_HOME",
+        "value": "/usr/local/__site/src/.bundle-cache/"
+      },
+      {
+        "key": "JEKYLL_ENV",
+        "value": "production"
+      }
+    ],
+    "preserved_paths": ".jekyll-cache/,.jekyll-metadata/,.bundle-cache/,.bundle_cache/",
+    "jekyll_environment": "production",
+    "incremental": true,
+    "preserveOutput": true,
+    "use_local_bundle": true,
+    "enable_bundle_cache": true,
+    "config": "_config.yml,_config.prod.yml"
+  }
+}

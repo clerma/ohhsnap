@@ -1,90 +1,179 @@
 - name: "University of Louisiana at Lafayette"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Louisiana Tech"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "LSUA"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Tabasco"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "City Club River Ranch"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Aflac"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Cypress Casino"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "American Heart Association"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "A Night to Shine - Tim Tebow Foundation"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Our Saviors Church"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Riscom"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Ochsner"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Our Lady of Lourdes"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "University Hospital & Clinic"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Pedestal Bank"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Phi Mu"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "STM"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Southern Universiy"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Susan G. komen"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Kappa Delta"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Cintas"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Atchafalaya Basin Landing"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Cajun Industries"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "PIA"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Chitimacha Tribe of Louisiana"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Jcampus"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Aarrow Aviation"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Aetna Health"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Oakbourne Country Club"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Anytime Fitness"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "CGI"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Lake Charles Memorial"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "Hennessy"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Acadiana Center for the Arts"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Fatima"
   image: "/assets/img/companies/tabasco.png"
+  category: ""
+
 - name: "Lafayette Christian Acadamy"
   image: "/assets/img/companies/ul.png"
+  category: ""
+
 - name: "First Baptist of Lafayette"
   image: "/assets/img/companies/la-tech.png"
+  category: ""
+
 - name: "Tri-Sigma"
   image: "/assets/img/companies/lsua.png"
+  category: ""
+
 - name: "Franks International"
   image: ""
+  category: ""
+
 - name: "Cintas"
   image: ""
+  category: ""
+
 - name: "Amazon"
   image: ""
+  category: ""
+
 - name: "Alpha Delta Phi"
   image: ""
+  category: ""
+
 - name: "Aramco"
   image: ""
+  category: ""
+
 - name: "Sacred Heart"
   image: ""
+  category: ""
+
 - name: "Raffinos"
   image: ""
+  category: ""
