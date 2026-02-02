@@ -47,7 +47,9 @@ At **Ohh Snap!**, we offer opportunities that let you be part of something bigge
 
 ## Not Ready to Partner?
 
-That’s okay! We’re still here to help. We offer valuable resources for individuals who want to start their own photo booth business. From advice on marketing strategies to equipment recommendations, we’re dedicated to supporting the photo booth community—even if you’re not directly working with us.
+No problem.
+
+For individuals serious about building a photo booth business the right way, we offer limited consulting and educational services rooted in real-world experience. Rather than giving away tools that take years to refine, we provide guided insight through paid resources and professional support.
 
 ---
 
