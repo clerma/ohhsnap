@@ -180,6 +180,11 @@
 			"to": "/ohh-snap-blog",
 			"status": 301
 		},
+    {
+			"from": "/romaing-event-photographer",
+			"to": "/roaming-event-photographer",
+			"status": 301
+		},
 		{
 			"from": "/roaming-photography/",
 			"to": "/roaming-event-photographer",
