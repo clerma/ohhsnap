@@ -27,8 +27,8 @@ module Jekyll
       site_title = site.config["title"] || "Ohh Snap Photo Booth"
       # Title uses site.location like your event-type pages
       self.data["title"]       ||= "#{city} Photo Booth Rental"
-      self.data["description"] ||= "Photo booth rentals for events in #{city}."
-      self.data["keywords"]    ||= "photo booth, #{city} photo booth rental, 360 booth, glam booth"
+      self.data["description"] ||= "Photo booth rentals for weddings and events in #{city}."
+      self.data["keywords"]    ||= "photo booth, #{city} photo booth rental, 360 booth, glam booth, photo booths near me, photo booths near #{city},"
 
       # OG/hero image key your templates expect
       d = defaults || {}
