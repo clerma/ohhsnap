@@ -15,7 +15,7 @@ permalink: ":title/"
           {% if page.image %}
             <!-- Image -->
             <img class="img-fluid mb-4 mb-md-0 post-img" src="{{ page.image }}" alt="{{ page.title }} | {{site.location}} Photo Booth | Ohh Snap">
-            {% if image-alt %}<span>{{page.image-alt}}</span>{% endif %}
+            {% if page.image-alt %}<span class="text-small">{{page.image-alt}}</span>{% endif %}
             {% endif %}
           </div>
           <div class="col-md-7 order-md-0 pt-6 pt-md-10 pb-12 pb-md-13 text-center text-md-start">
