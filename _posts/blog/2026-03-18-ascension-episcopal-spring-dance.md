@@ -1,21 +1,203 @@
 ---
 layout: post
-title: Ascension Episcopal Spring Dance
+title: Our Story: Why This Means More to Us Than Just a Photo Booth
 description: >-
-  Ohh Snap had a blast capturing Ascension Episcopal’s fiesta-themed spring
-  dance! Now a yearly tradition, our photo booth helps preserve fun memories for
-  students and families alike.
+  Behind Ohh Snap Photo Booth is a story of risk, faith, and sacrifice. Learn how
+  the Lermas built a business from nothing and why every event means more than just photos.
 keywords: >-
-  school dance photo booth, lafayette photo booth rental, ascension episcopal
-  school event, spring dance ideas, themed party photo booth, fiesta party
-  photos, school event photography, student photo booth, local event
-  photographer, ohh snap booth
+  about ohh snap photo booth, lafayette photo booth company, photo booth story,
+  wedding photo booth lafayette, louisiana photo booth business, husband wife
+  photography team, photo booth experience
 author: Ohh Snap
 categories:
-  - School Dance
   - Blog
 tags:
   - blog
-  - School
-image: /uploads/2018-3-9-66462b-1.jpg
+  - about us
+  - our story
+image: /uploads/91-western-rich-ohh-snap-photo-booth.jpg
 ---
+
+# Our Story: Why This Means More to Us Than Just a Photo Booth
+
+We’ve shared small introductions of who we are before. A quick “about us” here, a caption there. But as we approach our 12-year anniversary, we felt it was time to share something deeper.
+
+Not just what we do… but *why we do it the way we do*.
+
+---
+
+## A Story That Hit Home
+
+A few weeks ago, we were in a meeting and heard a story that stuck with us.
+
+A man was talking about his father, who started an organization. In the early days, things were uncertain. Risky. Heavy. At one point, his father mortgaged their home—putting everything on the line to move forward with the vision he believed in.
+
+Years later, the organization had grown far beyond what anyone could have imagined. New staff had come in. New leaders. And some would ask:
+
+Why does he care so much about the little things?  
+Why is he so passionate about every detail?
+
+The son, now older and involved, answered with a new understanding:
+
+Because his sacrifice was greater.
+
+Every detail mattered because everything had been risked to build it. There wasn’t a single part of that organization that didn’t carry weight.
+
+---
+
+## That’s How We Feel About Your Event
+
+That story resonated deeply with us… because that’s how we feel about this business.
+
+We didn’t start Ohh Snap as a side hustle.  
+It wasn’t extra money for vacations.  
+It wasn’t even to help cover bills.
+
+For us… this was a **Hail Mary**.
+
+This was pushing every chip to the center of the table and saying:
+
+*If this doesn’t work… we’re in a worse situation than we are right now.*
+
+---
+
+## The Reality Before the Start
+
+Months before we started, we were standing in a store with $10 in our checking account.
+
+Ashley was pregnant… very sick… and we were walking up to the register praying that our card would go through just one more time.
+
+We were a single-income household.  
+We were on government assistance.  
+We had no savings.
+
+And to be completely honest—we weren’t financially prepared for the season of life we were in.
+
+Just months before that, we had poured everything we had into a business opportunity we believed would change everything. Ashley had quit her job to be part of it. We bought a car. We invested time, energy, and everything we had.
+
+And it fell through.
+
+We were left with nothing to show for it.
+
+---
+
+## The Leap That Changed Everything
+
+With nothing left but belief in ourselves, we made a decision.
+
+We maxed out three credit cards.  
+We emptied every account.  
+And we started over.
+
+That decision became Ohh Snap.
+
+---
+
+## Why We Care the Way We Do
+
+Like that story… our sacrifice was different.
+
+That’s why we care about the details.  
+That’s why we protect what we’ve built.  
+That’s why we’re so intentional with every event we’re a part of.
+
+Because this isn’t just a job to us.
+
+Every wedding.  
+Every event.  
+Every guest that steps in front of our booth…
+
+It’s a reminder of what it took to get here.
+
+---
+
+## The Journey Since Then
+
+What started as a leap of faith has turned into a wild, joy-filled ride filled with incredible people, unforgettable memories, and honestly… more prints than we can count.
+
+Here’s what the last 11+ years have looked like:
+
+📸 Thousands of weddings celebrated across Louisiana and beyond  
+🎉 Hundreds of thousands of moments captured  
+🖤 A community of incredible vendor friends we’ve grown alongside  
+🖨️ More prints than we can keep track of (millions? it feels like it)  
+💪 A pandemic we made it through—stronger than before  
+
+To every team member who has poured into this business—past and present—we see you and we’re grateful.
+
+To our vendor partners—thank you for trusting us with your clients and your events.
+
+And to every couple and client who has invited us into your story—thank you for believing in what we do.
+
+---
+
+## The People Behind the Booth
+
+We’re not always the loudest in the room. We’ve always preferred to stay behind the scenes—letting the focus stay on you and your event.
+
+But for those who don’t know us…
+
+Hi, we’re the Lermas.
+
+A husband and wife team who started in photography long before photo booths were ever part of the plan. Carlos began as a graphic designer, tired of editing other people’s work, and picked up a camera to create his own. That quickly turned into a passion—and eventually into weddings, events, and everything in between.
+
+About 15+ years ago, while working in the wedding industry, we kept getting asked:
+
+“Do y’all have a photo booth?”
+
+At the time, we didn’t. But we had experienced them… and we saw the gap.
+
+There wasn’t a high-quality photo booth experience in our area.
+
+So we built one.
+
+And over time, we realized how meaningful it was to capture genuine, real moments for people. When memories are on the line, it’s humbling to be trusted with that responsibility.
+
+So we combined everything we knew—photography, design, and experience—to create something that would last.
+
+---
+
+## Life Outside of Ohh Snap
+
+We’re originally from Texas (Houston + Austin), but we met in Lafayette, got married here, and fell in love with the Cajun culture—so we stayed.
+
+We have two energetic boys, Ashton and Cohen, who keep our house loud, fun, and full of life.
+
+And we can’t forget Tucker—our Beagle-Shihtzu and our first baby. He’s made a few appearances in the booth himself.
+
+We’re also big coffee people… so much so that we opened a coffee shop in Opelousas called Java Square. If you ever stop by, there’s a good chance we’ll be there—or at least talking about coffee somewhere.
+
+---
+
+## What Makes Us Different
+
+People often ask:
+
+What makes you different?  
+Why should we choose you over other photo booths—or cheaper options?
+
+The answer is simple.
+
+We value your event differently.
+
+Because of what it took to build this…  
+Because of what we risked…  
+Because of what we’ve learned…
+
+We don’t take a single event lightly.
+
+---
+
+## Looking Ahead
+
+This industry has its challenges—but we genuinely love what we do, and we wouldn’t change a thing.
+
+We’ll continue to take chances.  
+We’ll continue to push the standard.  
+And we’ll continue to bring the same care, intention, and heart that started this business into every event we’re part of.
+
+Thank you to everyone who has supported us along the way.
+
+And if you’ve ever felt the pull to step into something of your own… don’t ignore it. Seek wisdom. Get counsel. Maybe don’t do it exactly like we did—but don’t sleep on it.
+
+And if you ever want to talk or bounce around ideas—we’re here.
