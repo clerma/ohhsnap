@@ -4,7 +4,7 @@ name: Social Booth Templates
 price: '50.00'
 identifier: social-booth-templates
 sku: social-booth-templates
-image: /assets/img/layouts.jpg
+image: /assets/img/cards-test.png
 description: >-
   These are photoshop files of every single template in social booth, sized to
   match the exact coordinates of where a photo will be placed. Use these to
