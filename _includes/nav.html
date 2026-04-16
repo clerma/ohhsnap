@@ -12,7 +12,6 @@
                 </label>
                 <!-- Collapse -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        {% unless page.minimal_nav %}
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-end w-100">
                                 <li class="nav-item dropdown">
@@ -134,7 +133,6 @@
                                         </div>
                                 </li>
                         </ul>
-                        {% endunless %}
                         <!-- Brand -->
                         <a class="navbar-brand d-none d-lg-block px-0 col-lg-3 col-md-2 mx-0 mx-md-5 text-center" href="/">{% if include.weddinglogo == "true" %}
                                   <img class="logo" src="/assets/img/logo/ohh-snap-photo-booth.svg" alt="{{ site.name }} logo" width="250px" height="90px" />
@@ -143,7 +141,6 @@
                                 {% endif %}</a>
                         <!-- Navigation -->
                         <ul class="navbar-nav justify-content-start w-100">
-                                {% unless page.minimal_nav %}
                                 <li class="nav-item dropdown">
                                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallerymodal">
                                                 Event Photos
@@ -154,7 +151,7 @@
                                                 Get a Quote
                                         </a>
                                 </li>
-                                {% endunless %}
+                                {% if page.pagename == "resources" %}
                                 <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2">
                                         <a href="#" data-anycart-open class="text-decoration-none" title="View Cart">
                                                 <div class="cart-summary">
@@ -162,6 +159,7 @@
                                                 </div>
                                         </a>
                                 </li>
+                                {% endif %}
 
                         </ul>
                 </div>
