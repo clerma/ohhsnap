@@ -151,14 +151,15 @@
                                                 Get a Quote
                                         </a>
                                 </li>
-                                <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2 d-none">
-                                        <a href="#" class="snipcart-checkout text-decoration-none" title="Photo Booth Resoruces">
-                                                <div class="snipcart-summary">
+                                {% if page.pagename == "resources" %}
+                                <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2">
+                                        <a href="#" data-anycart-open class="text-decoration-none" title="View Cart">
+                                                <div class="cart-summary">
                                                         <i class="fal fa-shopping-bag"></i>
-                                                        <span class="snipcart-items-count"></span>
                                                 </div>
                                         </a>
                                 </li>
+                                {% endif %}
 
                         </ul>
                 </div>

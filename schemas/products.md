@@ -6,5 +6,6 @@ sku:
 image:
 nofollow: 'true'
 description:
+filter:
 guid:
 ---
