@@ -102,24 +102,7 @@ local_keywords_defaults:
 # This include is rendered as the page body:
   content_partial: "locations/service-area-sections.html"
 
-# Per-city content overrides for /locations/<city>/ pages.
-# Cities listed here render the override fields in place of the generic
-# defaults, giving each location page unique content for SEO. Cities not
-# listed still generate, but with default copy only.
-#
-# Schema (all fields optional):
-#   <City Name>:
-#     local_intro: >-                          # replaces the default about paragraph
-#       Custom intro text for this city.
-#     venues:                                  # named venues you serve in this city
-#       - name: "Venue Name"
-#         url:  "https://..."                  # optional
-#     notable_clients:                         # past local clients/partners
-#       - "Client Name"
-#     events_blurb: >-                         # free HTML/markdown snippet of recent events
-#       Custom paragraph or list.
-#     hero_image: /uploads/city-hero.jpg       # banner image override
-local_keywords_overrides: {}
+# Per-city content overrides live in _data/locations.yml (one entry per city).
 
 local_competitors: Bai booth, The Yard Photo Booth, Social Booth, The Social Booth, Sip & Snap Photo Booth, Lafayette Photo Booth,Snap Star Photo Booth,Snap Box,Gator Photo Booth,Geaux Big Entertainment,Picture This 360 Booth, Photo Bomb Dot Com, Lets Geaux Production, EpPix Selfies, Lafayette 360 Photo Booth, luxe booth, Luxe Booth, Luxe 360 Booth, photo booth rental lafayette,studio b photog,creative culture films, Berry Booths,Berry Booths - Photo Booth & Event Rentals,Sweet Rose Photography and Photo Booth Rental, Luxe Delicacies, Social Booth Co, QM Photo Booth, Adored photo booth llc,Digital Music Services,geaux social photo booth,photo booth rental lafayette,Heavely Moments Photo Booth and Event Rental LLC,bfocustudios,The Selfie Booth,Snapster Photo Booth Rentals,Snapster,Mes Amies Designer Events,Mirror Mirror Photo Booth,
 plugins_dir: _plugins

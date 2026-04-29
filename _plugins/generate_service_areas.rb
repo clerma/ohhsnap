@@ -99,14 +99,23 @@ module Jekyll
       seen = {}
       base_segment = cfg["local_keywords_base"] || "locations"
       defaults     = cfg["local_keywords_defaults"] || {}
-      overrides    = cfg["local_keywords_overrides"] || {}
+
+      # Per-city content overrides live in _data/locations.yml as an array of
+      # objects keyed by `city`. Build a lookup keyed by both the literal name
+      # and its slug so users can write either in the data file.
+      data_locations = (site.data["locations"] || []).select { |o| o.is_a?(Hash) && o["city"] }
+      overrides_by_key = {}
+      data_locations.each do |entry|
+        name = entry["city"].to_s
+        overrides_by_key[name] = entry
+        overrides_by_key[Jekyll::Utils.slugify(name)] = entry
+      end
 
       cities.each do |city|
         slug = Jekyll::Utils.slugify(city)
         next if seen[slug]
         seen[slug] = true
-        # Look up override by exact city name (case-sensitive match against config keys)
-        city_override = overrides[city] || overrides[slug] || {}
+        city_override = overrides_by_key[city] || overrides_by_key[slug] || {}
         site.pages << ServiceAreaPage.new(site, city, base_segment, defaults, city_override)
       end
     end
