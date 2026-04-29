@@ -60,284 +60,32 @@
 <meta property="og:see_also" content="{{ link }}">
 {% endfor %}
 
-<!-- Website Schema -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "@id":"{{ website_id }}",
-  "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
-  "name":"{{ site.name | escape }}",
-  "description":"{{ site.description | strip_html | strip_newlines | escape }}"
-}
-</script>
+<!-- WebSite schema -->
+{% include schema/website.html %}
 
-{% if page.layout == "post" %}
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BlogPosting",
-  "@id":"{{ canonical_url }}#blogposting",
-  "mainEntityOfPage":{"@type":"WebPage","@id":"{{ canonical_url }}"},
-  "headline":"{{ page.title | escape }}",
-  "description":"{{ seo_description | strip_html | strip_newlines | escape }}",
-  "image":"{{ page_image }}",
-  "author":{"@type":"Person","name":"{{ page.author | default: site.author | escape }}"},
-  "publisher":{
-    "@type":"Organization",
-    "name":"{{ site.name | escape }}",
-    "logo":{"@type":"ImageObject","url":"{{ site.logo | absolute_url }}"}
-  },
-  "datePublished":"{{ page.date | date: '%Y-%m-%d' }}",
-  "dateModified":"{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}"
-}
-</script>
-
-{% elsif page.layout == "help-center" or page.pagename == "help-center" or page.permalink == "/help-center" or page.url contains "/help-center" %}
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"CollectionPage",
-  "@id":"{{ canonical_url }}#collectionpage",
-  "url":"{{ canonical_url }}",
-  "name":"{{ page.title | escape }}",
-  "description":"{{ seo_description | strip_html | strip_newlines | escape }}",
-  "isPartOf":{"@id":"{{ website_id }}"},
-  "about":{
-    "@type":"Thing",
-    "name":"Photo Booth Help Center"
-  },
-  "hasPart":[
-    {% assign first_item = true %}
-
-    {% for post in site.tags.Before-Event %}
-      {% if post.categories contains "Before Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"Article",
-          "headline":"{{ post.title | escape }}",
-          "url":"{{ post.url | absolute_url }}"
-        }
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.tags.day-of-event %}
-      {% if post.categories contains "Day of Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"Article",
-          "headline":"{{ post.title | escape }}",
-          "url":"{{ post.url | absolute_url }}"
-        }
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.tags.After-Event %}
-      {% if post.categories contains "After Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"Article",
-          "headline":"{{ post.title | escape }}",
-          "url":"{{ post.url | absolute_url }}"
-        }
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"ItemList",
-  "@id":"{{ canonical_url }}#itemlist",
-  "name":"Help Center Articles",
-  "itemListElement":[
-    {% assign item_position = 1 %}
-    {% assign first_item = true %}
-
-    {% for post in site.tags.Before-Event %}
-      {% if post.categories contains "Before Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"ListItem",
-          "position": {{ item_position }},
-          "url": "{{ post.url | absolute_url }}",
-          "name": "{{ post.title | escape }}"
-        }
-        {% assign item_position = item_position | plus: 1 %}
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.tags.day-of-event %}
-      {% if post.categories contains "Day of Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"ListItem",
-          "position": {{ item_position }},
-          "url": "{{ post.url | absolute_url }}",
-          "name": "{{ post.title | escape }}"
-        }
-        {% assign item_position = item_position | plus: 1 %}
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.tags.After-Event %}
-      {% if post.categories contains "After Event" %}
-        {% unless first_item %},{% endunless %}
-        {
-          "@type":"ListItem",
-          "position": {{ item_position }},
-          "url": "{{ post.url | absolute_url }}",
-          "name": "{{ post.title | escape }}"
-        }
-        {% assign item_position = item_position | plus: 1 %}
-        {% assign first_item = false %}
-      {% endif %}
-    {% endfor %}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "@id":"{{ business_id }}",
-  "name":"{{ site.name | escape }}",
-  "description":"{{ site.description | default: seo_description | strip_html | strip_newlines | escape }}",
-  "image":"{{ page_image }}",
-  "logo":"{{ site.logo | absolute_url }}",
-  "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
-  "mainEntityOfPage":{"@type":"WebPage","@id":"{{ canonical_url }}"},
-  "telephone":"{{ site.phone }}"{% if site.email and site.email != "" %},
-  "email":"{{ site.email }}"{% endif %},
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"{{ site.address.street | escape }}",
-    "addressLocality":"{{ site.address.city | escape }}",
-    "addressRegion":"{{ site.address.region | escape }}",
-    "postalCode":"{{ site.address.zip | escape }}",
-    "addressCountry":"{{ site.address.country | escape }}"
-  },
-  "geo":{
-    "@type":"GeoCoordinates",
-    "latitude":{{ site.latitude }},
-    "longitude":{{ site.longitude }}
-  },
-  "areaServed":[
-    {% for city in site.local_keywords %}
-    {"@type":"City","name":"{{ city | strip | escape }}","addressRegion":"{{ site.address.region | escape }}","addressCountry":"{{ site.address.country | escape }}"}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "serviceArea":{
-    "@type":"GeoCircle",
-    "geoMidpoint":{"@type":"GeoCoordinates","latitude":{{ site.latitude }},"longitude":{{ site.longitude }}},
-    "geoRadius": {{ site.service_radius_meters | default: 64374 }}
-  },
-  "openingHoursSpecification":[
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"10:00","closes":"17:00"}
-  ],
-  "priceRange":"{{ site.price_range | default: '$$' }}",
-  "paymentAccepted":[{% if site.payment_accepted %}{% for p in site.payment_accepted %}"{{ p | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}{% else %}"Cash","Credit Card","PayPal","Check"{% endif %}],
-  "sameAs":[
-    {% for link in site.social.links %}
-    "{{ link }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]{% if site.review_count or site.data.testimonial %},
-  "aggregateRating":{
-    "@type":"AggregateRating",
-    "ratingValue": {{ site.rating_value | default: 5.0 }},
-    "reviewCount": {{ site.review_count | default: site.data.testimonial.size | default: 0 }},
-    "bestRating": 5,
-    "worstRating": 1
-  },
-  "review":[
-    {% for testimonial in site.data.testimonial %}
-    {
-      "@type":"Review",
-      "datePublished":"{{ testimonial.date | default: '2024-12-04' | date: '%Y-%m-%d' }}",
-      "description":"{{ testimonial.testimony | strip_newlines | replace: '\"','' | replace: \"'\",\"\" | escape }}",
-      "author":{"@type":"Person","name":"{{ testimonial.name | escape }}"}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]{% endif %}
-}
-</script>
-
+<!-- Business schema: LocalBusiness on the primary location, Service on EMDs -->
+{% if site.is_primary_location %}
+  {% include schema/local-business.html %}
 {% else %}
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "@id":"{{ business_id }}",
-  "name":"{{ site.name | escape }}",
-  "description":"{{ site.description | default: seo_description | strip_html | strip_newlines | escape }}",
-  "image":"{{ page_image }}",
-  "logo":"{{ site.logo | absolute_url }}",
-  "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
-  "mainEntityOfPage":{"@type":"WebPage","@id":"{{ canonical_url }}"},
-  "telephone":"{{ site.phone }}"{% if site.email and site.email != "" %},
-  "email":"{{ site.email }}"{% endif %},
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"{{ site.address.street | escape }}",
-    "addressLocality":"{{ site.address.city | escape }}",
-    "addressRegion":"{{ site.address.region | escape }}",
-    "postalCode":"{{ site.address.zip | escape }}",
-    "addressCountry":"{{ site.address.country | escape }}"
-  },
-  "geo":{
-    "@type":"GeoCoordinates",
-    "latitude":{{ site.latitude }},
-    "longitude":{{ site.longitude }}
-  },
-  "areaServed":[
-    {% for city in site.local_keywords %}
-    {"@type":"City","name":"{{ city | strip | escape }}","addressRegion":"{{ site.address.region | escape }}","addressCountry":"{{ site.address.country | escape }}"}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "serviceArea":{
-    "@type":"GeoCircle",
-    "geoMidpoint":{"@type":"GeoCoordinates","latitude":{{ site.latitude }},"longitude":{{ site.longitude }}},
-    "geoRadius": {{ site.service_radius_meters | default: 64374 }}
-  },
-  "openingHoursSpecification":[
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"10:00","closes":"17:00"}
-  ],
-  "priceRange":"{{ site.price_range | default: '$$' }}",
-  "paymentAccepted":[{% if site.payment_accepted %}{% for p in site.payment_accepted %}"{{ p | strip | escape }}"{% unless forloop.last %},{% endunless %}{% endfor %}{% else %}"Cash","Credit Card","PayPal","Check"{% endif %}],
-  "sameAs":[
-    {% for link in site.social.links %}
-    "{{ link }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]{% if site.review_count or site.data.testimonial %},
-  "aggregateRating":{
-    "@type":"AggregateRating",
-    "ratingValue": {{ site.rating_value | default: 5.0 }},
-    "reviewCount": {{ site.review_count | default: site.data.testimonial.size | default: 0 }},
-    "bestRating": 5,
-    "worstRating": 1
-  },
-  "review":[
-    {% for testimonial in site.data.testimonial %}
-    {
-      "@type":"Review",
-      "datePublished":"{{ testimonial.date | default: '2024-12-04' | date: '%Y-%m-%d' }}",
-      "description":"{{ testimonial.testimony | strip_newlines | replace: '\"','' | replace: \"'\",\"\" | escape }}",
-      "author":{"@type":"Person","name":"{{ testimonial.name | escape }}"}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]{% endif %}
-}
-</script>
+  {% include schema/service-business.html %}
+{% endif %}
+
+<!-- Breadcrumb (suppressed on /) -->
+{% include schema/breadcrumb.html %}
+
+<!-- Per-page schema -->
+{% if page.layout == "post" %}
+  {% include schema/blog-posting.html %}
+{% endif %}
+
+{% if page.pagename == "help-center" or page.permalink == "/help-center" or page.url contains "/help-center" %}
+  {% include schema/collection-page.html %}
+  {% include schema/item-list.html %}
+  {% include schema/faq-page.html %}
+{% endif %}
+
+{% if page.package %}
+  {% include schema/service.html %}
 {% endif %}
 
 <!-- Verification -->

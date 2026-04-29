@@ -55,7 +55,8 @@ weekend:
   opens: "10:00"
   closes: "17:00"
 review_count: 50
-default_rating_value: "5.0"
+rating_value: 5.0
+is_primary_location: true
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"

@@ -1,0 +1,32 @@
+{%- comment -%}
+FAQPage schema — emits all help-center articles as a single Q&A collection.
+Loaded via seo.html only on the help-center index. Falls back to post.excerpt
+when post.faq_answer is missing (Phase 4 will populate faq_answer per article).
+{%- endcomment -%}
+
+{%- assign all_faqs = "" | split: "" -%}
+{%- assign before_event = site.posts | where: 'categories', 'Before Event' -%}
+{%- assign day_of_event = site.posts | where: 'categories', 'Day of Event' -%}
+{%- assign after_event = site.posts | where: 'categories', 'After Event' -%}
+{%- assign all_faqs = all_faqs | concat: before_event | concat: day_of_event | concat: after_event -%}
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "@id":"{{ canonical_url }}#faqpage",
+  "mainEntity":[
+    {%- for post in all_faqs -%}
+      {%- assign answer_text = post.faq_answer | default: post.excerpt | strip_html | strip_newlines | escape -%}
+    {
+      "@type":"Question",
+      "name":"{{ post.title | escape }}",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"{{ answer_text }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
