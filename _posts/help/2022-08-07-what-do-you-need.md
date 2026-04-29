@@ -5,10 +5,11 @@ description: >-
   Learn what you need to provide for your Ohh Snap! Photo Booth experience,
   including space, power, and setup requirements, to ensure a smooth and
   seamless event.
-keywords: >-
-  photo booth requirements, event setup needs, photo booth space, power
-  requirements for photo booth, outdoor event setup, photo booth props table,
-  photo booth Wi-Fi, event planning, photo booth tips, photo booth service setup
+faq_answer: >-
+  Yes — we need access to a power outlet near the setup, a minimum of 10x10
+  feet of indoor or covered space (20x20 for the 360 Booth), and a dressed
+  table for props. Reliable cell service helps everything run smoothly, though
+  we can provide our own Wi-Fi if needed.
 author: Ohh Snap
 categories:
   - Day of Event
@@ -16,6 +17,7 @@ tags:
   - day-of-event
 helptype: technical
 image: /uploads/2017-11-25-72923a.jpg
+last_modified_at: "2026-04-29"
 ---
 ### Do You Need Anything for Your Event?
 

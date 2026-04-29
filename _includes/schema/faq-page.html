@@ -5,10 +5,9 @@ when post.faq_answer is missing (Phase 4 will populate faq_answer per article).
 {%- endcomment -%}
 
 {%- assign all_faqs = "" | split: "" -%}
-{%- assign before_event = site.posts | where: 'categories', 'Before Event' -%}
-{%- assign day_of_event = site.posts | where: 'categories', 'Day of Event' -%}
-{%- assign after_event = site.posts | where: 'categories', 'After Event' -%}
-{%- assign all_faqs = all_faqs | concat: before_event | concat: day_of_event | concat: after_event -%}
+{%- assign all_faqs = all_faqs | concat: site.categories['Before Event'] -%}
+{%- assign all_faqs = all_faqs | concat: site.categories['Day of Event'] -%}
+{%- assign all_faqs = all_faqs | concat: site.categories['After Event'] -%}
 
 <script type="application/ld+json">
 {

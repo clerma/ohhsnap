@@ -1,8 +1,14 @@
 ---
 layout: post
 title: How Do We Go About Booking?
-description: Test description
-keywords: photo booth rental, photo booth rental
+description: >-
+  Learn how to book your Ohh Snap photo booth in three simple steps — pick
+  your booth, request a quote, and reserve your date digitally.
+faq_answer: >-
+  Booking is simple — pick the booth that fits your event, fill out the Get a
+  Quote form on our Contact page, and we'll send a custom quote and contract.
+  The whole process is digital, so you can manage it from your phone or
+  computer. Not sure which booth fits? Reach out and we'll help you choose.
 author: Ohh Snap
 categories:
   - Before Event
@@ -10,6 +16,7 @@ tags:
   - Before-Event
 helptype: technical
 image: /uploads/159692619-2990219837971023-6874608797297059283-n.jpg
+last_modified_at: "2026-04-29"
 ---
 Booking your perfect photo booth experience with Ohh Snap is easy and convenient! Here’s how to get started:
 

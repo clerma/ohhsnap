@@ -6,19 +6,6 @@ description: >-
   Need assistance? Visit the Ohh Snap Photobooth Help Center for answers to all
   your questions about photo booth rentals, setup, and services in
   {{site.location}}, LA. We're here to help ensure your event is a hit!
-keywords: >-
-  Ohh Snap help center, {{site.location}} photobooth support, photo booth FAQ,
-  Ohh Snap Photobooth queries, event photo booth help, photo booth rental
-  questions, {{site.location}} event assistance, Ohh Snap troubleshooting, photo
-  booth setup guide, photobooth service {{site.location}}, Ohh Snap Photobooth
-  resources, photobooth rental tips, {{site.location}} party photobooth help,
-  Ohh Snap customer support, photobooth operational guide, solve photobooth
-  issues, {{site.location}} photo booth advice, photobooth booking questions,
-  Ohh Snap usage instructions, {{site.location}} photo booth service info, Ohh
-  Snap event guide, quick help Ohh Snap, {{site.location}} photobooth FAQ, photo
-  booth problem solving, Ohh Snap Photobooth assistance, photobooth rental
-  guidelines, Ohh Snap service details, get photo booth help, contact Ohh Snap
-  support, {{site.location}} photobooth maintenance guide.
 image: /uploads/2019-7-13-70408c.jpg
 pagename: help-center
 permalink: /help-center
@@ -65,9 +52,9 @@ permalink: /help-center
         <div class="row align-items-center mb-7">
           <div class="col-12 col-md">
             <!-- Heading -->
-            <h1 class="text-white mb-0 editable">
+            <h2 class="text-white mb-0 editable">
               Before, during and after Event FAQ's
-            </h1>
+            </h2>
 
             <!-- Text -->
             <p class="mb-md-0 text-white editable">
@@ -76,9 +63,11 @@ permalink: /help-center
           </div>
 
         </div>
+        {%- assign before_count = site.categories['Before Event'] | size -%}
+        {%- assign day_of_count = site.categories['Day of Event'] | size -%}
+        {%- assign after_count = site.categories['After Event'] | size -%}
         <div class="row mt-n6">
            {% for post in site.tags.Before-Event limit:1 %}
-           {% for post in site.tags.Before-Event %}{% if post.categories contains "Before Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
            {% if post.categories contains "Before Event" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
@@ -99,7 +88,7 @@ permalink: /help-center
 
                 <!-- Text -->
                 <small class="text-muted">
-                  {{ count }} articles
+                  {{ before_count }} articles
                 </small>
 
               </div>
@@ -109,7 +98,6 @@ permalink: /help-center
           {% endif %}
           {% endfor %}
           {% for post in site.tags.day-of-event limit:1 %}
-             {% for post in site.tags.day-of-event %}{% if post.categories contains "Day of Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
              {% if post.categories contains "Day of Event" %}
           <div class="col-12 col-md-4">
 
@@ -130,7 +118,7 @@ permalink: /help-center
                 </h4>
                 <!-- Text -->
                 <small class="text-muted">
-                  {{ count }} articles
+                  {{ day_of_count }} articles
                 </small>
               </div>
             </a>
@@ -138,7 +126,6 @@ permalink: /help-center
           {% endif %}
           {% endfor %}
           {% for post in site.tags.After-Event limit:1 %}
-           {% for post in site.tags.After-Event %}{% if post.categories contains "After Event" %}{% assign count = forloop.index %}{% endif %}{% endfor %}
            {% if post.categories contains "After Event" %}
           <div class="col-12 col-md-4">
             <!-- Card -->
@@ -158,7 +145,7 @@ permalink: /help-center
 
                 <!-- Text -->
                 <small class="text-muted">
-                 {{ count }} articles
+                 {{ after_count }} articles
                 </small>
 
               </div>
@@ -183,9 +170,9 @@ permalink: /help-center
             <div class="position-sticky mb-8 t2">
 
               <!-- Heading -->
-              <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+              <h2 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
                {{ post.categories }}
-              </h1>
+              </h2>
 
               <!-- Text -->
               <p class="mb-0 fs-6" ">
@@ -232,9 +219,9 @@ permalink: /help-center
            <div class="position-sticky mb-8 t2">
 
              <!-- Heading -->
-             <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+             <h2 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
               {{ post.categories }}
-             </h1>
+             </h2>
 
              <!-- Text -->
              <p class="mb-0 fs-6" ">
@@ -281,9 +268,9 @@ permalink: /help-center
               <div class="position-sticky mb-8 t2">
 
                 <!-- Heading -->
-                <h1 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
+                <h2 class="mb-1" id="{{ post.categories | escape | url_encode | remove: "%5B%26quot%3B" | remove: "%26quot%3B%5D" | downcase }}">
                  {{ post.categories }}
-                </h1>
+                </h2>
 
                 <!-- Text -->
                 <p class="mb-0 fs-6">
