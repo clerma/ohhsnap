@@ -6,7 +6,7 @@ require "jekyll/utils"
 
 module Jekyll
   class ServiceAreaPage < Jekyll::Page
-    def initialize(site, city, base_segment, defaults)
+    def initialize(site, city, base_segment, defaults, override)
       @site = site
       @base = site.source
 
@@ -32,7 +32,8 @@ module Jekyll
 
       # OG/hero image key your templates expect
       d = defaults || {}
-      self.data["image"]       ||= (d["page_image_1"] || "/assets/img/booth/IMG_9578.jpg")
+      o = override || {}
+      self.data["image"]       ||= (o["hero_image"] || d["page_image_1"] || "/assets/img/booth/IMG_9578.jpg")
 
       # TYPE block (safe defaults — you can override later per city in CloudCannon)
       self.data["type"] ||= {
@@ -51,9 +52,14 @@ module Jekyll
       # Optional booth image override map (ensure "360" is quoted in YAML)
       self.data["booth-image"] ||= d["booth_image_map"]
 
+      # Per-city content overrides (read in service-area-sections.html)
+      # Schema: { local_intro, venues:[{name,url}], notable_clients:[String],
+      #          events_blurb (HTML/markdown), hero_image }
+      self.data["override"] = o
+
       # Banner block (mirrors your event-type usage)
       self.data["banner"] ||= {}
-      self.data["banner"]["image"]     ||= d["hero_image"] || "/assets/img/booth/IMG_9578.jpg"
+      self.data["banner"]["image"]     ||= o["hero_image"] || d["hero_image"] || "/assets/img/booth/IMG_9578.jpg"
       self.data["banner"]["video"]     ||= nil
       self.data["banner"]["preheading"] ||= "Ohh Snap"
       self.data["banner"]["title"]      ||= "#{city} Photo Booths"
@@ -93,12 +99,15 @@ module Jekyll
       seen = {}
       base_segment = cfg["local_keywords_base"] || "locations"
       defaults     = cfg["local_keywords_defaults"] || {}
+      overrides    = cfg["local_keywords_overrides"] || {}
 
       cities.each do |city|
         slug = Jekyll::Utils.slugify(city)
         next if seen[slug]
         seen[slug] = true
-        site.pages << ServiceAreaPage.new(site, city, base_segment, defaults)
+        # Look up override by exact city name (case-sensitive match against config keys)
+        city_override = overrides[city] || overrides[slug] || {}
+        site.pages << ServiceAreaPage.new(site, city, base_segment, defaults, city_override)
       end
     end
   end
