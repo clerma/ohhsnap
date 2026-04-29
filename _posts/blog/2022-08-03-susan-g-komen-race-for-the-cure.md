@@ -47,7 +47,7 @@ Whether it’s a 5K, gala, walk, or benefit concert, we help create moments that
 ## Event Highlights
 
 * 📍 *Location:* Downtown Lafayette
-* 💕 *Backdrop:* [Bubbly Mermaid Pink Sequin](https://ohhsnapbooth.com/lafayette-backdrop-rentals "Lafayette Backdrops")
+* 💕 *Backdrop:* [Bubbly Mermaid Pink Sequin](/{{site.location | slugify}}-backdrop-rentals "{{site.location}} Backdrops")
 * 🎉 *Vibe:* Uplifting, emotional, and full of community pride
 * 📲 *Experience:* Fast photo sharing via QR code + text
 * 🎀 *Props:* Breast cancer awareness signs, pink accessories, group-ready gear

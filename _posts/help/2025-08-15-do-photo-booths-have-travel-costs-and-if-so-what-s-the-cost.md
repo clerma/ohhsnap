@@ -36,6 +36,6 @@ Because each rental is unique, the travel cost can vary. A wedding at a venue in
 
 ## The Best Way to Get an Accurate Quote?
 
-Just [fill out our Get a Quote form](https://ohhsnapbooth.com/contact/) and tell us a little about your event! We’ll review your details and send over custom pricing—including any **photo booth travel fees**—based on your location and needs.
+Just [fill out our Get a Quote form](/contact-ohh-snap-photobooth) and tell us a little about your event! We’ll review your details and send over custom pricing—including any **photo booth travel fees**—based on your location and needs.
 
 Whether you're planning a **wedding in Acadiana**, a **brand activation in New Orleans**, or a **birthday party in Houston**, we’re happy to go the extra mile—literally—to make your event unforgettable.

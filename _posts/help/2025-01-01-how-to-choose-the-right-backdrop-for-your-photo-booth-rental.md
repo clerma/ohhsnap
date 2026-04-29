@@ -41,7 +41,7 @@ For those looking for something truly unique or personalized, we also offer **pr
 * **Custom Backdrops** – Fully tailored to match your event theme, branding, or unique vision.
 * **Green Screen Backdrops** – Transport your guests anywhere with a custom virtual background.
 
-Explore all our backdrop options on our [**Backdrop Rentals Page**](https://ohhsnapbooth.com/Lafayette-backdrop-rentals).
+Explore all our backdrop options on our [**Backdrop Rentals Page**](/{{site.location | slugify}}-backdrop-rentals).
 
 ---
 
@@ -63,4 +63,4 @@ Choosing a backdrop shouldn’t be stressful, and we’re here to guide you ever
 
 Remember, the backdrop is more than just a background—it’s part of the story your photos will tell. Let’s make sure it’s the right one!
 
-[Explore Backdrop Options Now](https://ohhsnapbooth.com/Lafayette-backdrop-rentals) or [Contact Us](https://ohhsnapbooth.com/contact-ohh-snap-photobooth) for personalized recommendations.
+[Explore Backdrop Options Now](/{{site.location | slugify}}-backdrop-rentals) or [Contact Us](/contact-ohh-snap-photobooth) for personalized recommendations.

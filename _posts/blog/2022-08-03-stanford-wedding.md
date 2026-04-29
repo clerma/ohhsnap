@@ -29,7 +29,7 @@ image: /uploads/2017-10-28-58303a.jpg
 
 We had such a fantastic time celebrating with Mr. and Mrs. Stanford on their big day! The <a href="https://thecrossingmk.com/" :target="_blank" rel="noopener">Crossing at Mervin Kahn</a> in Rayne, Louisiana set the tone with its beautiful rustic charm—perfect for a romantic southern wedding.
 
-To match the couple’s style, we set up our popular [champagne sequin backdrop](https://ohhsnapbooth.com/lafayette-backdrop-rentals "Lafayette Backdrops"), which paired beautifully with the venue’s aesthetic. Guests had an absolute blast taking photos—and let’s just say the unicorn mask was the unexpected star of the show! It made its way into dozens of snapshots and added tons of laughter to the evening.
+To match the couple’s style, we set up our popular [champagne sequin backdrop](/{{site.location | slugify}}-backdrop-rentals "{{site.location}} Backdrops"), which paired beautifully with the venue’s aesthetic. Guests had an absolute blast taking photos—and let’s just say the unicorn mask was the unexpected star of the show! It made its way into dozens of snapshots and added tons of laughter to the evening.
 
 Our **wedding photo booth** helped turn every candid moment into a keepsake, giving guests something fun to do and something sweet to take home. We were honored to be a part of such a joyful night. Congratulations to the Stanfords!
 

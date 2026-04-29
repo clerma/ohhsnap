@@ -52,7 +52,7 @@
 		},
 		{
 			"from": "/romaing-event-photographer/",
-			"to": "/romaing-event-photographer",
+			"to": "/roaming-event-photographer",
 			"status": 301
 		},
 		{
@@ -157,7 +157,7 @@
 		},
 		{
 			"from": "/head-shots",
-			"to": "/romaing-event-photographer",
+			"to": "/roaming-event-photographer",
 			"status": 301
 		},
 		{
