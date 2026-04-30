@@ -3,8 +3,8 @@ timezone: America/Chicago
 baseurl: ""
 url: https://lakecharlesphotobooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins', email, 'wedding']
-name: Ohh Snap Booth
-description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lafayette, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+name: Ohh Snap Booth — Lake Charles
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Lake Charles, LA, and Calcasieu Parish. Perfect for weddings, corporate events, and parties."
 author: "Ohh Snap Photo Booth"
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
@@ -36,13 +36,13 @@ schema:
   service_radius_meters: 64374
 
 address:
-  street: "905 Jefferson St"
-  city: "Lafayette"
+  street: ""
+  city: ""
   region: "LA"
-  zip: "70501"
+  zip: ""
   country: "US"
-latitude: "30.221191"
-longitude: "-92.018257"
+latitude: ""
+longitude: ""
 price_range: "$$"
 payment_accepted: ["Cash","Credit Card","PayPal","Check"]
 opening_hours:
@@ -56,7 +56,7 @@ weekend:
   closes: "17:00"
 review_count: 50
 rating_value: 5.0
-is_primary_location: true
+is_primary_location: false
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
@@ -74,7 +74,7 @@ local_keywords:
       - Westlake
       - Sulphur
       - Moss Bluff
-      - Lowa
+      - Iowa
       - Vinton
       - DeQuincy
       - Bell City
