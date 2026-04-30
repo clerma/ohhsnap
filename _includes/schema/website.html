@@ -1,0 +1,10 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "@id":"{{ website_id }}",
+  "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
+  "name":"{{ site.name | escape }}",
+  "description":"{{ site.description | strip_html | strip_newlines | escape }}"
+}
+</script>

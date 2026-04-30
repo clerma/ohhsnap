@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|DM+Serif+Display&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@400;700&display=swap');
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -8337,6 +8337,18 @@ textarea.form-control-lg {
 }
 .bg-transparent {
     background-color: transparent!important
+}
+.bg-dark-10 {
+    background-color: rgba(0, 0, 0, 0.1)!important
+}
+.bg-dark-20 {
+    background-color: rgba(0, 0, 0, 0.2)!important
+}
+.bg-dark-30 {
+    background-color: rgba(0, 0, 0, 0.3)!important
+}
+.bg-dark-40 {
+    background-color: rgba(0, 0, 0, 0.4)!important
 }
 .bg-dark-50 {
     background-color: rgba(0, 0, 0, 0.5)!important
@@ -18666,7 +18678,7 @@ html {
     font-family: Feather;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/feather/Feather.ttf?sdxovp) format("truetype"), url(../fonts/feather/Feather.woff?sdxovp) format("woff"), url(../fonts/feather/Feather.svg?sdxovp#Feather) format("svg")
+    src:  url(../fonts/feather/Feather.woff?sdxovp) format("woff"), url(../fonts/feather/Feather.svg?sdxovp#Feather) format("svg")
 }
 @media (max-width:767.98px) {
     .h1, h1 {

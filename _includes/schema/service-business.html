@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"{{ site.url }}/#service",
+  "serviceType":"Photo Booth Rental",
+  "name":"{{ site.name | escape }} — {{ site.location }}",
+  "description":"{{ site.description | strip_html | strip_newlines | escape }}",
+  "image":"{{ page_image }}",
+  "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
+  "provider":{
+    "@type":"LocalBusiness",
+    "@id":"https://ohhsnapbooth.com/#localbusiness",
+    "name":"Ohh Snap! Photo Booth",
+    "url":"https://ohhsnapbooth.com",
+    "telephone":"{{ site.phone }}"
+  },
+  "areaServed":[
+    {
+      "@type":"City",
+      "name":"{{ site.location | escape }}",
+      "addressRegion":"LA",
+      "addressCountry":"US"
+    }{% for city in site.local_keywords %},
+    {
+      "@type":"City",
+      "name":"{{ city | strip | escape }}",
+      "addressRegion":"LA",
+      "addressCountry":"US"
+    }{% endfor %}
+  ]
+}
+</script>

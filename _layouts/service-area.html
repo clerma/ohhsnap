@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+
+  {%- assign canonical_url = page.url | absolute_url -%}
+
+  {%- comment -%}
+  Image fallback order:
+  1) page.image
+  2) page.hero_image
+  3) site.og_image
+  4) site.logo
+  {%- endcomment -%}
+  {%- assign page_image = page.image | default: page.hero_image | default: site.og_image | default: site.logo -%}
+  {%- assign page_image = page_image | absolute_url -%}
+
+  {%- comment -%}
+  Description fallback order:
+  1) page.description
+  2) site.description
+  {%- endcomment -%}
+  {%- assign seo_description = page.description | default: site.description | strip_html | strip_newlines | escape -%}
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" title="{{ site.name }} Favicon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>{{ page.title | default: site.name | escape }}</title>
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  <!-- Meta Tags -->
+  <meta name="description" content="{{ seo_description }}">
+  <meta name="author" content="{{ site.name }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:site_name" content="{{ site.name | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.name | escape }}">
+  <meta property="og:description" content="{{ seo_description }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:image" content="{{ page_image }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.social.twitter | default: '@' }}">
+  <meta name="twitter:title" content="{{ page.title | default: site.name | escape }}">
+  <meta name="twitter:description" content="{{ seo_description }}">
+  <meta name="twitter:image" content="{{ page_image }}">
+
+  <!-- Social Links -->
+  {%- if site.social.links -%}
+    {%- for link in site.social.links -%}
+      <meta property="og:see_also" content="{{ link }}">
+    {%- endfor -%}
+  {%- endif -%}
+
+  <!-- Location JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "@id":"{{ site.url | append: '/#localbusiness' | replace: '//#', '/#' }}",
+    "name":"{{ site.legal_name | default: site.name | escape }}",
+    "description":"{{ site.description | default: seo_description | strip_html | strip_newlines | escape }}",
+    "image":"{{ page_image }}",
+    "logo":"{{ site.logo | absolute_url }}",
+    "url":"{{ canonical_url }}",
+    "mainEntityOfPage":{"@type":"WebPage","@id":"{{ canonical_url }}"},
+    "telephone":"{{ site.phone }}"{% if site.email and site.email != "" %},
+    "email":"{{ site.email | escape }}"{% endif %},
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"{{ site.address.street | escape }}",
+      "addressLocality":"{{ site.address.city | escape }}",
+      "addressRegion":"{{ site.address.region | escape }}",
+      "postalCode":"{{ site.address.zip | escape }}",
+      "addressCountry":"{{ site.address.country | escape }}"
+    },
+    "geo":{
+      "@type":"GeoCoordinates",
+      "latitude":{{ site.latitude }},
+      "longitude":{{ site.longitude }}
+    },
+    "serviceArea":{
+      "@type":"GeoCircle",
+      "geoMidpoint":{"@type":"GeoCoordinates","latitude":{{ site.latitude }},"longitude":{{ site.longitude }}},
+      "geoRadius": {{ site.service_radius_meters | default: 64374 }}
+    },
+    "openingHoursSpecification":[
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":{{ site.opening_hours.weekday.days | jsonify }},
+        "opens":"{{ site.opening_hours.weekday.opens | default: '09:00' }}",
+        "closes":"{{ site.opening_hours.weekday.closes | default: '17:00' }}"
+      },
+      {
+        "@type":"OpeningHoursSpecification",
+        "dayOfWeek":{{ site.opening_hours.weekend.days | jsonify }},
+        "opens":"{{ site.opening_hours.weekend.opens | default: '10:00' }}",
+        "closes":"{{ site.opening_hours.weekend.closes | default: '17:00' }}"
+      }
+    ],
+    "priceRange":"{{ site.price_range | default: '$$' }}",
+    "paymentAccepted": {{ site.payment_accepted | default: '[]' | jsonify }},
+    "sameAs": {{ site.social.links | default: '[]' | jsonify }},
+    "aggregateRating":{
+      "@type":"AggregateRating",
+      "ratingValue":"{{ site.default_rating_value | default: '5.0' }}",
+      "reviewCount":"{{ site.review_count | default: 50 }}",
+      "bestRating":5,
+      "worstRating":0
+    },
+    "review":[
+      {%- assign testimonials = site.data.testimonial -%}
+      {%- if testimonials -%}
+        {%- for testimonial in testimonials -%}
+        {
+          "@type":"Review",
+          "datePublished":"{{ testimonial.date | default: '2024-12-04' }}",
+          "description":"{{ testimonial.testimony | strip_newlines | replace: '\"','' | replace: \"'\",\"\" | escape }}",
+          "author":{"@type":"Person","name":"{{ testimonial.name | escape }}"}
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      {%- endif -%}
+    ]
+  }
+  </script>
+
+  <!-- CSS (your existing landing-page preload pattern) -->
+  <link rel="preload" href="/assets/css/libs.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/libs.bundle.css"></noscript>
+
+  <link rel="preload" href="/assets/css/theme.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/theme.bundle.css"></noscript>
+
+  <link rel="preload" href="/assets/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/custom.css"></noscript>
+
+  {%- comment -%}
+  Optional: preload the hero image if you want LCP help.
+  <link rel="preload" as="image" href="{{ page_image }}" fetchpriority="high">
+  {%- endcomment -%}
+</head>
+<body class="{% if page.url == '/' %}{% else %}overflow-hidden{% endif %}">
+  {% include gallerymodal.html %}
+  <a href="/chat" title="Ohh Snap's AI Assisted chat bot for all your photo booth questions"><div class="progress-wrap cursor-pointer active-progress"></div></a>
+    <!-- NAVBAR -->
+   {% include nav.html %}
+
+       {{ content }}
+
+    <!-- FOOTER -->
+    {% include footer.html %}
+    <!-- JAVASCRIPT -->
+    {% include scripts.html %}
+  </body>
+</html>

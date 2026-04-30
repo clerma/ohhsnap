@@ -1,0 +1,31 @@
+assets:
+  cdn:
+    url: https://ohhsnap.b-cdn.net
+    absolute_links: true
+# _config.prod.yml
+minify_build:
+  enabled: true
+  html: true
+  css:  true
+  js:   false
+  json: true
+  xml:  true
+  svg:  true
+purge_css_light:
+  enabled: true
+  html_globs: ["**/*.html"]
+  css_globs:
+    - "assets/css/theme.bundle.css"
+    - "assets/css/theme-sans-serif.bundle.css"
+    - "assets/css/libs.bundle.css"
+    - "assets/css/custom.css"
+  safelist:
+    - "^fa-"
+    - "^jarallax"
+    - "^flickity-"
+    - "^swiper-"
+    - "^collapse$"
+    - "^show$"
+    - "^modal"
+    - "^dropdown"
+  log: true
