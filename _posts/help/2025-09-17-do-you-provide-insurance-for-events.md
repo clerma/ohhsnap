@@ -5,11 +5,12 @@ description: >-
   Yes, Ohh Snap provides insurance certificates for events of all sizes. Protect
   your wedding, school function, or festival by booking a trusted and insured
   photo booth rental.
-keywords: >-
-  photo booth insurance, insured photo booth rental, Lafayette photo booth
-  vendor, event insurance certificate, festival photo booth rental, school event
-  photo booth, professional photo booth company, Louisiana photo booth rental,
-  insured wedding vendor, photo booth safety
+faq_answer: >-
+  Yes — we provide a certificate of insurance whenever your venue, school, or
+  organization requires one. Let us know during booking and we'll send the
+  documentation promptly. Most large festivals, schools, and corporate venues
+  require proof of insurance from vendors as a standard part of their rental
+  agreement.
 author: Ohh Snap
 categories:
   - Before Event
@@ -17,6 +18,7 @@ tags:
   - Before-Event
 helptype: technical
 image: /uploads/2020-7-10-82092a.jpg
+last_modified_at: "2026-04-29"
 ---
 
 Yes—we can provide an insurance certificate for your event.

@@ -1,0 +1,35 @@
+# Per-city content overrides for /locations/<city>/ pages.
+#
+# Each entry below maps to one of the cities in _config.yml -> local_keywords.
+# Cities listed here render the override fields in place of the generic
+# defaults; cities not listed still generate, but with default copy only.
+#
+# Schema (all fields except `city` are optional):
+#
+# - city: "City Name"                          # must match a name in local_keywords (case-insensitive slug match)
+#   local_intro: >-                            # replaces the default about paragraph
+#     Custom intro text for this city.
+#   venues:                                    # named venues you serve in this city
+#     - name: "Venue Name"
+#       url:  "https://..."                    # optional
+#   notable_clients:                           # past local clients/partners
+#     - "Client Name"
+#   events_blurb: >-                           # free markdown snippet about recent events
+#     Custom paragraph or list.
+#   hero_image: /uploads/city-hero.jpg         # banner image override
+#
+# Example (commented out — uncomment and fill in to enable):
+#
+# - city: Opelousas
+#   local_intro: >-
+#     Photo booth rentals in Opelousas, LA — at The Liberty Theater,
+#     Le Vieux Village, and venues across St. Landry Parish.
+#   venues:
+#     - name: "The Liberty Theater"
+#       url:  "https://example.com"
+#     - name: "Opelousas Civic Center"
+#   notable_clients:
+#     - "Opelousas Tourism"
+#   events_blurb: >-
+#     We've covered Anne Frank Foundation events, OHS reunions, and
+#     Krewe parties along Liberty Street.

@@ -1,0 +1,54 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CollectionPage",
+  "@id":"{{ canonical_url }}#collectionpage",
+  "url":"{{ canonical_url }}",
+  "name":"{{ page.title | escape }}",
+  "description":"{{ seo_description | strip_html | strip_newlines | escape }}",
+  "isPartOf":{"@id":"{{ website_id }}"},
+  "about":{
+    "@type":"Thing",
+    "name":"Photo Booth Help Center"
+  },
+  "hasPart":[
+    {% assign first_item = true %}
+
+    {% for post in site.tags.Before-Event %}
+      {% if post.categories contains "Before Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"Article",
+          "headline":"{{ post.title | escape }}",
+          "url":"{{ post.url | absolute_url }}"
+        }
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.tags.day-of-event %}
+      {% if post.categories contains "Day of Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"Article",
+          "headline":"{{ post.title | escape }}",
+          "url":"{{ post.url | absolute_url }}"
+        }
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.tags.After-Event %}
+      {% if post.categories contains "After Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"Article",
+          "headline":"{{ post.title | escape }}",
+          "url":"{{ post.url | absolute_url }}"
+        }
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
