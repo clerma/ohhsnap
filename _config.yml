@@ -3,8 +3,9 @@ timezone: America/Chicago
 baseurl: ""
 url: https://alexandriaphotobooth.com
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
+name: Ohh Snap Booth — Alexandria
 author: "Alexandria Photo Booth"
-description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Alexandria, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
+description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Alexandria, LA, and Central Louisiana. Perfect for weddings, corporate events, and parties."
 relative_permalinks: false
 favicon: /assets/favicon/favicon.ico
 disqus:
@@ -35,13 +36,13 @@ schema:
   service_radius_meters: 64374
 
 address:
-  street: "905 Jefferson St"
-  city: "Lafayette"
+  street: ""
+  city: ""
   region: "LA"
-  zip: "70501"
+  zip: ""
   country: "US"
-latitude: "30.221191"
-longitude: "-92.018257"
+latitude: ""
+longitude: ""
 price_range: "$$"
 payment_accepted: ["Cash","Credit Card","PayPal","Check"]
 opening_hours:
@@ -55,7 +56,7 @@ weekend:
   closes: "17:00"
 review_count: 50
 rating_value: 5.0
-is_primary_location: true
+is_primary_location: false
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
@@ -63,28 +64,22 @@ bing_site_verification: "84731997131DC6D5C4CE682AF20C5C74"
 location: Alexandria
 alt_location:
   - location: Lafayette
-    url: https://lafayettephotobooth.com
+    url: https://ohhsnapbooth.com
   - location: Lake Charles
     url: https://lakecharlesphotobooth.com
   - location: Baton Rouge
     url: https://batonrougephotobooth.rentals
-  - location: Alexandria
-    url: https://alexandriaphotobooth.com
 
 local_keywords:
-      - Scott
-      - Carencro
-      - Sunset
-      - Opelousas
-      - Duson
-      - Youngsville
-      - New Iberia
-      - Breaux Bridge
-      - Grand Coteau
-      - Arnaudville
-      - Lafayette
-      - Crowley
-      - Broussard
+      - Pineville
+      - Ball
+      - Tioga
+      - Boyce
+      - Marksville
+      - Natchitoches
+      - Leesville
+      - Cottonport
+      - Bunkie
 
 local_keywords_base: "locations"   # => /locations/<city>/
 local_keywords_defaults:

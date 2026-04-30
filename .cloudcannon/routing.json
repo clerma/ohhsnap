@@ -2,17 +2,17 @@
 	"routes": [
 		{
 			"from": "/photo-booth-and-photography-backdrops",
-			"to": "/lafayette-backdrop-rentals",
+			"to": "/alexandria-backdrop-rentals",
 			"status": 301
 		},
 		{
 			"from": "/photo-booth-packages",
-			"to": "/lafayette-photo-booth-rental",
+			"to": "/alexandria-photo-booth-rental",
 			"status": 301
 		},
 		{
 			"from": "/lafayette-360-booth",
-			"to": "/lafayette-360-booth-rental",
+			"to": "/alexandria-360-booth-rental",
 			"status": 301
 		},
 		{
@@ -137,12 +137,12 @@
 		},
 		{
 			"from": "/360-video-booth/",
-			"to": "/lafayette-360-booth-rental",
+			"to": "/alexandria-360-booth-rental",
 			"status": 301
 		},
 		{
 			"from": "/backdrops",
-			"to": "/lafayette-backdrop-rentals",
+			"to": "/alexandria-backdrop-rentals",
 			"status": 301
 		},
 		{
@@ -267,7 +267,7 @@
 		},
 		{
 			"from": "/booths",
-			"to": "/lafayette-photo-booth-rental",
+			"to": "/alexandria-photo-booth-rental",
 			"status": 301
 		},
 		{
@@ -292,17 +292,17 @@
 		},
 		{
 			"from": "/Lafayette-photo-booth-rental/",
-			"to": "/lafayette-photo-booth-rental",
+			"to": "/alexandria-photo-booth-rental",
 			"status": 301
 		},
 		{
 			"from": "/Alexandria-backdrop-rentals",
-			"to": "/lafayette-backdrop-rentals",
+			"to": "/alexandria-backdrop-rentals",
 			"status": 301
 		},
 		{
 			"from": "/Lake Charles-backdrop-rentals",
-			"to": "/lafayette-backdrop-rentals",
+			"to": "/alexandria-backdrop-rentals",
 			"status": 301
 		}
 	]
