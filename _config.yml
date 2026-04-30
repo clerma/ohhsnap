@@ -3,7 +3,7 @@ timezone: America/Chicago
 baseurl: ""
 url: https://batonrougephotobooth.rentals
 include: ['_pages', '_data','login.html','login','_vendors', '_plugins']
-name: Ohh Snap! Photo Booth
+name: Ohh Snap Booth — Baton Rouge
 description: "Ohh Snap! Photo Booth offers modern photo booth and 360 booth rentals in Baton Rouge, LA, and surrounding areas. Perfect for weddings, corporate events, and parties."
 author: "Baton Rouge Photo Booth"
 relative_permalinks: false
@@ -36,13 +36,13 @@ schema:
   service_radius_meters: 64374
 
 address:
-  street: "905 Jefferson St"
-  city: "Lafayette"
+  street: ""
+  city: ""
   region: "LA"
-  zip: "70501"
+  zip: ""
   country: "US"
-latitude: "30.221191"
-longitude: "-92.018257"
+latitude: ""
+longitude: ""
 price_range: "$$"
 payment_accepted: ["Cash","Credit Card","PayPal","Check"]
 opening_hours:
@@ -56,7 +56,7 @@ weekend:
   closes: "17:00"
 review_count: 50
 rating_value: 5.0
-is_primary_location: true
+is_primary_location: false
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: ""
@@ -64,12 +64,48 @@ bing_site_verification: ""
 location: Baton Rouge
 alt_location:
   - location: Lafayette
-    url: https://lafayettephotobooth.com
+    url: https://ohhsnapbooth.com
   - location: Lake Charles
     url: https://lakecharlesphotobooth.com
   - location: Alexandria
     url: https://alexandriaphotobooth.com
-local_keywords: Zachary, Baker, Central, Denham Springs, Walker, Prairieville, Gonzales, Port Allen, Addis, Brusly, St. Gabriel, Geismar, Plaquemine, Donaldsonville, Livingston, New Roads, Iberville, Watson
+local_keywords:
+      - Zachary
+      - Baker
+      - Central
+      - Denham Springs
+      - Walker
+      - Prairieville
+      - Gonzales
+      - Port Allen
+      - Addis
+      - Brusly
+      - St. Gabriel
+      - Geismar
+      - Plaquemine
+      - Donaldsonville
+      - Livingston
+      - New Roads
+      - Iberville
+      - Watson
+
+local_keywords_base: "locations"   # => /locations/<city>/
+local_keywords_defaults:
+  hero_image:    "/assets/img/gallery/portrait/2023-10-28-78780A.jpg"
+  page_image_1:  "/assets/img/booth/IMG_9578.jpg"
+  page_image_2:  "/uploads/2018-3-9-66462b-1.jpg"
+  page_image_3:  "/assets/img/social-booth/I367-FYY0QWTF4GY2X4BX.jpeg"
+  booth_image_map:
+    portrait: /uploads/img-0024.jpg
+    social:   /uploads/img-2612.jpeg
+    roaming:  /uploads/44-santa-portraits-bonus-booth-stock-scaled.jpg
+    virtual:  /assets/img/virtual-booth/VirtualBoothPromoStill08.jpg
+    glam:     /uploads/sarah-and-william-photo-20250510-time-210514-xl6df1.jpeg
+    "360":    /uploads/img-9069.jpeg
+
+# This include is rendered as the page body:
+  content_partial: "locations/service-area-sections.html"
+
 local_competitors: Bai booth, Baton Rouge Photo Booth Company, The Pixure Booth, Southern Blink Photo Booth, The Selfie Station, Exclusive Photo Booth, Pose & Pix Photo Booth Rentals, Comoco Photo, Complete Weddings + Events Baton Rouge, MiHi Entertainment, Solara Events
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
