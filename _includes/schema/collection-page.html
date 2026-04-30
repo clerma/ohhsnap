@@ -6,6 +6,20 @@
   "url":"{{ canonical_url }}",
   "name":"{{ page.title | escape }}",
   "description":"{{ seo_description | strip_html | strip_newlines | escape }}",
+  "image":{
+    "@type":"ImageObject",
+    "url":"{{ page_image }}"
+  },
+  "author":{
+    "@type":"Organization",
+    "name":"{{ page.author | default: site.author | escape }}",
+    "url":"{{ site.url }}"
+  },
+  "publisher":{
+    "@type":"Organization",
+    "name":"{{ site.name | escape }}",
+    "logo":{"@type":"ImageObject","url":"{{ site.logo | absolute_url }}"}
+  },
   "isPartOf":{"@id":"{{ website_id }}"},
   "about":{
     "@type":"Thing",
