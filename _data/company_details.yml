@@ -1,6 +1,6 @@
 email: chat@ohhsnapbooth.com
-logo_image: assets/img/ohhsnap.svg
-social:
+logo_image: /assets/img/ohhsnap.svg
+socials:
   - name: instagram
     link: https://instagram.com/ohhsnapbooth
     icon: fa-instagram
@@ -16,3 +16,9 @@ social:
   - name: tiktok
     link: https://tiktok.com/@ohhsnapbooth
     icon: fa-tiktok
+  - name: youtube
+    link: https://www.youtube.com/@ohhsnapbooth
+    icon: fa-youtube
+  - name: Linked-in
+    link: https://linkedin.com/in/ohh-snap-photo-booth
+    icon: fa-linkedin

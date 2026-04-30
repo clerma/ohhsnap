@@ -36,4 +36,5 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'tzinfo-data'
     gem 'tzinfo'
+    gem 'jekyll-sass-converter', '< 2.2.0'
 end

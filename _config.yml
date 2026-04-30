@@ -26,14 +26,37 @@ social:
     - https://www.weddingwire.com/biz/ohh-snap-photobooth-opelousas/024e0ced0369c12b.html
     - https://www.stylemepretty.com/vendor-profile/ohh-snap-photo-booth?location=southeastern-us/louisiana
     - https://www.bing.com/maps?osid=8c037a23-54a0-432d-8ee2-26799c5f2469&cp=30.492782~-92.076716&lvl=16&pi=0&imgid=8a7af4dc-d1f9-4f80-82f7-652189843304&v=2&sV=2&form=S00027
+    - https://www.youtube.com/@ohhsnapbooth
+    - https://www.linkedin.com/in/ohh-snap-photo-booth
 twitter:
   username: "ohhsnapbooth"
+schema:
+  business_id: "#localbusiness"
+  business_type: "LocalBusiness"
+  service_radius_meters: 64374
+
 address:
   street: "905 Jefferson St"
   city: "Lafayette"
   region: "LA"
   zip: "70501"
   country: "US"
+latitude: "30.221191"
+longitude: "-92.018257"
+price_range: "$$"
+payment_accepted: ["Cash","Credit Card","PayPal","Check"]
+opening_hours:
+weekday:
+  days: ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+  opens: "09:00"
+  closes: "17:00"
+weekend:
+  days: ["Saturday","Sunday"]
+  opens: "10:00"
+  closes: "17:00"
+review_count: 50
+rating_value: 5.0
+is_primary_location: true
 phone: "337-366-8995"
 og_image: "/assets/img/default-og-image.jpg"
 google_site_verification: ""
@@ -50,8 +73,11 @@ local_keywords: Zachary, Baker, Central, Denham Springs, Walker, Prairieville, G
 local_competitors: Bai booth, Baton Rouge Photo Booth Company, The Pixure Booth, Southern Blink Photo Booth, The Selfie Station, Exclusive Photo Booth, Pose & Pix Photo Booth Rentals, Comoco Photo, Complete Weddings + Events Baton Rouge, MiHi Entertainment, Solara Events
 snipcart_key: "YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4"
 snipcart_currency: "usd"
+plugins_dir: _plugins
 collections:
   products:
+    output: true
+  wedding:
     output: true
   coordinators:
     output: true
@@ -61,8 +87,7 @@ collections:
   event_type:
     output: true
 defaults:
--
-  scope:
+- scope:
     path: ""
   values:
     layout: default
@@ -94,26 +119,36 @@ defaults:
         image: true
         link: true
         embed: true
--
-  scope:
+- scope:
     path: ""
     type: "products"
   values:
     layout: "product"
--
-  scope:
+- scope:
     type: pages
     path: _pages/index.html
   values:
     permalink:
--
-  scope:
+- scope:
+    type: pages
+    path: _wedding
+  values:
+    permalink: /:title
+- scope:
+    path: "_posts/blog"
     type: posts
   values:
-    layout: bloglayout
-# assets:
-#   cdn:
-#    url: https://0c123gkb.tinifycdn.com
+    permalink: "/ohh-snap-blog/:title"
+    layout: post
+- scope:
+    path: "_posts/help"
+    type: posts
+  values:
+    permalink: "/ohh-snap-help/:title"
+    layout: post
+assets:
+      cdn:
+       # url: https://ohhsnap.b-cdn.net
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -123,7 +158,12 @@ defaults:
 # paginate_path: '/page:num/'
 
 # Permalinks
-permalink: "/ohh-snap-blog/:title/"
+minify_build:
+  enabled: false
+
+purge_css_light:
+  enabled: false
+permalink: pretty
 plugins:
   #- jekyll-paginate
   - jekyll-sitemap
@@ -131,12 +171,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 exclude:
-    - .jekyll-cache/
-    - gemfiles/
-    - Gemfile
-    - Gemfile.lock
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
-    - _site
+  - node_modules/
+  - __MACOSX/
+  - .DS_Store
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _site
