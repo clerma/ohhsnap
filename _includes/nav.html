@@ -102,7 +102,7 @@
                                                                         <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth" target="_self">
                                                                                 About
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/{{site.location | downcase}}-backdrop-rentals" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Event Backdrop Rentals" target="_self">
+                                                                        <a class="dropdown-item" href="/{{site.location | slugify}}-backdrop-rentals" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Event Backdrop Rentals" target="_self">
                                                                                 Backdrops
                                                                         </a>
                                                                         <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company" target="_self">
@@ -116,7 +116,7 @@
                                                                                 Blog
                                                                         </h6>
                                                                         <!-- Links -->
-                                                                        <a class="dropdown-item" href="/ohh-snap-blog" title="Event and Wedding insperation Articles" target="_self">
+                                                                        <a class="dropdown-item" href="/ohh-snap-blog" title="Event and Wedding inspiration Articles" target="_self">
                                                                                 Articles
                                                                         </a>
                                                                         <!-- Heading -->
@@ -151,14 +151,15 @@
                                                 Get a Quote
                                         </a>
                                 </li>
-                                <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2 d-none">
-                                        <a href="#" class="snipcart-checkout text-decoration-none" title="Photo Booth Resoruces">
-                                                <div class="snipcart-summary">
+                                {% if page.pagename == "resources" %}
+                                <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2">
+                                        <a href="#" data-anycart-open class="text-decoration-none" title="View Cart">
+                                                <div class="cart-summary">
                                                         <i class="fal fa-shopping-bag"></i>
-                                                        <span class="snipcart-items-count"></span>
                                                 </div>
                                         </a>
                                 </li>
+                                {% endif %}
 
                         </ul>
                 </div>

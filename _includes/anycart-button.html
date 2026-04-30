@@ -3,7 +3,7 @@
 	{% assign colors = colors | append: '|' | append: style.name %}
 {% endfor %}
 {% assign colors = colors | remove_first: '|' %}
-<button class="snipcart-add-item"
+<button class="anycart-add-item"
 	data-item-name="{{ include.product.name }}"
 	data-item-id="{{ include.product.sku }}"
 	data-item-image="{{ include.product.styles.first.image }}"

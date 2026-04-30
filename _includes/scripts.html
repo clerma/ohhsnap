@@ -3,10 +3,10 @@
 <!-- Theme JS -->
 <script src="/assets/js/theme.bundle.patched.v2.js" defer></script>
 <script src="/assets/js/custom.js" defer></script>
-{% comment %}
-<script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
-<div id="snipcart" data-api-key="YjgzYjc3YWEtYjUzOC00MTA3LTlhMmYtMzgwZDUwMDQyNjk2NjM3OTM4NzI1MTg4MjA1MjY4" hidden></div>
-{% endcomment %}
+{% if page.pagename == "resources" %}
+<!-- AnyCart — Embeddable Cart -->
+<script src="https://anycart.co/api/anycart.js" data-api-key="cf_9f34a5dfe94b3364ecb8ecf4ebf710f8f567b71444ea8a59" defer></script>
+{% endif %}
 
 <!-- Facebook Pixel (2s after window load) -->
 <script>
@@ -111,4 +111,9 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '{{site.google_analytics}}');
+</script>
+<script
+src="https://widget.heyrosie.com/widget.js"
+async
+data-rosie-business-id="7155e258-c5a4-4f2c-a8de-f046d49927cd">
 </script>

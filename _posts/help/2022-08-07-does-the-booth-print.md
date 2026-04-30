@@ -5,12 +5,11 @@ description: >-
   Find out if our photo booths print photos, and learn about the different print
   options available, including digital-only booths and customizable prints for
   your event.
-keywords: >-
-  photo booth rental, photo booth rental,photo booth print options, does the
-  photo booth print, photo booth print services, digital photo booth, print, and
-  digital photo booths, photo booth printing, event photo booth prints, print
-  options for photo booths, customized photo booth prints, photo booth rentals
-  with prints
+faq_answer: >-
+  Yes, with our Portrait Booth and Roaming Photography services. Our Social
+  Booth and 360 Booth are digital-only — photos share instantly via text,
+  email, or social. Print options on the printable booths include standard
+  4x6, 2x6 strips, and other paper sizes on request.
 author: Ohh Snap
 categories:
   - Before Event
@@ -18,6 +17,7 @@ tags:
   - Before-Event
 helptype: technical
 image: /uploads/img-4387.jpeg
+last_modified_at: "2026-04-29"
 ---
 The answer is: it depends on the type of booth you choose! At Ohh Snap, we offer a variety of photo booths to suit different event needs.
 

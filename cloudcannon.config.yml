@@ -290,7 +290,7 @@ _editables:
     numberedlist: true
     resize_style: cover
     right: text-right
-    styles: /assets/css/editor.css
+    styles: /assets/css/theme.bundle.css
     table: true
     underline: true
   content:
@@ -316,7 +316,7 @@ _editables:
     removeformat: true
     resize_style: cover
     right: text-right
-    styles: /assets/css/editor.css
+    styles: /assets/css/theme.bundle.css
     table: true
     underline: true
   image:

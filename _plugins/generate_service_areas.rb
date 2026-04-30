@@ -6,7 +6,7 @@ require "jekyll/utils"
 
 module Jekyll
   class ServiceAreaPage < Jekyll::Page
-    def initialize(site, city, base_segment, defaults)
+    def initialize(site, city, base_segment, defaults, override)
       @site = site
       @base = site.source
 
@@ -27,12 +27,13 @@ module Jekyll
       site_title = site.config["title"] || "Ohh Snap Photo Booth"
       # Title uses site.location like your event-type pages
       self.data["title"]       ||= "#{city} Photo Booth Rental"
-      self.data["description"] ||= "Photo booth rentals for events in #{city}."
-      self.data["keywords"]    ||= "photo booth, #{city} photo booth rental, 360 booth, glam booth"
+      self.data["description"] ||= "Photo booth rentals for weddings and events in #{city}."
+      self.data["keywords"]    ||= "photo booth, #{city} photo booth rental, 360 booth, glam booth, photo booths near me, photo booths near #{city},"
 
       # OG/hero image key your templates expect
       d = defaults || {}
-      self.data["image"]       ||= (d["page_image_1"] || "/assets/img/booth/IMG_9578.jpg")
+      o = override || {}
+      self.data["image"]       ||= (o["hero_image"] || d["page_image_1"] || "/assets/img/booth/IMG_9578.jpg")
 
       # TYPE block (safe defaults — you can override later per city in CloudCannon)
       self.data["type"] ||= {
@@ -51,9 +52,14 @@ module Jekyll
       # Optional booth image override map (ensure "360" is quoted in YAML)
       self.data["booth-image"] ||= d["booth_image_map"]
 
+      # Per-city content overrides (read in service-area-sections.html)
+      # Schema: { local_intro, venues:[{name,url}], notable_clients:[String],
+      #          events_blurb (HTML/markdown), hero_image }
+      self.data["override"] = o
+
       # Banner block (mirrors your event-type usage)
       self.data["banner"] ||= {}
-      self.data["banner"]["image"]     ||= d["hero_image"] || "/assets/img/booth/IMG_9578.jpg"
+      self.data["banner"]["image"]     ||= o["hero_image"] || d["hero_image"] || "/assets/img/booth/IMG_9578.jpg"
       self.data["banner"]["video"]     ||= nil
       self.data["banner"]["preheading"] ||= "Ohh Snap"
       self.data["banner"]["title"]      ||= "#{city} Photo Booths"
@@ -94,11 +100,23 @@ module Jekyll
       base_segment = cfg["local_keywords_base"] || "locations"
       defaults     = cfg["local_keywords_defaults"] || {}
 
+      # Per-city content overrides live in _data/locations.yml as an array of
+      # objects keyed by `city`. Build a lookup keyed by both the literal name
+      # and its slug so users can write either in the data file.
+      data_locations = (site.data["locations"] || []).select { |o| o.is_a?(Hash) && o["city"] }
+      overrides_by_key = {}
+      data_locations.each do |entry|
+        name = entry["city"].to_s
+        overrides_by_key[name] = entry
+        overrides_by_key[Jekyll::Utils.slugify(name)] = entry
+      end
+
       cities.each do |city|
         slug = Jekyll::Utils.slugify(city)
         next if seen[slug]
         seen[slug] = true
-        site.pages << ServiceAreaPage.new(site, city, base_segment, defaults)
+        city_override = overrides_by_key[city] || overrides_by_key[slug] || {}
+        site.pages << ServiceAreaPage.new(site, city, base_segment, defaults, city_override)
       end
     end
   end

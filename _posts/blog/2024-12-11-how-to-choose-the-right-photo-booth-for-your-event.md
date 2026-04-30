@@ -70,7 +70,7 @@ If you’re after professional-quality photos with the elegance of studio photog
 
 ## **4\. Roaming Photography: Beyond the Booth**
 
-Not all events require a stationary photo booth. [**Roaming Photography**](/romaing-event-photographer) is a dynamic solution where professional photographers capture candid moments and guest interactions throughout the event. Beyond candid photos, we can provide branding and on-the-spot digital sharing for a more interactive photo booth experience. Add a print station for instant keepsakes that elevate guest engagement even further.
+Not all events require a stationary photo booth. [**Roaming Photography**](/roaming-event-photographer) is a dynamic solution where professional photographers capture candid moments and guest interactions throughout the event. Beyond candid photos, we can provide branding and on-the-spot digital sharing for a more interactive photo booth experience. Add a print station for instant keepsakes that elevate guest engagement even further.
 
 ### **When to Choose Roaming Photography:**
 
@@ -78,7 +78,7 @@ Not all events require a stationary photo booth. [**Roaming Photography**](/roma
 * You want natural, high-quality photos without posed setups.
 * You’re looking for a unique, interactive way to engage your guests.
 
-> Explore more about this service on our [**Roaming Photography page**](/romaing-event-photographer).
+> Explore more about this service on our [**Roaming Photography page**](/roaming-event-photographer).
 
 ---
 

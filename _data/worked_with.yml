@@ -34,7 +34,7 @@
   image: "/assets/img/companies/ul.png"
   category: ""
 
-- name: "Our Saviors Church"
+- name: "Our Savior's Church"
   image: "/assets/img/companies/la-tech.png"
   category: ""
 
@@ -66,11 +66,11 @@
   image: "/assets/img/companies/ul.png"
   category: ""
 
-- name: "Southern Universiy"
+- name: "Southern University"
   image: "/assets/img/companies/la-tech.png"
   category: ""
 
-- name: "Susan G. komen"
+- name: "Susan G. Komen"
   image: "/assets/img/companies/lsua.png"
   category: ""
 
@@ -138,7 +138,7 @@
   image: "/assets/img/companies/tabasco.png"
   category: ""
 
-- name: "Lafayette Christian Acadamy"
+- name: "Lafayette Christian Academy"
   image: "/assets/img/companies/ul.png"
   category: ""
 
@@ -151,10 +151,6 @@
   category: ""
 
 - name: "Franks International"
-  image: ""
-  category: ""
-
-- name: "Cintas"
   image: ""
   category: ""
 
