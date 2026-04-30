@@ -4,16 +4,37 @@
   "@type":"Service",
   "@id":"{{ site.url }}/#service",
   "serviceType":"Photo Booth Rental",
-  "name":"{{ site.name | escape }} — {{ site.location }}",
+  "name":"{{ site.name | escape }}",
   "description":"{{ site.description | strip_html | strip_newlines | escape }}",
-  "image":"{{ page_image }}",
+  "image":{
+    "@type":"ImageObject",
+    "url":"{{ page_image }}"
+  },
   "url":"{{ site.url | append: '/' | replace: '//', '/' | replace: ':/', '://' }}",
   "provider":{
     "@type":"LocalBusiness",
     "@id":"https://ohhsnapbooth.com/#localbusiness",
     "name":"Ohh Snap! Photo Booth",
     "url":"https://ohhsnapbooth.com",
-    "telephone":"{{ site.phone }}"
+    "telephone":"{{ site.phone }}",
+    "image":{
+      "@type":"ImageObject",
+      "url":"https://ohhsnapbooth.com/assets/img/default-og-image.jpg"
+    },
+    "priceRange":"{{ site.price_range | default: '$$' }}",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"905 Jefferson St",
+      "addressLocality":"Lafayette",
+      "addressRegion":"LA",
+      "postalCode":"70501",
+      "addressCountry":"US"
+    },
+    "geo":{
+      "@type":"GeoCoordinates",
+      "latitude":30.221191,
+      "longitude":-92.018257
+    }
   },
   "areaServed":[
     {
