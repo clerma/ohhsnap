@@ -410,3 +410,16 @@ height:70vh
     from, to { border-color: transparent }
     50% { border-color: orange; }
 }
+
+/*
+ * Homepage: prevent horizontal scroll without breaking sticky/stacking
+ * card effects. overflow-x: clip prevents scrolling without creating a
+ * containing block (which is what overflow: hidden would do — that's
+ * what kills sticky positioning on parallax-heavy pages).
+ *
+ * Browser support: Chrome 90+, Firefox 81+, Safari 16+. iOS Safari <16
+ * falls back to the html { overflow-x: hidden } rule from theme.bundle.css.
+ */
+.overflow-x-clip {
+    overflow-x: clip;
+}
