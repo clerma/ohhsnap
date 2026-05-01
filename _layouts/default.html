@@ -41,9 +41,8 @@
 
       <!-- Self-hosted video, served via Bunny CDN -->
       <video
-        autoplay muted loop playsinline
+        autoplay muted loop playsinline webkit-playsinline disablePictureInPicture
         poster="{{ page.image }}"
-        preload="metadata"
         style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;"
       >
         <source src="{{ page.banner.video }}" type="video/mp4">
