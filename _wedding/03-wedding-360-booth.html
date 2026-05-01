@@ -211,7 +211,17 @@ permalink: /{{site.location | slugify}}-wedding-360-booth
   {% for item in page.gallery %}
   <div class="col-lg-4 col-10 mx-2">
     <div class="iframe-container">
-      <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0&autoplay={{forloop.index}}" width="100%" height="100%" frameborder="0" allow="autoplay"></iframe>
+      {%- assign is_local_video = false -%}
+      {%- unless item.link contains "vimeo" or item.link contains "youtube" or item.link contains "youtu.be" -%}
+        {%- assign is_local_video = true -%}
+      {%- endunless -%}
+      {% if is_local_video %}
+      <video autoplay muted loop playsinline preload="metadata" style="width:100%;height:100%;object-fit:cover;">
+        <source src="{{ item.link }}" type="video/mp4">
+      </video>
+      {% else %}
+      <iframe src="{{item.link}}?badge=0&amp;autopause=0&muted=1&background=1&controls=0&autoplay={{forloop.index}}" width="100%" height="100%" frameborder="0" allow="autoplay" loading="lazy"></iframe>
+      {% endif %}
     </div>
   </div>
   {% endfor %}
