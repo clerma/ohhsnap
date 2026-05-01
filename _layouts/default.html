@@ -11,6 +11,65 @@
    <!-- Hero -->
    {% if page.banner %}
      {% if page.banner.video %}
+       {%- comment -%}
+         banner.video accepts two forms:
+           - A Vimeo (or other oEmbed) URL: rendered via jarallax + iframe.
+             Heavy — ~9MB+ of video chunks plus Vimeo player JS.
+           - A local path (e.g. /uploads/hero.mp4): rendered as a native
+             <video> element. Loads from Bunny CDN edge cache, no third-party
+             JS, no tracking. Encode for ~1-2MB H.264 720p loop.
+       {%- endcomment -%}
+       {%- assign is_local_video = false -%}
+       {%- unless page.banner.video contains "vimeo.com" or page.banner.video contains "youtube.com" or page.banner.video contains "youtu.be" -%}
+         {%- assign is_local_video = true -%}
+       {%- endunless -%}
+
+     {% if is_local_video %}
+    <section
+      class="bg-cover hero mt-11"
+      style="background-image: url('{{ page.image }}'); background-size: cover; background-position: center; position: relative; overflow: hidden;"
+    >
+      <!-- Fallback image for LCP -->
+      <img
+        src="{{ page.image }}"
+        alt="{{ page.banner.title | escape }}"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;"
+      />
+
+      <!-- Self-hosted video, served via Bunny CDN -->
+      <video
+        autoplay muted loop playsinline
+        poster="{{ page.image }}"
+        preload="metadata"
+        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;"
+      >
+        <source src="{{ page.banner.video }}" type="video/mp4">
+      </video>
+
+       <div class="bg-dark-50 pb-md-11 pb-12 pt-12 h-100" style="position:relative;z-index:1;">
+         <div class="container h-100 py-10">
+           <div class="d-flex h-100 text-center align-items-center">
+             <div class="w-100 text-white">
+               {% if page.banner.preheading %}
+                 <h6 class="text-uppercase mb-5 d-none d-md-block">{{ page.banner.preheading }}</h6>
+               {% endif %}
+               <h1 class="display-3 mb-4">{{ page.banner.title }}</h1>
+               <p class="fs-lg">{{ page.banner.subtext }}</p>
+               {% if page.banner.cta_link %}
+                 <a class="btn btn-primary" href="{{ page.banner.cta_link }}">
+                   {{ page.banner.cta_text }}
+                 </a>
+               {% endif %}
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     {% else %}
     <section
       class="bg-cover jarallax hero mt-11"
       data-jarallax-lazy="true"
@@ -48,6 +107,7 @@
          </div>
        </div>
      </section>
+     {% endif %}
 
      {% else %}
      <section
