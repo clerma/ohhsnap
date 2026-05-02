@@ -59,7 +59,7 @@ svg {
 }
 .iframe-container {
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 */
+  /* padding-top: 56.25%; */ /* 16:9 — disabled so portrait 360 videos aren't cropped */
   position: relative;
 }
 .post-img{
