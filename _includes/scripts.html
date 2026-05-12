@@ -112,8 +112,26 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '{{site.google_analytics}}');
 </script>
-<script
-src="https://widget.heyrosie.com/widget.js"
-async
-data-rosie-business-id="7155e258-c5a4-4f2c-a8de-f046d49927cd">
+<!--
+  HeyRosie chat widget — deferred until first user interaction (scroll,
+  mouse, touch, key) or 10s fallback. Saves ~220 KB on initial page load
+  (60 KB JS + 157 KB avatar PNG + JSON config) without delaying the
+  widget for users who actually engage.
+-->
+<script>
+  (function () {
+    function loadRosie() {
+      var s = document.createElement('script');
+      s.src = 'https://widget.heyrosie.com/widget.js';
+      s.async = true;
+      s.setAttribute('data-rosie-business-id', '7155e258-c5a4-4f2c-a8de-f046d49927cd');
+      document.body.appendChild(s);
+      events.forEach(function (e) { window.removeEventListener(e, loadRosie); });
+    }
+    var events = ['scroll', 'mousemove', 'touchstart', 'keydown'];
+    events.forEach(function (e) {
+      window.addEventListener(e, loadRosie, { once: true, passive: true });
+    });
+    setTimeout(loadRosie, 10000);
+  })();
 </script>
