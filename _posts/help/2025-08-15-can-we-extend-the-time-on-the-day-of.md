@@ -4,18 +4,20 @@ title: Can We Extend the Time on the Day Of?
 description: >-
   Wondering if you can extend your photo booth rental during your event? Yes!
   Ohh Snap offers flexible photo booth rental extensions 
-keywords: >-
-  extend photo booth rental, add more time to photo booth, day of rental
-  extension, photo booth overtime,{{site.location}} photo booth rental, Ohh Snap
-  booth time, event photo booth add-on, flexible photo booth rental, party photo
-  booth options, wedding reception entertainment
+faq_answer: >-
+  Yes — as long as we don't have another booking immediately after yours and
+  our team is available. Let your Ohh Snap attendant know mid-event; they'll
+  confirm with headquarters, approve the extension, and process payment on the
+  spot. When possible, mention longer windows during booking to lock in the
+  time.
 author: Ohh Snap
 categories:
   - Day of Event
 tags:
   - day-of-event
-helptype:
+helptype: technical
 image: /uploads/2025-4-26-73610c.jpg
+last_modified_at: "2026-04-29"
 ---
 Yes, you can absolutely extend your photo booth rental—**as long as we don’t have another booking right after yours** and our team is available!
 

@@ -57,4 +57,4 @@ Both have their place in the world of events, but if you're looking for **a stat
 
 Partnering with <a href="https://www.rentfleurfete.com/" target="_blank" rel="noopener"><strong>FleurFête</strong></a>, we’re proud to offer a premium floral experience that goes beyond expectations. Every 5D Flower Wall is crafted with care, passion, and attention to detail—because your event deserves nothing less.
 
-Let’s create a breathtaking floral experience together. [**Explore our Backdrop Options**](https://ohhsnapbooth.com/Lafayette-backdrop-rentals) and find the perfect design for your event today.
+Let’s create a breathtaking floral experience together. [**Explore our Backdrop Options**](/{{site.location | slugify}}-backdrop-rentals) and find the perfect design for your event today.

@@ -21,8 +21,12 @@
       <div class="col-md-6 col-lg-5 text-center text-md-start">
         <h2 class="display-4 mb-4">Photo Booth Rentals in {{ page.city }}</h2>
         <p class="text-muted">
-          Portrait, 360, glam, roaming, and social experiences professional, on-brand, and built
-          to delight your guests in {{ page.city }} and surrounding areas.
+          {%- if page.override.local_intro -%}
+            {{ page.override.local_intro }}
+          {%- else -%}
+            Portrait, 360, glam, roaming, and social experiences professional, on-brand, and built
+            to delight your guests in {{ page.city }} and surrounding areas.
+          {%- endif -%}
         </p>
       </div>
       <div class="col-md-5 col-lg-6">
@@ -131,6 +135,78 @@
     </div>
   </div>
 </section>
+
+{%- comment -%} Optional: notable local venues — only renders when override is populated {%- endcomment -%}
+{%- if page.override.venues and page.override.venues.size > 0 -%}
+<section class="py-10 py-md-11">
+  <div class="container-lg" data-aos="fade-up">
+    <div class="row justify-content-center mb-8">
+      <div class="col-md-10 col-lg-8 text-center">
+        <h6 class="text-uppercase text-primary mb-5">Where We Set Up</h6>
+        <h2 class="display-4 mb-4">
+          {{ page.city }} <span class="text-underline-warning">Venues</span> We Serve
+        </h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <ul class="list-unstyled row g-3 g-md-4">
+          {% for v in page.override.venues %}
+          <li class="col-md-6 col-lg-4">
+            {% if v.url %}
+              <a class="text-decoration-none" href="{{ v.url }}" target="_blank" rel="noopener">{{ v.name }}</a>
+            {% else %}
+              <span>{{ v.name }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+{%- comment -%} Optional: notable local clients {%- endcomment -%}
+{%- if page.override.notable_clients and page.override.notable_clients.size > 0 -%}
+<section class="py-10 bg-light">
+  <div class="container-lg" data-aos="fade-up">
+    <div class="row justify-content-center mb-8">
+      <div class="col-md-10 col-lg-8 text-center">
+        <h6 class="text-uppercase text-primary mb-5">Trusted Locally</h6>
+        <h2 class="display-4 mb-4">
+          {{ page.city }} <span class="text-underline-warning">Clients</span> We've Worked With
+        </h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <p class="lead text-muted">
+          {%- for c in page.override.notable_clients -%}
+            {{ c }}{% unless forloop.last %} &middot; {% endunless %}
+          {%- endfor -%}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+{%- comment -%} Optional: events blurb — free-form HTML/markdown {%- endcomment -%}
+{%- if page.override.events_blurb -%}
+<section class="py-10">
+  <div class="container-lg" data-aos="fade-up">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-8">
+        <h6 class="text-uppercase text-primary mb-5 text-center">Recent {{ page.city }} Events</h6>
+        <div class="lead text-muted">
+          {{ page.override.events_blurb | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif -%}
 
 <section class="py-10 pt-md-11 bg-light">
   <div class="container-lg" data-aos="fade-up">

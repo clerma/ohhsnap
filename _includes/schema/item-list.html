@@ -1,0 +1,54 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "@id":"{{ canonical_url }}#itemlist",
+  "name":"Help Center Articles",
+  "itemListElement":[
+    {% assign item_position = 1 %}
+    {% assign first_item = true %}
+
+    {% for post in site.tags.Before-Event %}
+      {% if post.categories contains "Before Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"ListItem",
+          "position": {{ item_position }},
+          "url": "{{ post.url | absolute_url }}",
+          "name": "{{ post.title | escape }}"
+        }
+        {% assign item_position = item_position | plus: 1 %}
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.tags.day-of-event %}
+      {% if post.categories contains "Day of Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"ListItem",
+          "position": {{ item_position }},
+          "url": "{{ post.url | absolute_url }}",
+          "name": "{{ post.title | escape }}"
+        }
+        {% assign item_position = item_position | plus: 1 %}
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.tags.After-Event %}
+      {% if post.categories contains "After Event" %}
+        {% unless first_item %},{% endunless %}
+        {
+          "@type":"ListItem",
+          "position": {{ item_position }},
+          "url": "{{ post.url | absolute_url }}",
+          "name": "{{ post.title | escape }}"
+        }
+        {% assign item_position = item_position | plus: 1 %}
+        {% assign first_item = false %}
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>

@@ -52,7 +52,7 @@
 		},
 		{
 			"from": "/romaing-event-photographer/",
-			"to": "/romaing-event-photographer",
+			"to": "/roaming-event-photographer",
 			"status": 301
 		},
 		{
@@ -157,7 +157,7 @@
 		},
 		{
 			"from": "/head-shots",
-			"to": "/romaing-event-photographer",
+			"to": "/roaming-event-photographer",
 			"status": 301
 		},
 		{
@@ -180,7 +180,7 @@
 			"to": "/ohh-snap-blog",
 			"status": 301
 		},
-    {
+		{
 			"from": "/romaing-event-photographer",
 			"to": "/roaming-event-photographer",
 			"status": 301
@@ -198,6 +198,151 @@
 		{
 			"from": "/ohh-snap-blog/tag/Houston_Photo_Booth_Rental/index.html",
 			"to": "/ohh-snap-blog",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/how-to-choose-the-right-photo-booth-company",
+			"to": "/ohh-snap-blog/how-to-choose-the-right-photo-booth-for-your-event",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/can-you-plan-a-wedding-under-10-000-absolutely-here-s-how/",
+			"to": "/ohh-snap-blog/can-you-successfully-plan-a-wedding-under-10-000-absolutely-here-s-how",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/5-ways-a-non-profit-can-benefit-from-using-a-photo-booth.html",
+			"to": "/ohh-snap-blog/five-ways-a-non-profit-can-benefit-from-using-a-photo-booth",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/ascension-episcopal/",
+			"to": "/ohh-snap-blog/ascension-episcopal",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/one-acadiana-regional-celebration/",
+			"to": "/ohh-snap-blog/one-acadiana-regional-celebration",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/kyle-brittany/",
+			"to": "/ohh-snap-blog/kyle-brittany",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/american-advertising-awards/",
+			"to": "/ohh-snap-blog/american-advertising-awards",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/photo-booth-setup-time/",
+			"to": "/ohh-snap-help/photo-booth-setup-time",
+			"status": 301
+		},
+		{
+			"from": "/does-the-booth-print/",
+			"to": "/ohh-snap-help/does-the-booth-print",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/anne-frank/categories/",
+			"to": "/ohh-snap-blog/anne-frank",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/krewe-of-savant/tags",
+			"to": "/ohh-snap-blog/krewe-of-savant",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-blog/categories/",
+			"to": "/ohh-snap-blog",
+			"status": 301
+		},
+		{
+			"from": "/holiday-photo-booth",
+			"to": "/holiday-photo-booths",
+			"status": 301
+		},
+		{
+			"from": "/booths",
+			"to": "/lafayette-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/booths/social-photo-booth",
+			"to": "/digital-social-booth",
+			"status": 301
+		},
+		{
+			"from": "/wedding-photo-booth-lafayette",
+			"to": "/wedding-photo-booth",
+			"status": 301
+		},
+		{
+			"from": "/remote-photo-",
+			"to": "/remote-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/ohh-snap-",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/Lafayette-photo-booth-rental/",
+			"to": "/lafayette-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/Alexandria-backdrop-rentals",
+			"to": "/lafayette-backdrop-rentals",
+			"status": 301
+		},
+		{
+			"from": "/Lake Charles-backdrop-rentals",
+			"to": "/lafayette-backdrop-rentals",
+			"status": 301
+		},
+		{
+			"from": "/roaming-event-photographer/",
+			"to": "/roaming-event-photographer",
+			"status": 301
+		},
+		{
+			"from": "/portrait-booth/",
+			"to": "/lafayette-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/portrait-booth",
+			"to": "/lafayette-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/contact/",
+			"to": "/contact-ohh-snap-photobooth",
+			"status": 301
+		},
+		{
+			"from": "/social-booth/",
+			"to": "/digital-social-booth",
+			"status": 301
+		},
+		{
+			"from": "/social-booth",
+			"to": "/digital-social-booth",
+			"status": 301
+		},
+		{
+			"from": "/360-booth/",
+			"to": "/lafayette-360-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/360-booth",
+			"to": "/lafayette-360-booth-rental",
 			"status": 301
 		}
 	]

@@ -102,7 +102,7 @@
                                                                         <a class="dropdown-item" href="/about-ohh-snap-photo-booth" title="About Ohh Snap Photo Booth" target="_self">
                                                                                 About
                                                                         </a>
-                                                                        <a class="dropdown-item" href="/{{site.location | downcase}}-backdrop-rentals" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Event Backdrop Rentals" target="_self">
+                                                                        <a class="dropdown-item" href="/{{site.location | slugify}}-backdrop-rentals" title="{% if page.city %}{{page.city}}{% else %}{{site.location}}{% endif %} Event Backdrop Rentals" target="_self">
                                                                                 Backdrops
                                                                         </a>
                                                                         <a class="dropdown-item" href="/become-an-attendant" title="Work for Photo Booth company" target="_self">
@@ -151,6 +151,7 @@
                                                 Get a Quote
                                         </a>
                                 </li>
+                                {% if page.pagename == "resources" %}
                                 <li id="cart-nav-item" class="nav-item ms-4 align-middle my-2">
                                         <a href="#" data-anycart-open class="text-decoration-none" title="View Cart">
                                                 <div class="cart-summary">
@@ -158,6 +159,7 @@
                                                 </div>
                                         </a>
                                 </li>
+                                {% endif %}
 
                         </ul>
                 </div>

@@ -1,0 +1,50 @@
+{%- comment -%}
+Service + Offer schema for booth pages. Loaded by seo.html when
+page.package is defined. Provider @id resolves to the Lafayette
+LocalBusiness for both primary and EMD branches (via the absolute URL
+when this is not the primary location).
+{%- endcomment -%}
+
+{%- if site.is_primary_location -%}
+  {%- assign provider_id = site.url | append: '/#localbusiness' | replace: '//', '/' | replace: ':/', '://' -%}
+{%- else -%}
+  {%- assign provider_id = "https://ohhsnapbooth.com/#localbusiness" -%}
+{%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "@id":"{{ canonical_url }}#service",
+  "name":"{{ page.booth.name | default: page.title | escape }}",
+  "serviceType":"{{ page.booth.name | default: 'Photo Booth' | escape }} Rental",
+  "description":"{{ page.booth.description | default: page.description | strip_html | strip_newlines | escape }}",
+  "image":"{{ page.image | absolute_url }}",
+  "provider":{
+    "@id":"{{ provider_id }}"
+  },
+  "areaServed":{
+    "@type":"City",
+    "name":"{{ site.location | escape }}",
+    "addressRegion":"{{ site.address.region | default: 'LA' | escape }}",
+    "addressCountry":"US"
+  },
+  "offers":[
+    {% for pkg in page.package %}
+    {
+      "@type":"Offer",
+      "name":"{{ pkg.name | escape }}",
+      "price":"{{ pkg.amount }}",
+      "priceCurrency":"USD",
+      "availability":"https://schema.org/InStock",
+      "url":"{{ canonical_url }}",
+      "itemOffered":{
+        "@type":"Service",
+        "name":"{{ page.booth.name | escape }} — {{ pkg.name | escape }}",
+        "description":"{% for f in pkg.features %}{{ f.item | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
