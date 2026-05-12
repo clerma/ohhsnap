@@ -304,6 +304,46 @@
 			"from": "/Lake Charles-backdrop-rentals",
 			"to": "/lake-charles-backdrop-rentals",
 			"status": 301
+		},
+		{
+			"from": "/roaming-event-photographer/",
+			"to": "/roaming-event-photographer",
+			"status": 301
+		},
+		{
+			"from": "/portrait-booth/",
+			"to": "/lake-charles-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/portrait-booth",
+			"to": "/lake-charles-photo-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/contact/",
+			"to": "/contact-ohh-snap-photobooth",
+			"status": 301
+		},
+		{
+			"from": "/social-booth/",
+			"to": "/digital-social-booth",
+			"status": 301
+		},
+		{
+			"from": "/social-booth",
+			"to": "/digital-social-booth",
+			"status": 301
+		},
+		{
+			"from": "/360-booth/",
+			"to": "/lake-charles-360-booth-rental",
+			"status": 301
+		},
+		{
+			"from": "/360-booth",
+			"to": "/lake-charles-360-booth-rental",
+			"status": 301
 		}
 	]
 }
