@@ -104,13 +104,34 @@
   })();
 </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<!--
+  Google Analytics (gtag.js) — deferred until first user interaction or
+  3s fallback. The gtag() queue and config call still fire immediately,
+  so pageview/events buffer correctly and flush when gtag.js loads.
+  Saves ~549 KB on initial page load.
+-->
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '{{site.google_analytics}}');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{site.google_analytics}}');
+  (function () {
+    var loaded = false;
+    function loadGtag() {
+      if (loaded) return;
+      loaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}';
+      document.head.appendChild(s);
+      events.forEach(function (e) { window.removeEventListener(e, loadGtag); });
+    }
+    var events = ['scroll', 'mousemove', 'touchstart', 'keydown'];
+    events.forEach(function (e) {
+      window.addEventListener(e, loadGtag, { once: true, passive: true });
+    });
+    setTimeout(loadGtag, 3000);
+  })();
 </script>
 <!--
   HeyRosie chat widget — deferred until first user interaction (scroll,
