@@ -84,6 +84,10 @@
   {% include schema/faq-page.html %}
 {% endif %}
 
+{% if page.pagename == "home" or page.url == "/wedding-photo-booth" %}
+  {% include schema/faq-page.html %}
+{% endif %}
+
 {% if page.package %}
   {% include schema/service.html %}
 {% endif %}
