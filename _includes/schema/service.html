@@ -1,8 +1,8 @@
 {%- comment -%}
 Service + Offer schema for booth pages. Loaded by seo.html when
-page.package is defined. Provider @id resolves to the Lafayette
-LocalBusiness for both primary and EMD branches (via the absolute URL
-when this is not the primary location).
+page.package or page.price is defined. Provider @id resolves to the
+Lafayette LocalBusiness for both primary and EMD branches (via the
+absolute URL when this is not the primary location).
 {%- endcomment -%}
 
 {%- if site.is_primary_location -%}
@@ -33,6 +33,7 @@ when this is not the primary location).
     "addressCountry":"US"
   },
   "offers":[
+    {%- if page.package -%}
     {% for pkg in page.package %}
     {
       "@type":"Offer",
@@ -43,7 +44,7 @@ when this is not the primary location).
       "url":"{{ canonical_url }}",
       "itemOffered":{
         "@type":"Service",
-        "name":"{{ page.booth.name | escape }} — {{ pkg.name | escape }}",
+        "name":"{{ page.booth.name | default: page.title | escape }} — {{ pkg.name | escape }}",
         "description":"{% for f in pkg.features %}{{ f.item | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}",
         "image":{
           "@type":"ImageObject",
@@ -61,6 +62,34 @@ when this is not the primary location).
       }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
+    {%- elsif page.price -%}
+    {
+      "@type":"Offer",
+      "name":"{{ page.booth.name | default: page.title | escape }}",
+      "price":"{{ page.price.amount }}",
+      "priceCurrency":"USD",
+      "availability":"https://schema.org/InStock",
+      "url":"{{ canonical_url }}",
+      "itemOffered":{
+        "@type":"Service",
+        "name":"{{ page.booth.name | default: page.title | escape }}",
+        "description":"{% for f in page.price.features %}{{ f.item | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}",
+        "image":{
+          "@type":"ImageObject",
+          "url":"{{ page.image | absolute_url }}"
+        },
+        "areaServed":{
+          "@type":"City",
+          "name":"{{ site.location | escape }}",
+          "addressRegion":"{{ site.address.region | default: 'LA' | escape }}",
+          "addressCountry":"US"
+        },
+        "provider":{
+          "@id":"{{ provider_id }}"
+        }
+      }
+    }
+    {%- endif -%}
   ]
 }
 </script>
