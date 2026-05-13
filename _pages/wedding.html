@@ -1,0 +1,256 @@
+---
+layout: default
+title: '{{site.location}} Wedding Photo Booth Rental | Modern Booths, Backdrops & Custom Templates'
+description: >-
+  Wedding photo booth rental in {{site.location}}, LA. Portrait, social,
+  360-video, and glam black-and-white booths plus custom-printed backdrops,
+  monogrammed templates, online galleries, and on-site attendants — built for
+  weddings, receptions, and rehearsal dinners.
+keywords: >-
+  {{site.location}} wedding photo booth, wedding photo booth rental
+  {{site.location}}, wedding 360 booth, glam booth for weddings, wedding social
+  booth, wedding backdrop rental, monogrammed photo booth templates,
+  Louisiana wedding photo booth, reception photo booth, wedding entertainment
+  {{site.location}}, Acadiana wedding rentals
+image: /uploads/sarah-and-william-photo-20250510-time-210514-xl6df1.jpeg
+banner:
+  image: /uploads/sarah-and-william-photo-20250510-time-210514-xl6df1.jpeg
+  video:
+  preheading: From "I do" to last dance
+  title: '{{site.location}} Wedding Photo Booths'
+  subtext: >-
+    Modern booth rentals built for weddings — portrait, social, 360 video,
+    and glam black-and-white.
+  cta_link: /contact-ohh-snap-photobooth
+  cta_text: Get a Wedding Quote
+permalink: /{{site.location | slugify}}-wedding-photo-booth
+pagename: wedding-hub
+faq:
+  - q: 'What types of photo booths do you offer for weddings in {{site.location}}?'
+    a: 'We offer four wedding-ready booth styles: a Portrait Booth (studio-quality prints), a Social Booth (digital photos, GIFs, and boomerangs with instant sharing), a 360 Video Booth (cinematic slow-motion videos), and a Glam Booth (black-and-white celebrity-style portraits). Every wedding package includes an on-site attendant, custom templates with your names and date, and an online gallery.'
+  - q: 'How much does a wedding photo booth cost in {{site.location}}, LA?'
+    a: 'Wedding photo booth packages start at $500 for a 2-hour Basic rental. Most couples book a 3-hour Plus ($700) or Ultimate ($900) package, which includes unlimited custom prints, an on-site attendant, glam black-and-white filter, and an online gallery. Custom add-ons like a 360 video booth or roaming wedding photographer can be added to any package.'
+  - q: 'Do you provide backdrops for wedding photo booths?'
+    a: 'Yes. We have an in-house collection of wedding-ready backdrops including white, black, and storm sequin walls, boxwood and flower walls, and balloon walls. We also produce fully custom step-and-repeat backdrops with your monogram, hashtag, or wedding design. See our {{site.location}} backdrop rentals page for the full range.'
+  - q: 'Is an attendant included with the wedding rental?'
+    a: 'Yes — every wedding photo booth rental in {{site.location}} includes a trained on-site attendant who handles setup, teardown, and the full guest experience. You and your wedding planner do not have to lift a finger.'
+  - q: 'How far in advance should we book a {{site.location}} wedding photo booth?'
+    a: 'Spring and fall Saturdays in {{site.location}} and across Acadiana book 6 to 12 months in advance. Once you have a date locked in, contact us to confirm availability — we recommend reaching out as soon as your venue is booked.'
+  - q: 'Do you offer custom wedding templates and monograms?'
+    a: 'Yes. Every wedding rental includes a custom-designed print or digital template featuring the couple''s names, wedding date, and a design that matches the wedding palette. Our in-house graphic designers can incorporate your invitation suite, monogram, or hashtag.'
+---
+<!-- INTRO -->
+<section class="pt-10 pt-md-12 pb-5">
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-xl-9 text-center">
+        <h2 class="display-4 mb-5 editable">
+          The wedding photo booth, reimagined for {{site.location}}.
+        </h2>
+        <p class="lead text-muted editable">
+          From the first sip of cocktail hour to the last sparkler send-off,
+          our wedding photo booths give your guests something to do — and you
+          a polished keepsake. Choose the booth that fits your reception:
+          studio-quality portraits, digital social sharing, cinematic 360
+          video, or timeless glam black-and-white. Every wedding rental in
+          {{site.location}} includes a custom template with your names and
+          date, an on-site attendant, and an online gallery delivered the
+          next day.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WEDDING BOOTH CARDS -->
+<section class="pt-5 pb-10 pb-md-12">
+  <div class="container-lg">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      {% for booth in site.wedding %}
+      <div class="col">
+        <div class="card h-100 rounded-top-start rounded-bottom-end overflow-hidden border-0 shadow-sm">
+          <a href="{{ booth.url }}" title="{{ booth.name }} rental in {{site.location}}">
+            <img class="card-img-top" src="{{ booth.image }}" loading="lazy" alt="{{ booth.name }} for {{site.location}} weddings" width="800" height="600" />
+          </a>
+          <div class="card-body p-4">
+            <h3 class="h4 mb-3 font-serif">
+              <a class="text-dark text-decoration-none" href="{{ booth.url }}" title="{{ booth.name }}">{{ booth.name }}</a>
+            </h3>
+            <p class="text-muted mb-4">{{ booth['short-description'] }}</p>
+            <a class="h6 text-uppercase text-decoration-none" href="{{ booth.url }}" title="Learn more about the {{ booth.name }}">
+              See packages <i class="fe fe-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- BACKDROP CTA -->
+<section class="py-10 py-md-12 bg-light">
+  <div class="container-lg">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-6 mb-md-0">
+        <img class="img-fluid rounded" src="/assets/img/backdrops/custom-lafayette-box-wood.jpg" loading="lazy" alt="{{site.location}} wedding backdrop options" width="800" height="600" />
+      </div>
+      <div class="col-md-6 ps-md-8">
+        <h2 class="display-4 mb-4 editable">
+          Wedding backdrops, built into every rental.
+        </h2>
+        <p class="text-muted mb-4 editable">
+          Pair your booth with one of our in-house wedding backdrops — sequin,
+          boxwood, flower walls, balloon walls — or commission a custom-printed
+          step-and-repeat with your monogram, hashtag, or wedding design. Made
+          and delivered locally in {{site.location}}.
+        </p>
+        <a class="btn btn-primary" href="/{{site.location | slugify}}-backdrop-rentals" title="{{site.location}} backdrop rentals">
+          Browse Backdrops
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WEDDING ADD-ONS -->
+<section class="py-10 py-md-12">
+  <div class="container-lg">
+    <div class="row justify-content-center text-center mb-8">
+      <div class="col-md-10 col-lg-8">
+        <h2 class="display-4 mb-4 editable">Wedding-day extras</h2>
+        <p class="text-muted editable">
+          Every rental ships with the essentials. These add-ons take it from
+          fun to unforgettable.
+        </p>
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-md-4 text-center">
+        <div class="icon text-primary mb-3"><i class="fa-duotone fa-solid fa-sparkles fa-3x"></i></div>
+        <h3 class="h5 mb-2">Monogrammed templates</h3>
+        <p class="text-muted">Custom print or digital templates featuring your names, date, and a design that matches your invitation suite.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="icon text-primary mb-3"><i class="fa-duotone fa-solid fa-camera-retro fa-3x"></i></div>
+        <h3 class="h5 mb-2">Glam B&amp;W filter</h3>
+        <p class="text-muted">Add the celebrity-style black-and-white look with subtle skin smoothing to any portrait booth rental.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="icon text-primary mb-3"><i class="fa-duotone fa-solid fa-share-from-square fa-3x"></i></div>
+        <h3 class="h5 mb-2">Instant sharing</h3>
+        <p class="text-muted">Guests text or AirDrop their photos in seconds — your hashtag and group chats light up before the cake is cut.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="icon text-duotone fa-solid mb-3"><i class="fa-duotone fa-solid fa-photo-film fa-3x"></i></div>
+        <h3 class="h5 mb-2">Online wedding gallery</h3>
+        <p class="text-muted">Every photo, GIF, and 360 video lives in a private online gallery delivered the day after your wedding.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="icon text-primary mb-3"><i class="fa-duotone fa-solid fa-handshake-simple fa-3x"></i></div>
+        <h3 class="h5 mb-2">Pro on-site attendant</h3>
+        <p class="text-muted">Setup, teardown, and a friendly host who keeps the line moving so you can focus on dancing.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="icon text-primary mb-3"><i class="fa-duotone fa-solid fa-people-group fa-3x"></i></div>
+        <h3 class="h5 mb-2">Roaming photography</h3>
+        <p class="text-muted">Add a roaming event photographer for candid moments outside the booth — first dance, toasts, send-off.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-10 py-md-12 bg-light">
+  <div class="container-lg">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-9">
+        <h2 class="display-4 mb-8 text-center editable">Wedding photo booth FAQ</h2>
+        <div class="accordion" id="weddingFaq">
+          {% for item in page.faq %}
+          <div class="accordion-item border-0 mb-3 rounded shadow-sm">
+            <h3 class="accordion-header" id="faqHeading{{ forloop.index }}">
+              <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %} rounded fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="faqCollapse{{ forloop.index }}">
+                {{ item.q }}
+              </button>
+            </h3>
+            <div id="faqCollapse{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" aria-labelledby="faqHeading{{ forloop.index }}" data-bs-parent="#weddingFaq">
+              <div class="accordion-body">{{ item.a }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="py-10 py-md-12">
+  <div class="container-lg">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-10">
+        <hr class="hr-sm bg-grey mx-auto mb-5" />
+        <h2 class="display-3 mb-4 editable">
+          Lock in your {{site.location}} wedding date.
+        </h2>
+        <p class="lead text-muted mb-6 editable">
+          Spring and fall Saturdays book 6–12 months out. Tell us your date
+          and we'll send a custom wedding-booth quote within one business day.
+        </p>
+        <a href="/contact-ohh-snap-photobooth" class="btn btn-primary btn-lg" title="Request a {{site.location}} wedding photo booth quote">
+          Request a Wedding Quote
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Inline FAQPage + BreadcrumbList JSON-LD for AI/SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ site.url }}{{ page.url }}#faq",
+  "mainEntity": [
+    {% for item in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "{{site.location}} Wedding Photo Booth", "item": "{{ site.url }}{{ page.url }}" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "{{ site.url }}{{ page.url }}#service",
+  "serviceType": "Wedding Photo Booth Rental",
+  "name": "{{site.location}} Wedding Photo Booth Rental",
+  "description": {{ page.description | strip_html | strip_newlines | jsonify }},
+  "provider": { "@type": "LocalBusiness", "@id": "{{ site.url }}/#localbusiness", "name": {{ site.name | jsonify }} },
+  "areaServed": { "@type": "City", "name": "{{site.location}}", "addressRegion": "LA", "addressCountry": "US" },
+  "offers": [
+    { "@type": "Offer", "name": "Wedding Portrait Booth", "url": "{{ site.url }}/{{site.location | slugify}}-wedding-portrait-booth" },
+    { "@type": "Offer", "name": "Wedding Social Booth", "url": "{{ site.url }}/{{site.location | slugify}}-wedding-social-booth" },
+    { "@type": "Offer", "name": "Wedding 360 Booth", "url": "{{ site.url }}/{{site.location | slugify}}-wedding-360-booth" },
+    { "@type": "Offer", "name": "Wedding Glam Booth", "url": "{{ site.url }}/{{site.location | slugify}}-wedding-glam-booth" }
+  ]
+}
+</script>

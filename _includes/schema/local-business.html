@@ -44,7 +44,21 @@
     {% for link in site.social.links %}
     "{{ link }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
-  ]{% if site.data.testimonial and site.data.testimonial.size > 0 %},
+  ],
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Photo Booth & Event Services in {{ site.location | escape }}",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wedding Photo Booth Rental","url":"{{ site.url }}/{{ site.location | slugify }}-wedding-photo-booth"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Portrait Photo Booth Rental","url":"{{ site.url }}/{{ site.location | slugify }}-photo-booth-rental"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"360 Video Photo Booth Rental","url":"{{ site.url }}/{{ site.location | slugify }}-360-booth-rental"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Glam Photo Booth Rental","url":"{{ site.url }}/{{ site.location | slugify }}-glam-booth"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Social Digital Photo Booth Rental","url":"{{ site.url }}/digital-social-booth"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Custom Backdrop Rental","url":"{{ site.url }}/{{ site.location | slugify }}-backdrop-rentals"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Roaming Event Photography","url":"{{ site.url }}/roaming-event-photographer"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Virtual / Remote Photo Booth Rental","url":"{{ site.url }}/remote-photo-booth-rental"}}
+    ]
+  }{% if site.data.testimonial and site.data.testimonial.size > 0 %},
   "aggregateRating":{
     "@type":"AggregateRating",
     "ratingValue": {{ site.rating_value | default: 5.0 }},
