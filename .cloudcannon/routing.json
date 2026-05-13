@@ -277,17 +277,7 @@
 		},
 		{
 			"from": "/wedding-photo-booth-lafayette",
-			"to": "/lafayette-wedding-photo-booth",
-			"status": 301
-		},
-		{
-			"from": "/wedding-photo-booth",
-			"to": "/lafayette-wedding-photo-booth",
-			"status": 301
-		},
-		{
-			"from": "/wedding-photo-booth/",
-			"to": "/lafayette-wedding-photo-booth",
+			"to": "/wedding-photo-booth",
 			"status": 301
 		},
 		{
