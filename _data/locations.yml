@@ -33,3 +33,39 @@
 #   events_blurb: >-
 #     We've covered Anne Frank Foundation events, OHS reunions, and
 #     Krewe parties along Liberty Street.
+
+- city: Lafayette
+  local_intro: >-
+    Photo booth rentals in Lafayette, LA — downtown receptions,
+    University of Louisiana campus events, corporate galas, and
+    nonprofit fundraisers across Acadiana.
+  venues:
+    - name: "UL Alumni Center"
+    - name: "Acadiana Center for the Arts"
+    - name: "Jefferson Street Pub"
+      url: "https://thejeffersonlafayette.com/"
+    - name: "Reve Coffee Roasters"
+      url: "https://revecoffeeroasters.com/"
+  notable_clients:
+    - "University of Louisiana at Lafayette"
+    - "One Acadiana"
+    - "AAF Acadiana"
+    - "Lourdes Foundation"
+    - "Ascension Episcopal School"
+  events_blurb: >-
+    Recent Lafayette work includes Anne & Frank's wedding at the UL
+    Alumni Center, Phi Mu's semi-formal at Jefferson Street Pub, Nate
+    & Courtney's engagement party at Reve Coffee Roasters, the One
+    Acadiana Regional Celebration, the American Advertising Awards
+    with AAF Acadiana, and the Lourdes Foundation Blessings Soirée.
+
+- city: Opelousas
+  local_intro: >-
+    Photo booth rentals in Opelousas, LA — a frequent stop for school
+    dances, class reunions, and fundraisers across St. Landry Parish.
+  notable_clients:
+    - "Opelousas Catholic School"
+    - "Opelousas High School"
+  events_blurb: >-
+    Past Opelousas events include Opelousas Catholic's Mother-Son
+    Dance and Opelousas High's 10-year reunion.
