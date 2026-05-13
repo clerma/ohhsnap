@@ -281,16 +281,6 @@
 			"status": 301
 		},
 		{
-			"from": "/lafayette-wedding-photo-booth",
-			"to": "/wedding-photo-booth",
-			"status": 301
-		},
-		{
-			"from": "/lafayette-wedding-photo-booth/",
-			"to": "/wedding-photo-booth",
-			"status": 301
-		},
-		{
 			"from": "/remote-photo-",
 			"to": "/remote-photo-booth-rental",
 			"status": 301
