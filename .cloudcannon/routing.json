@@ -277,17 +277,7 @@
 		},
 		{
 			"from": "/wedding-photo-booth-lafayette",
-			"to": "/alexandria-wedding-photo-booth",
-			"status": 301
-		},
-		{
-			"from": "/wedding-photo-booth",
-			"to": "/alexandria-wedding-photo-booth",
-			"status": 301
-		},
-		{
-			"from": "/wedding-photo-booth/",
-			"to": "/alexandria-wedding-photo-booth",
+			"to": "/wedding-photo-booth",
 			"status": 301
 		},
 		{
