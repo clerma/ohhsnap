@@ -277,7 +277,17 @@
 		},
 		{
 			"from": "/wedding-photo-booth-lafayette",
-			"to": "/wedding-photo-booth",
+			"to": "/lake-charles-wedding-photo-booth",
+			"status": 301
+		},
+		{
+			"from": "/wedding-photo-booth",
+			"to": "/lake-charles-wedding-photo-booth",
+			"status": 301
+		},
+		{
+			"from": "/wedding-photo-booth/",
+			"to": "/lake-charles-wedding-photo-booth",
 			"status": 301
 		},
 		{
