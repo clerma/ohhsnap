@@ -26,7 +26,10 @@ svg {
   margin-bottom: .5em;
   display: block;
 }
-
+.prod-img{
+    height: 16em;
+    object-fit: cover;
+}
 /* If the <p> contains 2+ images, switch that <p> into a wrapping row */
 .blog p:has(img + img){
   display: flex;
