@@ -26,10 +26,7 @@ svg {
   margin-bottom: .5em;
   display: block;
 }
-.prod-img{
-    height: 16em;
-    object-fit: cover;
-}
+
 /* If the <p> contains 2+ images, switch that <p> into a wrapping row */
 .blog p:has(img + img){
   display: flex;
@@ -62,7 +59,7 @@ svg {
 }
 .iframe-container {
   overflow: hidden;
-  /* padding-top: 56.25%; */ /* 16:9 — disabled so portrait 360 videos aren't cropped */
+  padding-top: 56.25%; /* 16:9 */
   position: relative;
 }
 .post-img{
@@ -102,11 +99,17 @@ section.hero {
 
 section.hero video {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
   z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 section.hero .container {
@@ -146,6 +149,19 @@ section.hero .overlay {
   object-position: center;
 }
 .crt-logo.crt-tag{display: none !important;color: transparent;visibility: hidden !important}
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  section.hero {
+	background: url('/assets/img/backgrounds/girls-having-fun-in-photo-booth.jpg') black no-repeat center center scroll;
+  }
+
+  section.hero video {
+	display: none;
+  }
+}
 ul#results-container {
   padding: 0;
   list-style-type: none;
@@ -305,12 +321,6 @@ border-color: #2b3990 !important;
 .test-cards{
   height: 300px;overflow: hidden;
 }
-.test-cards img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 .vh70{
 height:70vh
 }
@@ -401,15 +411,9 @@ height:70vh
     50% { border-color: orange; }
 }
 
-/*
- * Homepage: prevent horizontal scroll without breaking sticky/stacking
- * card effects. overflow-x: clip prevents scrolling without creating a
- * containing block (which is what overflow: hidden would do — that's
- * what kills sticky positioning on parallax-heavy pages).
- *
- * Browser support: Chrome 90+, Firefox 81+, Safari 16+. iOS Safari <16
- * falls back to the html { overflow-x: hidden } rule from theme.bundle.css.
- */
-.overflow-x-clip {
-    overflow-x: clip;
-}
+/* Product cards on /photo-booth-resources — equal-height per row.
+   The col is a flex container so the card's h-100 fills it; Bootstrap's
+   row default (align-items: stretch) keeps cols in the same visual row
+   at the same height. */
+.product-card-col { display: flex; }
+.product-card-col > .card { width: 100%; }
