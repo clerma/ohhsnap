@@ -15,18 +15,18 @@ banner:
 permalink: "/photo-booth-resources"
 ---
  <!-- PRODUCTS -->
- <section class="pt-10 pt-md-12 bg-dark">
+ <section class="pt-10 pt-md-12 bg-white">
    <div class="container-lg">
      <div class="row align-items-center mb-9">
        <div class="col-12 col-md">
 
          <!-- Heading -->
-         <h2 class="display-4 text-white mb-0">
+         <h2 class="display-4 mb-0">
            Our Resources
          </h2>
 
          <!-- Text -->
-         <p class="text-gray-500 mb-md-0">
+         <p class="text-muted mb-md-0">
            Digital products to help you run a more efficient photo booth business.
          </p>
 
@@ -36,7 +36,7 @@ permalink: "/photo-booth-resources"
          <!-- Filter Nav -->
          {% assign filter_groups = site.products | map: "filter" | uniq | compact %}
          {% if filter_groups.size > 1 %}
-         <ul class="nav nav-tabs nav-dark nav-overflow mb-0" id="resourcesTab" role="tablist">
+         <ul class="nav nav-tabs nav-overflow mb-0" id="resourcesTab" role="tablist">
            <li class="nav-item" role="presentation">
              <a class="nav-link active" data-bs-toggle="tab" data-filter="*" data-target="#resources" href="#">
                All

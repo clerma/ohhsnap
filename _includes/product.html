@@ -1,19 +1,22 @@
 
- <div class="col-6 col-md-4 founders investors rounded-top-start rounded-bottom-end product-card-col">
+ <div class="col-6 col-md-4 mt-5 product-card-col">
 	<!-- Card -->
-	<div class="card card-sm bg-transparent mt-5 h-100">
+	<div class="card card-sm rounded-top-start rounded-bottom-end h-100 shadow-sm">
 	  <!-- Image -->
-	  <img class="card-img-top rounded-top-start rounded-bottom-end" src="{{ product.image }}" alt="{{ product.name }}">
+	  <img class="card-img-top rounded-top-start" src="{{ product.image }}" alt="{{ product.name }}">
 	  <!-- Body -->
 	  <div class="card-body p-3 text-center d-flex flex-column">
 		<!-- Heading -->
-		<h5 class="font-sans-serif text-white mb-0">
+		<h5 class="font-sans-serif mb-2">
 		 {{ product.name }}
 		</h5>
 		<!-- Text -->
-		<p class="text-white-50 product-card-description">
+		<p class="text-muted product-card-description mb-0">
 		  {{ product.description }}
 		</p>
+	  </div>
+	  <!-- Footer: anchors the buy button at the bottom of every card -->
+	  <div class="card-footer bg-transparent border-0 p-3 text-center">
 		{% include product-definition.html %}
 	  </div>
 	</div>
