@@ -417,3 +417,7 @@ height:70vh
    at the same height. */
 .product-card-col { display: flex; }
 .product-card-col > .card { width: 100%; }
+.prod-img{
+      height: 16em;
+    object-fit: cover;
+}
