@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Corporate Summer Events in Lafayette — How a Photo Booth Earns Its Keep
+date: 2026-06-19 09:00:00 -0500
 description: >-
   Summer crawfish boils, employee appreciation cookouts, ribbon-cuttings, and
   mid-year sales kickoffs. How an Ohh Snap branded photo booth turns a

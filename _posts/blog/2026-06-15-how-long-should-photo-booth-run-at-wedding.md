@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Long Should the Photo Booth Run at Your Wedding?
+date: 2026-06-15 09:00:00 -0500
 description: >-
   Two-, three-, and four-hour photo booth bookings each have a place in a
   Lafayette wedding timeline. Here's the Ohh Snap rule of thumb on rental

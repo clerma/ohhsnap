@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Summer Wedding Photo Booth Trends Lighting Up Acadiana
+date: 2026-06-08 09:00:00 -0500
 description: >-
   What South Louisiana couples are booking for their summer 2026 receptions —
   glam black-and-white portraits, 360 video booths, custom monogrammed

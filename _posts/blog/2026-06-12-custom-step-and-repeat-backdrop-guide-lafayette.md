@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Lafayette Guide to Custom Step-and-Repeat Photo Booth Backdrops
+date: 2026-06-12 09:00:00 -0500
 description: >-
   When a sequin backdrop won't cut it — when to commission a custom-printed
   step-and-repeat for your Lafayette gala, brand activation, or wedding, plus
